@@ -1,0 +1,48 @@
+name: Scrape Deals
+
+on:
+  # Run every hour
+  schedule:
+    - cron: "0 * * * *"
+
+  # Also allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed to commit deals.json back to the repo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # ── 1. Check out the repo ────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── 2. Set up Python ─────────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: scraper/requirements.txt
+
+      # ── 3. Install dependencies ──────────────────────────────────────────
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      # ── 4. Run the scraper ───────────────────────────────────────────────
+      - name: Run scraper
+        run: python scraper/scrape.py
+
+      # ── 5. Commit deals.json if it changed ───────────────────────────────
+      - name: Commit updated deals
+        run: |
+          git config user.name  "Powder Stash Bot"
+          git config user.email "bot@powderstash.com"
+          git add public/deals.json
+          # Only commit if deals.json actually changed
+          git diff --staged --quiet || git commit -m "chore: update deals.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
