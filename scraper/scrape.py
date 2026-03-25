@@ -241,15 +241,9 @@ SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
 
-def fetch(url: str, timeout: int = 15) -> Optional[BeautifulSoup]:
-    """Fetch a URL and return parsed HTML, or None on failure."""
+def fetch(url: str) -> Optional[str]:
     try:
-        r = SESSION.get(url, timeout=timeout)
-        r.raise_for_status()
-        return BeautifulSoup(r.text, "html.parser")
-    except Exception as e:
-        log.warning(f"  fetch failed: {url}  —  {e}")
-        return None
+        from playwright.sync_api import sync_playwright
 
 # ---------------------------------------------------------------------------
 # Deal extraction
@@ -369,7 +363,7 @@ def analyse_page(brand_cfg: dict, url: str, soup: BeautifulSoup) -> list[Deal]:
 # Persistence — merge with previous run to preserve first_seen / pulse flags
 # ---------------------------------------------------------------------------
 
-OUTPUT_PATH = Path(__file__).parent.parent / "public" / "deals.json"
+OUTPUT_PATH = Path(__file__).parent.parent / "deals.json"
 
 
 def load_previous() -> dict[str, dict]:
