@@ -1,6 +1,52 @@
 {
-  "generated_at": "2026-03-25T00:00:00+00:00",
-  "deal_count": 0,
-  "brands_scanned": 19,
-  "deals": []
+  "generated_at": "2026-03-25T22:16:10.722415+00:00",
+  "deal_count": 3,
+  "brands_scanned": 20,
+  "deals": [
+    {
+      "id": "1c58477c6b5e",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "drops",
+      "description": "set - US 426 \\ CA 295 296 cccount - Sort Adjust Sorting Featured Best Selling Alphabetically, A-Z Alphabetically, Z-A...",
+      "discount": "15% off",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-03-25T22:15:37.076466+00:00",
+      "last_seen": "2026-03-25T22:15:37.076466+00:00"
+    },
+    {
+      "id": "f0fa5ba833a3",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "email",
+      "description": "Unisex Sale Sale Premium gear at rare prices. Shop discounted snowboards, bindings, and outerwear built to perform in...",
+      "discount": null,
+      "code": null,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-03-25T22:15:19.410417+00:00",
+      "last_seen": "2026-03-25T22:15:19.410417+00:00"
+    },
+    {
+      "id": "7721c52eaa12",
+      "brand": "Patagonia",
+      "category": "outerwear",
+      "deal_type": "active",
+      "description": "European customers can email directsales.europe@patagonia.com or reach us by phone.",
+      "discount": null,
+      "code": null,
+      "url": "https://www.patagonia.com/shop/sale/sport/skiing-snowboarding",
+      "source_url": "https://www.patagonia.com/shop/sale/sport/skiing-snowboarding",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-03-25T22:15:28.622601+00:00",
+      "last_seen": "2026-03-25T22:15:28.622601+00:00"
+    }
+  ]
 }
