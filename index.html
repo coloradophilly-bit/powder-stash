@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POWDER STASH — Ski & Snowboard Deals</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ice: #C8E6F5; --ice-dim: #7BBDD9; --snow: #EFF6FA;
+  --deep: #081825; --mid: #0D2435; --panel: #0F2D42;
+  --border: #1A4A68; --accent: #00C8FF; --accent2: #FF5F1F;
+  --green: #00E87A; --muted: #3A6F8A; --text: #C8E6F5; --text-dim: #6A9DB5;
+  --mono: 'Share Tech Mono', monospace; --cond: 'Barlow Condensed', sans-serif;
+}
+body { background: var(--deep); color: var(--text); font-family: var(--mono); margin: 0; }
+body::before {
+  content: ''; position: fixed; inset: 0;
+  background: repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0,200,255,0.012) 3px, rgba(0,200,255,0.012) 4px);
+  pointer-events: none; z-index: 0;
+}
+
+/* HEADER */
+.header {
+  background: var(--mid); border-bottom: 1px solid var(--border);
+  padding: 0 24px; display: flex; align-items: center;
+  justify-content: space-between; height: 56px; position: relative; z-index: 10;
+}
+.logo-wrap { display: flex; align-items: center; gap: 14px; }
+.logo-text { font-family: var(--cond); font-size: 30px; font-weight: 900; letter-spacing: 6px; color: var(--accent); text-transform: uppercase; }
+.logo-sub { font-size: 10px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; margin-top: -3px; }
+.header-status { display: flex; align-items: center; gap: 24px; font-size: 11px; color: var(--text-dim); }
+.blink { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--green); animation: blink 1.2s ease-in-out infinite; margin-right: 6px; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.2} }
+
+/* TICKER */
+.ticker-bar { background: var(--panel); border-bottom: 1px solid var(--border); overflow: hidden; height: 32px; display: flex; align-items: center; position: relative; z-index: 9; }
+.ticker-label { font-size: 10px; font-weight: 700; background: var(--accent); color: var(--deep); padding: 0 14px; height: 100%; display: flex; align-items: center; white-space: nowrap; flex-shrink: 0; letter-spacing: 2px; }
+.ticker-scroll { display: flex; gap: 48px; animation: scroll-left 40s linear infinite; padding-left: 24px; font-size: 11px; color: var(--ice-dim); white-space: nowrap; }
+@keyframes scroll-left { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+.ticker-item { display: inline-flex; align-items: center; gap: 8px; }
+.ticker-hot { color: var(--accent2); font-weight: 700; }
+.ticker-new { color: var(--green); }
+
+/* LAYOUT */
+.main { display: flex; position: relative; z-index: 1; min-height: calc(100vh - 120px); }
+
+/* SIDEBAR */
+.sidebar { width: 228px; flex-shrink: 0; border-right: 1px solid var(--border); padding: 20px 0; }
+.sidebar-section { padding: 0 16px 20px; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+.sidebar-section:last-child { border-bottom: none; }
+.sidebar-title { font-size: 9px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 12px; }
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+.stat-box { background: var(--mid); border: 1px solid var(--border); padding: 8px; text-align: center; }
+.stat-val { font-family: var(--cond); font-size: 22px; font-weight: 700; color: var(--accent); display: block; }
+.stat-val.orange { color: #FAC775; }
+.stat-val.green { color: var(--green); }
+.stat-val.red { color: var(--accent2); }
+.stat-label { font-size: 10px; color: var(--text-dim); }
+.filter-btn { display: block; width: 100%; background: none; border: 1px solid var(--border); color: var(--text-dim); font-family: var(--mono); font-size: 11px; padding: 8px 12px; cursor: pointer; text-align: left; letter-spacing: 1px; margin-bottom: 4px; transition: all 0.15s; }
+.filter-btn::before { content: '○  '; color: var(--border); }
+.filter-btn.active { border-color: var(--accent); color: var(--accent); }
+.filter-btn.active::before { content: '●  '; color: var(--accent); }
+.filter-btn:hover { border-color: var(--ice-dim); color: var(--ice); }
+
+/* CONTENT */
+.content { flex: 1; padding: 20px 24px; min-width: 0; }
+
+/* TERMINAL */
+.terminal-banner { background: var(--panel); border: 1px solid var(--border); padding: 14px 18px; margin-bottom: 20px; font-size: 11px; color: var(--text-dim); line-height: 2; }
+.term-prompt { color: var(--accent); }
+.term-ok { color: var(--green); }
+.term-warn { color: var(--accent2); }
+.term-err { color: #E24B4A; }
+
+/* TABS */
+.tabs { display: flex; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+.tab { padding: 10px 22px; font-family: var(--mono); font-size: 11px; letter-spacing: 2px; color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.15s; text-transform: uppercase; background: none; border-top: none; border-left: none; border-right: none; }
+.tab:hover { color: var(--ice); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* DEALS */
+.section-hdr { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+.section-title { font-family: var(--cond); font-size: 13px; font-weight: 700; letter-spacing: 3px; color: var(--accent); text-transform: uppercase; }
+.count-badge { font-size: 10px; color: var(--muted); letter-spacing: 1px; }
+.deals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; margin-bottom: 28px; }
+.deal-card { background: var(--panel); border: 1px solid var(--border); padding: 14px 16px; transition: border-color 0.15s, transform 0.1s; position: relative; overflow: hidden; }
+.deal-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--border); transition: background 0.15s; }
+.deal-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+.deal-card:hover::before { background: var(--accent); }
+.deal-card.pulse::before { background: var(--green); animation: pulse-bar 1s ease-in-out infinite alternate; }
+.deal-card.hot::before { background: var(--accent2); }
+@keyframes pulse-bar { from{opacity:0.4} to{opacity:1} }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+.brand { font-family: var(--cond); font-size: 18px; font-weight: 700; letter-spacing: 2px; color: var(--snow); }
+.card-badge { font-size: 9px; letter-spacing: 2px; padding: 3px 8px; font-weight: 700; text-transform: uppercase; }
+.badge-pulse { background: rgba(0,232,122,0.15); border: 1px solid var(--green); color: var(--green); }
+.badge-hot { background: rgba(255,95,31,0.15); border: 1px solid var(--accent2); color: var(--accent2); }
+.badge-active { background: rgba(0,200,255,0.1); border: 1px solid var(--accent); color: var(--accent); }
+.badge-clear { background: rgba(186,117,23,0.15); border: 1px solid #BA7517; color: #FAC775; }
+.deal-desc { font-size: 12px; color: var(--ice-dim); margin-bottom: 10px; line-height: 1.5; }
+.card-bottom { display: flex; align-items: center; justify-content: space-between; }
+.deal-code { font-size: 13px; letter-spacing: 2px; color: var(--accent); border: 1px dashed var(--border); padding: 4px 10px; cursor: copy; transition: all 0.15s; user-select: all; }
+.deal-code:hover { border-color: var(--accent); background: rgba(0,200,255,0.05); }
+.deal-code.copied { color: var(--green); border-color: var(--green); }
+.deal-discount { font-family: var(--cond); font-size: 22px; font-weight: 900; color: var(--accent2); }
+.card-cat { font-size: 9px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; }
+.get-deal { display: inline-flex; align-items: center; gap: 6px; background: none; border: 1px solid var(--border); color: var(--text-dim); font-family: var(--mono); font-size: 10px; letter-spacing: 1px; padding: 5px 12px; text-decoration: none; transition: all 0.15s; margin-top: 10px; }
+.get-deal:hover { border-color: var(--accent); color: var(--accent); background: rgba(0,200,255,0.05); }
+
+/* INTEL FEED */
+.feed-item { display: flex; gap: 14px; padding: 12px 0; border-bottom: 1px solid rgba(26,74,104,0.4); align-items: flex-start; text-decoration: none; }
+.feed-item:hover .feed-text { color: var(--ice); }
+.feed-time { font-size: 10px; color: var(--muted); min-width: 68px; padding-top: 2px; white-space: nowrap; }
+.feed-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
+.dot-new { background: var(--green); box-shadow: 0 0 6px var(--green); }
+.dot-hot { background: var(--accent2); }
+.dot-info { background: var(--accent); }
+.feed-text { font-size: 12px; color: var(--ice-dim); line-height: 1.6; }
+.feed-brand { color: var(--snow); font-family: var(--cond); font-weight: 700; letter-spacing: 1px; }
+.feed-code { color: var(--accent); letter-spacing: 1px; }
+
+/* LOADING / EMPTY */
+.loading-state { padding: 48px; text-align: center; color: var(--muted); font-size: 12px; letter-spacing: 2px; }
+.loading-state .spin { display: inline-block; animation: spin 1s linear infinite; margin-right: 8px; }
+@keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+.empty-state { padding: 40px; text-align: center; color: var(--muted); font-size: 11px; letter-spacing: 1px; grid-column: 1/-1; }
+
+/* LAST UPDATED */
+.last-updated { font-size: 10px; color: var(--muted); letter-spacing: 1px; margin-bottom: 16px; }
+
+/* SUBSCRIBE */
+.subscribe-box { background: var(--panel); border: 1px solid var(--border); padding: 20px 24px; margin-top: 24px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.subscribe-text { flex: 1; min-width: 200px; }
+.subscribe-text h4 { font-family: var(--cond); font-size: 14px; font-weight: 700; letter-spacing: 3px; color: var(--snow); text-transform: uppercase; margin-bottom: 4px; }
+.subscribe-text p { font-size: 11px; color: var(--muted); }
+.subscribe-input { flex: 1; min-width: 180px; background: var(--deep); border: 1px solid var(--border); color: var(--text); font-family: var(--mono); font-size: 12px; padding: 9px 12px; outline: none; transition: border-color 0.15s; }
+.subscribe-input:focus { border-color: var(--accent); }
+.subscribe-btn { background: var(--accent); color: var(--deep); border: none; font-family: var(--cond); font-size: 14px; font-weight: 900; letter-spacing: 3px; padding: 9px 22px; cursor: pointer; text-transform: uppercase; transition: opacity 0.15s; }
+.subscribe-btn:hover { opacity: 0.85; }
+
+/* FOOTER */
+.footer { border-top: 1px solid var(--border); padding: 16px 24px; font-size: 10px; color: var(--muted); letter-spacing: 1px; display: flex; justify-content: space-between; align-items: center; background: var(--mid); flex-wrap: wrap; gap: 8px; }
+.footer a { color: var(--muted); text-decoration: none; }
+.footer a:hover { color: var(--ice-dim); }
+
+/* STASH SVG */
+.stash-sweep { animation: sweep 3s linear infinite; transform-origin: 18px 18px; }
+@keyframes sweep { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="logo-wrap">
+    <svg width="38" height="38" viewBox="0 0 36 36" fill="none">
+      <circle cx="18" cy="18" r="17" stroke="#1A4A68" stroke-width="1"/>
+      <circle cx="18" cy="18" r="12" stroke="#1A4A68" stroke-width="0.5" stroke-dasharray="2 3"/>
+      <circle cx="18" cy="18" r="6" stroke="#1A4A68" stroke-width="0.5" stroke-dasharray="2 3"/>
+      <circle cx="18" cy="18" r="2" fill="#00C8FF"/>
+      <g class="stash-sweep">
+        <line x1="18" y1="18" x2="18" y2="2" stroke="#00C8FF" stroke-width="1.5" opacity="0.8"/>
+        <path d="M18 18 L18 2 A16 16 0 0 1 28.5 9 Z" fill="#00C8FF" opacity="0.07"/>
+      </g>
+      <circle cx="10" cy="12" r="1.5" fill="#00E87A" opacity="0.9"/>
+      <circle cx="25" cy="22" r="1.5" fill="#FF5F1F" opacity="0.9"/>
+      <circle cx="22" cy="10" r="1" fill="#00C8FF" opacity="0.7"/>
+    </svg>
+    <div>
+      <div class="logo-text">POWDER STASH</div>
+      <div class="logo-sub">ski &amp; snowboard deal intelligence</div>
+    </div>
+  </div>
+  <div class="header-status">
+    <span><span class="blink"></span>LIVE FEED</span>
+    <span id="brand-count">SCANNING 19 BRANDS</span>
+    <span style="color:var(--green)">↻ HOURLY REFRESH</span>
+  </div>
+</div>
+
+<!-- TICKER -->
+<div class="ticker-bar">
+  <div class="ticker-label">⚡ INCOMING</div>
+  <div style="overflow:hidden;flex:1">
+    <div class="ticker-scroll" id="ticker-content">
+      <span class="ticker-item">LOADING DEAL FEED...</span>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-title">SYS · MONITOR</div>
+      <div class="stats-grid">
+        <div class="stat-box"><span class="stat-val" id="s-promos">—</span><span class="stat-label">Promos</span></div>
+        <div class="stat-box"><span class="stat-val orange" id="s-clear">—</span><span class="stat-label">Clearance</span></div>
+        <div class="stat-box"><span class="stat-val green" id="s-drops">—</span><span class="stat-label">New Drops</span></div>
+        <div class="stat-box"><span class="stat-val red" id="s-hot">—</span><span class="stat-label">Hot</span></div>
+      </div>
+      <div style="font-size:10px;color:var(--muted);letter-spacing:1px;margin-top:6px">
+        <span style="color:var(--green)">●</span> ACTIVE = live code &nbsp;
+        <span style="color:var(--green)">◉</span> PULSE = just detected
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Filter Protocol</div>
+      <button class="filter-btn active" onclick="setFilter('all',this)">ALL SECTORS</button>
+      <button class="filter-btn" onclick="setFilter('ski',this)">▲ SKIS</button>
+      <button class="filter-btn" onclick="setFilter('snowboard',this)">▰ SNOWBOARDS</button>
+      <button class="filter-btn" onclick="setFilter('boots',this)">◈ BOOTS</button>
+      <button class="filter-btn" onclick="setFilter('bindings',this)">◻ BINDINGS</button>
+      <button class="filter-btn" onclick="setFilter('outerwear',this)">◆ OUTERWEAR</button>
+      <button class="filter-btn" onclick="setFilter('goggles',this)">◎ GOGGLES</button>
+      <button class="filter-btn" onclick="setFilter('helmets',this)">◉ HELMETS</button>
+      <button class="filter-btn" onclick="setFilter('accessories',this)">◇ ACCESSORIES</button>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Scan Status</div>
+      <div style="font-size:11px;color:var(--text-dim);line-height:2.2">
+        <div id="status-line1"><span style="color:var(--muted)">···</span> Loading...</div>
+        <div id="status-line2"></div>
+        <div id="status-line3"></div>
+        <div id="status-line4"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+
+    <!-- TERMINAL -->
+    <div class="terminal-banner" id="terminal">
+      <div><span class="term-prompt">&gt;</span> INITIATING SEQUENCE... <span class="term-ok">OK</span></div>
+      <div><span class="term-prompt">&gt;</span> CONNECTING TO BRAND SERVERS... <span class="term-ok">OK</span></div>
+      <div><span class="term-prompt">&gt;</span> <span id="terminal-status" class="term-warn">LOADING DEAL DATA... ▮</span></div>
+    </div>
+
+    <!-- TABS -->
+    <div class="tabs">
+      <button class="tab active" onclick="switchTab(this,'active')">PROMOS</button>
+      <button class="tab" onclick="switchTab(this,'clearance')">CLEARANCE</button>
+      <button class="tab" onclick="switchTab(this,'drops')">NEW DROPS</button>
+      <button class="tab" onclick="switchTab(this,'email')">EMAIL OFFERS</button>
+    </div>
+
+    <div class="last-updated" id="last-updated"></div>
+
+    <!-- DEALS -->
+    <div class="section-hdr">
+      <div class="section-title" id="section-title">// ACTIVE PROMO CODES</div>
+      <div class="count-badge" id="deal-count">— TARGETS ACQUIRED</div>
+    </div>
+    <div class="deals-grid" id="deals-grid">
+      <div class="loading-state" style="grid-column:1/-1">
+        <span class="spin">↻</span> SCANNING BRAND FREQUENCIES...
+      </div>
+    </div>
+
+    <!-- INTEL FEED -->
+    <div class="section-hdr" style="margin-top:8px">
+      <div class="section-title">// INTEL FEED · RECENT DETECTIONS</div>
+    </div>
+    <div id="intel-feed">
+      <div class="loading-state"><span class="spin">↻</span> LOADING FEED...</div>
+    </div>
+
+    <!-- SUBSCRIBE -->
+    <div class="subscribe-box">
+      <div class="subscribe-text">
+        <h4>Get deal alerts</h4>
+        <p>Hot drops and promo codes to your inbox. No spam, just powder intel.</p>
+      </div>
+      <input class="subscribe-input" type="email" placeholder="your@email.com" id="email-in" />
+      <button class="subscribe-btn" id="sub-btn" onclick="subscribe()">SUBSCRIBE</button>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div>POWDER STASH · SCANNING 19 BRAND HOMEPAGES · GITHUB ACTIONS · HOURLY REFRESH</div>
+  <div>
+    Offers sourced from public promotions. May receive affiliate commissions. &nbsp;
+    <a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a> · <span style="color:var(--text-dim)">© 2026 POWDER STASH</span>
+  </div>
+</div>
+
+<script>
+// ── State ────────────────────────────────────────────────────────────────
+let ALL_DEALS = [];
+let activeTab = 'active';
+let activeFilter = 'all';
+
+// ── Load deals.json ──────────────────────────────────────────────────────
+async function loadDeals() {
+  try {
+    // Cache-bust so GitHub Pages always serves the latest version
+    const res = await fetch(`deals.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    ALL_DEALS = data.deals || [];
+
+    // Update terminal
+    document.getElementById('terminal-status').className = 'term-ok';
+    document.getElementById('terminal-status').textContent =
+      `MONITORING ${data.brands_scanned || 19} TARGETS... ${ALL_DEALS.length} DEALS ACQUIRED`;
+
+    // Update sidebar status
+    document.getElementById('status-line1').innerHTML = '<span style="color:var(--green)">OK</span> &nbsp;Server connected';
+    document.getElementById('status-line2').innerHTML = '<span style="color:var(--green)">OK</span> &nbsp;Brand feed active';
+    document.getElementById('status-line3').innerHTML = `<span style="color:var(--green)">OK</span> &nbsp;${ALL_DEALS.length} deals loaded`;
+    document.getElementById('status-line4').innerHTML = `<span style="color:var(--accent2)">●</span> &nbsp;Next run in ~${minsUntilNextHour()}m`;
+
+    // Update brand count
+    document.getElementById('brand-count').textContent = `SCANNING ${data.brands_scanned || 19} BRANDS`;
+
+    // Update last-updated line
+    if (data.generated_at) {
+      const d = new Date(data.generated_at);
+      document.getElementById('last-updated').textContent =
+        `LAST SCAN: ${d.toUTCString().toUpperCase()}`;
+    }
+
+    updateStats();
+    buildTicker();
+    render();
+    renderFeed();
+
+  } catch (err) {
+    document.getElementById('terminal-status').className = 'term-err';
+    document.getElementById('terminal-status').textContent = `ERROR LOADING DEALS.JSON — ${err.message}`;
+    document.getElementById('deals-grid').innerHTML =
+      '<div class="empty-state" style="grid-column:1/-1">SIGNAL LOST · UNABLE TO LOAD DEAL DATA</div>';
+    document.getElementById('status-line1').innerHTML =
+      '<span style="color:#E24B4A">ERR</span> &nbsp;Failed to load deals.json';
+  }
+}
+
+// ── Stats ────────────────────────────────────────────────────────────────
+function updateStats() {
+  document.getElementById('s-promos').textContent = ALL_DEALS.filter(d => d.deal_type === 'active').length;
+  document.getElementById('s-clear').textContent  = ALL_DEALS.filter(d => d.deal_type === 'clearance').length;
+  document.getElementById('s-drops').textContent  = ALL_DEALS.filter(d => d.deal_type === 'drops').length;
+  document.getElementById('s-hot').textContent    = ALL_DEALS.filter(d => d.hot).length;
+}
+
+// ── Ticker ───────────────────────────────────────────────────────────────
+function buildTicker() {
+  const hot = ALL_DEALS.filter(d => d.hot || d.pulse).slice(0, 12);
+  if (!hot.length) return;
+  const items = [...hot, ...hot]; // duplicate for seamless loop
+  document.getElementById('ticker-content').innerHTML = items.map(d => `
+    <span class="ticker-item">
+      ${d.pulse ? '<span class="ticker-new">NEW</span>' : d.hot ? '<span class="ticker-hot">▲</span>' : ''}
+      ${d.brand.toUpperCase()} — ${d.discount || 'Sale'} ${d.code ? '— code ' + d.code : ''}
+    </span>
+  `).join('');
+}
+
+// ── Render deals grid ────────────────────────────────────────────────────
+function render() {
+  const tabTitles = {
+    active: '// ACTIVE PROMO CODES',
+    clearance: '// CLEARANCE INTEL',
+    drops: '// NEW DROPS',
+    email: '// EMAIL-ONLY OFFERS',
+  };
+  document.getElementById('section-title').textContent = tabTitles[activeTab];
+
+  const filtered = ALL_DEALS.filter(d =>
+    d.deal_type === activeTab && (activeFilter === 'all' || d.category === activeFilter)
+  );
+  document.getElementById('deal-count').textContent = `${filtered.length} TARGETS ACQUIRED`;
+
+  if (!filtered.length) {
+    document.getElementById('deals-grid').innerHTML =
+      '<div class="empty-state">NO SIGNALS IN THIS SECTOR · ADJUST FILTER PROTOCOL</div>';
+    return;
+  }
+
+  document.getElementById('deals-grid').innerHTML = filtered.map(d => `
+    <div class="deal-card ${d.pulse ? 'pulse' : ''} ${d.hot && !d.pulse ? 'hot' : ''}">
+      <div class="card-top">
+        <div class="brand">${esc(d.brand)}</div>
+        ${d.pulse
+          ? '<span class="card-badge badge-pulse">◉ PULSE</span>'
+          : d.hot
+            ? '<span class="card-badge badge-hot">▲ HOT</span>'
+            : d.deal_type === 'clearance'
+              ? '<span class="card-badge badge-clear">◈ CLEAR</span>'
+              : '<span class="card-badge badge-active">● ACTIVE</span>'
+        }
+      </div>
+      <div class="deal-desc">${esc(d.description)}</div>
+      <div class="card-bottom">
+        ${d.code
+          ? `<span class="deal-code" id="code-${esc(d.id)}" onclick="copyCode('${esc(d.id)}','${esc(d.code)}')">${esc(d.code)}</span>`
+          : '<span style="font-size:11px;color:var(--muted)">NO CODE NEEDED</span>'
+        }
+        <div style="text-align:right">
+          <div class="deal-discount">${esc(d.discount || 'Sale')}</div>
+          <div class="card-cat">${esc(d.category.toUpperCase())}</div>
+        </div>
+      </div>
+      <a class="get-deal" href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">
+        GET DEAL ↗
+      </a>
+    </div>
+  `).join('');
+}
+
+// ── Render intel feed (most recent 10 deals, sorted by last_seen) ────────
+function renderFeed() {
+  const recent = [...ALL_DEALS]
+    .sort((a, b) => new Date(b.last_seen) - new Date(a.last_seen))
+    .slice(0, 10);
+
+  if (!recent.length) {
+    document.getElementById('intel-feed').innerHTML =
+      '<div class="loading-state">AWAITING SIGNAL...</div>';
+    return;
+  }
+
+  document.getElementById('intel-feed').innerHTML = recent.map(d => {
+    const type = d.pulse ? 'new' : d.hot ? 'hot' : 'info';
+    const ago = timeAgo(d.last_seen);
+    const codeHtml = d.code
+      ? ` — code <span class="feed-code">${esc(d.code)}</span>` : '';
+    const discHtml = d.discount ? ` ${esc(d.discount)}` : '';
+    return `
+      <a class="feed-item" href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">
+        <div class="feed-time">${ago}</div>
+        <div class="feed-dot ${type === 'new' ? 'dot-new' : type === 'hot' ? 'dot-hot' : 'dot-info'}"></div>
+        <div class="feed-text">
+          <span class="feed-brand">${esc(d.brand)}</span>${discHtml}${codeHtml} detected.
+          <span style="color:var(--border);font-size:10px"> ↗</span>
+        </div>
+      </a>
+    `;
+  }).join('');
+}
+
+// ── Helpers ──────────────────────────────────────────────────────────────
+function esc(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+function timeAgo(iso) {
+  if (!iso) return '—';
+  const diff = Math.floor((Date.now() - new Date(iso)) / 1000);
+  if (diff < 60)   return `${diff}s ago`;
+  if (diff < 3600) return `${Math.floor(diff/60)}m ago`;
+  if (diff < 86400) return `${Math.floor(diff/3600)}h ago`;
+  return `${Math.floor(diff/86400)}d ago`;
+}
+
+function minsUntilNextHour() {
+  const now = new Date();
+  return 60 - now.getMinutes();
+}
+
+function copyCode(id, code) {
+  navigator.clipboard.writeText(code).catch(() => {});
+  const el = document.getElementById('code-' + id);
+  if (!el) return;
+  const orig = el.textContent;
+  el.textContent = '✓ COPIED';
+  el.classList.add('copied');
+  setTimeout(() => { el.textContent = orig; el.classList.remove('copied'); }, 1800);
+}
+
+function setFilter(cat, btn) {
+  activeFilter = cat;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  render();
+}
+
+function switchTab(el, tab) {
+  activeTab = tab;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  render();
+}
+
+function subscribe() {
+  const v = document.getElementById('email-in').value;
+  if (v && v.includes('@')) {
+    const btn = document.getElementById('sub-btn');
+    btn.textContent = '✓ SUBSCRIBED';
+    btn.style.background = 'var(--green)';
+    document.getElementById('email-in').value = '';
+    setTimeout(() => { btn.textContent = 'SUBSCRIBE'; btn.style.background = 'var(--accent)'; }, 2500);
+  }
+}
+
+// ── Animated terminal scan line ──────────────────────────────────────────
+const scanLines = [
+  'SCANNING BURTON HOMEPAGE... ▮',
+  'CHECKING SALOMON PROMO PAGE... ▮',
+  'MONITORING K2 DEAL SECTION... ▮',
+  'VERIFYING UNION BINDING CODES... ▮',
+  'SCANNING LINE SKIS DROPS... ▮',
+  'CROSS-REFERENCING PRICE DATA... ▮',
+  'CHECKING ARMADA CLEARANCE... ▮',
+  'SCANNING SMITH OPTICS SALE... ▮',
+];
+let scanIdx = 0;
+
+// Only animate the scan line if not yet loaded
+const scanInterval = setInterval(() => {
+  const el = document.getElementById('terminal-status');
+  if (el && el.className === 'term-warn') {
+    scanIdx = (scanIdx + 1) % scanLines.length;
+    el.textContent = scanLines[scanIdx];
+  }
+}, 1800);
+
+// ── Boot ─────────────────────────────────────────────────────────────────
+loadDeals();
+</script>
+</body>
+</html>
