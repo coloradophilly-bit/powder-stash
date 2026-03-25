@@ -1,0 +1,42 @@
+name: Scrape Deals
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Run scraper
+        run: python scraper/scrape.py
+
+      - name: Commit updated deals
+        run: |
+          git config user.name  "Powder Stash Bot"
+          git config user.email "bot@powderstash.com"
+          git add deals.json
+          git diff --staged --quiet || git commit -m "chore: update deals.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
