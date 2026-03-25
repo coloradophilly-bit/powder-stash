@@ -11,7 +11,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
       - name: Checkout
@@ -24,7 +24,7 @@ jobs:
           cache: "pip"
           cache-dependency-path: scraper/requirements.txt
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install -r scraper/requirements.txt
 
       - name: Install Playwright browsers
