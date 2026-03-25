@@ -21,14 +21,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
-          cache-dependency-path: scraper/requirements.txt
 
-      - name: Install Python dependencies
-        run: pip install -r scraper/requirements.txt
-
-      - name: Install Playwright browsers
-        run: python -m playwright install chromium --with-deps
+      - name: Install dependencies and Playwright
+        run: |
+          pip install requests beautifulsoup4 lxml playwright
+          python -m playwright install chromium --with-deps
 
       - name: Run scraper
         run: python scraper/scrape.py
