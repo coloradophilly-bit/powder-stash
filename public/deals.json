@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T22:16:10.722415+00:00",
+  "generated_at": "2026-03-25T22:19:38.322840+00:00",
   "deal_count": 3,
   "brands_scanned": 20,
   "deals": [
@@ -14,9 +14,9 @@
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale",
       "hot": false,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-03-25T22:15:37.076466+00:00",
-      "last_seen": "2026-03-25T22:15:37.076466+00:00"
+      "last_seen": "2026-03-25T22:19:04.848417+00:00"
     },
     {
       "id": "f0fa5ba833a3",
@@ -29,9 +29,9 @@
       "url": "https://www.jonessnowboards.com/collections/sale",
       "source_url": "https://www.jonessnowboards.com/collections/sale",
       "hot": false,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-03-25T22:15:19.410417+00:00",
-      "last_seen": "2026-03-25T22:15:19.410417+00:00"
+      "last_seen": "2026-03-25T22:18:46.538449+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -44,9 +44,9 @@
       "url": "https://www.patagonia.com/shop/sale/sport/skiing-snowboarding",
       "source_url": "https://www.patagonia.com/shop/sale/sport/skiing-snowboarding",
       "hot": false,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-03-25T22:15:28.622601+00:00",
-      "last_seen": "2026-03-25T22:15:28.622601+00:00"
+      "last_seen": "2026-03-25T22:18:55.622156+00:00"
     }
   ]
 }
