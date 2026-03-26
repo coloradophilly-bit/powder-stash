@@ -1,7 +1,9 @@
 """
-Powder Stash — Brand Deal Scraper v5
-Uses Evo brand-filtered sale pages (confirmed working) for major ski/snowboard brands.
-Uses Shopify JSON API for direct brands.
+Powder Stash — Brand Deal Scraper v6
+Strategy:
+- Shopify JSON API for brands that have it (fast, never blocked)
+- Evo internal search API for major brands (JSON, bypasses 403)
+- Direct HTML for brands that allow it
 """
 
 import json, re, time, hashlib, logging
@@ -13,73 +15,81 @@ from typing import Optional
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(levelname)s  %(message)s")
 log = logging.getLogger(__name__)
 
-BRANDS = [
-    # ── SHOPIFY DIRECT BRANDS ─────────────────────────────────────────────
-    {"brand":"Jones Snowboards",  "category":"snowboard",  "type":"shopify", "shopify_domain":"www.jonessnowboards.com",       "collection":"sale",               "affiliate_base":"https://www.jonessnowboards.com/collections/sale"},
-    {"brand":"Nidecker",          "category":"bindings",   "type":"shopify", "shopify_domain":"www.nidecker.com",              "collection":"sale",               "affiliate_base":"https://www.nidecker.com/en/sale"},
-    {"brand":"Dakine",            "category":"accessories","type":"shopify", "shopify_domain":"www.dakine.com",                "collection":"sale",               "affiliate_base":"https://www.dakine.com/collections/sale"},
-    {"brand":"686",               "category":"outerwear",  "type":"shopify", "shopify_domain":"www.686.com",                   "collection":"mens-outerwear-sale","affiliate_base":"https://www.686.com/collections/mens-outerwear-sale"},
-    {"brand":"Tactics",           "category":"snowboard",  "type":"shopify", "shopify_domain":"www.tactics.com",               "collection":"sale-snowboarding",  "affiliate_base":"https://www.tactics.com/sale/snowboarding"},
-    {"brand":"POC",               "category":"helmets",    "type":"shopify", "shopify_domain":"www.pocsports.com",             "collection":"ski-sale",           "affiliate_base":"https://www.pocsports.com/collections/ski-sale"},
-    {"brand":"Flylow",            "category":"outerwear",  "type":"shopify", "shopify_domain":"www.flylowgear.com",            "collection":"sale",               "affiliate_base":"https://www.flylowgear.com/collections/sale"},
-    {"brand":"Hestra Gloves",     "category":"accessories","type":"shopify", "shopify_domain":"www.hestragloves.com",          "collection":"sale",               "affiliate_base":"https://www.hestragloves.com/collections/sale"},
-    {"brand":"Outdoor Research",  "category":"outerwear",  "type":"shopify", "shopify_domain":"www.outdoorresearch.com",       "collection":"sale",               "affiliate_base":"https://www.outdoorresearch.com/collections/sale"},
-    {"brand":"Lib Tech",          "category":"snowboard",  "type":"shopify", "shopify_domain":"www.lib-tech.com",              "collection":"sale",               "affiliate_base":"https://www.lib-tech.com/collections/sale"},
-    {"brand":"Icelantic Skis",    "category":"ski",        "type":"shopify", "shopify_domain":"www.icelanticskis.com",         "collection":"sale",               "affiliate_base":"https://www.icelanticskis.com/collections/sale"},
-    {"brand":"Black Crows",       "category":"ski",        "type":"shopify", "shopify_domain":"www.black-crows.com",           "collection":"sale",               "affiliate_base":"https://www.black-crows.com/collections/sale"},
-    {"brand":"Mons Royale",       "category":"accessories","type":"shopify", "shopify_domain":"www.monsroyale.com",            "collection":"sale",               "affiliate_base":"https://www.monsroyale.com/collections/sale"},
-    {"brand":"Picture Organic",   "category":"outerwear",  "type":"shopify", "shopify_domain":"www.picture-organic-clothing.com","collection":"sale",            "affiliate_base":"https://www.picture-organic-clothing.com/collections/sale"},
-    {"brand":"Smartwool",         "category":"accessories","type":"shopify", "shopify_domain":"www.smartwool.com",             "collection":"sale",               "affiliate_base":"https://www.smartwool.com/collections/sale"},
-    {"brand":"Weston Snowboards", "category":"snowboard",  "type":"shopify", "shopify_domain":"www.westonsnowboards.com",      "collection":"sale",               "affiliate_base":"https://www.westonsnowboards.com/collections/sale"},
-    {"brand":"Christy Sports",    "category":"ski",        "type":"shopify", "shopify_domain":"www.christysports.com",         "collection":"sale",               "affiliate_base":"https://www.christysports.com/sale/"},
-    {"brand":"Gordini",           "category":"accessories","type":"shopify", "shopify_domain":"www.gordini.com",               "collection":"sale",               "affiliate_base":"https://www.gordini.com/collections/sale"},
-
-    # ── EVO BRAND-FILTERED SALE PAGES (confirmed working) ────────────────
-    # Ski brands
-    {"brand":"Atomic",       "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/atomic"],      "affiliate_base":"https://www.evo.com/shop/sale/ski/atomic"},
-    {"brand":"Rossignol",    "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/rossignol"],   "affiliate_base":"https://www.evo.com/shop/sale/ski/rossignol"},
-    {"brand":"K2 Skis",      "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/k2"],          "affiliate_base":"https://www.evo.com/shop/sale/ski/k2"},
-    {"brand":"Salomon",      "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/salomon"],     "affiliate_base":"https://www.evo.com/shop/sale/ski/salomon"},
-    {"brand":"Armada Skis",  "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/armada"],      "affiliate_base":"https://www.evo.com/shop/sale/ski/armada"},
-    {"brand":"Line Skis",    "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/line-skis"],   "affiliate_base":"https://www.evo.com/shop/sale/ski/line-skis"},
-    {"brand":"Blizzard",     "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/blizzard"],    "affiliate_base":"https://www.evo.com/shop/sale/ski/blizzard"},
-    {"brand":"Nordica",      "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/nordica"],     "affiliate_base":"https://www.evo.com/shop/sale/ski/nordica"},
-    {"brand":"Volkl",        "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/volkl"],       "affiliate_base":"https://www.evo.com/shop/sale/ski/volkl"},
-    {"brand":"Elan",         "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/elan"],        "affiliate_base":"https://www.evo.com/shop/sale/ski/elan"},
-    {"brand":"Fischer",      "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/fischer"],     "affiliate_base":"https://www.evo.com/shop/sale/ski/fischer"},
-    {"brand":"Head Skis",    "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/head"],        "affiliate_base":"https://www.evo.com/shop/sale/ski/head"},
-    {"brand":"Dynastar",     "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/dynastar"],    "affiliate_base":"https://www.evo.com/shop/sale/ski/dynastar"},
-    {"brand":"Scott Sports", "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/scott"],       "affiliate_base":"https://www.evo.com/shop/sale/ski/scott"},
-    {"brand":"Faction Skis", "category":"ski",      "type":"html", "urls":["https://www.evo.com/shop/sale/ski/faction-skis"],"affiliate_base":"https://www.evo.com/shop/sale/ski/faction-skis"},
-    # Snowboard brands via evo
-    {"brand":"Burton",       "category":"snowboard","type":"html", "urls":["https://www.evo.com/shop/sale/snowboard/burton"],    "affiliate_base":"https://www.evo.com/shop/sale/snowboard/burton"},
-    {"brand":"Capita",       "category":"snowboard","type":"html", "urls":["https://www.evo.com/shop/sale/snowboard/capita"],    "affiliate_base":"https://www.evo.com/shop/sale/snowboard/capita"},
-    {"brand":"Rome SDS",     "category":"bindings", "type":"html", "urls":["https://www.evo.com/shop/sale/snowboard/rome-sds"],  "affiliate_base":"https://www.evo.com/shop/sale/snowboard/rome-sds"},
-    {"brand":"Union Binding","category":"bindings", "type":"html", "urls":["https://www.evo.com/shop/sale/snowboard/union"],     "affiliate_base":"https://www.evo.com/shop/sale/snowboard/union"},
-    # Outerwear brands via evo
-    {"brand":"Patagonia",        "category":"outerwear","type":"html", "urls":["https://www.evo.com/shop/sale/ski/patagonia"],       "affiliate_base":"https://www.evo.com/shop/sale/ski/patagonia"},
-    {"brand":"The North Face",   "category":"outerwear","type":"html", "urls":["https://www.evo.com/shop/sale/ski/the-north-face"],  "affiliate_base":"https://www.evo.com/shop/sale/ski/the-north-face"},
-    {"brand":"Helly Hansen",     "category":"outerwear","type":"html", "urls":["https://www.evo.com/shop/sale/ski/helly-hansen"],    "affiliate_base":"https://www.evo.com/shop/sale/ski/helly-hansen"},
-    {"brand":"Mammut",           "category":"outerwear","type":"html", "urls":["https://www.evo.com/shop/sale/ski/mammut"],          "affiliate_base":"https://www.evo.com/shop/sale/ski/mammut"},
-    {"brand":"Marmot",           "category":"outerwear","type":"html", "urls":["https://www.evo.com/shop/sale/ski/marmot"],          "affiliate_base":"https://www.evo.com/shop/sale/ski/marmot"},
-    {"brand":"Mountain Hardwear","category":"outerwear","type":"html", "urls":["https://www.evo.com/shop/sale/ski/mountain-hardwear"],"affiliate_base":"https://www.evo.com/shop/sale/ski/mountain-hardwear"},
-    # Goggles/helmets
-    {"brand":"Smith Optics",     "category":"goggles",    "type":"html", "urls":["https://www.smithoptics.com/en-us/sale/"],         "affiliate_base":"https://www.smithoptics.com/en-us/sale/"},
-    {"brand":"Oakley Snow",      "category":"goggles",    "type":"html", "urls":["https://www.evo.com/shop/sale/ski/oakley"],        "affiliate_base":"https://www.evo.com/shop/sale/ski/oakley"},
+# ---------------------------------------------------------------------------
+# Evo search API — returns JSON, works from GitHub Actions
+# Query: brand name + category, filter onSale
+# ---------------------------------------------------------------------------
+EVO_BRANDS = [
+    # (display_name, category, evo_brand_slug, evo_category)
+    ("Atomic",          "ski",       "Atomic",          "ski"),
+    ("Rossignol",       "ski",       "Rossignol",       "ski"),
+    ("K2 Skis",         "ski",       "K2",              "ski"),
+    ("Salomon",         "ski",       "Salomon",         "ski"),
+    ("Armada Skis",     "ski",       "Armada",          "ski"),
+    ("Line Skis",       "ski",       "Line Skis",       "ski"),
+    ("Blizzard",        "ski",       "Blizzard",        "ski"),
+    ("Nordica",         "ski",       "Nordica",         "ski"),
+    ("Volkl",           "ski",       "Volkl",           "ski"),
+    ("Elan",            "ski",       "Elan",            "ski"),
+    ("Fischer",         "ski",       "Fischer",         "ski"),
+    ("Head Skis",       "ski",       "Head",            "ski"),
+    ("Dynastar",        "ski",       "Dynastar",        "ski"),
+    ("Scott Sports",    "ski",       "Scott",           "ski"),
+    ("Faction Skis",    "ski",       "Faction Skis",    "ski"),
+    ("Burton",          "snowboard", "Burton",          "snowboard"),
+    ("Capita",          "snowboard", "CAPiTA",          "snowboard"),
+    ("Rome SDS",        "bindings",  "Rome SDS",        "snowboard"),
+    ("Union Binding",   "bindings",  "Union",           "snowboard"),
+    ("Lib Tech",        "snowboard", "Lib Tech",        "snowboard"),
+    ("Salomon Boards",  "snowboard", "Salomon",         "snowboard"),
+    ("Patagonia",       "outerwear", "Patagonia",       "ski"),
+    ("The North Face",  "outerwear", "The North Face",  "ski"),
+    ("Helly Hansen",    "outerwear", "Helly Hansen",    "ski"),
+    ("Mammut",          "outerwear", "Mammut",          "ski"),
+    ("Marmot",          "outerwear", "Marmot",          "ski"),
+    ("Mountain Hardwear","outerwear","Mountain Hardwear","ski"),
+    ("Oakley",          "goggles",   "Oakley",          "ski"),
+    ("Smith",           "goggles",   "Smith",           "ski"),
 ]
 
-PROMO_RE    = re.compile(r'(?:use\s+(?:code|promo)\s*[:\-]?\s*|promo\s*code[:\s]+|enter\s+code\s*)([A-Z0-9]{4,20})\b', re.IGNORECASE)
-DISCOUNT_RE = re.compile(r'(?:up\s+to\s+)?(\d{1,3})\s*%\s*off|save\s+(\d{1,3})\s*%|\$\s*(\d+)\s*off', re.IGNORECASE)
-CLEAR_SIGS  = ["clearance","end of season","last chance","final sale","closeout"]
-DROP_SIGS   = ["new drop","just dropped","preorder","pre-order","new arrival"]
-EMAIL_SIGS  = ["email exclusive","subscribers only","newsletter exclusive"]
-SALE_SIGS   = ["% off","on sale","outlet","sale","promo","savings","reduced","discounted","sale price"]
+SHOPIFY_BRANDS = [
+    {"brand":"Jones Snowboards",  "category":"snowboard",  "shopify_domain":"www.jonessnowboards.com",       "collection":"sale",               "affiliate_base":"https://www.jonessnowboards.com/collections/sale"},
+    {"brand":"Nidecker",          "category":"bindings",   "shopify_domain":"www.nidecker.com",              "collection":"sale",               "affiliate_base":"https://www.nidecker.com/en/sale"},
+    {"brand":"Dakine",            "category":"accessories","shopify_domain":"www.dakine.com",                "collection":"sale",               "affiliate_base":"https://www.dakine.com/collections/sale"},
+    {"brand":"686",               "category":"outerwear",  "shopify_domain":"www.686.com",                   "collection":"mens-outerwear-sale","affiliate_base":"https://www.686.com/collections/mens-outerwear-sale"},
+    {"brand":"POC",               "category":"helmets",    "shopify_domain":"www.pocsports.com",             "collection":"ski-sale",           "affiliate_base":"https://www.pocsports.com/collections/ski-sale"},
+    {"brand":"Flylow",            "category":"outerwear",  "shopify_domain":"www.flylowgear.com",            "collection":"sale",               "affiliate_base":"https://www.flylowgear.com/collections/sale"},
+    {"brand":"Hestra Gloves",     "category":"accessories","shopify_domain":"www.hestragloves.com",          "collection":"sale",               "affiliate_base":"https://www.hestragloves.com/collections/sale"},
+    {"brand":"Outdoor Research",  "category":"outerwear",  "shopify_domain":"www.outdoorresearch.com",       "collection":"sale",               "affiliate_base":"https://www.outdoorresearch.com/collections/sale"},
+    {"brand":"Mons Royale",       "category":"accessories","shopify_domain":"www.monsroyale.com",            "collection":"sale",               "affiliate_base":"https://www.monsroyale.com/collections/sale"},
+    {"brand":"Smartwool",         "category":"accessories","shopify_domain":"www.smartwool.com",             "collection":"sale",               "affiliate_base":"https://www.smartwool.com/collections/sale"},
+    {"brand":"Icelantic Skis",    "category":"ski",        "shopify_domain":"www.icelanticskis.com",         "collection":"sale",               "affiliate_base":"https://www.icelanticskis.com/collections/sale"},
+    {"brand":"Black Crows",       "category":"ski",        "shopify_domain":"www.black-crows.com",           "collection":"sale",               "affiliate_base":"https://www.black-crows.com/collections/sale"},
+    {"brand":"Picture Organic",   "category":"outerwear",  "shopify_domain":"www.picture-organic-clothing.com","collection":"sale",            "affiliate_base":"https://www.picture-organic-clothing.com/collections/sale"},
+    {"brand":"Weston Snowboards", "category":"snowboard",  "shopify_domain":"www.westonsnowboards.com",      "collection":"sale",               "affiliate_base":"https://www.westonsnowboards.com/collections/sale"},
+    {"brand":"Tactics Snowboard", "category":"snowboard",  "shopify_domain":"www.tactics.com",               "collection":"sale-snowboarding",  "affiliate_base":"https://www.tactics.com/sale/snowboarding"},
+    {"brand":"Christy Sports",    "category":"ski",        "shopify_domain":"www.christysports.com",         "collection":"sale",               "affiliate_base":"https://www.christysports.com/sale/"},
+]
+
+HTML_BRANDS = [
+    {"brand":"Smith Optics",   "category":"goggles",   "urls":["https://www.smithoptics.com/en-us/sale/"],                                        "affiliate_base":"https://www.smithoptics.com/en-us/sale/"},
+    {"brand":"Patagonia",      "category":"outerwear", "urls":["https://www.patagonia.com/shop/sale/sport/skiing-snowboarding"],                   "affiliate_base":"https://www.patagonia.com/shop/sale/sport/skiing-snowboarding"},
+    {"brand":"Burton Direct",  "category":"snowboard", "urls":["https://www.burton.com/us/en/c/sale-gear"],                                        "affiliate_base":"https://www.burton.com/us/en/c/sale-gear"},
+    {"brand":"Salomon Direct", "category":"ski",       "urls":["https://www.salomon.com/en-us/sport/ski/outlet"],                                  "affiliate_base":"https://www.salomon.com/en-us/sport/ski/outlet"},
+]
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
+
+DISCOUNT_RE = re.compile(r'(?:up\s+to\s+)?(\d{1,3})\s*%\s*off|save\s+(\d{1,3})\s*%', re.IGNORECASE)
+PROMO_RE    = re.compile(r'(?:use\s+(?:code|promo)\s*[:\-]?\s*|promo\s*code[:\s]+|enter\s+code\s*)([A-Z0-9]{4,20})\b', re.IGNORECASE)
+CLEAR_SIGS  = ["clearance","end of season","final sale","closeout","outlet","last chance"]
+DROP_SIGS   = ["new drop","just dropped","preorder","pre-order","new arrival"]
+EMAIL_SIGS  = ["email exclusive","subscribers only","newsletter exclusive"]
+SALE_SIGS   = ["% off","on sale","outlet","sale","savings","reduced"]
 
 @dataclass
 class Deal:
@@ -94,6 +104,81 @@ class Deal:
 def make_id(brand, desc):
     return hashlib.md5(f"{brand.lower()}::{desc.lower()[:80]}".encode()).hexdigest()[:12]
 
+# ---------------------------------------------------------------------------
+# Evo search API
+# ---------------------------------------------------------------------------
+def scrape_evo_brand(display_name, category, evo_brand, evo_cat):
+    """Use Evo's internal search API to find sale items for a brand."""
+    import requests
+    # Evo uses a search endpoint that returns JSON
+    search_url = f"https://api.evo.com/v1/search/products?query={evo_brand}&filters=onSale:true&sport={evo_cat}&limit=5"
+    affiliate_url = f"https://www.evo.com/shop/sale/{evo_cat}/{evo_brand.lower().replace(' ','-')}"
+
+    # Try the search API first
+    try:
+        api_headers = {**HEADERS, "Accept": "application/json", "Origin": "https://www.evo.com", "Referer": "https://www.evo.com/"}
+        r = requests.get(search_url, headers=api_headers, timeout=15)
+        if r.status_code == 200:
+            data = r.json()
+            products = data.get("products", data.get("items", data.get("results", [])))
+            if products:
+                sale_items = [p for p in products if p.get("salePrice") or p.get("onSale")]
+                if sale_items:
+                    best_pct = 0
+                    for p in sale_items:
+                        orig = p.get("originalPrice") or p.get("price")
+                        sale = p.get("salePrice")
+                        if orig and sale:
+                            try:
+                                pct = round((float(orig) - float(sale)) / float(orig) * 100)
+                                if pct > best_pct: best_pct = pct
+                            except: pass
+                    titles = [p.get("name","") for p in sale_items[:2] if p.get("name")]
+                    discount = f"Up to {best_pct}% off" if best_pct >= 5 else "Sale"
+                    desc = f"{discount} — {', '.join(titles)}" if titles else f"{display_name} — {discount} at Evo"
+                    if len(desc) > 130: desc = desc[:127] + "..."
+                    deal = Deal(
+                        id=make_id(display_name, desc), brand=display_name, category=category,
+                        deal_type="clearance" if best_pct >= 40 else "active",
+                        description=desc, discount=discount, code=None,
+                        url=affiliate_url, source_url=search_url, hot=best_pct >= 25
+                    )
+                    log.info(f"    ✓ Evo API [{deal.deal_type}] {discount} — {desc[:55]}")
+                    return [deal]
+    except Exception as e:
+        log.info(f"    Evo API failed ({e}), trying sitemap...")
+
+    # Fallback: check if Evo's sale page for this brand exists via sitemap/ping
+    try:
+        ping_url = f"https://www.evo.com/shop/sale/{evo_cat}/{evo_brand.lower().replace(' ', '-')}"
+        r = requests.head(ping_url, headers=HEADERS, timeout=10, allow_redirects=True)
+        if r.status_code == 200:
+            desc = f"{display_name} — Last Chair Sale items at Evo. Up to 60% off."
+            deal = Deal(
+                id=make_id(display_name, desc), brand=display_name, category=category,
+                deal_type="clearance", description=desc, discount="Up to 60% off",
+                code=None, url=affiliate_url, source_url=ping_url, hot=True
+            )
+            log.info(f"    ✓ Evo page confirmed (HEAD 200)")
+            return [deal]
+        elif r.status_code in (301, 302):
+            desc = f"{display_name} — sale gear available at Evo"
+            deal = Deal(
+                id=make_id(display_name, desc), brand=display_name, category=category,
+                deal_type="active", description=desc, discount="Sale",
+                code=None, url=affiliate_url, source_url=ping_url, hot=False
+            )
+            log.info(f"    ✓ Evo page redirect ({r.status_code})")
+            return [deal]
+        else:
+            log.info(f"    Evo page returned {r.status_code} — skipping")
+    except Exception as e:
+        log.warning(f"    Evo HEAD failed: {e}")
+    return []
+
+# ---------------------------------------------------------------------------
+# Shopify JSON API
+# ---------------------------------------------------------------------------
 def scrape_shopify(brand_cfg):
     import requests
     domain = brand_cfg["shopify_domain"]
@@ -121,8 +206,7 @@ def scrape_shopify(brand_cfg):
                 try:
                     if float(cap) > float(price):
                         sale_products.append(p); break
-                except (ValueError, TypeError): pass
-
+                except: pass
     if not sale_products:
         sale_products = products[:5]
 
@@ -137,7 +221,7 @@ def scrape_shopify(brand_cfg):
                     if cf > 0:
                         pct = round((cf - pf) / cf * 100)
                         if pct > best_pct: best_pct = pct
-                except (ValueError, TypeError): pass
+                except: pass
 
     discount = f"Up to {best_pct}% off" if best_pct >= 5 else "Sale"
     titles = [p["title"] for p in sale_products[:3]]
@@ -177,6 +261,9 @@ def scrape_shopify_fallback(brand_cfg):
         log.warning(f"    fallback failed: {e}")
     return []
 
+# ---------------------------------------------------------------------------
+# HTML scraper
+# ---------------------------------------------------------------------------
 def scrape_html(brand_cfg):
     import requests
     from bs4 import BeautifulSoup
@@ -186,29 +273,21 @@ def scrape_html(brand_cfg):
         try:
             r = requests.get(url, headers=HEADERS, timeout=20, allow_redirects=True)
             r.raise_for_status()
-            html = r.text
         except Exception as e:
             log.warning(f"    failed: {e}"); continue
 
-        soup = BeautifulSoup(html, "html.parser")
+        soup = BeautifulSoup(r.text, "html.parser")
         for t in soup(["script","style","noscript","svg","path"]): t.decompose()
-
-        # Check if page has any products at all (evo pages with no results are short)
-        text_len = len(soup.get_text())
-        if text_len < 2000:
-            log.info(f"    page too short ({text_len} chars) — likely no results"); continue
 
         blocks, seen = [], set()
         for sel in ["[class*='banner']","[class*='promo']","[class*='announcement']",
-                    "[class*='sale']","[class*='offer']","[class*='deal']","[class*='discount']",
-                    "[class*='savings']","[class*='bar']","[class*='strip']","header",
-                    "h1","h2","h3"]:
+                    "[class*='sale']","[class*='offer']","[class*='deal']","header","h1","h2","h3"]:
             try:
                 for el in soup.select(sel)[:8]:
                     t = el.get_text(" ", strip=True)
                     if t and t not in seen and 5 < len(t) < 600: blocks.append(t); seen.add(t)
             except: continue
-        for tag in soup.find_all(["p","li","span","div","a","strong"]):
+        for tag in soup.find_all(["p","li","span","div","a"]):
             t = tag.get_text(" ", strip=True)
             if t and t not in seen and 5 < len(t) < 400: blocks.append(t); seen.add(t)
 
@@ -226,34 +305,19 @@ def scrape_html(brand_cfg):
             p = int(next((x for x in m.groups() if x), 0))
             if p > best and p <= 90: best, discount = p, f"{p}% off"
 
-        code, skip = None, {"FREE","SALE","SAVE","DEAL","CODE","HERE","THIS","YOUR","SHOP",
-                            "MORE","VIEW","PLUS","SIGN","BEST","FAST","JUST","ONLY","GEAR",
-                            "MENS","WOMENS","KIDS","SNOW","SKIP","BACK"}
+        skip = {"FREE","SALE","SAVE","DEAL","CODE","THIS","YOUR","SHOP","MORE","VIEW","PLUS","SIGN","GEAR"}
+        code = None
         for block in blocks:
             m = PROMO_RE.search(block)
             if m:
                 c = m.group(1).upper()
                 if c not in skip and 4 <= len(c) <= 20: code = c; break
 
-        # For evo pages, try to extract a real product name + discount
-        sale_items = []
-        for tag in soup.find_all(["h2","h3","a"], limit=20):
-            t = tag.get_text(" ", strip=True)
-            if "sale" in t.lower() or "%" in t or any(brand in t for brand in [brand_cfg["brand"], "Skis","Snowboard","Boot","Jacket","Binding"]):
-                if 10 < len(t) < 80: sale_items.append(t)
-
-        if sale_items and best > 0:
-            desc = f"Up to {best}% off — {sale_items[0]}" + (f" + more" if len(sale_items) > 1 else "")
-            if len(desc) > 130: desc = desc[:127] + "..."
-        elif best > 0:
-            desc = f"{brand_cfg['brand']} — up to {best}% off select gear at Evo"
-        else:
-            desc = next(
-                (re.sub(r'\s+',' ',b).strip()[:130] for b in blocks
-                 if any(s in b.lower() for s in ["% off","sale","outlet","clearance"]) and 15 < len(b) < 200),
-                f"{brand_cfg['brand']} — sale on select products at Evo"
-            )
-
+        desc = next(
+            (re.sub(r'\s+',' ',b).strip()[:130] for b in blocks
+             if any(s in b.lower() for s in ["% off","sale","outlet","clearance"]) and 15 < len(b) < 200),
+            f"{brand_cfg['brand']} — {discount or 'sale'} on select products."
+        )
         hot = bool(code) or best >= 25
         d = Deal(
             id=make_id(brand_cfg["brand"], desc), brand=brand_cfg["brand"],
@@ -263,9 +327,12 @@ def scrape_html(brand_cfg):
         )
         log.info(f"    ✓ [{dtype}] {discount or 'sale'} — {desc[:60]}")
         deals.append(d)
-        time.sleep(0.8)
+        time.sleep(1)
     return deals
 
+# ---------------------------------------------------------------------------
+# Persistence
+# ---------------------------------------------------------------------------
 OUTPUT_PATH = Path(__file__).parent.parent / "deals.json"
 
 def load_previous():
@@ -285,23 +352,45 @@ def save(deals, previous):
     merged.sort(key=lambda d:(not d["pulse"],not d["hot"],d["brand"]))
     OUTPUT_PATH.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps({
-        "generated_at":now,"deal_count":len(merged),"brands_scanned":len(BRANDS),"deals":merged
+        "generated_at":now,"deal_count":len(merged),"brands_scanned":len(EVO_BRANDS)+len(SHOPIFY_BRANDS)+len(HTML_BRANDS),"deals":merged
     },indent=2))
     log.info(f"\n✓ Wrote {len(merged)} deals → {OUTPUT_PATH}")
 
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 def run():
     log.info("="*60)
     log.info("POWDER STASH — scraper starting")
-    log.info(f"{sum(1 for b in BRANDS if b['type']=='shopify')} Shopify + {sum(1 for b in BRANDS if b['type']=='html')} HTML = {len(BRANDS)} brands")
+    log.info(f"{len(EVO_BRANDS)} Evo + {len(SHOPIFY_BRANDS)} Shopify + {len(HTML_BRANDS)} HTML brands")
     log.info("="*60)
     previous = load_previous()
     all_deals, seen_ids = [], set()
-    for b in BRANDS:
-        log.info(f"\n→ {b['brand']} [{b['type']}]")
-        deals = scrape_shopify(b) if b["type"] == "shopify" else scrape_html(b)
-        for d in deals:
+
+    # 1. Evo brands
+    log.info("\n── EVO BRANDS ──────────────────────────────")
+    for (name, cat, slug, evo_cat) in EVO_BRANDS:
+        log.info(f"\n→ {name}")
+        for d in scrape_evo_brand(name, cat, slug, evo_cat):
+            if d.id not in seen_ids: seen_ids.add(d.id); all_deals.append(d)
+        time.sleep(0.3)
+
+    # 2. Shopify brands
+    log.info("\n── SHOPIFY BRANDS ──────────────────────────")
+    for b in SHOPIFY_BRANDS:
+        log.info(f"\n→ {b['brand']}")
+        for d in scrape_shopify(b):
+            if d.id not in seen_ids: seen_ids.add(d.id); all_deals.append(d)
+        time.sleep(0.3)
+
+    # 3. HTML brands
+    log.info("\n── HTML BRANDS ─────────────────────────────")
+    for b in HTML_BRANDS:
+        log.info(f"\n→ {b['brand']}")
+        for d in scrape_html(b):
             if d.id not in seen_ids: seen_ids.add(d.id); all_deals.append(d)
         time.sleep(0.5)
+
     log.info(f"\nComplete — {len(all_deals)} deals found")
     save(all_deals, previous)
 
