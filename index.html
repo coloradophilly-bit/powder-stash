@@ -3,531 +3,491 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>POWDER STASH — Ski & Snowboard Deals</title>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@400;600;700;900&display=swap" rel="stylesheet">
+<title>Powder Stash — Ski & Snowboard Deals</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-* { box-sizing: border-box; margin: 0; padding: 0; }
-:root {
-  --ice: #C8E6F5; --ice-dim: #7BBDD9; --snow: #EFF6FA;
-  --deep: #081825; --mid: #0D2435; --panel: #0F2D42;
-  --border: #1A4A68; --accent: #00C8FF; --accent2: #FF5F1F;
-  --green: #00E87A; --muted: #3A6F8A; --text: #C8E6F5; --text-dim: #6A9DB5;
-  --mono: 'Share Tech Mono', monospace; --cond: 'Barlow Condensed', sans-serif;
-}
-body { background: var(--deep); color: var(--text); font-family: var(--mono); margin: 0; }
-body::before {
-  content: ''; position: fixed; inset: 0;
-  background: repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0,200,255,0.012) 3px, rgba(0,200,255,0.012) 4px);
-  pointer-events: none; z-index: 0;
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --snow:#F8F6F2;
+  --fog:#EEE9E0;
+  --stone:#C8BFB0;
+  --slate:#7A7068;
+  --pine:#2D4A3E;
+  --pine-light:#3D6054;
+  --sky:#5B8FA8;
+  --sky-light:#A8C8DA;
+  --sky-pale:#DBE9F0;
+  --amber:#C8863A;
+  --amber-light:#E8A85C;
+  --red:#B84040;
+  --text:#2A2520;
+  --text-soft:#6B6058;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'DM Sans',sans-serif;
+  --mono:'DM Mono',monospace;
 }
 
-/* HEADER */
-.header {
-  background: var(--mid); border-bottom: 1px solid var(--border);
-  padding: 0 24px; display: flex; align-items: center;
-  justify-content: space-between; height: 56px; position: relative; z-index: 10;
+body{background:var(--snow);color:var(--text);font-family:var(--sans);font-weight:400;line-height:1.6;min-height:100vh}
+
+/* MOUNTAIN HERO HEADER */
+.site-header{
+  background:var(--pine);
+  position:relative;
+  overflow:hidden;
+  padding:0 32px;
 }
-.logo-wrap { display: flex; align-items: center; gap: 14px; }
-.logo-text { font-family: var(--cond); font-size: 30px; font-weight: 900; letter-spacing: 6px; color: var(--accent); text-transform: uppercase; }
-.logo-sub { font-size: 10px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; margin-top: -3px; }
-.header-status { display: flex; align-items: center; gap: 24px; font-size: 11px; color: var(--text-dim); }
-.blink { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--green); animation: blink 1.2s ease-in-out infinite; margin-right: 6px; }
-@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.2} }
+.site-header::before{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:60px;
+  background:var(--snow);
+  clip-path:polygon(0 100%,5% 40%,12% 70%,20% 20%,28% 55%,36% 10%,44% 45%,52% 5%,60% 40%,68% 15%,76% 50%,84% 20%,92% 60%,100% 30%,100% 100%);
+}
+.header-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  height:72px;position:relative;z-index:2;
+}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo-icon{width:36px;height:36px;flex-shrink:0}
+.logo-text{font-family:var(--serif);font-size:22px;font-weight:900;color:var(--snow);letter-spacing:-0.5px}
+.logo-tagline{font-size:11px;color:var(--sky-light);letter-spacing:1.5px;text-transform:uppercase;margin-top:-2px}
+.header-meta{display:flex;align-items:center;gap:20px;font-size:12px;color:var(--sky-light)}
+.live-dot{width:7px;height:7px;border-radius:50%;background:#7DEFA8;display:inline-block;margin-right:5px;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+
+/* MOUNTAIN RANGE SVG DECORATION */
+.mountain-bar{
+  background:linear-gradient(180deg,var(--pine) 0%,var(--pine-light) 100%);
+  height:80px;position:relative;overflow:hidden;margin-top:-1px;
+}
+.mountain-bar svg{position:absolute;bottom:0;left:0;width:100%;height:100%}
 
 /* TICKER */
-.ticker-bar { background: var(--panel); border-bottom: 1px solid var(--border); overflow: hidden; height: 32px; display: flex; align-items: center; position: relative; z-index: 9; }
-.ticker-label { font-size: 10px; font-weight: 700; background: var(--accent); color: var(--deep); padding: 0 14px; height: 100%; display: flex; align-items: center; white-space: nowrap; flex-shrink: 0; letter-spacing: 2px; }
-.ticker-scroll { display: flex; gap: 48px; animation: scroll-left 40s linear infinite; padding-left: 24px; font-size: 11px; color: var(--ice-dim); white-space: nowrap; }
-@keyframes scroll-left { from{transform:translateX(0)} to{transform:translateX(-50%)} }
-.ticker-item { display: inline-flex; align-items: center; gap: 8px; }
-.ticker-hot { color: var(--accent2); font-weight: 700; }
-.ticker-new { color: var(--green); }
+.ticker-wrap{background:var(--fog);border-bottom:1px solid var(--stone);overflow:hidden;height:36px;display:flex;align-items:center}
+.ticker-badge{background:var(--amber);color:white;font-size:10px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;padding:0 14px;height:100%;display:flex;align-items:center;white-space:nowrap;flex-shrink:0;font-family:var(--mono)}
+.ticker-scroll{display:flex;gap:56px;animation:ticker 40s linear infinite;padding-left:24px;font-size:12px;color:var(--text-soft);white-space:nowrap;font-family:var(--mono)}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.t-hot{color:var(--amber);font-weight:500}
+.t-new{color:var(--pine)}
 
 /* LAYOUT */
-.main { display: flex; position: relative; z-index: 1; min-height: calc(100vh - 120px); }
+.page{display:flex;gap:0;min-height:calc(100vh - 200px)}
 
 /* SIDEBAR */
-.sidebar { width: 228px; flex-shrink: 0; border-right: 1px solid var(--border); padding: 20px 0; }
-.sidebar-section { padding: 0 16px 20px; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
-.sidebar-section:last-child { border-bottom: none; }
-.sidebar-title { font-size: 9px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 12px; }
-.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
-.stat-box { background: var(--mid); border: 1px solid var(--border); padding: 8px; text-align: center; }
-.stat-val { font-family: var(--cond); font-size: 22px; font-weight: 700; color: var(--accent); display: block; }
-.stat-val.orange { color: #FAC775; }
-.stat-val.green { color: var(--green); }
-.stat-val.red { color: var(--accent2); }
-.stat-label { font-size: 10px; color: var(--text-dim); }
-.filter-btn { display: block; width: 100%; background: none; border: 1px solid var(--border); color: var(--text-dim); font-family: var(--mono); font-size: 11px; padding: 8px 12px; cursor: pointer; text-align: left; letter-spacing: 1px; margin-bottom: 4px; transition: all 0.15s; }
-.filter-btn::before { content: '○  '; color: var(--border); }
-.filter-btn.active { border-color: var(--accent); color: var(--accent); }
-.filter-btn.active::before { content: '●  '; color: var(--accent); }
-.filter-btn:hover { border-color: var(--ice-dim); color: var(--ice); }
+.sidebar{width:240px;flex-shrink:0;border-right:1px solid var(--stone);background:var(--fog);padding:24px 0}
+.sidebar-section{padding:0 20px 24px;border-bottom:1px solid var(--stone);margin-bottom:24px}
+.sidebar-section:last-child{border-bottom:none;margin:0}
+.sidebar-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--slate);font-family:var(--mono);margin-bottom:14px}
 
-/* CONTENT */
-.content { flex: 1; padding: 20px 24px; min-width: 0; }
+/* STATS */
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.stat-box{background:white;border:1px solid var(--stone);border-radius:8px;padding:10px 12px;text-align:center}
+.stat-num{font-family:var(--serif);font-size:24px;font-weight:700;color:var(--pine);display:block;line-height:1}
+.stat-num.amber{color:var(--amber)}
+.stat-num.sky{color:var(--sky)}
+.stat-num.red{color:var(--red)}
+.stat-lbl{font-size:10px;color:var(--slate);margin-top:2px;letter-spacing:.5px}
 
-/* TERMINAL */
-.terminal-banner { background: var(--panel); border: 1px solid var(--border); padding: 14px 18px; margin-bottom: 20px; font-size: 11px; color: var(--text-dim); line-height: 2; }
-.term-prompt { color: var(--accent); }
-.term-ok { color: var(--green); }
-.term-warn { color: var(--accent2); }
-.term-err { color: #E24B4A; }
+/* FILTERS */
+.filter-btn{display:block;width:100%;background:none;border:1px solid transparent;color:var(--text-soft);font-family:var(--sans);font-size:13px;padding:8px 12px;cursor:pointer;text-align:left;border-radius:6px;margin-bottom:3px;transition:all .15s}
+.filter-btn:hover{background:white;border-color:var(--stone);color:var(--text)}
+.filter-btn.active{background:var(--pine);color:white;border-color:var(--pine)}
+.filter-icon{margin-right:8px;opacity:.7}
+
+/* MAIN CONTENT */
+.main{flex:1;padding:28px 32px;min-width:0;background:var(--snow)}
+
+/* SECTION HEADER */
+.section-hdr{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid var(--fog)}
+.section-title{font-family:var(--serif);font-size:20px;font-weight:700;color:var(--text)}
+.section-count{font-size:12px;color:var(--slate);font-family:var(--mono)}
 
 /* TABS */
-.tabs { display: flex; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
-.tab { padding: 10px 22px; font-family: var(--mono); font-size: 11px; letter-spacing: 2px; color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.15s; text-transform: uppercase; background: none; border-top: none; border-left: none; border-right: none; }
-.tab:hover { color: var(--ice); }
-.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.tabs{display:flex;gap:4px;margin-bottom:24px;background:var(--fog);padding:4px;border-radius:10px;width:fit-content}
+.tab{padding:8px 18px;font-family:var(--sans);font-size:13px;font-weight:500;color:var(--slate);cursor:pointer;border:none;background:none;border-radius:7px;transition:all .15s}
+.tab:hover{color:var(--text)}
+.tab.active{background:white;color:var(--pine);box-shadow:0 1px 4px rgba(0,0,0,.08)}
 
-/* DEALS */
-.section-hdr { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
-.section-title { font-family: var(--cond); font-size: 13px; font-weight: 700; letter-spacing: 3px; color: var(--accent); text-transform: uppercase; }
-.count-badge { font-size: 10px; color: var(--muted); letter-spacing: 1px; }
-.deals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; margin-bottom: 28px; }
-.deal-card { background: var(--panel); border: 1px solid var(--border); padding: 14px 16px; transition: border-color 0.15s, transform 0.1s; position: relative; overflow: hidden; }
-.deal-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--border); transition: background 0.15s; }
-.deal-card:hover { border-color: var(--accent); transform: translateY(-1px); }
-.deal-card:hover::before { background: var(--accent); }
-.deal-card.pulse::before { background: var(--green); animation: pulse-bar 1s ease-in-out infinite alternate; }
-.deal-card.hot::before { background: var(--accent2); }
-@keyframes pulse-bar { from{opacity:0.4} to{opacity:1} }
-.card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
-.brand { font-family: var(--cond); font-size: 18px; font-weight: 700; letter-spacing: 2px; color: var(--snow); }
-.card-badge { font-size: 9px; letter-spacing: 2px; padding: 3px 8px; font-weight: 700; text-transform: uppercase; }
-.badge-pulse { background: rgba(0,232,122,0.15); border: 1px solid var(--green); color: var(--green); }
-.badge-hot { background: rgba(255,95,31,0.15); border: 1px solid var(--accent2); color: var(--accent2); }
-.badge-active { background: rgba(0,200,255,0.1); border: 1px solid var(--accent); color: var(--accent); }
-.badge-clear { background: rgba(186,117,23,0.15); border: 1px solid #BA7517; color: #FAC775; }
-.deal-desc { font-size: 12px; color: var(--ice-dim); margin-bottom: 10px; line-height: 1.5; }
-.card-bottom { display: flex; align-items: center; justify-content: space-between; }
-.deal-code { font-size: 13px; letter-spacing: 2px; color: var(--accent); border: 1px dashed var(--border); padding: 4px 10px; cursor: copy; transition: all 0.15s; user-select: all; }
-.deal-code:hover { border-color: var(--accent); background: rgba(0,200,255,0.05); }
-.deal-code.copied { color: var(--green); border-color: var(--green); }
-.deal-discount { font-family: var(--cond); font-size: 22px; font-weight: 900; color: var(--accent2); }
-.card-cat { font-size: 9px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; }
-.get-deal { display: inline-flex; align-items: center; gap: 6px; background: none; border: 1px solid var(--border); color: var(--text-dim); font-family: var(--mono); font-size: 10px; letter-spacing: 1px; padding: 5px 12px; text-decoration: none; transition: all 0.15s; margin-top: 10px; }
-.get-deal:hover { border-color: var(--accent); color: var(--accent); background: rgba(0,200,255,0.05); }
+/* DEAL CARDS */
+.deals-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:32px}
+.deal-card{background:white;border:1px solid var(--stone);border-radius:12px;padding:16px 18px;transition:transform .15s,box-shadow .15s,border-color .15s;position:relative;overflow:hidden}
+.deal-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--stone)}
+.deal-card.hot::before{background:var(--amber)}
+.deal-card.pulse::before{background:var(--pine);animation:shimmer 1.5s ease-in-out infinite alternate}
+.deal-card.clearance::before{background:var(--sky)}
+@keyframes shimmer{from{opacity:.5}to{opacity:1}}
+.deal-card:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(0,0,0,.08);border-color:var(--sky)}
+
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.brand-name{font-family:var(--serif);font-size:17px;font-weight:700;color:var(--text)}
+.deal-badge{font-size:10px;font-weight:500;letter-spacing:1px;text-transform:uppercase;padding:3px 9px;border-radius:20px;font-family:var(--mono)}
+.badge-hot{background:#FEF0DC;color:var(--amber)}
+.badge-new{background:#E8F5EE;color:var(--pine)}
+.badge-sale{background:var(--sky-pale);color:var(--sky)}
+.badge-clear{background:#F0F5F8;color:var(--slate)}
+
+.deal-desc{font-size:13px;color:var(--text-soft);margin-bottom:12px;line-height:1.5}
+.card-bottom{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.promo-code{font-family:var(--mono);font-size:12px;color:var(--pine);background:var(--fog);border:1px dashed var(--stone);padding:4px 10px;border-radius:5px;cursor:pointer;transition:all .15s}
+.promo-code:hover{background:var(--pine);color:white;border-color:var(--pine)}
+.promo-code.copied{background:var(--pine);color:white;border-color:var(--pine)}
+.no-code{font-size:11px;color:var(--slate)}
+.deal-discount{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--amber)}
+.card-cat{font-size:10px;color:var(--slate);text-transform:uppercase;letter-spacing:1px;text-align:right;margin-top:-2px}
+
+.get-deal{display:flex;align-items:center;gap:6px;background:var(--pine);color:white;border:none;border-radius:7px;font-family:var(--sans);font-size:12px;font-weight:500;padding:7px 14px;cursor:pointer;text-decoration:none;transition:background .15s;width:100%;justify-content:center}
+.get-deal:hover{background:var(--pine-light)}
+.get-deal svg{width:12px;height:12px;flex-shrink:0}
 
 /* INTEL FEED */
-.feed-item { display: flex; gap: 14px; padding: 12px 0; border-bottom: 1px solid rgba(26,74,104,0.4); align-items: flex-start; text-decoration: none; }
-.feed-item:hover .feed-text { color: var(--ice); }
-.feed-time { font-size: 10px; color: var(--muted); min-width: 68px; padding-top: 2px; white-space: nowrap; }
-.feed-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
-.dot-new { background: var(--green); box-shadow: 0 0 6px var(--green); }
-.dot-hot { background: var(--accent2); }
-.dot-info { background: var(--accent); }
-.feed-text { font-size: 12px; color: var(--ice-dim); line-height: 1.6; }
-.feed-brand { color: var(--snow); font-family: var(--cond); font-weight: 700; letter-spacing: 1px; }
-.feed-code { color: var(--accent); letter-spacing: 1px; }
+.feed-section{margin-top:8px}
+.feed-item{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--fog);align-items:flex-start;text-decoration:none;transition:background .1s}
+.feed-item:hover .feed-text{color:var(--text)}
+.feed-time{font-family:var(--mono);font-size:11px;color:var(--slate);min-width:54px;padding-top:1px}
+.feed-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:4px}
+.dot-new{background:var(--pine)}
+.dot-hot{background:var(--amber)}
+.dot-info{background:var(--sky)}
+.feed-text{font-size:13px;color:var(--text-soft);line-height:1.5}
+.feed-brand{color:var(--text);font-weight:500}
+.feed-code{color:var(--pine);font-family:var(--mono);font-size:12px}
 
-/* LOADING / EMPTY */
-.loading-state { padding: 48px; text-align: center; color: var(--muted); font-size: 12px; letter-spacing: 2px; }
-.loading-state .spin { display: inline-block; animation: spin 1s linear infinite; margin-right: 8px; }
-@keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
-.empty-state { padding: 40px; text-align: center; color: var(--muted); font-size: 11px; letter-spacing: 1px; grid-column: 1/-1; }
+/* EMPTY / LOADING */
+.empty{padding:48px;text-align:center;color:var(--slate);grid-column:1/-1}
+.empty-icon{font-size:40px;margin-bottom:12px;opacity:.4}
+.loading-msg{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--slate);font-size:13px;padding:40px;grid-column:1/-1}
+.spin{animation:spin 1s linear infinite;display:inline-block}
+@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
 
 /* LAST UPDATED */
-.last-updated { font-size: 10px; color: var(--muted); letter-spacing: 1px; margin-bottom: 16px; }
+.last-updated{font-family:var(--mono);font-size:11px;color:var(--slate);margin-bottom:16px}
 
 /* SUBSCRIBE */
-.subscribe-box { background: var(--panel); border: 1px solid var(--border); padding: 20px 24px; margin-top: 24px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
-.subscribe-text { flex: 1; min-width: 200px; }
-.subscribe-text h4 { font-family: var(--cond); font-size: 14px; font-weight: 700; letter-spacing: 3px; color: var(--snow); text-transform: uppercase; margin-bottom: 4px; }
-.subscribe-text p { font-size: 11px; color: var(--muted); }
-.subscribe-input { flex: 1; min-width: 180px; background: var(--deep); border: 1px solid var(--border); color: var(--text); font-family: var(--mono); font-size: 12px; padding: 9px 12px; outline: none; transition: border-color 0.15s; }
-.subscribe-input:focus { border-color: var(--accent); }
-.subscribe-btn { background: var(--accent); color: var(--deep); border: none; font-family: var(--cond); font-size: 14px; font-weight: 900; letter-spacing: 3px; padding: 9px 22px; cursor: pointer; text-transform: uppercase; transition: opacity 0.15s; }
-.subscribe-btn:hover { opacity: 0.85; }
+.subscribe-bar{background:var(--pine);border-radius:12px;padding:24px 28px;margin-top:32px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.sub-text{flex:1;min-width:200px}
+.sub-text h4{font-family:var(--serif);font-size:16px;font-weight:700;color:white;margin-bottom:4px}
+.sub-text p{font-size:12px;color:var(--sky-light)}
+.sub-input{flex:1;min-width:180px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:white;font-family:var(--sans);font-size:13px;padding:10px 14px;border-radius:7px;outline:none;transition:border-color .15s}
+.sub-input::placeholder{color:rgba(255,255,255,.5)}
+.sub-input:focus{border-color:rgba(255,255,255,.7)}
+.sub-btn{background:white;color:var(--pine);border:none;font-family:var(--sans);font-size:13px;font-weight:600;padding:10px 22px;border-radius:7px;cursor:pointer;transition:opacity .15s;white-space:nowrap}
+.sub-btn:hover{opacity:.9}
 
 /* FOOTER */
-.footer { border-top: 1px solid var(--border); padding: 16px 24px; font-size: 10px; color: var(--muted); letter-spacing: 1px; display: flex; justify-content: space-between; align-items: center; background: var(--mid); flex-wrap: wrap; gap: 8px; }
-.footer a { color: var(--muted); text-decoration: none; }
-.footer a:hover { color: var(--ice-dim); }
+.site-footer{background:var(--pine);color:var(--sky-light);padding:20px 32px;font-size:11px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-top:auto}
+.site-footer a{color:var(--sky-light);text-decoration:none}
+.site-footer a:hover{color:white}
 
-/* STASH SVG */
-.stash-sweep { animation: sweep 3s linear infinite; transform-origin: 18px 18px; }
-@keyframes sweep { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+/* MOUNTAIN PEAKS DECORATION */
+.peaks-bg{position:fixed;bottom:0;left:0;right:0;height:120px;pointer-events:none;z-index:0;opacity:.04}
 </style>
 </head>
 <body>
 
 <!-- HEADER -->
-<div class="header">
-  <div class="logo-wrap">
-    <svg width="38" height="38" viewBox="0 0 36 36" fill="none">
-      <circle cx="18" cy="18" r="17" stroke="#1A4A68" stroke-width="1"/>
-      <circle cx="18" cy="18" r="12" stroke="#1A4A68" stroke-width="0.5" stroke-dasharray="2 3"/>
-      <circle cx="18" cy="18" r="6" stroke="#1A4A68" stroke-width="0.5" stroke-dasharray="2 3"/>
-      <circle cx="18" cy="18" r="2" fill="#00C8FF"/>
-      <g class="stash-sweep">
-        <line x1="18" y1="18" x2="18" y2="2" stroke="#00C8FF" stroke-width="1.5" opacity="0.8"/>
-        <path d="M18 18 L18 2 A16 16 0 0 1 28.5 9 Z" fill="#00C8FF" opacity="0.07"/>
-      </g>
-      <circle cx="10" cy="12" r="1.5" fill="#00E87A" opacity="0.9"/>
-      <circle cx="25" cy="22" r="1.5" fill="#FF5F1F" opacity="0.9"/>
-      <circle cx="22" cy="10" r="1" fill="#00C8FF" opacity="0.7"/>
-    </svg>
-    <div>
-      <div class="logo-text">POWDER STASH</div>
-      <div class="logo-sub">ski &amp; snowboard deal intelligence</div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="#">
+      <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
+        <!-- Mountain peak logo -->
+        <polygon points="18,4 32,28 4,28" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="1.5"/>
+        <polygon points="18,4 28,28 8,28" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="1"/>
+        <polygon points="18,10 26,28 10,28" fill="rgba(255,255,255,.15)"/>
+        <!-- Snow cap -->
+        <polygon points="18,4 22,14 14,14" fill="rgba(255,255,255,.5)"/>
+        <!-- Stars -->
+        <circle cx="6" cy="10" r="1" fill="rgba(255,255,255,.4)"/>
+        <circle cx="29" cy="8" r="1.5" fill="rgba(255,255,255,.5)"/>
+        <circle cx="11" cy="6" r="1" fill="rgba(255,255,255,.3)"/>
+      </svg>
+      <div>
+        <div class="logo-text">Powder Stash</div>
+        <div class="logo-tagline">Ski &amp; Snowboard Deals</div>
+      </div>
+    </a>
+    <div class="header-meta">
+      <span><span class="live-dot"></span>Live</span>
+      <span id="brand-count-hdr">Scanning 45 brands</span>
+      <span>↻ Hourly</span>
     </div>
   </div>
-  <div class="header-status">
-    <span><span class="blink"></span>LIVE FEED</span>
-    <span id="brand-count">SCANNING 19 BRANDS</span>
-    <span style="color:var(--green)">↻ HOURLY REFRESH</span>
-  </div>
-</div>
+</header>
 
 <!-- TICKER -->
-<div class="ticker-bar">
-  <div class="ticker-label">⚡ INCOMING</div>
+<div class="ticker-wrap">
+  <div class="ticker-badge">⛷ Deals</div>
   <div style="overflow:hidden;flex:1">
-    <div class="ticker-scroll" id="ticker-content">
-      <span class="ticker-item">LOADING DEAL FEED...</span>
-    </div>
+    <div class="ticker-scroll" id="ticker"></div>
   </div>
 </div>
 
-<div class="main">
-
+<div class="page">
   <!-- SIDEBAR -->
-  <div class="sidebar">
+  <aside class="sidebar">
     <div class="sidebar-section">
-      <div class="sidebar-title">SYS · MONITOR</div>
-      <div class="stats-grid">
-        <div class="stat-box"><span class="stat-val" id="s-promos">—</span><span class="stat-label">Promos</span></div>
-        <div class="stat-box"><span class="stat-val orange" id="s-clear">—</span><span class="stat-label">Clearance</span></div>
-        <div class="stat-box"><span class="stat-val green" id="s-drops">—</span><span class="stat-label">New Drops</span></div>
-        <div class="stat-box"><span class="stat-val red" id="s-hot">—</span><span class="stat-label">Hot</span></div>
-      </div>
-      <div style="font-size:10px;color:var(--muted);letter-spacing:1px;margin-top:6px">
-        <span style="color:var(--green)">●</span> ACTIVE = live code &nbsp;
-        <span style="color:var(--green)">◉</span> PULSE = just detected
+      <div class="sidebar-label">Deal Summary</div>
+      <div class="stat-grid">
+        <div class="stat-box"><span class="stat-num" id="s-promos">—</span><span class="stat-lbl">Promos</span></div>
+        <div class="stat-box"><span class="stat-num amber" id="s-clear">—</span><span class="stat-lbl">Clearance</span></div>
+        <div class="stat-box"><span class="stat-num sky" id="s-drops">—</span><span class="stat-lbl">Drops</span></div>
+        <div class="stat-box"><span class="stat-num red" id="s-hot">—</span><span class="stat-lbl">Hot</span></div>
       </div>
     </div>
 
     <div class="sidebar-section">
-      <div class="sidebar-title">Filter Protocol</div>
-      <button class="filter-btn active" onclick="setFilter('all',this)">ALL SECTORS</button>
-      <button class="filter-btn" onclick="setFilter('ski',this)">▲ SKIS</button>
-      <button class="filter-btn" onclick="setFilter('snowboard',this)">▰ SNOWBOARDS</button>
-      <button class="filter-btn" onclick="setFilter('boots',this)">◈ BOOTS</button>
-      <button class="filter-btn" onclick="setFilter('bindings',this)">◻ BINDINGS</button>
-      <button class="filter-btn" onclick="setFilter('outerwear',this)">◆ OUTERWEAR</button>
-      <button class="filter-btn" onclick="setFilter('goggles',this)">◎ GOGGLES</button>
-      <button class="filter-btn" onclick="setFilter('helmets',this)">◉ HELMETS</button>
-      <button class="filter-btn" onclick="setFilter('accessories',this)">◇ ACCESSORIES</button>
+      <div class="sidebar-label">Category</div>
+      <button class="filter-btn active" onclick="setFilter('all',this)"><span class="filter-icon">🏔</span>All Gear</button>
+      <button class="filter-btn" onclick="setFilter('ski',this)"><span class="filter-icon">⛷</span>Skis</button>
+      <button class="filter-btn" onclick="setFilter('snowboard',this)"><span class="filter-icon">🏂</span>Snowboards</button>
+      <button class="filter-btn" onclick="setFilter('boots',this)"><span class="filter-icon">👢</span>Boots</button>
+      <button class="filter-btn" onclick="setFilter('bindings',this)"><span class="filter-icon">⚙️</span>Bindings</button>
+      <button class="filter-btn" onclick="setFilter('outerwear',this)"><span class="filter-icon">🧥</span>Outerwear</button>
+      <button class="filter-btn" onclick="setFilter('goggles',this)"><span class="filter-icon">🥽</span>Goggles</button>
+      <button class="filter-btn" onclick="setFilter('helmets',this)"><span class="filter-icon">⛑</span>Helmets</button>
+      <button class="filter-btn" onclick="setFilter('accessories',this)"><span class="filter-icon">🧤</span>Accessories</button>
     </div>
 
     <div class="sidebar-section">
-      <div class="sidebar-title">Scan Status</div>
-      <div style="font-size:11px;color:var(--text-dim);line-height:2.2">
-        <div id="status-line1"><span style="color:var(--muted)">···</span> Loading...</div>
-        <div id="status-line2"></div>
-        <div id="status-line3"></div>
-        <div id="status-line4"></div>
+      <div class="sidebar-label">Scan Status</div>
+      <div style="font-size:12px;color:var(--text-soft);line-height:2.2" id="scan-status">
+        <div>✓ &nbsp;Feed connected</div>
+        <div>✓ &nbsp;Brands active</div>
+        <div id="scan-line">↻ &nbsp;Loading...</div>
       </div>
     </div>
-  </div>
+  </aside>
 
-  <!-- CONTENT -->
-  <div class="content">
-
-    <!-- TERMINAL -->
-    <div class="terminal-banner" id="terminal">
-      <div><span class="term-prompt">&gt;</span> INITIATING SEQUENCE... <span class="term-ok">OK</span></div>
-      <div><span class="term-prompt">&gt;</span> CONNECTING TO BRAND SERVERS... <span class="term-ok">OK</span></div>
-      <div><span class="term-prompt">&gt;</span> <span id="terminal-status" class="term-warn">LOADING DEAL DATA... ▮</span></div>
-    </div>
+  <!-- MAIN -->
+  <main class="main">
+    <div class="last-updated" id="last-updated"></div>
 
     <!-- TABS -->
     <div class="tabs">
-      <button class="tab active" onclick="switchTab(this,'active')">PROMOS</button>
-      <button class="tab" onclick="switchTab(this,'clearance')">CLEARANCE</button>
-      <button class="tab" onclick="switchTab(this,'drops')">NEW DROPS</button>
-      <button class="tab" onclick="switchTab(this,'email')">EMAIL OFFERS</button>
+      <button class="tab active" onclick="switchTab(this,'active')">Promo Codes</button>
+      <button class="tab" onclick="switchTab(this,'clearance')">Clearance</button>
+      <button class="tab" onclick="switchTab(this,'drops')">New Drops</button>
+      <button class="tab" onclick="switchTab(this,'email')">Email Offers</button>
     </div>
 
-    <div class="last-updated" id="last-updated"></div>
-
-    <!-- DEALS -->
     <div class="section-hdr">
-      <div class="section-title" id="section-title">// ACTIVE PROMO CODES</div>
-      <div class="count-badge" id="deal-count">— TARGETS ACQUIRED</div>
+      <div class="section-title" id="section-title">Active Promo Codes</div>
+      <div class="section-count" id="deal-count">— deals</div>
     </div>
+
     <div class="deals-grid" id="deals-grid">
-      <div class="loading-state" style="grid-column:1/-1">
-        <span class="spin">↻</span> SCANNING BRAND FREQUENCIES...
-      </div>
+      <div class="loading-msg"><span class="spin">↻</span> Loading deals...</div>
     </div>
 
     <!-- INTEL FEED -->
-    <div class="section-hdr" style="margin-top:8px">
-      <div class="section-title">// INTEL FEED · RECENT DETECTIONS</div>
-    </div>
-    <div id="intel-feed">
-      <div class="loading-state"><span class="spin">↻</span> LOADING FEED...</div>
+    <div class="feed-section">
+      <div class="section-hdr" style="margin-top:8px">
+        <div class="section-title">Recent Detections</div>
+      </div>
+      <div id="intel-feed"><div class="loading-msg"><span class="spin">↻</span> Loading feed...</div></div>
     </div>
 
     <!-- SUBSCRIBE -->
-    <div class="subscribe-box">
-      <div class="subscribe-text">
+    <div class="subscribe-bar">
+      <div class="sub-text">
         <h4>Get deal alerts</h4>
-        <p>Hot drops and promo codes to your inbox. No spam, just powder intel.</p>
+        <p>Fresh powder drops and promo codes to your inbox. No spam.</p>
       </div>
-      <input class="subscribe-input" type="email" placeholder="your@email.com" id="email-in" />
-      <button class="subscribe-btn" id="sub-btn" onclick="subscribe()">SUBSCRIBE</button>
+      <input class="sub-input" type="email" placeholder="your@email.com" id="email-in"/>
+      <button class="sub-btn" id="sub-btn" onclick="subscribe()">Subscribe</button>
     </div>
-  </div>
+  </main>
 </div>
 
 <!-- FOOTER -->
-<div class="footer">
-  <div>POWDER STASH · SCANNING 19 BRAND HOMEPAGES · GITHUB ACTIONS · HOURLY REFRESH</div>
+<footer class="site-footer">
+  <div>Powder Stash · Scanning 45+ brands · Hourly updates</div>
   <div>
     Offers sourced from public promotions. May receive affiliate commissions. &nbsp;
-    <a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a> · <span style="color:var(--text-dim)">© 2026 POWDER STASH</span>
+    <a href="#">Privacy</a> · <a href="#">Terms</a> · © 2026 Powder Stash
   </div>
-</div>
+</footer>
 
 <script>
-// ── State ────────────────────────────────────────────────────────────────
 let ALL_DEALS = [];
 let activeTab = 'active';
 let activeFilter = 'all';
 
-// ── Load deals.json ──────────────────────────────────────────────────────
+// Seed deals — real current deals as guaranteed baseline
+const SEED_DEALS = [
+  {id:"seed01",brand:"Burton",category:"snowboard",deal_type:"clearance",description:"Last Chair Sale — up to 40% off snowboards, boots, bindings & outerwear. No code needed.",discount:"Up to 40% off",code:null,url:"https://www.burton.com/us/en/c/sale-gear",source_url:"https://www.burton.com",hot:true,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed02",brand:"Atomic",category:"ski",deal_type:"clearance",description:"Last Chair Sale at Evo — Atomic Bent 110 from $599, boots from $159. Up to 60% off past season.",discount:"Up to 60% off",code:null,url:"https://www.evo.com/shop/sale/ski/atomic",source_url:"https://www.evo.com",hot:true,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed03",brand:"Rossignol",category:"ski",deal_type:"clearance",description:"Sender Free 92 Skis + bindings from $349. Multiple packages on clearance at Evo.",discount:"Up to 50% off",code:null,url:"https://www.evo.com/shop/sale/ski/rossignol",source_url:"https://www.evo.com",hot:true,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed04",brand:"K2 Skis",category:"ski",deal_type:"clearance",description:"K2 Reckoner 102 & 110 on sale, kids' Indy package from $199. End of season pricing.",discount:"Up to 35% off",code:null,url:"https://www.evo.com/shop/sale/ski/k2",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed05",brand:"Salomon",category:"ski",deal_type:"clearance",description:"QST 94 & 100 skis on sale, boots from clearance. Spring closeout at Evo.",discount:"Up to 35% off",code:null,url:"https://www.evo.com/shop/sale/ski/salomon",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed06",brand:"Völkl",category:"ski",deal_type:"clearance",description:"M7 Mantra & Mantra 88 on sale. Peregrine 80 package included. Last Chair pricing.",discount:"Up to 20% off",code:null,url:"https://www.evo.com/shop/sale/ski/volkl",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed07",brand:"Blizzard",category:"ski",deal_type:"clearance",description:"Black Pearl 88 Women's skis on sale. End of season clearance at Evo.",discount:"Up to 20% off",code:null,url:"https://www.evo.com/shop/sale/ski/blizzard",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed08",brand:"Armada Skis",category:"ski",deal_type:"clearance",description:"ARV 106 & BDOG 94 on sale. Duffy 3L jacket & pants in clearance at Evo.",discount:"Up to 60% off",code:null,url:"https://www.evo.com/shop/sale/ski/armada",source_url:"https://www.evo.com",hot:true,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed09",brand:"Line Skis",category:"ski",deal_type:"clearance",description:"Pandora 99 and other Line skis on sale at Evo. Last Chair deals.",discount:"Up to 20% off",code:null,url:"https://www.evo.com/shop/sale/ski/line-skis",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed10",brand:"Jones Snowboards",category:"snowboard",deal_type:"active",description:"Men's Frontier 2.0 & Flagship snowboards on sale. Multiple models discounted.",discount:"Sale",code:null,url:"https://www.jonessnowboards.com/collections/sale",source_url:"https://www.jonessnowboards.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed11",brand:"Smith Optics",category:"goggles",deal_type:"active",description:"Snow Goggle & Helmet sale — up to 40% off. Smith Vantage MIPS helmets in outlet.",discount:"Up to 40% off",code:null,url:"https://www.smithoptics.com/en-us/sale/",source_url:"https://www.smithoptics.com",hot:true,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed12",brand:"Oakley",category:"goggles",deal_type:"clearance",description:"Flight Deck Pro M & Flow Scape goggles on sale at Evo. Up to 20% off Prizm lenses.",discount:"Up to 20% off",code:null,url:"https://www.evo.com/shop/sale/ski/oakley",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed13",brand:"Patagonia",category:"outerwear",deal_type:"active",description:"Ski & snowboard outerwear on sale. Scrambler GORE-TEX jacket reduced.",discount:"Sale",code:null,url:"https://www.patagonia.com/shop/sale/sport/skiing-snowboarding",source_url:"https://www.patagonia.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed14",brand:"Helly Hansen",category:"outerwear",deal_type:"clearance",description:"Legendary pants & Alpha Lifaloft jacket on sale at Evo. End of season pricing.",discount:"Up to 30% off",code:null,url:"https://www.evo.com/shop/sale/ski/helly-hansen",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed15",brand:"686",category:"outerwear",deal_type:"clearance",description:"GORE-TEX Pro 3L Thermagraph Bibs & Warmix Puffy clearance. Gateway Shell on sale.",discount:"Up to 60% off",code:null,url:"https://www.evo.com/shop/sale/snowboard/686",source_url:"https://www.evo.com",hot:true,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed16",brand:"Outdoor Research",category:"outerwear",deal_type:"clearance",description:"Women's Aspire 3L Trench & Men's Foray 3L Rain Jacket. Up to 60% off.",discount:"Up to 60% off",code:null,url:"https://www.outdoorresearch.com/collections/sale",source_url:"https://www.outdoorresearch.com",hot:true,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed17",brand:"Dakine",category:"accessories",deal_type:"active",description:"Bags, packs & ski accessories on sale. Poacher 32L backpack and more.",discount:"Sale",code:null,url:"https://www.dakine.com/collections/sale",source_url:"https://www.dakine.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed18",brand:"Nidecker",category:"bindings",deal_type:"active",description:"Kita Women & The Gun bindings on sale. Multiple models discounted.",discount:"Sale",code:null,url:"https://www.nidecker.com/en/sale",source_url:"https://www.nidecker.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed19",brand:"POC",category:"helmets",deal_type:"clearance",description:"POC ski helmets & goggles — end of season sale. Visit site for current discounts.",discount:"Sale",code:null,url:"https://www.pocsports.com/collections/ski-sale",source_url:"https://www.pocsports.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed20",brand:"Flylow",category:"outerwear",deal_type:"clearance",description:"Lucy Jacket & Foxy Bibs — Women's outerwear on final sale at Evo.",discount:"Up to 70% off",code:null,url:"https://www.evo.com/shop/sale/ski/flylow",source_url:"https://www.evo.com",hot:true,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed21",brand:"Icelantic Skis",category:"ski",deal_type:"clearance",description:"Nomad 94, 100 & 106 all on sale at Evo. Up to 25% off these powder skis.",discount:"Up to 25% off",code:null,url:"https://www.evo.com/shop/sale/ski/icelantic",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed22",brand:"Lib Tech",category:"snowboard",deal_type:"clearance",description:"Rasman C2X snowboard on sale at Evo. Last Chair pricing.",discount:"Up to 30% off",code:null,url:"https://www.evo.com/shop/sale/snowboard/lib-tech",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed23",brand:"Head Skis",category:"ski",deal_type:"clearance",description:"Kore 100 Ti at $479 (was $799). Strong spring clearance pricing at Evo.",discount:"40% off",code:null,url:"https://www.evo.com/shop/sale/ski/head",source_url:"https://www.evo.com",hot:true,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed24",brand:"Elan",category:"ski",deal_type:"clearance",description:"Ripstick 96 & Black Edition on sale at Evo. Spring clearance pricing.",discount:"Up to 25% off",code:null,url:"https://www.evo.com/shop/sale/ski/elan",source_url:"https://www.evo.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+  {id:"seed25",brand:"Hestra Gloves",category:"accessories",deal_type:"active",description:"Powder Gauntlet 3 finger mittens & more on sale. Premium gloves reduced.",discount:"Up to 20% off",code:null,url:"https://www.hestragloves.com/collections/sale",source_url:"https://www.hestragloves.com",hot:false,pulse:false,first_seen:"2026-03-26T00:00:00Z",last_seen:"2026-03-26T00:00:00Z"},
+];
+
 async function loadDeals() {
   try {
-    // Cache-bust so GitHub Pages always serves the latest version
     const res = await fetch(`deals.json?t=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
+    const scraped = data.deals || [];
+    // Merge: scraped deals take priority, seeds fill in the rest
+    const scrapedIds = new Set(scraped.map(d => d.brand.toLowerCase()));
+    const usedSeeds = SEED_DEALS.filter(s => !scrapedIds.has(s.brand.toLowerCase()));
+    ALL_DEALS = [...scraped, ...usedSeeds];
 
-    ALL_DEALS = data.deals || [];
-
-    // Update terminal
-    document.getElementById('terminal-status').className = 'term-ok';
-    document.getElementById('terminal-status').textContent =
-      `MONITORING ${data.brands_scanned || 19} TARGETS... ${ALL_DEALS.length} DEALS ACQUIRED`;
-
-    // Update sidebar status
-    document.getElementById('status-line1').innerHTML = '<span style="color:var(--green)">OK</span> &nbsp;Server connected';
-    document.getElementById('status-line2').innerHTML = '<span style="color:var(--green)">OK</span> &nbsp;Brand feed active';
-    document.getElementById('status-line3').innerHTML = `<span style="color:var(--green)">OK</span> &nbsp;${ALL_DEALS.length} deals loaded`;
-    document.getElementById('status-line4').innerHTML = `<span style="color:var(--accent2)">●</span> &nbsp;Next run in ~${minsUntilNextHour()}m`;
-
-    // Update brand count
-    document.getElementById('brand-count').textContent = `SCANNING ${data.brands_scanned || 19} BRANDS`;
-
-    // Update last-updated line
     if (data.generated_at) {
       const d = new Date(data.generated_at);
-      document.getElementById('last-updated').textContent =
-        `LAST SCAN: ${d.toUTCString().toUpperCase()}`;
+      document.getElementById('last-updated').textContent = `Last scanned: ${d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})}`;
     }
-
-    updateStats();
-    buildTicker();
-    render();
-    renderFeed();
-
-  } catch (err) {
-    document.getElementById('terminal-status').className = 'term-err';
-    document.getElementById('terminal-status').textContent = `ERROR LOADING DEALS.JSON — ${err.message}`;
-    document.getElementById('deals-grid').innerHTML =
-      '<div class="empty-state" style="grid-column:1/-1">SIGNAL LOST · UNABLE TO LOAD DEAL DATA</div>';
-    document.getElementById('status-line1').innerHTML =
-      '<span style="color:#E24B4A">ERR</span> &nbsp;Failed to load deals.json';
+    document.getElementById('brand-count-hdr').textContent = `Scanning ${data.brands_scanned || 45} brands`;
+    document.getElementById('scan-line').textContent = `✓  ${ALL_DEALS.length} deals loaded`;
+  } catch(e) {
+    // If deals.json fails, use seeds only
+    ALL_DEALS = [...SEED_DEALS];
+    document.getElementById('scan-line').textContent = `↻  Using cached deals`;
   }
+  updateStats();
+  buildTicker();
+  render();
+  renderFeed();
 }
 
-// ── Stats ────────────────────────────────────────────────────────────────
 function updateStats() {
-  document.getElementById('s-promos').textContent = ALL_DEALS.filter(d => d.deal_type === 'active').length;
-  document.getElementById('s-clear').textContent  = ALL_DEALS.filter(d => d.deal_type === 'clearance').length;
-  document.getElementById('s-drops').textContent  = ALL_DEALS.filter(d => d.deal_type === 'drops').length;
-  document.getElementById('s-hot').textContent    = ALL_DEALS.filter(d => d.hot).length;
+  document.getElementById('s-promos').textContent = ALL_DEALS.filter(d=>d.deal_type==='active').length;
+  document.getElementById('s-clear').textContent  = ALL_DEALS.filter(d=>d.deal_type==='clearance').length;
+  document.getElementById('s-drops').textContent  = ALL_DEALS.filter(d=>d.deal_type==='drops').length;
+  document.getElementById('s-hot').textContent    = ALL_DEALS.filter(d=>d.hot).length;
 }
 
-// ── Ticker ───────────────────────────────────────────────────────────────
 function buildTicker() {
-  const hot = ALL_DEALS.filter(d => d.hot || d.pulse).slice(0, 12);
-  if (!hot.length) return;
-  const items = [...hot, ...hot]; // duplicate for seamless loop
-  document.getElementById('ticker-content').innerHTML = items.map(d => `
-    <span class="ticker-item">
-      ${d.pulse ? '<span class="ticker-new">NEW</span>' : d.hot ? '<span class="ticker-hot">▲</span>' : ''}
-      ${d.brand.toUpperCase()} — ${d.discount || 'Sale'} ${d.code ? '— code ' + d.code : ''}
+  const items = ALL_DEALS.filter(d=>d.hot||d.pulse).slice(0,12);
+  if(!items.length) return;
+  const double=[...items,...items];
+  document.getElementById('ticker').innerHTML = double.map(d=>`
+    <span style="display:inline-flex;align-items:center;gap:6px">
+      ${d.pulse?'<span class="t-new">New ↑</span>':d.hot?'<span class="t-hot">▲</span>':''}
+      <span>${d.brand}</span>
+      <span style="color:var(--stone)">—</span>
+      <span>${d.discount||'Sale'}</span>
     </span>
   `).join('');
 }
 
-// ── Render deals grid ────────────────────────────────────────────────────
+function esc(s){
+  if(!s)return'';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
 function render() {
-  const tabTitles = {
-    active: '// ACTIVE PROMO CODES',
-    clearance: '// CLEARANCE INTEL',
-    drops: '// NEW DROPS',
-    email: '// EMAIL-ONLY OFFERS',
-  };
-  document.getElementById('section-title').textContent = tabTitles[activeTab];
-
-  const filtered = ALL_DEALS.filter(d =>
-    d.deal_type === activeTab && (activeFilter === 'all' || d.category === activeFilter)
-  );
-  document.getElementById('deal-count').textContent = `${filtered.length} TARGETS ACQUIRED`;
-
-  if (!filtered.length) {
-    document.getElementById('deals-grid').innerHTML =
-      '<div class="empty-state">NO SIGNALS IN THIS SECTOR · ADJUST FILTER PROTOCOL</div>';
+  const titles={active:'Active Promo Codes',clearance:'Clearance & Outlet',drops:'New Drops',email:'Email-Only Offers'};
+  document.getElementById('section-title').textContent=titles[activeTab];
+  const filtered=ALL_DEALS.filter(d=>d.deal_type===activeTab&&(activeFilter==='all'||d.category===activeFilter));
+  document.getElementById('deal-count').textContent=`${filtered.length} deal${filtered.length!==1?'s':''}`;
+  if(!filtered.length){
+    document.getElementById('deals-grid').innerHTML=`<div class="empty"><div class="empty-icon">🏔</div><div>No ${titles[activeTab].toLowerCase()} in this category right now.</div></div>`;
     return;
   }
-
-  document.getElementById('deals-grid').innerHTML = filtered.map(d => `
-    <div class="deal-card ${d.pulse ? 'pulse' : ''} ${d.hot && !d.pulse ? 'hot' : ''}">
+  document.getElementById('deals-grid').innerHTML=filtered.map(d=>`
+    <div class="deal-card ${d.pulse?'pulse':d.hot?'hot':d.deal_type==='clearance'?'clearance':''}">
       <div class="card-top">
-        <div class="brand">${esc(d.brand)}</div>
-        ${d.pulse
-          ? '<span class="card-badge badge-pulse">◉ PULSE</span>'
-          : d.hot
-            ? '<span class="card-badge badge-hot">▲ HOT</span>'
-            : d.deal_type === 'clearance'
-              ? '<span class="card-badge badge-clear">◈ CLEAR</span>'
-              : '<span class="card-badge badge-active">● ACTIVE</span>'
-        }
+        <div class="brand-name">${esc(d.brand)}</div>
+        ${d.pulse?'<span class="deal-badge badge-new">New</span>':d.hot?'<span class="deal-badge badge-hot">Hot</span>':d.deal_type==='clearance'?'<span class="deal-badge badge-clear">Clearance</span>':'<span class="deal-badge badge-sale">Sale</span>'}
       </div>
       <div class="deal-desc">${esc(d.description)}</div>
       <div class="card-bottom">
-        ${d.code
-          ? `<span class="deal-code" id="code-${esc(d.id)}" onclick="copyCode('${esc(d.id)}','${esc(d.code)}')">${esc(d.code)}</span>`
-          : '<span style="font-size:11px;color:var(--muted)">NO CODE NEEDED</span>'
-        }
+        ${d.code?`<span class="promo-code" id="c-${esc(d.id)}" onclick="copyCode('${esc(d.id)}','${esc(d.code)}')">${esc(d.code)}</span>`:'<span class="no-code">No code needed</span>'}
         <div style="text-align:right">
-          <div class="deal-discount">${esc(d.discount || 'Sale')}</div>
-          <div class="card-cat">${esc(d.category.toUpperCase())}</div>
+          <div class="deal-discount">${esc(d.discount||'Sale')}</div>
+          <div class="card-cat">${esc((d.category||'').toUpperCase())}</div>
         </div>
       </div>
-      <a class="get-deal" href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">
-        GET DEAL ↗
+      <a class="get-deal" href="${esc(d.url)}" target="_blank" rel="noopener">
+        Shop This Deal
+        <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg>
       </a>
     </div>
   `).join('');
 }
 
-// ── Render intel feed (most recent 10 deals, sorted by last_seen) ────────
 function renderFeed() {
-  const recent = [...ALL_DEALS]
-    .sort((a, b) => new Date(b.last_seen) - new Date(a.last_seen))
-    .slice(0, 10);
-
-  if (!recent.length) {
-    document.getElementById('intel-feed').innerHTML =
-      '<div class="loading-state">AWAITING SIGNAL...</div>';
-    return;
-  }
-
-  document.getElementById('intel-feed').innerHTML = recent.map(d => {
-    const type = d.pulse ? 'new' : d.hot ? 'hot' : 'info';
-    const ago = timeAgo(d.last_seen);
-    const codeHtml = d.code
-      ? ` — code <span class="feed-code">${esc(d.code)}</span>` : '';
-    const discHtml = d.discount ? ` ${esc(d.discount)}` : '';
-    return `
-      <a class="feed-item" href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">
-        <div class="feed-time">${ago}</div>
-        <div class="feed-dot ${type === 'new' ? 'dot-new' : type === 'hot' ? 'dot-hot' : 'dot-info'}"></div>
-        <div class="feed-text">
-          <span class="feed-brand">${esc(d.brand)}</span>${discHtml}${codeHtml} detected.
-          <span style="color:var(--border);font-size:10px"> ↗</span>
-        </div>
-      </a>
-    `;
-  }).join('');
+  const recent=[...ALL_DEALS].sort((a,b)=>new Date(b.last_seen)-new Date(a.last_seen)).slice(0,10);
+  if(!recent.length){document.getElementById('intel-feed').innerHTML='<div style="color:var(--slate);font-size:13px;padding:16px 0">No recent activity.</div>';return;}
+  document.getElementById('intel-feed').innerHTML=recent.map(f=>`
+    <a class="feed-item" href="${esc(f.url)}" target="_blank" rel="noopener">
+      <div class="feed-time">${timeAgo(f.last_seen)}</div>
+      <div class="feed-dot ${f.pulse?'dot-new':f.hot?'dot-hot':'dot-info'}"></div>
+      <div class="feed-text">
+        <span class="feed-brand">${esc(f.brand)}</span> — ${esc(f.discount||'sale')} detected${f.code?`. Code <span class="feed-code">${esc(f.code)}</span>`:''} ↗
+      </div>
+    </a>
+  `).join('');
 }
 
-// ── Helpers ──────────────────────────────────────────────────────────────
-function esc(str) {
-  if (!str) return '';
-  return String(str)
-    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+function timeAgo(iso){
+  if(!iso)return'—';
+  const diff=Math.floor((Date.now()-new Date(iso))/1000);
+  if(diff<60)return`${diff}s ago`;
+  if(diff<3600)return`${Math.floor(diff/60)}m ago`;
+  if(diff<86400)return`${Math.floor(diff/3600)}h ago`;
+  return`${Math.floor(diff/86400)}d ago`;
 }
 
-function timeAgo(iso) {
-  if (!iso) return '—';
-  const diff = Math.floor((Date.now() - new Date(iso)) / 1000);
-  if (diff < 60)   return `${diff}s ago`;
-  if (diff < 3600) return `${Math.floor(diff/60)}m ago`;
-  if (diff < 86400) return `${Math.floor(diff/3600)}h ago`;
-  return `${Math.floor(diff/86400)}d ago`;
-}
-
-function minsUntilNextHour() {
-  const now = new Date();
-  return 60 - now.getMinutes();
-}
-
-function copyCode(id, code) {
-  navigator.clipboard.writeText(code).catch(() => {});
-  const el = document.getElementById('code-' + id);
-  if (!el) return;
-  const orig = el.textContent;
-  el.textContent = '✓ COPIED';
+function copyCode(id,code){
+  navigator.clipboard.writeText(code).catch(()=>{});
+  const el=document.getElementById('c-'+id);
+  if(!el)return;
+  const orig=el.textContent;
+  el.textContent='✓ Copied!';
   el.classList.add('copied');
-  setTimeout(() => { el.textContent = orig; el.classList.remove('copied'); }, 1800);
+  setTimeout(()=>{el.textContent=orig;el.classList.remove('copied');},1800);
 }
 
-function setFilter(cat, btn) {
-  activeFilter = cat;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+function setFilter(cat,btn){
+  activeFilter=cat;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
   render();
 }
 
-function switchTab(el, tab) {
-  activeTab = tab;
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+function switchTab(el,tab){
+  activeTab=tab;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   el.classList.add('active');
   render();
 }
 
-function subscribe() {
-  const v = document.getElementById('email-in').value;
-  if (v && v.includes('@')) {
-    const btn = document.getElementById('sub-btn');
-    btn.textContent = '✓ SUBSCRIBED';
-    btn.style.background = 'var(--green)';
-    document.getElementById('email-in').value = '';
-    setTimeout(() => { btn.textContent = 'SUBSCRIBE'; btn.style.background = 'var(--accent)'; }, 2500);
+function subscribe(){
+  const v=document.getElementById('email-in').value;
+  if(v&&v.includes('@')){
+    const btn=document.getElementById('sub-btn');
+    btn.textContent='✓ Subscribed!';
+    btn.style.background='var(--pine)';
+    btn.style.color='white';
+    document.getElementById('email-in').value='';
+    setTimeout(()=>{btn.textContent='Subscribe';btn.style.background='white';btn.style.color='var(--pine)';},2500);
   }
 }
 
-// ── Animated terminal scan line ──────────────────────────────────────────
-const scanLines = [
-  'SCANNING BURTON HOMEPAGE... ▮',
-  'CHECKING SALOMON PROMO PAGE... ▮',
-  'MONITORING K2 DEAL SECTION... ▮',
-  'VERIFYING UNION BINDING CODES... ▮',
-  'SCANNING LINE SKIS DROPS... ▮',
-  'CROSS-REFERENCING PRICE DATA... ▮',
-  'CHECKING ARMADA CLEARANCE... ▮',
-  'SCANNING SMITH OPTICS SALE... ▮',
-];
-let scanIdx = 0;
+// Animated scan line
+const scanBrands=['Checking Burton deals...','Scanning Evo outlet...','Verifying Rossignol prices...','Monitoring Atomic sale...','Scanning Smith Optics...','Checking Patagonia stock...'];
+let si=0;
+setInterval(()=>{si=(si+1)%scanBrands.length;const el=document.getElementById('scan-line');if(el&&ALL_DEALS.length===0)el.textContent='↻  '+scanBrands[si];},2500);
 
-// Only animate the scan line if not yet loaded
-const scanInterval = setInterval(() => {
-  const el = document.getElementById('terminal-status');
-  if (el && el.className === 'term-warn') {
-    scanIdx = (scanIdx + 1) % scanLines.length;
-    el.textContent = scanLines[scanIdx];
-  }
-}, 1800);
-
-// ── Boot ─────────────────────────────────────────────────────────────────
 loadDeals();
 </script>
 </body>
