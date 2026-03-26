@@ -1,451 +1,259 @@
 """
 Powder Stash — Brand Deal Scraper
-Monitors ski/snowboard brand pages for active promos, clearance sales, and new drops.
-Writes results to public/deals.json for the frontend to consume.
-
-Run locally:  python scraper/scrape.py
-Run on CI:    triggered by GitHub Actions on a schedule
+Uses Shopify JSON API for Shopify brands (fast, never blocked).
+Falls back to requests+BeautifulSoup for non-Shopify brands.
+Writes results to deals.json at repo root.
 """
 
-import json
-import re
-import time
-import hashlib
-import logging
+import json, re, time, hashlib, logging
 from datetime import datetime, timezone
 from pathlib import Path
-from dataclasses import dataclass, asdict, field
+from dataclasses import dataclass, asdict
 from typing import Optional
-
-import requests
-from bs4 import BeautifulSoup
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(levelname)s  %(message)s")
 log = logging.getLogger(__name__)
 
-# ---------------------------------------------------------------------------
-# Brand definitions
-# Each entry tells the scraper WHERE to look and WHAT to look for.
-# Add new brands here — no code changes needed elsewhere.
-# ---------------------------------------------------------------------------
-
 BRANDS = [
-    # ── BOARDS & SKIS ──────────────────────────────────────────────────────
-    {
-        "brand": "Burton",
-        "category": "snowboard",
-        "urls": [
-            "https://www.burton.com/us/en/c/sale",
-            "https://www.burton.com/us/en/c/mens-snowboard-outerwear",
-        ],
-        "affiliate_base": "https://www.burton.com/us/en/c/sale",  # replace with your affiliate URL once approved
-    },
-    {
-        "brand": "Jones Snowboards",
-        "category": "snowboard",
-        "urls": ["https://www.jonessnowboards.com/collections/sale"],
-        "affiliate_base": "https://www.jonessnowboards.com/collections/sale",
-    },
-    {
-        "brand": "Capita",
-        "category": "snowboard",
-        "urls": ["https://www.capitasnowboarding.com/collections/sale"],
-        "affiliate_base": "https://www.capitasnowboarding.com/collections/sale",
-    },
-    {
-        "brand": "Rome SDS",
-        "category": "bindings",
-        "urls": ["https://www.romesnowboards.com/collections/sale"],
-        "affiliate_base": "https://www.romesnowboards.com/collections/sale",
-    },
-    {
-        "brand": "K2 Skis",
-        "category": "ski",
-        "urls": ["https://www.k2skis.com/en/sale", "https://www.k2skis.com/en/skis"],
-        "affiliate_base": "https://www.k2skis.com/en/sale",
-    },
-    {
-        "brand": "Line Skis",
-        "category": "ski",
-        "urls": ["https://www.lineskis.com/collections/sale"],
-        "affiliate_base": "https://www.lineskis.com/collections/sale",
-    },
-    {
-        "brand": "Armada Skis",
-        "category": "ski",
-        "urls": ["https://www.armadaskis.com/collections/sale"],
-        "affiliate_base": "https://www.armadaskis.com/collections/sale",
-    },
-    {
-        "brand": "Völkl",
-        "category": "ski",
-        "urls": ["https://www.volkl.com/en-us/sale"],
-        "affiliate_base": "https://www.volkl.com/en-us/sale",
-    },
+    # ── SHOPIFY BRANDS (Shopify JSON API — reliable, never blocked) ────────
+    {"brand":"Burton",           "category":"outerwear",   "type":"shopify", "shopify_domain":"www.burton.com",             "collection":"sale",              "affiliate_base":"https://www.burton.com/us/en/c/mens-sale"},
+    {"brand":"Jones Snowboards", "category":"snowboard",   "type":"shopify", "shopify_domain":"www.jonessnowboards.com",    "collection":"sale",              "affiliate_base":"https://www.jonessnowboards.com/collections/sale"},
+    {"brand":"Capita",           "category":"snowboard",   "type":"shopify", "shopify_domain":"www.capitasnowboarding.com", "collection":"on-sale",           "affiliate_base":"https://www.capitasnowboarding.com/collections/on-sale"},
+    {"brand":"Rome SDS",         "category":"bindings",    "type":"shopify", "shopify_domain":"www.romesnowboards.com",     "collection":"on-sale",           "affiliate_base":"https://www.romesnowboards.com/collections/on-sale"},
+    {"brand":"Line Skis",        "category":"ski",         "type":"shopify", "shopify_domain":"www.lineskis.com",           "collection":"sale",              "affiliate_base":"https://www.lineskis.com/en-us/collections/sale"},
+    {"brand":"Armada Skis",      "category":"ski",         "type":"shopify", "shopify_domain":"www.armadaskis.com",         "collection":"sale",              "affiliate_base":"https://www.armadaskis.com/collections/sale"},
+    {"brand":"686",              "category":"outerwear",   "type":"shopify", "shopify_domain":"www.686.com",                "collection":"sale",              "affiliate_base":"https://www.686.com/collections/sale"},
+    {"brand":"Union Binding",    "category":"bindings",    "type":"shopify", "shopify_domain":"unionbindingco.com",         "collection":"sale",              "affiliate_base":"https://unionbindingco.com/collections/sale"},
+    {"brand":"Nidecker",         "category":"bindings",    "type":"shopify", "shopify_domain":"www.nidecker.com",           "collection":"sale",              "affiliate_base":"https://www.nidecker.com/en/sale"},
+    {"brand":"Dakine",           "category":"accessories", "type":"shopify", "shopify_domain":"www.dakine.com",             "collection":"sale",              "affiliate_base":"https://www.dakine.com/collections/sale"},
+    {"brand":"POC",              "category":"helmets",     "type":"shopify", "shopify_domain":"www.pocsports.com",          "collection":"ski-sale",          "affiliate_base":"https://www.pocsports.com/collections/ski-sale"},
+    {"brand":"Tactics",          "category":"snowboard",   "type":"shopify", "shopify_domain":"www.tactics.com",            "collection":"sale-snowboarding", "affiliate_base":"https://www.tactics.com/sale/snowboarding"},
+    {"brand":"Christy Sports",   "category":"ski",         "type":"shopify", "shopify_domain":"www.christysports.com",      "collection":"sale",              "affiliate_base":"https://www.christysports.com/sale/"},
 
-    # ── BOOTS ──────────────────────────────────────────────────────────────
-    {
-        "brand": "Salomon",
-        "category": "boots",
-        "urls": [
-            "https://www.salomon.com/en-us/sale/ski",
-            "https://www.salomon.com/en-us/sport/ski/ski-boots.html",
-        ],
-        "affiliate_base": "https://www.salomon.com/en-us/sale/ski",
-    },
-    {
-        "brand": "Nidecker",
-        "category": "bindings",
-        "urls": ["https://www.nidecker.com/en/sale"],
-        "affiliate_base": "https://www.nidecker.com/en/sale",
-    },
-
-    # ── BINDINGS ───────────────────────────────────────────────────────────
-    {
-        "brand": "Union Binding",
-        "category": "bindings",
-        "urls": ["https://www.unionbindingco.com/collections/sale"],
-        "affiliate_base": "https://www.unionbindingco.com/collections/sale",
-    },
-
-    # ── OUTERWEAR ──────────────────────────────────────────────────────────
-    {
-        "brand": "Patagonia",
-        "category": "outerwear",
-        "urls": ["https://www.patagonia.com/shop/sale/sport/skiing-snowboarding"],
-        "affiliate_base": "https://www.patagonia.com/shop/sale/sport/skiing-snowboarding",
-    },
-    {
-        "brand": "686",
-        "category": "outerwear",
-        "urls": ["https://www.686.com/collections/sale"],
-        "affiliate_base": "https://www.686.com/collections/sale",
-    },
-
-    # ── HELMETS & GOGGLES ──────────────────────────────────────────────────
-    {
-        "brand": "POC",
-        "category": "helmets",
-        "urls": ["https://www.pocsports.com/collections/ski-sale"],
-        "affiliate_base": "https://www.pocsports.com/collections/ski-sale",
-    },
-    {
-        "brand": "Smith Optics",
-        "category": "goggles",
-        "urls": ["https://www.smithoptics.com/en_US/sale/"],
-        "affiliate_base": "https://www.smithoptics.com/en_US/sale/",
-    },
-    {
-        "brand": "Oakley",
-        "category": "goggles",
-        "urls": ["https://www.oakley.com/en-us/category/snow?prefn1=isOnSale&prefv1=true"],
-        "affiliate_base": "https://www.oakley.com/en-us/category/snow",
-    },
-
-    # ── ACCESSORIES ────────────────────────────────────────────────────────
-    {
-        "brand": "Dakine",
-        "category": "accessories",
-        "urls": ["https://www.dakine.com/collections/sale"],
-        "affiliate_base": "https://www.dakine.com/collections/sale",
-    },
-
-    # ── RETAILERS ──────────────────────────────────────────────────────────
-    {
-        "brand": "REI",
-        "category": "accessories",
-        "urls": [
-            "https://www.rei.com/c/ski-gear?origin=web&sort=percentOff%7Cdesc",
-            "https://www.rei.com/c/snowboarding?origin=web&sort=percentOff%7Cdesc",
-        ],
-        "affiliate_base": "https://www.rei.com/c/ski-gear?sort=percentOff%7Cdesc",
-    },
-    {
-        "brand": "Evo",
-        "category": "ski",
-        "urls": ["https://www.evo.com/sale/ski"],
-        "affiliate_base": "https://www.evo.com/sale/ski",
-    },
-    {
-        "brand": "Backcountry",
-        "category": "ski",
-        "urls": ["https://www.backcountry.com/ski-sale"],
-        "affiliate_base": "https://www.backcountry.com/ski-sale",
-    },
+    # ── HTML BRANDS (requests + BeautifulSoup) ────────────────────────────
+    {"brand":"Salomon",    "category":"boots",       "type":"html", "urls":["https://www.salomon.com/en-us/sport/ski/outlet"],              "affiliate_base":"https://www.salomon.com/en-us/sport/ski/outlet"},
+    {"brand":"K2 Skis",    "category":"ski",         "type":"html", "urls":["https://www.k2snow.com/en-us/c/alpine-ski-sale"],              "affiliate_base":"https://www.k2snow.com/en-us/c/alpine-ski-sale"},
+    {"brand":"Volkl",      "category":"ski",         "type":"html", "urls":["https://www.volkl.com/en-us/sport/alpine/on-sale"],            "affiliate_base":"https://www.volkl.com/en-us/sport/alpine/on-sale"},
+    {"brand":"Oakley",     "category":"goggles",     "type":"html", "urls":["https://www.oakley.com/en-us/category/snow-goggles"],          "affiliate_base":"https://www.oakley.com/en-us/category/snow-goggles"},
+    {"brand":"Smith",      "category":"goggles",     "type":"html", "urls":["https://www.smithoptics.com/en-us/sale/"],                     "affiliate_base":"https://www.smithoptics.com/en-us/sale/"},
+    {"brand":"Patagonia",  "category":"outerwear",   "type":"html", "urls":["https://www.patagonia.com/shop/sale/sport/skiing-snowboarding"],"affiliate_base":"https://www.patagonia.com/shop/sale/sport/skiing-snowboarding"},
+    {"brand":"REI",        "category":"accessories", "type":"html", "urls":["https://www.rei.com/c/ski-gear"],                              "affiliate_base":"https://www.rei.com/c/ski-gear"},
+    {"brand":"Evo",        "category":"ski",         "type":"html", "urls":["https://www.evo.com/outlet/ski"],                              "affiliate_base":"https://www.evo.com/outlet/ski"},
+    {"brand":"Backcountry","category":"ski",         "type":"html", "urls":["https://www.backcountry.com/ski"],                             "affiliate_base":"https://www.backcountry.com/ski"},
 ]
 
-# ---------------------------------------------------------------------------
-# Signals — patterns that indicate a live deal
-# ---------------------------------------------------------------------------
+PROMO_RE    = re.compile(r'(?:use\s+(?:code|promo)\s*[:\-]?\s*|promo\s*code[:\s]+|enter\s+code\s*)([A-Z0-9]{4,20})\b', re.IGNORECASE)
+DISCOUNT_RE = re.compile(r'(?:up\s+to\s+)?(\d{1,3})\s*%\s*off|save\s+(\d{1,3})\s*%', re.IGNORECASE)
+CLEAR_SIGS  = ["clearance","end of season","last chance","final sale","closeout"]
+DROP_SIGS   = ["new drop","just dropped","preorder","pre-order","new arrival"]
+EMAIL_SIGS  = ["email exclusive","subscribers only","newsletter exclusive"]
+SALE_SIGS   = ["% off","on sale","outlet","sale","promo","savings","reduced"]
 
-# Promo code patterns (e.g. "Use code SHRED30", "Enter POWDER20 at checkout")
-PROMO_CODE_RE = re.compile(
-    r'\b(?:use\s+(?:code|promo|coupon)\s*[:\-]?\s*|code[:\s]+|promo[:\s]+|coupon[:\s]+)'
-    r'([A-Z0-9]{4,20})\b',
-    re.IGNORECASE
-)
-
-# Discount percentage patterns (e.g. "30% off", "Save 40%", "Up to 50% off")
-DISCOUNT_RE = re.compile(
-    r'(?:up\s+to\s+)?(\d{1,3})\s*%\s*off|save\s+(\d{1,3})\s*%',
-    re.IGNORECASE
-)
-
-# Deal-type signals
-CLEARANCE_SIGNALS = ["clearance", "end of season", "last chance", "while supplies last", "final sale"]
-DROP_SIGNALS = ["new drop", "just dropped", "now available", "preorder", "pre-order", "new arrival"]
-EMAIL_SIGNALS = ["email", "subscribe", "sign up", "newsletter", "exclusive offer"]
-SALE_SIGNALS = ["% off", "sale", "deal", "promo", "savings", "reduced", "markdown"]
-
-# ---------------------------------------------------------------------------
-# Deal dataclass
-# ---------------------------------------------------------------------------
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 @dataclass
 class Deal:
-    id: str                          # stable hash for deduplication
-    brand: str
-    category: str
-    deal_type: str                   # "active" | "clearance" | "drops" | "email"
-    description: str
-    discount: Optional[str]
-    code: Optional[str]
-    url: str                         # affiliate URL (or direct if not set)
-    source_url: str                  # page this was found on
-    hot: bool = False
-    pulse: bool = False              # True if first seen in this run
-    first_seen: str = ""
-    last_seen: str = ""
-
+    id: str; brand: str; category: str; deal_type: str; description: str
+    discount: Optional[str]; code: Optional[str]; url: str; source_url: str
+    hot: bool = False; pulse: bool = False; first_seen: str = ""; last_seen: str = ""
     def __post_init__(self):
         now = datetime.now(timezone.utc).isoformat()
-        if not self.first_seen:
-            self.first_seen = now
+        if not self.first_seen: self.first_seen = now
         self.last_seen = now
 
-# ---------------------------------------------------------------------------
-# HTTP helpers
-# ---------------------------------------------------------------------------
+def make_id(brand, desc):
+    return hashlib.md5(f"{brand.lower()}::{desc.lower()[:80]}".encode()).hexdigest()[:12]
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/122.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-}
-
-SESSION = requests.Session()
-SESSION.headers.update(HEADERS)
-
-
-def fetch(url: str) -> Optional[str]:
+def scrape_shopify(brand_cfg):
+    import requests
+    domain = brand_cfg["shopify_domain"]
+    collection = brand_cfg["collection"]
+    url = f"https://{domain}/collections/{collection}/products.json?limit=250"
     try:
-        from playwright.sync_api import sync_playwright
+        r = requests.get(url, headers=HEADERS, timeout=20)
+        r.raise_for_status()
+        data = r.json()
+    except Exception as e:
+        log.warning(f"    Shopify API failed: {e}")
+        return scrape_shopify_fallback(brand_cfg)
 
-# ---------------------------------------------------------------------------
-# Deal extraction
-# ---------------------------------------------------------------------------
+    products = data.get("products", [])
+    log.info(f"    Shopify API: {len(products)} products in collection")
+    if not products:
+        return scrape_shopify_fallback(brand_cfg)
 
-def extract_text_blocks(soup: BeautifulSoup) -> list[str]:
-    """
-    Pull meaningful text blocks from the page.
-    Focus on banners, headers, promo bars, sale sections.
-    """
-    blocks = []
+    sale_products = []
+    for p in products:
+        for v in p.get("variants", []):
+            cap = v.get("compare_at_price")
+            price = v.get("price")
+            if cap and price:
+                try:
+                    if float(cap) > float(price):
+                        sale_products.append(p); break
+                except (ValueError, TypeError): pass
 
-    # Priority selectors — banners, announcement bars, promo sections
-    priority_selectors = [
-        "[class*='banner']", "[class*='promo']", "[class*='announcement']",
-        "[class*='sale']", "[class*='offer']", "[class*='deal']",
-        "[class*='discount']", "[class*='promotion']", "[class*='alert']",
-        "[id*='banner']", "[id*='promo']", "[id*='sale']",
-        "header", "nav", ".site-header", "#shopify-section-announcement-bar",
-        # Shopify common patterns
-        ".announcement-bar", ".promo-bar", ".top-bar",
-    ]
+    if not sale_products:
+        sale_products = products[:5]
 
-    seen = set()
-    for sel in priority_selectors:
-        for el in soup.select(sel)[:10]:
-            t = el.get_text(" ", strip=True)
-            if t and t not in seen and len(t) > 8:
-                blocks.append(t)
-                seen.add(t)
+    log.info(f"    {len(sale_products)} sale products found")
 
-    # Also grab all visible text paragraphs / headings
-    for tag in soup.find_all(["h1", "h2", "h3", "p", "li", "span", "div"]):
-        t = tag.get_text(" ", strip=True)
-        if t and t not in seen and 8 < len(t) < 400:
-            blocks.append(t)
-            seen.add(t)
+    best_pct = 0
+    for p in sale_products:
+        for v in p.get("variants", []):
+            cap = v.get("compare_at_price")
+            price = v.get("price")
+            if cap and price:
+                try:
+                    cap_f, price_f = float(cap), float(price)
+                    if cap_f > 0:
+                        pct = round((cap_f - price_f) / cap_f * 100)
+                        if pct > best_pct: best_pct = pct
+                except (ValueError, TypeError): pass
 
-    return blocks
-
-
-def make_id(brand: str, description: str) -> str:
-    raw = f"{brand.lower()}::{description.lower()[:80]}"
-    return hashlib.md5(raw.encode()).hexdigest()[:12]
-
-
-def analyse_page(brand_cfg: dict, url: str, soup: BeautifulSoup) -> list[Deal]:
-    """Analyse a single page and return any deals found."""
-    found: list[Deal] = []
-    blocks = extract_text_blocks(soup)
-    full_text = " ".join(blocks).lower()
-
-    # Quick bail — does this page mention any sale signals at all?
-    if not any(s in full_text for s in SALE_SIGNALS + CLEARANCE_SIGNALS + DROP_SIGNALS):
-        log.info(f"    no signals found on {url}")
-        return found
-
-    # Determine deal type
-    if any(s in full_text for s in CLEARANCE_SIGNALS):
-        deal_type = "clearance"
-    elif any(s in full_text for s in DROP_SIGNALS):
-        deal_type = "drops"
-    elif any(s in full_text for s in EMAIL_SIGNALS) and "%" in full_text:
-        deal_type = "email"
+    discount = f"Up to {best_pct}% off" if best_pct >= 5 else "Sale"
+    titles = [p["title"] for p in sale_products[:3]]
+    if titles:
+        desc = f"{discount} — {', '.join(titles[:2])}" + (" + more" if len(sale_products) > 2 else "")
+        if len(desc) > 130: desc = desc[:127] + "..."
     else:
-        deal_type = "active"
+        desc = f"{brand_cfg['brand']} — {discount} on selected gear"
 
-    # Extract discount %
-    discount = None
-    dm = DISCOUNT_RE.search(full_text)
-    if dm:
-        pct = dm.group(1) or dm.group(2)
-        discount = f"{pct}% off"
-
-    # Extract promo code — search original-case blocks
-    code = None
-    for block in blocks:
-        cm = PROMO_CODE_RE.search(block)
-        if cm:
-            code = cm.group(1).upper()
-            break
-
-    # Build a short description from the most informative block
-    desc = ""
-    for block in blocks:
-        bl = block.lower()
-        if any(s in bl for s in SALE_SIGNALS + CLEARANCE_SIGNALS + DROP_SIGNALS):
-            # Clean it up
-            desc = re.sub(r'\s+', ' ', block).strip()
-            if len(desc) > 120:
-                desc = desc[:117] + "..."
-            break
-
-    if not desc:
-        desc = f"Sale detected on {brand_cfg['brand']} — visit site for details"
-
-    # Hot = big discount (30%+) or has a promo code
-    hot = bool(code) or (discount is not None and int(re.search(r'\d+', discount).group()) >= 30)
-
+    hot = best_pct >= 25
     deal = Deal(
-        id=make_id(brand_cfg["brand"], desc),
-        brand=brand_cfg["brand"],
+        id=make_id(brand_cfg["brand"], desc), brand=brand_cfg["brand"],
         category=brand_cfg["category"],
-        deal_type=deal_type,
-        description=desc,
-        discount=discount or ("Sale" if deal_type == "clearance" else None),
-        code=code,
-        url=brand_cfg.get("affiliate_base", url),
-        source_url=url,
-        hot=hot,
+        deal_type="clearance" if best_pct >= 40 else "active",
+        description=desc, discount=discount, code=None,
+        url=brand_cfg["affiliate_base"], source_url=url, hot=hot,
     )
-    found.append(deal)
-    log.info(f"    ✓ deal found: [{deal_type}] {discount or ''} {code or ''} — {desc[:60]}")
-    return found
+    log.info(f"    ✓ [{deal.deal_type}] {discount} — {desc[:55]}")
+    return [deal]
 
-# ---------------------------------------------------------------------------
-# Persistence — merge with previous run to preserve first_seen / pulse flags
-# ---------------------------------------------------------------------------
+def scrape_shopify_fallback(brand_cfg):
+    import requests
+    domain = brand_cfg["shopify_domain"]
+    collection = brand_cfg["collection"]
+    url = f"https://{domain}/collections/{collection}"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=20)
+        r.raise_for_status()
+        if len(r.text) > 1000:
+            desc = f"{brand_cfg['brand']} — sale items available now"
+            deal = Deal(
+                id=make_id(brand_cfg["brand"], desc), brand=brand_cfg["brand"],
+                category=brand_cfg["category"], deal_type="active",
+                description=desc, discount="Sale", code=None,
+                url=brand_cfg["affiliate_base"], source_url=url, hot=False,
+            )
+            log.info(f"    ✓ [active] sale page confirmed")
+            return [deal]
+    except Exception as e:
+        log.warning(f"    fallback also failed: {e}")
+    return []
+
+def scrape_html(brand_cfg):
+    import requests
+    from bs4 import BeautifulSoup
+    deals = []
+    for url in brand_cfg["urls"]:
+        log.info(f"  {url}")
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20, allow_redirects=True)
+            r.raise_for_status()
+            html = r.text
+        except Exception as e:
+            log.warning(f"    failed: {e}"); continue
+
+        soup = BeautifulSoup(html, "html.parser")
+        for t in soup(["script","style","noscript","svg"]): t.decompose()
+
+        blocks, seen = [], set()
+        for sel in ["[class*='banner']","[class*='promo']","[class*='announcement']",
+                    "[class*='sale']","[class*='offer']","[class*='deal']","[class*='discount']",
+                    "[class*='bar']","[class*='strip']","header"]:
+            try:
+                for el in soup.select(sel)[:6]:
+                    t = el.get_text(" ", strip=True)
+                    if t and t not in seen and 5 < len(t) < 600: blocks.append(t); seen.add(t)
+            except: continue
+        for tag in soup.find_all(["h1","h2","h3","p","li","span","div","a"]):
+            t = tag.get_text(" ", strip=True)
+            if t and t not in seen and 5 < len(t) < 500: blocks.append(t); seen.add(t)
+
+        full = " ".join(blocks).lower()
+        if not any(s in full for s in SALE_SIGS+CLEAR_SIGS+DROP_SIGS+EMAIL_SIGS):
+            log.info("    no signals"); continue
+
+        if any(s in full for s in EMAIL_SIGS): dtype = "email"
+        elif any(s in full for s in CLEAR_SIGS): dtype = "clearance"
+        elif any(s in full for s in DROP_SIGS): dtype = "drops"
+        else: dtype = "active"
+
+        discount, best = None, 0
+        for m in DISCOUNT_RE.finditer(full):
+            p = int(next((x for x in m.groups() if x), 0))
+            if p > best and p <= 90: best, discount = p, f"{p}% off"
+
+        code, skip = None, {"FREE","SALE","SAVE","DEAL","CODE","HERE","THIS","YOUR","SHOP","MORE","VIEW","PLUS"}
+        for block in blocks:
+            m = PROMO_RE.search(block)
+            if m:
+                c = m.group(1).upper()
+                if c not in skip and 4 <= len(c) <= 20: code = c; break
+
+        desc = next((re.sub(r'\s+',' ',b).strip()[:130] for b in blocks
+                     if any(s in b.lower() for s in ["% off","sale","outlet","clearance","promo"]) and len(b)>15),
+                    f"{brand_cfg['brand']} — {discount or 'sale'} on select products.")
+        hot = bool(code) or best >= 25
+        d = Deal(id=make_id(brand_cfg["brand"],desc), brand=brand_cfg["brand"],
+                 category=brand_cfg["category"], deal_type=dtype, description=desc,
+                 discount=discount or "Sale", code=code,
+                 url=brand_cfg.get("affiliate_base",url), source_url=url, hot=hot)
+        log.info(f"    ✓ [{dtype}] {discount or 'sale'} {('code:'+code) if code else ''} — {desc[:55]}")
+        deals.append(d)
+        time.sleep(1.5)
+    return deals
 
 OUTPUT_PATH = Path(__file__).parent.parent / "deals.json"
 
-
-def load_previous() -> dict[str, dict]:
-    """Load previously saved deals keyed by id."""
+def load_previous():
     if OUTPUT_PATH.exists():
-        try:
-            data = json.loads(OUTPUT_PATH.read_text())
-            return {d["id"]: d for d in data.get("deals", [])}
-        except Exception:
-            pass
+        try: return {d["id"]: d for d in json.loads(OUTPUT_PATH.read_text()).get("deals",[])}
+        except: pass
     return {}
 
-
-def save(deals: list[Deal], previous: dict[str, dict]):
-    """Merge with previous run and write deals.json."""
+def save(deals, previous):
     now = datetime.now(timezone.utc).isoformat()
     merged = []
-
-    current_ids = {d.id for d in deals}
-
     for deal in deals:
         d = asdict(deal)
-        if deal.id in previous:
-            # Preserve original first_seen, clear pulse flag
-            d["first_seen"] = previous[deal.id]["first_seen"]
-            d["pulse"] = False
-        else:
-            # Brand new deal — mark as pulse
-            d["pulse"] = True
-            log.info(f"  ★ NEW deal: {deal.brand} — {deal.description[:50]}")
+        if deal.id in previous: d["first_seen"]=previous[deal.id]["first_seen"]; d["pulse"]=False
+        else: d["pulse"]=True; log.info(f"  NEW: {deal.brand} — {deal.description[:50]}")
         merged.append(d)
-
-    # Sort: pulse first, then hot, then by brand
-    merged.sort(key=lambda d: (not d["pulse"], not d["hot"], d["brand"]))
-
-    output = {
-        "generated_at": now,
-        "deal_count": len(merged),
-        "brands_scanned": len(BRANDS),
-        "deals": merged,
-    }
-
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(output, indent=2))
+    merged.sort(key=lambda d:(not d["pulse"],not d["hot"],d["brand"]))
+    OUTPUT_PATH.parent.mkdir(parents=True,exist_ok=True)
+    OUTPUT_PATH.write_text(json.dumps({"generated_at":now,"deal_count":len(merged),"brands_scanned":len(BRANDS),"deals":merged},indent=2))
     log.info(f"\n✓ Wrote {len(merged)} deals → {OUTPUT_PATH}")
 
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
-
 def run():
-    log.info("=" * 60)
+    log.info("="*60)
     log.info("POWDER STASH — scraper starting")
-    log.info(f"Scanning {len(BRANDS)} brands across {sum(len(b['urls']) for b in BRANDS)} URLs")
-    log.info("=" * 60)
-
+    log.info(f"{sum(1 for b in BRANDS if b['type']=='shopify')} Shopify brands, {sum(1 for b in BRANDS if b['type']=='html')} HTML brands")
+    log.info("="*60)
     previous = load_previous()
-    all_deals: list[Deal] = []
-
-    for brand_cfg in BRANDS:
-        log.info(f"\n→ {brand_cfg['brand']}")
-        for url in brand_cfg["urls"]:
-            log.info(f"  fetching {url}")
-            soup = fetch(url)
-            if soup is None:
-                continue
-            deals = analyse_page(brand_cfg, url, soup)
-            all_deals.extend(deals)
-            time.sleep(1.5)   # be polite — 1.5s between requests
-
-    # Deduplicate by id (same brand may appear across multiple URLs)
-    seen_ids: set[str] = set()
-    unique_deals: list[Deal] = []
-    for d in all_deals:
-        if d.id not in seen_ids:
-            seen_ids.add(d.id)
-            unique_deals.append(d)
-
-    log.info(f"\n{'='*60}")
-    log.info(f"Scan complete — {len(unique_deals)} unique deals found")
-    save(unique_deals, previous)
-
+    all_deals, seen_ids = [], set()
+    for b in BRANDS:
+        log.info(f"\n→ {b['brand']} [{b['type']}]")
+        deals = scrape_shopify(b) if b["type"] == "shopify" else scrape_html(b)
+        for d in deals:
+            if d.id not in seen_ids: seen_ids.add(d.id); all_deals.append(d)
+        time.sleep(1)
+    log.info(f"\nComplete — {len(all_deals)} deals found")
+    save(all_deals, previous)
 
 if __name__ == "__main__":
     run()
