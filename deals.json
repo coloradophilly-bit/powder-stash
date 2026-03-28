@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-03-28T16:06:38.694854+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-03-28T17:13:27.900490+00:00",
+  "deal_count": 11,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "cbccf365375b",
+      "id": "acff1ead12e1",
       "brand": "Jones Snowboards",
       "category": "snowboard",
       "deal_type": "active",
-      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
+      "description": "Jones Snowboards \u2014 sale items available. Visit site for details.",
       "discount": "Sale",
       "code": null,
       "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "source_url": "https://www.jonessnowboards.com/collections/sale",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-03-28T16:06:11.956086+00:00",
-      "last_seen": "2026-03-28T16:06:11.956086+00:00"
+      "first_seen": "2026-03-28T17:12:58.893576+00:00",
+      "last_seen": "2026-03-28T17:12:58.893576+00:00"
     },
     {
-      "id": "f815bb5d241a",
+      "id": "b011b939e140",
       "brand": "Outdoor Research",
       "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Aspire 3L Trench, Men's Foray 3L Rain Jacket + 192 more",
-      "discount": "Up to 60% off",
+      "deal_type": "active",
+      "description": "Outdoor Research \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
-      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-03-28T11:11:22.720329+00:00",
-      "last_seen": "2026-03-28T16:06:22.001013+00:00"
+      "source_url": "https://www.outdoorresearch.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-03-28T17:13:12.649462+00:00",
+      "last_seen": "2026-03-28T17:13:12.649462+00:00"
     },
     {
       "id": "d9dccffcc5fe",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-03-28T11:11:32.003286+00:00",
-      "last_seen": "2026-03-28T16:06:32.219880+00:00"
+      "last_seen": "2026-03-28T17:13:21.231914+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-03-28T16:06:36.076625+00:00"
+      "last_seen": "2026-03-28T17:13:25.100297+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-03-28T16:06:31.410844+00:00"
+      "last_seen": "2026-03-28T17:13:20.002093+00:00"
     },
     {
       "id": "9411a046d631",
@@ -91,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-28T10:03:03.184586+00:00",
-      "last_seen": "2026-03-28T16:06:14.915318+00:00"
-    },
-    {
-      "id": "4695b262aa80",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Offgrid Merino Fleece 1/2 Zip Long Sleeve - Toffee | Men's Mid Layer, Yonder Merino Organic Cotton Long Sleeve - Frost |...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-03-28T11:11:23.773249+00:00",
-      "last_seen": "2026-03-28T16:06:22.882673+00:00"
+      "last_seen": "2026-03-28T17:13:02.616105+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-28T10:03:00.482978+00:00",
-      "last_seen": "2026-03-28T16:06:12.684106+00:00"
+      "last_seen": "2026-03-28T17:12:59.615977+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-27T20:12:23.711171+00:00",
-      "last_seen": "2026-03-28T16:06:17.461546+00:00"
+      "last_seen": "2026-03-28T17:13:05.523497+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-03-28T16:06:34.119893+00:00"
+      "last_seen": "2026-03-28T17:13:23.149038+00:00"
     },
     {
       "id": "b5fff3b23eb2",
@@ -166,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:45:01.741436+00:00",
-      "last_seen": "2026-03-28T16:06:23.762426+00:00"
+      "last_seen": "2026-03-28T17:13:14.280706+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-03-28T16:06:30.400352+00:00"
+      "last_seen": "2026-03-28T17:13:19.006935+00:00"
     }
   ]
 }
