@@ -1,22 +1,52 @@
 {
-  "generated_at": "2026-03-28T08:05:57.528017+00:00",
+  "generated_at": "2026-03-28T10:03:26.873219+00:00",
   "deal_count": 10,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "f815bb5d241a",
-      "brand": "Outdoor Research",
-      "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Aspire 3L Trench, Men's Foray 3L Rain Jacket + 192 more",
-      "discount": "Up to 60% off",
+      "id": "9411a046d631",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
+      "discount": "Sale",
       "code": null,
-      "url": "https://www.outdoorresearch.com/collections/sale",
-      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-03-26T14:44:46.022431+00:00",
-      "last_seen": "2026-03-28T08:05:37.728453+00:00"
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-03-28T10:03:03.184586+00:00",
+      "last_seen": "2026-03-28T10:03:03.184586+00:00"
+    },
+    {
+      "id": "063f25cdf48e",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Mons Royale \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-03-28T10:03:13.575820+00:00",
+      "last_seen": "2026-03-28T10:03:13.575820+00:00"
+    },
+    {
+      "id": "960c3f07f2db",
+      "brand": "Nidecker",
+      "category": "bindings",
+      "deal_type": "active",
+      "description": "Sale \u2014 Kita Women, The Gun + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.nidecker.com/en/sale",
+      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-03-28T10:03:00.482978+00:00",
+      "last_seen": "2026-03-28T10:03:00.482978+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -31,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-03-28T08:05:54.273379+00:00"
+      "last_seen": "2026-03-28T10:03:24.494628+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -46,22 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-03-28T08:05:50.685741+00:00"
-    },
-    {
-      "id": "9bf5005254ea",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, No Zone Hat + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-03-27T06:00:04.252661+00:00",
-      "last_seen": "2026-03-28T08:05:28.443358+00:00"
+      "last_seen": "2026-03-28T10:03:21.269199+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -76,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:28.156572+00:00",
-      "last_seen": "2026-03-28T08:05:25.424106+00:00"
-    },
-    {
-      "id": "4695b262aa80",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Offgrid Merino Fleece 1/2 Zip Long Sleeve - Toffee | Men's Mid Layer, Yonder Merino Organic Cotton Long Sleeve - Frost |...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-03-26T14:44:53.603482+00:00",
-      "last_seen": "2026-03-28T08:05:39.080079+00:00"
+      "last_seen": "2026-03-28T10:02:58.978393+00:00"
     },
     {
       "id": "602afd76335e",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-27T20:12:23.711171+00:00",
-      "last_seen": "2026-03-28T08:05:32.554710+00:00"
+      "last_seen": "2026-03-28T10:03:06.419065+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-03-28T08:05:52.329484+00:00"
+      "last_seen": "2026-03-28T10:03:22.702462+00:00"
     },
     {
       "id": "b5fff3b23eb2",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:45:01.741436+00:00",
-      "last_seen": "2026-03-28T08:05:40.044868+00:00"
+      "last_seen": "2026-03-28T10:03:14.386529+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-03-28T08:05:49.467489+00:00"
+      "last_seen": "2026-03-28T10:03:20.423950+00:00"
     }
   ]
 }
