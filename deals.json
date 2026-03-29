@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-03-29T12:03:39.212723+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-03-29T14:12:51.922943+00:00",
+  "deal_count": 11,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "ea17f6031bdb",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Dakine \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-03-29T14:12:15.408288+00:00",
+      "last_seen": "2026-03-29T14:12:15.408288+00:00"
+    },
     {
       "id": "f815bb5d241a",
       "brand": "Outdoor Research",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-03-28T19:53:54.105057+00:00",
-      "last_seen": "2026-03-29T12:03:24.449668+00:00"
+      "last_seen": "2026-03-29T14:12:23.408647+00:00"
     },
     {
       "id": "d9dccffcc5fe",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-03-28T11:11:32.003286+00:00",
-      "last_seen": "2026-03-29T12:03:33.367936+00:00"
+      "last_seen": "2026-03-29T14:12:45.006102+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-03-29T12:03:36.883420+00:00"
+      "last_seen": "2026-03-29T14:12:49.218386+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,22 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-03-29T12:03:32.574655+00:00"
-    },
-    {
-      "id": "9411a046d631",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-03-29T08:10:32.495105+00:00",
-      "last_seen": "2026-03-29T12:03:18.792957+00:00"
+      "last_seen": "2026-03-29T14:12:43.070662+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -91,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-28T19:53:44.781639+00:00",
-      "last_seen": "2026-03-29T12:03:15.377325+00:00"
-    },
-    {
-      "id": "4695b262aa80",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Offgrid Merino Fleece 1/2 Zip Long Sleeve - Toffee | Men's Mid Layer, Yonder Merino Organic Cotton Long Sleeve - Frost |...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-03-28T19:53:55.118473+00:00",
-      "last_seen": "2026-03-29T12:03:25.223555+00:00"
+      "last_seen": "2026-03-29T14:12:11.772002+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-28T10:03:00.482978+00:00",
-      "last_seen": "2026-03-29T12:03:16.167948+00:00"
+      "last_seen": "2026-03-29T14:12:12.590529+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-27T20:12:23.711171+00:00",
-      "last_seen": "2026-03-29T12:03:20.643901+00:00"
+      "last_seen": "2026-03-29T14:12:19.321054+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-03-29T12:03:35.037091+00:00"
+      "last_seen": "2026-03-29T14:12:47.209889+00:00"
     },
     {
       "id": "b5fff3b23eb2",
@@ -166,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:45:01.741436+00:00",
-      "last_seen": "2026-03-29T12:03:25.964788+00:00"
+      "last_seen": "2026-03-29T14:12:34.296549+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-03-29T12:03:31.629051+00:00"
+      "last_seen": "2026-03-29T14:12:41.944045+00:00"
     }
   ]
 }
