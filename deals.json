@@ -1,53 +1,8 @@
 {
-  "generated_at": "2026-03-30T15:02:51.252694+00:00",
+  "generated_at": "2026-03-30T18:14:26.806809+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "cbccf365375b",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-03-30T15:02:26.612213+00:00",
-      "last_seen": "2026-03-30T15:02:26.612213+00:00"
-    },
-    {
-      "id": "960c3f07f2db",
-      "brand": "Nidecker",
-      "category": "bindings",
-      "deal_type": "active",
-      "description": "Sale \u2014 Kita Women, The Gun + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.nidecker.com/en/sale",
-      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-03-30T15:02:27.411312+00:00"
-    },
-    {
-      "id": "e489073f221f",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "drops",
-      "description": "Smith Optics Sale",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-03-30T15:02:45.105800+00:00"
-    },
     {
       "id": "f815bb5d241a",
       "brand": "Outdoor Research",
@@ -61,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-03-28T19:53:54.105057+00:00",
-      "last_seen": "2026-03-30T15:02:34.687547+00:00"
+      "last_seen": "2026-03-30T18:14:10.069616+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -76,7 +31,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-03-30T15:02:48.802526+00:00"
+      "last_seen": "2026-03-30T18:14:24.175753+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-03-30T15:02:44.321646+00:00"
+      "last_seen": "2026-03-30T18:14:19.173155+00:00"
     },
     {
       "id": "56e0ccca0608",
@@ -106,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T16:10:59.214049+00:00",
-      "last_seen": "2026-03-30T15:02:29.141230+00:00"
+      "last_seen": "2026-03-30T18:14:01.409139+00:00"
+    },
+    {
+      "id": "cbccf365375b",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-03-30T15:02:26.612213+00:00",
+      "last_seen": "2026-03-30T18:13:58.390836+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +91,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-03-30T15:02:35.693263+00:00"
+      "last_seen": "2026-03-30T18:14:10.998007+00:00"
+    },
+    {
+      "id": "960c3f07f2db",
+      "brand": "Nidecker",
+      "category": "bindings",
+      "deal_type": "active",
+      "description": "Sale \u2014 Kita Women, The Gun + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.nidecker.com/en/sale",
+      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-03-30T15:02:27.411312+00:00",
+      "last_seen": "2026-03-30T18:13:59.111408+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-27T20:12:23.711171+00:00",
-      "last_seen": "2026-03-30T15:02:31.218863+00:00"
+      "last_seen": "2026-03-30T18:14:04.183218+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-03-30T15:02:46.829264+00:00"
+      "last_seen": "2026-03-30T18:14:22.276345+00:00"
     },
     {
       "id": "b5fff3b23eb2",
@@ -166,7 +151,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:45:01.741436+00:00",
-      "last_seen": "2026-03-30T15:02:36.562029+00:00"
+      "last_seen": "2026-03-30T18:14:11.913842+00:00"
+    },
+    {
+      "id": "e489073f221f",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "drops",
+      "description": "Smith Optics Sale",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-03-30T15:02:45.105800+00:00",
+      "last_seen": "2026-03-30T18:14:20.534474+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-03-30T15:02:43.224233+00:00"
+      "last_seen": "2026-03-30T18:14:18.229009+00:00"
     }
   ]
 }
