@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-12T17:11:54.254811+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-04-12T20:03:12.399445+00:00",
+  "deal_count": 11,
   "brands_scanned": 49,
   "deals": [
     {
@@ -16,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-04-11T05:26:26.289371+00:00",
-      "last_seen": "2026-04-12T17:11:37.587984+00:00"
+      "last_seen": "2026-04-12T20:02:54.639210+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -31,7 +31,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-04-12T17:11:51.916771+00:00"
+      "last_seen": "2026-04-12T20:03:09.817880+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -46,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-04-12T17:11:47.308800+00:00"
+      "last_seen": "2026-04-12T20:03:04.732951+00:00"
     },
     {
       "id": "56e0ccca0608",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-12T06:18:49.548264+00:00",
-      "last_seen": "2026-04-12T17:11:31.274805+00:00"
+      "last_seen": "2026-04-12T20:02:04.460296+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:26.612213+00:00",
-      "last_seen": "2026-04-12T17:11:28.797155+00:00"
+      "last_seen": "2026-04-12T20:02:01.325324+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-04-12T17:11:38.500326+00:00"
+      "last_seen": "2026-04-12T20:02:55.467278+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -106,22 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-04-12T17:11:29.567167+00:00"
-    },
-    {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
-      "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-04-10T17:45:31.365521+00:00",
-      "last_seen": "2026-04-12T17:11:33.455582+00:00"
+      "last_seen": "2026-04-12T20:02:02.245049+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-04-12T17:11:50.033311+00:00"
+      "last_seen": "2026-04-12T20:03:07.746834+00:00"
     },
     {
       "id": "b5fff3b23eb2",
@@ -151,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:45:01.741436+00:00",
-      "last_seen": "2026-04-12T17:11:39.144793+00:00"
+      "last_seen": "2026-04-12T20:02:56.520919+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-04-12T17:11:48.268065+00:00"
+      "last_seen": "2026-04-12T20:03:05.660921+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-04-12T17:11:46.482907+00:00"
+      "last_seen": "2026-04-12T20:03:03.687519+00:00"
     }
   ]
 }
