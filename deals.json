@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-04-13T12:04:54.042674+00:00",
+  "generated_at": "2026-04-13T16:48:22.029552+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "9411a046d631",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-04-13T12:04:30.261898+00:00",
-      "last_seen": "2026-04-13T12:04:30.261898+00:00"
-    },
     {
       "id": "8144c47200d0",
       "brand": "Outdoor Research",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-04-11T05:26:26.289371+00:00",
-      "last_seen": "2026-04-13T12:04:36.387099+00:00"
+      "last_seen": "2026-04-13T16:48:04.565806+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +31,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-04-13T12:04:51.630406+00:00"
+      "last_seen": "2026-04-13T16:48:19.440924+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +46,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-04-13T12:04:46.982611+00:00"
+      "last_seen": "2026-04-13T16:48:14.722141+00:00"
+    },
+    {
+      "id": "9411a046d631",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-04-13T12:04:30.261898+00:00",
+      "last_seen": "2026-04-13T16:47:57.792462+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:26.612213+00:00",
-      "last_seen": "2026-04-13T12:04:27.759349+00:00"
+      "last_seen": "2026-04-13T16:47:54.807679+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-04-13T12:04:37.111951+00:00"
+      "last_seen": "2026-04-13T16:48:05.535610+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-04-13T12:04:28.508513+00:00"
+      "last_seen": "2026-04-13T16:47:55.709824+00:00"
     },
     {
       "id": "602afd76335e",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-12T21:59:49.501503+00:00",
-      "last_seen": "2026-04-13T12:04:32.547311+00:00"
+      "last_seen": "2026-04-13T16:47:59.715057+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-04-13T12:04:49.720218+00:00"
+      "last_seen": "2026-04-13T16:48:17.499466+00:00"
     },
     {
       "id": "b5fff3b23eb2",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:45:01.741436+00:00",
-      "last_seen": "2026-04-13T12:04:37.923923+00:00"
+      "last_seen": "2026-04-13T16:48:06.213275+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-04-13T12:04:48.082808+00:00"
+      "last_seen": "2026-04-13T16:48:15.750587+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-04-13T12:04:45.343200+00:00"
+      "last_seen": "2026-04-13T16:48:13.806623+00:00"
     }
   ]
 }
