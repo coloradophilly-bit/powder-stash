@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-17T17:44:43.687451+00:00",
+  "generated_at": "2026-04-17T20:17:12.746744+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "f25aa1caf021",
+      "id": "f6797fb167fb",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Men's Foray 3L Rain Jacket, Women's SuperStrand XT Hoodie + 189 more",
+      "description": "Up to 60% off \u2014 Men's Foray 3L Rain Jacket, Women's Limited Edition Echo Hoodie + 181 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
       "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
       "hot": true,
-      "pulse": false,
-      "first_seen": "2026-04-16T07:17:50.051752+00:00",
-      "last_seen": "2026-04-17T17:44:25.979523+00:00"
+      "pulse": true,
+      "first_seen": "2026-04-17T20:16:56.417643+00:00",
+      "last_seen": "2026-04-17T20:16:56.417643+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -31,7 +31,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-04-17T17:44:41.267212+00:00"
+      "last_seen": "2026-04-17T20:17:10.345692+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -46,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-04-17T17:44:35.643356+00:00"
+      "last_seen": "2026-04-17T20:17:06.000571+00:00"
     },
     {
       "id": "9411a046d631",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-17T06:31:19.056128+00:00",
-      "last_seen": "2026-04-17T17:44:19.271792+00:00"
+      "last_seen": "2026-04-17T20:16:49.592333+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-16T11:47:36.668207+00:00",
-      "last_seen": "2026-04-17T17:44:16.557687+00:00"
+      "last_seen": "2026-04-17T20:16:46.535400+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-04-17T17:44:27.261357+00:00"
+      "last_seen": "2026-04-17T20:16:57.427968+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-04-17T17:44:17.424980+00:00"
+      "last_seen": "2026-04-17T20:16:47.282943+00:00"
     },
     {
       "id": "602afd76335e",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-17T14:51:14.544018+00:00",
-      "last_seen": "2026-04-17T17:44:21.562962+00:00"
+      "last_seen": "2026-04-17T20:16:51.924137+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-04-17T17:44:39.249618+00:00"
+      "last_seen": "2026-04-17T20:17:08.497332+00:00"
     },
     {
       "id": "b5fff3b23eb2",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:45:01.741436+00:00",
-      "last_seen": "2026-04-17T17:44:28.306147+00:00"
+      "last_seen": "2026-04-17T20:16:58.548843+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-04-17T17:44:36.445860+00:00"
+      "last_seen": "2026-04-17T20:17:06.845767+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-04-17T17:44:34.582206+00:00"
+      "last_seen": "2026-04-17T20:17:04.679708+00:00"
     }
   ]
 }
