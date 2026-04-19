@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-18T22:00:19.054512+00:00",
+  "generated_at": "2026-04-19T00:02:10.622644+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "9bf5005254ea",
+      "id": "9411a046d631",
       "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, No Zone Hat + 3 more",
+      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-04-18T21:59:50.836181+00:00",
-      "last_seen": "2026-04-18T21:59:50.836181+00:00"
+      "first_seen": "2026-04-19T00:01:44.278909+00:00",
+      "last_seen": "2026-04-19T00:01:44.278909+00:00"
     },
     {
       "id": "f6797fb167fb",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-04-17T20:16:56.417643+00:00",
-      "last_seen": "2026-04-18T21:59:58.923076+00:00"
+      "last_seen": "2026-04-19T00:01:51.701959+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-04-18T22:00:16.081146+00:00"
+      "last_seen": "2026-04-19T00:02:07.279623+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-04-18T22:00:11.369518+00:00"
+      "last_seen": "2026-04-19T00:02:01.785811+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-18T11:17:07.536170+00:00",
-      "last_seen": "2026-04-18T21:59:47.030045+00:00"
+      "last_seen": "2026-04-19T00:01:41.577600+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-04-18T21:59:59.979129+00:00"
+      "last_seen": "2026-04-19T00:01:52.864118+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-04-18T21:59:48.019183+00:00"
+      "last_seen": "2026-04-19T00:01:42.286790+00:00"
     },
     {
       "id": "602afd76335e",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-18T14:32:41.133201+00:00",
-      "last_seen": "2026-04-18T21:59:53.826387+00:00"
+      "last_seen": "2026-04-19T00:01:47.118975+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-04-18T22:00:14.138538+00:00"
+      "last_seen": "2026-04-19T00:02:05.143140+00:00"
     },
     {
       "id": "b5fff3b23eb2",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:45:01.741436+00:00",
-      "last_seen": "2026-04-18T22:00:00.752461+00:00"
+      "last_seen": "2026-04-19T00:01:53.683209+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-04-18T22:00:12.401662+00:00"
+      "last_seen": "2026-04-19T00:02:02.962707+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-04-18T22:00:10.242702+00:00"
+      "last_seen": "2026-04-19T00:02:00.699323+00:00"
     }
   ]
 }
