@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T15:55:50.023414+00:00",
+  "generated_at": "2026-04-27T17:29:41.921826+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
@@ -8,7 +8,7 @@
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Men's Foray 3L Rain Jacket, Women's Limited Edition Echo Hoodie + 174 more",
+      "description": "Up to 60% off \u2014 Men's Foray 3L Rain Jacket, Women's Limited Edition Echo Hoodie + 167 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -16,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-04-17T20:16:56.417643+00:00",
-      "last_seen": "2026-04-27T15:55:32.565180+00:00"
+      "last_seen": "2026-04-27T17:29:23.057248+00:00"
     },
     {
       "id": "72acce885779",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-04-23T11:05:40.927814+00:00",
-      "last_seen": "2026-04-27T15:55:34.954081+00:00"
+      "last_seen": "2026-04-27T17:29:25.412851+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-04-27T15:55:47.635139+00:00"
+      "last_seen": "2026-04-27T17:29:39.412824+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-04-27T15:55:43.061389+00:00"
+      "last_seen": "2026-04-27T17:29:34.351615+00:00"
     },
     {
       "id": "5d490ac89aee",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-27T06:01:36.432812+00:00",
-      "last_seen": "2026-04-27T15:55:25.766108+00:00"
+      "last_seen": "2026-04-27T17:29:16.128422+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-21T11:02:02.931006+00:00",
-      "last_seen": "2026-04-27T15:55:23.173725+00:00"
+      "last_seen": "2026-04-27T17:29:13.285154+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-04-27T15:55:33.651651+00:00"
+      "last_seen": "2026-04-27T17:29:23.814312+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-04-27T15:55:23.832969+00:00"
+      "last_seen": "2026-04-27T17:29:14.081705+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-26T10:51:37.237863+00:00",
-      "last_seen": "2026-04-27T15:55:28.282413+00:00"
+      "last_seen": "2026-04-27T17:29:18.243032+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-04-27T15:55:45.782645+00:00"
+      "last_seen": "2026-04-27T17:29:37.338988+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-04-27T15:55:44.101720+00:00"
+      "last_seen": "2026-04-27T17:29:35.245187+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-04-27T15:55:41.849811+00:00"
+      "last_seen": "2026-04-27T17:29:33.254631+00:00"
     }
   ]
 }
