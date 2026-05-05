@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T22:08:06.464803+00:00",
+  "generated_at": "2026-05-05T00:01:24.153233+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
@@ -16,14 +16,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-01T22:00:31.196667+00:00",
-      "last_seen": "2026-05-04T22:07:48.721061+00:00"
+      "last_seen": "2026-05-05T00:01:06.051035+00:00"
     },
     {
       "id": "1902e3f18381",
       "brand": "Smartwool",
       "category": "accessories",
       "deal_type": "clearance",
-      "description": "Up to 57% off \u2014 Women's Everyday Margarita Crew Socks, Everyday Spruce Street Crew Socks + 88 more",
+      "description": "Up to 57% off \u2014 Women's Everyday Margarita Crew Socks, Everyday Spruce Street Crew Socks + 92 more",
       "discount": "Up to 57% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-04-30T19:28:38.694134+00:00",
-      "last_seen": "2026-05-04T22:07:50.879298+00:00"
+      "last_seen": "2026-05-05T00:01:08.879598+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-05-04T22:08:04.196998+00:00"
+      "last_seen": "2026-05-05T00:01:21.793512+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-05-04T22:07:59.207503+00:00"
+      "last_seen": "2026-05-05T00:01:16.992478+00:00"
     },
     {
       "id": "56e0ccca0608",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-01T06:43:16.529807+00:00",
-      "last_seen": "2026-05-04T22:07:42.393592+00:00"
+      "last_seen": "2026-05-05T00:00:58.291197+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T11:51:53.573622+00:00",
-      "last_seen": "2026-05-04T22:07:39.434060+00:00"
+      "last_seen": "2026-05-05T00:00:55.075806+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-05-04T22:07:49.559969+00:00"
+      "last_seen": "2026-05-05T00:01:07.114187+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-05-04T22:07:40.195422+00:00"
+      "last_seen": "2026-05-05T00:00:56.165421+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-05-04T22:07:44.616259+00:00"
+      "last_seen": "2026-05-05T00:01:01.312520+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-05-04T22:08:02.320153+00:00"
+      "last_seen": "2026-05-05T00:01:19.807742+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-05-04T22:08:00.304606+00:00"
+      "last_seen": "2026-05-05T00:01:17.837645+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-05-04T22:07:58.146274+00:00"
+      "last_seen": "2026-05-05T00:01:15.848436+00:00"
     }
   ]
 }
