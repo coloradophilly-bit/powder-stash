@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-05-06T06:05:22.466203+00:00",
+  "generated_at": "2026-05-06T08:41:58.511382+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "e5ce6019ea87",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Covert Bike Glove - Women's + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-05-06T06:04:57.470783+00:00",
-      "last_seen": "2026-05-06T06:04:57.470783+00:00"
-    },
     {
       "id": "95ebddf2eb98",
       "brand": "Outdoor Research",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-01T22:00:31.196667+00:00",
-      "last_seen": "2026-05-06T06:05:04.591471+00:00"
+      "last_seen": "2026-05-06T08:41:40.045399+00:00"
     },
     {
       "id": "1902e3f18381",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-04-30T19:28:38.694134+00:00",
-      "last_seen": "2026-05-06T06:05:06.782732+00:00"
+      "last_seen": "2026-05-06T08:41:42.181300+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -61,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-05-06T06:05:19.839602+00:00"
+      "last_seen": "2026-05-06T08:41:56.044085+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-05-06T06:05:15.213079+00:00"
+      "last_seen": "2026-05-06T08:41:51.054251+00:00"
+    },
+    {
+      "id": "e5ce6019ea87",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad DLX, Covert Bike Glove - Women's + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-05-06T06:04:57.470783+00:00",
+      "last_seen": "2026-05-06T08:41:33.281535+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T11:51:53.573622+00:00",
-      "last_seen": "2026-05-06T06:04:54.868056+00:00"
+      "last_seen": "2026-05-06T08:41:30.478678+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-05-06T06:05:05.521798+00:00"
+      "last_seen": "2026-05-06T08:41:40.930344+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-05-06T06:04:55.648140+00:00"
+      "last_seen": "2026-05-06T08:41:31.283308+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-05-06T06:05:00.037633+00:00"
+      "last_seen": "2026-05-06T08:41:35.725904+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-05-06T06:05:17.891289+00:00"
+      "last_seen": "2026-05-06T08:41:53.714998+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-05-06T06:05:16.051531+00:00"
+      "last_seen": "2026-05-06T08:41:51.881281+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-05-06T06:05:14.010555+00:00"
+      "last_seen": "2026-05-06T08:41:49.700286+00:00"
     }
   ]
 }
