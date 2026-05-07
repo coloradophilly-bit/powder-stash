@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-05-06T23:03:40.141817+00:00",
+  "generated_at": "2026-05-07T00:00:35.666050+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "7063486102cb",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Pickup Pad DLX Curve\u2122 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-05-06T23:03:15.481850+00:00",
-      "last_seen": "2026-05-06T23:03:15.481850+00:00"
-    },
     {
       "id": "95ebddf2eb98",
       "brand": "Outdoor Research",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-01T22:00:31.196667+00:00",
-      "last_seen": "2026-05-06T23:03:23.360170+00:00"
+      "last_seen": "2026-05-07T00:00:18.550425+00:00"
     },
     {
       "id": "1902e3f18381",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-04-30T19:28:38.694134+00:00",
-      "last_seen": "2026-05-06T23:03:25.622798+00:00"
+      "last_seen": "2026-05-07T00:00:20.940807+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -61,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-05-06T23:03:37.709407+00:00"
+      "last_seen": "2026-05-07T00:00:33.242959+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-05-06T23:03:33.233174+00:00"
+      "last_seen": "2026-05-07T00:00:28.468953+00:00"
+    },
+    {
+      "id": "7063486102cb",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad DLX, Pickup Pad DLX Curve\u2122 + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-05-06T23:03:15.481850+00:00",
+      "last_seen": "2026-05-07T00:00:11.702043+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T11:51:53.573622+00:00",
-      "last_seen": "2026-05-06T23:03:12.739905+00:00"
+      "last_seen": "2026-05-07T00:00:08.989670+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-05-06T23:03:24.384021+00:00"
+      "last_seen": "2026-05-07T00:00:19.490035+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-05-06T23:03:13.615689+00:00"
+      "last_seen": "2026-05-07T00:00:09.796580+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-05-06T23:03:19.511118+00:00"
+      "last_seen": "2026-05-07T00:00:14.552694+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-05-06T23:03:35.742149+00:00"
+      "last_seen": "2026-05-07T00:00:31.308020+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-05-06T23:03:34.027232+00:00"
+      "last_seen": "2026-05-07T00:00:29.563162+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-05-06T23:03:32.138737+00:00"
+      "last_seen": "2026-05-07T00:00:27.409147+00:00"
     }
   ]
 }
