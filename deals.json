@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-05-14T07:48:54.487658+00:00",
+  "generated_at": "2026-05-14T10:21:53.819604+00:00",
   "deal_count": 37,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "cbccf365375b",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-05-14T10:21:28.197047+00:00",
+      "last_seen": "2026-05-14T10:21:28.197047+00:00"
+    },
     {
       "id": "bfd3f418967f",
       "brand": "Armada Skis",
@@ -14,9 +29,9 @@
       "url": "https://www.evo.com/shop/sale/ski/armada",
       "source_url": "https://www.evo.com/shop/sale/ski/armada",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:42:11.559948+00:00",
-      "last_seen": "2026-05-14T07:42:11.559948+00:00"
+      "last_seen": "2026-05-14T10:14:58.247699+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -29,9 +44,9 @@
       "url": "https://www.evo.com/shop/sale/ski/atomic",
       "source_url": "https://www.evo.com/shop/sale/ski/atomic",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:41:09.169989+00:00",
-      "last_seen": "2026-05-14T07:41:09.169989+00:00"
+      "last_seen": "2026-05-14T10:13:53.236865+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -44,9 +59,9 @@
       "url": "https://www.evo.com/shop/sale/ski/blizzard",
       "source_url": "https://www.evo.com/shop/sale/ski/blizzard",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:42:43.126953+00:00",
-      "last_seen": "2026-05-14T07:42:43.126953+00:00"
+      "last_seen": "2026-05-14T10:15:30.364433+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -59,9 +74,9 @@
       "url": "https://www.evo.com/shop/sale/snowboard/burton",
       "source_url": "https://www.evo.com/shop/sale/snowboard/burton",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:45:05.334595+00:00",
-      "last_seen": "2026-05-14T07:45:05.334595+00:00"
+      "last_seen": "2026-05-14T10:17:55.239864+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -74,9 +89,9 @@
       "url": "https://www.evo.com/shop/sale/snowboard/capita",
       "source_url": "https://www.evo.com/shop/sale/snowboard/capita",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:45:20.926180+00:00",
-      "last_seen": "2026-05-14T07:45:20.926180+00:00"
+      "last_seen": "2026-05-14T10:18:11.523753+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -89,9 +104,9 @@
       "url": "https://www.evo.com/shop/sale/ski/dynastar",
       "source_url": "https://www.evo.com/shop/sale/ski/dynastar",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:44:17.008346+00:00",
-      "last_seen": "2026-05-14T07:44:17.008346+00:00"
+      "last_seen": "2026-05-14T10:17:06.738855+00:00"
     },
     {
       "id": "99b45387b311",
@@ -104,9 +119,9 @@
       "url": "https://www.evo.com/shop/sale/ski/elan",
       "source_url": "https://www.evo.com/shop/sale/ski/elan",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:43:29.795406+00:00",
-      "last_seen": "2026-05-14T07:43:29.795406+00:00"
+      "last_seen": "2026-05-14T10:16:18.153563+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -119,9 +134,9 @@
       "url": "https://www.evo.com/shop/sale/ski/fischer",
       "source_url": "https://www.evo.com/shop/sale/ski/fischer",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:43:45.413413+00:00",
-      "last_seen": "2026-05-14T07:43:45.413413+00:00"
+      "last_seen": "2026-05-14T10:16:34.350215+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -134,9 +149,9 @@
       "url": "https://www.evo.com/shop/sale/ski/head",
       "source_url": "https://www.evo.com/shop/sale/ski/head",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:44:01.389211+00:00",
-      "last_seen": "2026-05-14T07:44:01.389211+00:00"
+      "last_seen": "2026-05-14T10:16:50.569064+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -149,9 +164,9 @@
       "url": "https://www.evo.com/shop/sale/ski/helly-hansen",
       "source_url": "https://www.evo.com/shop/sale/ski/helly-hansen",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:47:10.597498+00:00",
-      "last_seen": "2026-05-14T07:47:10.597498+00:00"
+      "last_seen": "2026-05-14T10:20:05.865123+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -164,9 +179,9 @@
       "url": "https://www.evo.com/shop/sale/ski/k2",
       "source_url": "https://www.evo.com/shop/sale/ski/k2",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:41:40.376740+00:00",
-      "last_seen": "2026-05-14T07:41:40.376740+00:00"
+      "last_seen": "2026-05-14T10:14:25.688996+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -179,9 +194,9 @@
       "url": "https://www.evo.com/shop/sale/snowboard/lib-tech",
       "source_url": "https://www.evo.com/shop/sale/snowboard/lib-tech",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:46:08.110246+00:00",
-      "last_seen": "2026-05-14T07:46:08.110246+00:00"
+      "last_seen": "2026-05-14T10:18:58.772022+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -194,9 +209,9 @@
       "url": "https://www.evo.com/shop/sale/ski/line-skis",
       "source_url": "https://www.evo.com/shop/sale/ski/line-skis",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:42:27.159456+00:00",
-      "last_seen": "2026-05-14T07:42:27.159456+00:00"
+      "last_seen": "2026-05-14T10:15:14.275818+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -209,9 +224,9 @@
       "url": "https://www.evo.com/shop/sale/ski/mammut",
       "source_url": "https://www.evo.com/shop/sale/ski/mammut",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:47:26.547337+00:00",
-      "last_seen": "2026-05-14T07:47:26.547337+00:00"
+      "last_seen": "2026-05-14T10:20:22.339287+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -224,9 +239,9 @@
       "url": "https://www.evo.com/shop/sale/ski/marmot",
       "source_url": "https://www.evo.com/shop/sale/ski/marmot",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:47:42.148286+00:00",
-      "last_seen": "2026-05-14T07:47:42.148286+00:00"
+      "last_seen": "2026-05-14T10:20:38.272468+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -239,9 +254,9 @@
       "url": "https://www.evo.com/shop/sale/ski/nordica",
       "source_url": "https://www.evo.com/shop/sale/ski/nordica",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:42:58.729094+00:00",
-      "last_seen": "2026-05-14T07:42:58.729094+00:00"
+      "last_seen": "2026-05-14T10:15:46.593854+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -254,129 +269,9 @@
       "url": "https://www.evo.com/shop/sale/ski/oakley",
       "source_url": "https://www.evo.com/shop/sale/ski/oakley",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-14T07:48:13.278190+00:00",
-      "last_seen": "2026-05-14T07:48:13.278190+00:00"
-    },
-    {
-      "id": "b0151e4540ba",
-      "brand": "Patagonia",
-      "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "Patagonia \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/patagonia",
-      "source_url": "https://www.evo.com/shop/sale/ski/patagonia",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-05-14T07:46:39.313418+00:00",
-      "last_seen": "2026-05-14T07:46:39.313418+00:00"
-    },
-    {
-      "id": "810cc31ce1ec",
-      "brand": "Rossignol",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Rossignol \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/rossignol",
-      "source_url": "https://www.evo.com/shop/sale/ski/rossignol",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-05-14T07:41:24.766855+00:00",
-      "last_seen": "2026-05-14T07:41:24.766855+00:00"
-    },
-    {
-      "id": "c9b16f900293",
-      "brand": "Salomon",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Salomon \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/salomon",
-      "source_url": "https://www.evo.com/shop/sale/ski/salomon",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-05-14T07:41:55.977085+00:00",
-      "last_seen": "2026-05-14T07:41:55.977085+00:00"
-    },
-    {
-      "id": "da6203343c51",
-      "brand": "Salomon Boards",
-      "category": "snowboard",
-      "deal_type": "clearance",
-      "description": "Salomon Boards \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/snowboard/salomon",
-      "source_url": "https://www.evo.com/shop/sale/snowboard/salomon",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-05-14T07:46:23.707011+00:00",
-      "last_seen": "2026-05-14T07:46:23.707011+00:00"
-    },
-    {
-      "id": "f073230a6362",
-      "brand": "Scott Sports",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Scott Sports \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/scott",
-      "source_url": "https://www.evo.com/shop/sale/ski/scott",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-05-14T07:44:32.987014+00:00",
-      "last_seen": "2026-05-14T07:44:32.987014+00:00"
-    },
-    {
-      "id": "2618feb52e08",
-      "brand": "Smith",
-      "category": "goggles",
-      "deal_type": "clearance",
-      "description": "Smith \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/smith",
-      "source_url": "https://www.evo.com/shop/sale/ski/smith",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-05-14T07:48:28.902779+00:00",
-      "last_seen": "2026-05-14T07:48:28.902779+00:00"
-    },
-    {
-      "id": "aaeae822d5a7",
-      "brand": "The North Face",
-      "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "The North Face \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/the-north-face",
-      "source_url": "https://www.evo.com/shop/sale/ski/the-north-face",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-05-14T07:46:54.975859+00:00",
-      "last_seen": "2026-05-14T07:46:54.975859+00:00"
-    },
-    {
-      "id": "3a36eecc06f3",
-      "brand": "Union Binding",
-      "category": "bindings",
-      "deal_type": "clearance",
-      "description": "Union Binding \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/snowboard/union",
-      "source_url": "https://www.evo.com/shop/sale/snowboard/union",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-05-14T07:45:52.040763+00:00",
-      "last_seen": "2026-05-14T07:45:52.040763+00:00"
+      "last_seen": "2026-05-14T10:21:10.424746+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -391,7 +286,82 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-05-14T07:48:38.900105+00:00"
+      "last_seen": "2026-05-14T10:21:37.355064+00:00"
+    },
+    {
+      "id": "b0151e4540ba",
+      "brand": "Patagonia",
+      "category": "outerwear",
+      "deal_type": "clearance",
+      "description": "Patagonia \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/patagonia",
+      "source_url": "https://www.evo.com/shop/sale/ski/patagonia",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-14T07:46:39.313418+00:00",
+      "last_seen": "2026-05-14T10:19:32.138166+00:00"
+    },
+    {
+      "id": "810cc31ce1ec",
+      "brand": "Rossignol",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Rossignol \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/rossignol",
+      "source_url": "https://www.evo.com/shop/sale/ski/rossignol",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-14T07:41:24.766855+00:00",
+      "last_seen": "2026-05-14T10:14:09.459599+00:00"
+    },
+    {
+      "id": "c9b16f900293",
+      "brand": "Salomon",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Salomon \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/salomon",
+      "source_url": "https://www.evo.com/shop/sale/ski/salomon",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-14T07:41:55.977085+00:00",
+      "last_seen": "2026-05-14T10:14:41.990403+00:00"
+    },
+    {
+      "id": "da6203343c51",
+      "brand": "Salomon Boards",
+      "category": "snowboard",
+      "deal_type": "clearance",
+      "description": "Salomon Boards \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/snowboard/salomon",
+      "source_url": "https://www.evo.com/shop/sale/snowboard/salomon",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-14T07:46:23.707011+00:00",
+      "last_seen": "2026-05-14T10:19:14.388065+00:00"
+    },
+    {
+      "id": "f073230a6362",
+      "brand": "Scott Sports",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Scott Sports \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/scott",
+      "source_url": "https://www.evo.com/shop/sale/ski/scott",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-14T07:44:32.987014+00:00",
+      "last_seen": "2026-05-14T10:17:22.780275+00:00"
     },
     {
       "id": "3e549eb535ae",
@@ -406,7 +376,52 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-11T17:31:49.982335+00:00",
-      "last_seen": "2026-05-14T07:48:40.878965+00:00"
+      "last_seen": "2026-05-14T10:21:39.498083+00:00"
+    },
+    {
+      "id": "2618feb52e08",
+      "brand": "Smith",
+      "category": "goggles",
+      "deal_type": "clearance",
+      "description": "Smith \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/smith",
+      "source_url": "https://www.evo.com/shop/sale/ski/smith",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-14T07:48:28.902779+00:00",
+      "last_seen": "2026-05-14T10:21:27.419573+00:00"
+    },
+    {
+      "id": "aaeae822d5a7",
+      "brand": "The North Face",
+      "category": "outerwear",
+      "deal_type": "clearance",
+      "description": "The North Face \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/the-north-face",
+      "source_url": "https://www.evo.com/shop/sale/ski/the-north-face",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-14T07:46:54.975859+00:00",
+      "last_seen": "2026-05-14T10:19:49.015805+00:00"
+    },
+    {
+      "id": "3a36eecc06f3",
+      "brand": "Union Binding",
+      "category": "bindings",
+      "deal_type": "clearance",
+      "description": "Union Binding \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/snowboard/union",
+      "source_url": "https://www.evo.com/shop/sale/snowboard/union",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-14T07:45:52.040763+00:00",
+      "last_seen": "2026-05-14T10:18:42.578708+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -421,7 +436,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-05-14T07:48:52.068644+00:00"
+      "last_seen": "2026-05-14T10:21:51.552155+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -436,7 +451,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-05-14T07:48:47.766327+00:00"
+      "last_seen": "2026-05-14T10:21:46.826223+00:00"
     },
     {
       "id": "7063486102cb",
@@ -451,22 +466,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-14T00:05:35.411135+00:00",
-      "last_seen": "2026-05-14T07:48:32.190121+00:00"
-    },
-    {
-      "id": "8c60ade6c5fc",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Flagship Snowboard, Men's Frontier 2.0 Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-05-13T09:51:22.595124+00:00",
-      "last_seen": "2026-05-14T07:48:29.677113+00:00"
+      "last_seen": "2026-05-14T10:21:30.831193+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -481,7 +481,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-05-14T07:48:39.625484+00:00"
+      "last_seen": "2026-05-14T10:21:38.242777+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -496,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-05-14T07:48:30.435336+00:00"
+      "last_seen": "2026-05-14T10:21:29.050345+00:00"
     },
     {
       "id": "602afd76335e",
@@ -511,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-05-14T07:48:34.870002+00:00"
+      "last_seen": "2026-05-14T10:21:33.132187+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -526,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-05-14T07:48:50.206960+00:00"
+      "last_seen": "2026-05-14T10:21:49.760387+00:00"
     },
     {
       "id": "e489073f221f",
@@ -541,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-05-14T07:48:48.572972+00:00"
+      "last_seen": "2026-05-14T10:21:48.049159+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-05-14T07:48:46.770798+00:00"
+      "last_seen": "2026-05-14T10:21:45.950056+00:00"
     }
   ]
 }
