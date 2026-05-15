@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-05-15T04:19:41.553067+00:00",
+  "generated_at": "2026-05-15T10:30:51.810772+00:00",
   "deal_count": 37,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "770f36c0308a",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "drops",
+      "description": "Sun Seeker Sale New Replacement Lenses Have Landed Find Your Perfect Pair",
+      "discount": "30% off",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-15T10:30:45.916153+00:00",
+      "last_seen": "2026-05-15T10:30:45.916153+00:00"
+    },
+    {
+      "id": "8c60ade6c5fc",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Sale \u2014 Men's Flagship Snowboard, Men's Frontier 2.0 Snowboard + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-05-15T10:30:25.837222+00:00",
+      "last_seen": "2026-05-15T10:30:25.837222+00:00"
+    },
     {
       "id": "bfd3f418967f",
       "brand": "Armada Skis",
@@ -14,24 +44,9 @@
       "url": "https://www.evo.com/shop/sale/ski/armada",
       "source_url": "https://www.evo.com/shop/sale/ski/armada",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-05-15T04:12:44.316177+00:00",
-      "last_seen": "2026-05-15T04:12:44.316177+00:00"
-    },
-    {
-      "id": "1ffb7e64f171",
-      "brand": "Blizzard",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Blizzard \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/blizzard",
-      "source_url": "https://www.evo.com/shop/sale/ski/blizzard",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-05-15T04:13:17.151267+00:00",
-      "last_seen": "2026-05-15T04:13:17.151267+00:00"
+      "last_seen": "2026-05-15T10:23:53.038756+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +61,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:09.169989+00:00",
-      "last_seen": "2026-05-15T04:11:38.889559+00:00"
+      "last_seen": "2026-05-15T10:22:47.423023+00:00"
+    },
+    {
+      "id": "1ffb7e64f171",
+      "brand": "Blizzard",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Blizzard \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/blizzard",
+      "source_url": "https://www.evo.com/shop/sale/ski/blizzard",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-15T04:13:17.151267+00:00",
+      "last_seen": "2026-05-15T10:24:25.324241+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -61,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:05.334595+00:00",
-      "last_seen": "2026-05-15T04:15:43.653081+00:00"
+      "last_seen": "2026-05-15T10:26:51.120776+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -76,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:20.926180+00:00",
-      "last_seen": "2026-05-15T04:15:59.866744+00:00"
+      "last_seen": "2026-05-15T10:27:07.562087+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -91,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:44:17.008346+00:00",
-      "last_seen": "2026-05-15T04:14:54.889686+00:00"
+      "last_seen": "2026-05-15T10:26:01.994433+00:00"
     },
     {
       "id": "99b45387b311",
@@ -106,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:43:29.795406+00:00",
-      "last_seen": "2026-05-15T04:14:05.904859+00:00"
+      "last_seen": "2026-05-15T10:25:13.414169+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -121,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:43:45.413413+00:00",
-      "last_seen": "2026-05-15T04:14:22.253950+00:00"
+      "last_seen": "2026-05-15T10:25:29.858565+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -136,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:44:01.389211+00:00",
-      "last_seen": "2026-05-15T04:14:38.567476+00:00"
+      "last_seen": "2026-05-15T10:25:45.950978+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -151,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:47:10.597498+00:00",
-      "last_seen": "2026-05-15T04:17:52.118298+00:00"
+      "last_seen": "2026-05-15T10:29:03.532906+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -166,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:40.376740+00:00",
-      "last_seen": "2026-05-15T04:12:11.721346+00:00"
+      "last_seen": "2026-05-15T10:23:20.086840+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -181,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:08.110246+00:00",
-      "last_seen": "2026-05-15T04:16:47.769565+00:00"
+      "last_seen": "2026-05-15T10:27:55.632322+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -196,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:42:27.159456+00:00",
-      "last_seen": "2026-05-15T04:13:00.666536+00:00"
+      "last_seen": "2026-05-15T10:24:09.136041+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -211,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:47:26.547337+00:00",
-      "last_seen": "2026-05-15T04:18:08.242295+00:00"
+      "last_seen": "2026-05-15T10:29:19.691113+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -226,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:47:42.148286+00:00",
-      "last_seen": "2026-05-15T04:18:24.397345+00:00"
+      "last_seen": "2026-05-15T10:29:35.638414+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -241,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:42:58.729094+00:00",
-      "last_seen": "2026-05-15T04:13:34.075948+00:00"
+      "last_seen": "2026-05-15T10:24:41.598706+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -256,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:48:13.278190+00:00",
-      "last_seen": "2026-05-15T04:18:56.785698+00:00"
+      "last_seen": "2026-05-15T10:30:08.008353+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -271,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-05-15T04:19:24.091083+00:00"
+      "last_seen": "2026-05-15T10:30:35.212250+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -286,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:39.313418+00:00",
-      "last_seen": "2026-05-15T04:17:19.186190+00:00"
+      "last_seen": "2026-05-15T10:28:29.265150+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -301,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:24.766855+00:00",
-      "last_seen": "2026-05-15T04:11:55.189416+00:00"
+      "last_seen": "2026-05-15T10:23:03.687773+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -316,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:55.977085+00:00",
-      "last_seen": "2026-05-15T04:12:27.961702+00:00"
+      "last_seen": "2026-05-15T10:23:36.631390+00:00"
     },
     {
       "id": "da6203343c51",
@@ -331,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:23.707011+00:00",
-      "last_seen": "2026-05-15T04:17:03.516888+00:00"
+      "last_seen": "2026-05-15T10:28:12.017352+00:00"
     },
     {
       "id": "f073230a6362",
@@ -346,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:44:32.987014+00:00",
-      "last_seen": "2026-05-15T04:15:11.023071+00:00"
+      "last_seen": "2026-05-15T10:26:18.289641+00:00"
     },
     {
       "id": "07f96eabba68",
@@ -361,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T17:56:40.658911+00:00",
-      "last_seen": "2026-05-15T04:19:26.010655+00:00"
+      "last_seen": "2026-05-15T10:30:37.620530+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -376,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:48:28.902779+00:00",
-      "last_seen": "2026-05-15T04:19:13.423106+00:00"
+      "last_seen": "2026-05-15T10:30:25.115340+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -391,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:54.975859+00:00",
-      "last_seen": "2026-05-15T04:17:34.898559+00:00"
+      "last_seen": "2026-05-15T10:28:46.375840+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -406,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:52.040763+00:00",
-      "last_seen": "2026-05-15T04:16:31.184906+00:00"
+      "last_seen": "2026-05-15T10:27:39.350652+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -421,7 +451,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-05-15T04:19:39.089583+00:00"
+      "last_seen": "2026-05-15T10:30:49.534102+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -436,7 +466,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-05-15T04:19:34.311282+00:00"
+      "last_seen": "2026-05-15T10:30:45.139815+00:00"
     },
     {
       "id": "7063486102cb",
@@ -451,22 +481,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-14T00:05:35.411135+00:00",
-      "last_seen": "2026-05-15T04:19:17.229531+00:00"
-    },
-    {
-      "id": "cbccf365375b",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-05-14T10:21:28.197047+00:00",
-      "last_seen": "2026-05-15T04:19:14.190698+00:00"
+      "last_seen": "2026-05-15T10:30:28.556181+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -481,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-05-15T04:19:24.871031+00:00"
+      "last_seen": "2026-05-15T10:30:36.196536+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -496,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-05-15T04:19:15.114071+00:00"
+      "last_seen": "2026-05-15T10:30:26.559883+00:00"
     },
     {
       "id": "602afd76335e",
@@ -511,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-05-15T04:19:19.960687+00:00"
+      "last_seen": "2026-05-15T10:30:30.756190+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -526,22 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-05-15T04:19:37.154734+00:00"
-    },
-    {
-      "id": "e489073f221f",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "drops",
-      "description": "Smith Optics Sale",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-03-30T15:02:45.105800+00:00",
-      "last_seen": "2026-05-15T04:19:35.299343+00:00"
+      "last_seen": "2026-05-15T10:30:47.608463+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-05-15T04:19:33.097195+00:00"
+      "last_seen": "2026-05-15T10:30:44.125166+00:00"
     }
   ]
 }
