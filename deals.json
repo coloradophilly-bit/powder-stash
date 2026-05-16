@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-05-16T08:11:52.174292+00:00",
-  "deal_count": 37,
+  "generated_at": "2026-05-16T10:23:07.500988+00:00",
+  "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "fec0c19b045a",
+      "brand": "Burton",
+      "category": "snowboard",
+      "deal_type": "clearance",
+      "description": "Burton \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/snowboard/burton",
+      "source_url": "https://www.evo.com/shop/sale/snowboard/burton",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-16T10:19:05.792265+00:00",
+      "last_seen": "2026-05-16T10:19:05.792265+00:00"
+    },
+    {
+      "id": "cbccf365375b",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-05-16T10:22:36.459956+00:00",
+      "last_seen": "2026-05-16T10:22:36.459956+00:00"
+    },
     {
       "id": "bfd3f418967f",
       "brand": "Armada Skis",
@@ -16,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T04:12:44.316177+00:00",
-      "last_seen": "2026-05-16T08:04:54.981418+00:00"
+      "last_seen": "2026-05-16T10:16:09.998770+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -31,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:09.169989+00:00",
-      "last_seen": "2026-05-16T08:03:50.245675+00:00"
+      "last_seen": "2026-05-16T10:15:00.849833+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -46,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T04:13:17.151267+00:00",
-      "last_seen": "2026-05-16T08:05:28.340118+00:00"
+      "last_seen": "2026-05-16T10:16:41.709515+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -61,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:20.926180+00:00",
-      "last_seen": "2026-05-16T08:08:10.303042+00:00"
+      "last_seen": "2026-05-16T10:19:22.411361+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -76,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:44:17.008346+00:00",
-      "last_seen": "2026-05-16T08:07:06.854343+00:00"
+      "last_seen": "2026-05-16T10:18:18.327774+00:00"
     },
     {
       "id": "99b45387b311",
@@ -91,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:43:29.795406+00:00",
-      "last_seen": "2026-05-16T08:06:17.683674+00:00"
+      "last_seen": "2026-05-16T10:17:29.961539+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -106,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:43:45.413413+00:00",
-      "last_seen": "2026-05-16T08:06:34.608061+00:00"
+      "last_seen": "2026-05-16T10:17:46.234976+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -121,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:44:01.389211+00:00",
-      "last_seen": "2026-05-16T08:06:51.026381+00:00"
+      "last_seen": "2026-05-16T10:18:01.934349+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -136,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:47:10.597498+00:00",
-      "last_seen": "2026-05-16T08:10:04.031673+00:00"
+      "last_seen": "2026-05-16T10:21:15.745015+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -151,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:40.376740+00:00",
-      "last_seen": "2026-05-16T08:04:22.669984+00:00"
+      "last_seen": "2026-05-16T10:15:34.973467+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -166,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:08.110246+00:00",
-      "last_seen": "2026-05-16T08:08:57.859960+00:00"
+      "last_seen": "2026-05-16T10:20:09.964999+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -181,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:42:27.159456+00:00",
-      "last_seen": "2026-05-16T08:05:11.627698+00:00"
+      "last_seen": "2026-05-16T10:16:25.649805+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -196,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:47:26.547337+00:00",
-      "last_seen": "2026-05-16T08:10:20.004141+00:00"
+      "last_seen": "2026-05-16T10:21:31.483250+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -211,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:47:42.148286+00:00",
-      "last_seen": "2026-05-16T08:10:36.042987+00:00"
+      "last_seen": "2026-05-16T10:21:47.884947+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -226,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T19:44:37.502546+00:00",
-      "last_seen": "2026-05-16T08:10:51.615694+00:00"
+      "last_seen": "2026-05-16T10:22:03.553380+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -241,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:42:58.729094+00:00",
-      "last_seen": "2026-05-16T08:05:45.103080+00:00"
+      "last_seen": "2026-05-16T10:16:58.786454+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -256,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T19:44:54.028309+00:00",
-      "last_seen": "2026-05-16T08:11:08.143611+00:00"
+      "last_seen": "2026-05-16T10:22:19.617481+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -271,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-05-16T08:11:35.065610+00:00"
+      "last_seen": "2026-05-16T10:22:48.235269+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -286,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-16T02:57:30.533591+00:00",
-      "last_seen": "2026-05-16T08:09:30.416417+00:00"
+      "last_seen": "2026-05-16T10:20:41.978933+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -301,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:24.766855+00:00",
-      "last_seen": "2026-05-16T08:04:06.546250+00:00"
+      "last_seen": "2026-05-16T10:15:18.602914+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -316,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:55.977085+00:00",
-      "last_seen": "2026-05-16T08:04:39.145607+00:00"
+      "last_seen": "2026-05-16T10:15:51.029548+00:00"
     },
     {
       "id": "da6203343c51",
@@ -331,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:23.707011+00:00",
-      "last_seen": "2026-05-16T08:09:14.810135+00:00"
+      "last_seen": "2026-05-16T10:20:26.275395+00:00"
     },
     {
       "id": "f073230a6362",
@@ -346,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:44:32.987014+00:00",
-      "last_seen": "2026-05-16T08:07:22.940106+00:00"
+      "last_seen": "2026-05-16T10:18:34.473514+00:00"
     },
     {
       "id": "07f96eabba68",
@@ -361,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T17:56:40.658911+00:00",
-      "last_seen": "2026-05-16T08:11:37.474897+00:00"
+      "last_seen": "2026-05-16T10:22:51.061329+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -376,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:48:28.902779+00:00",
-      "last_seen": "2026-05-16T08:11:24.716039+00:00"
+      "last_seen": "2026-05-16T10:22:35.376613+00:00"
     },
     {
       "id": "770f36c0308a",
@@ -391,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T10:30:45.916153+00:00",
-      "last_seen": "2026-05-16T08:11:45.945528+00:00"
+      "last_seen": "2026-05-16T10:23:00.842249+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -406,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:54.975859+00:00",
-      "last_seen": "2026-05-16T08:09:47.176949+00:00"
+      "last_seen": "2026-05-16T10:20:58.946836+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -421,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:52.040763+00:00",
-      "last_seen": "2026-05-16T08:08:42.265576+00:00"
+      "last_seen": "2026-05-16T10:19:53.637906+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -436,7 +466,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-05-16T08:11:49.732780+00:00"
+      "last_seen": "2026-05-16T10:23:04.834736+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -451,7 +481,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-05-16T08:11:45.102319+00:00"
+      "last_seen": "2026-05-16T10:22:59.856787+00:00"
     },
     {
       "id": "56e0ccca0608",
@@ -466,22 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-16T00:02:18.633074+00:00",
-      "last_seen": "2026-05-16T08:11:28.643088+00:00"
-    },
-    {
-      "id": "8c60ade6c5fc",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Flagship Snowboard, Men's Frontier 2.0 Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-05-15T10:30:25.837222+00:00",
-      "last_seen": "2026-05-16T08:11:25.589463+00:00"
+      "last_seen": "2026-05-16T10:22:39.510273+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -496,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-05-16T08:11:35.945409+00:00"
+      "last_seen": "2026-05-16T10:22:49.501306+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -511,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-30T15:02:27.411312+00:00",
-      "last_seen": "2026-05-16T08:11:26.395028+00:00"
+      "last_seen": "2026-05-16T10:22:37.357995+00:00"
     },
     {
       "id": "602afd76335e",
@@ -526,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-05-16T08:11:30.730074+00:00"
+      "last_seen": "2026-05-16T10:22:43.238303+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -541,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-05-16T08:11:47.760051+00:00"
+      "last_seen": "2026-05-16T10:23:02.911714+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -556,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-05-16T08:11:43.980784+00:00"
+      "last_seen": "2026-05-16T10:22:58.455528+00:00"
     }
   ]
 }
