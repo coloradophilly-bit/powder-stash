@@ -1,22 +1,142 @@
 {
-  "generated_at": "2026-05-17T23:01:42.198336+00:00",
-  "deal_count": 29,
+  "generated_at": "2026-05-18T00:04:56.963752+00:00",
+  "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "32c0577ba7b0",
-      "brand": "Lib Tech",
+      "id": "fec0c19b045a",
+      "brand": "Burton",
       "category": "snowboard",
       "deal_type": "clearance",
-      "description": "Lib Tech \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "description": "Burton \u2014 Last Chair Sale items at Evo. Up to 60% off.",
       "discount": "Up to 60% off",
       "code": null,
-      "url": "https://www.evo.com/shop/sale/snowboard/lib-tech",
-      "source_url": "https://www.evo.com/shop/sale/snowboard/lib-tech",
+      "url": "https://www.evo.com/shop/sale/snowboard/burton",
+      "source_url": "https://www.evo.com/shop/sale/snowboard/burton",
       "hot": true,
       "pulse": true,
-      "first_seen": "2026-05-17T22:58:40.269757+00:00",
-      "last_seen": "2026-05-17T22:58:40.269757+00:00"
+      "first_seen": "2026-05-18T00:00:57.215406+00:00",
+      "last_seen": "2026-05-18T00:00:57.215406+00:00"
+    },
+    {
+      "id": "39f3beddde93",
+      "brand": "Fischer",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Fischer \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/fischer",
+      "source_url": "https://www.evo.com/shop/sale/ski/fischer",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-17T23:59:35.734978+00:00",
+      "last_seen": "2026-05-17T23:59:35.734978+00:00"
+    },
+    {
+      "id": "3d7acab28a86",
+      "brand": "Head Skis",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Head Skis \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/head",
+      "source_url": "https://www.evo.com/shop/sale/ski/head",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-17T23:59:51.808111+00:00",
+      "last_seen": "2026-05-17T23:59:51.808111+00:00"
+    },
+    {
+      "id": "3a28943eac43",
+      "brand": "Mammut",
+      "category": "outerwear",
+      "deal_type": "clearance",
+      "description": "Mammut \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/mammut",
+      "source_url": "https://www.evo.com/shop/sale/ski/mammut",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-18T00:03:24.616379+00:00",
+      "last_seen": "2026-05-18T00:03:24.616379+00:00"
+    },
+    {
+      "id": "3f593271fb4b",
+      "brand": "Marmot",
+      "category": "outerwear",
+      "deal_type": "clearance",
+      "description": "Marmot \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/marmot",
+      "source_url": "https://www.evo.com/shop/sale/ski/marmot",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-18T00:03:40.870036+00:00",
+      "last_seen": "2026-05-18T00:03:40.870036+00:00"
+    },
+    {
+      "id": "b0151e4540ba",
+      "brand": "Patagonia",
+      "category": "outerwear",
+      "deal_type": "clearance",
+      "description": "Patagonia \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/patagonia",
+      "source_url": "https://www.evo.com/shop/sale/ski/patagonia",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-18T00:02:35.978609+00:00",
+      "last_seen": "2026-05-18T00:02:35.978609+00:00"
+    },
+    {
+      "id": "f073230a6362",
+      "brand": "Scott Sports",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Scott Sports \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/scott",
+      "source_url": "https://www.evo.com/shop/sale/ski/scott",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-18T00:00:24.578761+00:00",
+      "last_seen": "2026-05-18T00:00:24.578761+00:00"
+    },
+    {
+      "id": "07f96eabba68",
+      "brand": "Smartwool",
+      "category": "accessories",
+      "deal_type": "clearance",
+      "description": "Up to 100% off \u2014 Women's Everyday Margarita Crew Socks, Everyday Spruce Street Crew Socks + 94 more",
+      "discount": "Up to 100% off",
+      "code": null,
+      "url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-18T00:04:42.774897+00:00",
+      "last_seen": "2026-05-18T00:04:42.774897+00:00"
+    },
+    {
+      "id": "2618feb52e08",
+      "brand": "Smith",
+      "category": "goggles",
+      "deal_type": "clearance",
+      "description": "Smith \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/smith",
+      "source_url": "https://www.evo.com/shop/sale/ski/smith",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-18T00:04:29.054997+00:00",
+      "last_seen": "2026-05-18T00:04:29.054997+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -31,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T04:12:44.316177+00:00",
-      "last_seen": "2026-05-17T22:54:39.681235+00:00"
+      "last_seen": "2026-05-17T23:57:59.022081+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:09.169989+00:00",
-      "last_seen": "2026-05-17T22:53:35.031081+00:00"
+      "last_seen": "2026-05-17T23:56:53.536032+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -61,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T04:13:17.151267+00:00",
-      "last_seen": "2026-05-17T22:55:12.598211+00:00"
+      "last_seen": "2026-05-17T23:58:31.442902+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -76,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:20.926180+00:00",
-      "last_seen": "2026-05-17T22:57:50.957287+00:00"
+      "last_seen": "2026-05-18T00:01:13.513877+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -91,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:44:17.008346+00:00",
-      "last_seen": "2026-05-17T22:56:48.156479+00:00"
+      "last_seen": "2026-05-18T00:00:08.412277+00:00"
     },
     {
       "id": "99b45387b311",
@@ -106,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:43:29.795406+00:00",
-      "last_seen": "2026-05-17T22:56:00.407736+00:00"
+      "last_seen": "2026-05-17T23:59:19.403349+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -121,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-17T11:12:00.800564+00:00",
-      "last_seen": "2026-05-17T22:59:47.002046+00:00"
+      "last_seen": "2026-05-18T00:03:08.592829+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -136,7 +256,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:40.376740+00:00",
-      "last_seen": "2026-05-17T22:54:07.105033+00:00"
+      "last_seen": "2026-05-17T23:57:26.098576+00:00"
+    },
+    {
+      "id": "32c0577ba7b0",
+      "brand": "Lib Tech",
+      "category": "snowboard",
+      "deal_type": "clearance",
+      "description": "Lib Tech \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/snowboard/lib-tech",
+      "source_url": "https://www.evo.com/shop/sale/snowboard/lib-tech",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-05-17T22:58:40.269757+00:00",
+      "last_seen": "2026-05-18T00:02:01.578166+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -151,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:42:27.159456+00:00",
-      "last_seen": "2026-05-17T22:54:56.009876+00:00"
+      "last_seen": "2026-05-17T23:58:15.093122+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -166,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T19:44:37.502546+00:00",
-      "last_seen": "2026-05-17T23:00:36.020277+00:00"
+      "last_seen": "2026-05-18T00:03:56.544366+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -181,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:42:58.729094+00:00",
-      "last_seen": "2026-05-17T22:55:28.470516+00:00"
+      "last_seen": "2026-05-17T23:58:47.664294+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -196,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T19:44:54.028309+00:00",
-      "last_seen": "2026-05-17T23:00:53.172503+00:00"
+      "last_seen": "2026-05-18T00:04:12.483348+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -211,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-05-17T23:01:22.436937+00:00"
+      "last_seen": "2026-05-18T00:04:40.388751+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -226,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:24.766855+00:00",
-      "last_seen": "2026-05-17T22:53:51.388314+00:00"
+      "last_seen": "2026-05-17T23:57:09.781486+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -241,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:55.977085+00:00",
-      "last_seen": "2026-05-17T22:54:22.933645+00:00"
+      "last_seen": "2026-05-17T23:57:42.651218+00:00"
     },
     {
       "id": "da6203343c51",
@@ -256,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:23.707011+00:00",
-      "last_seen": "2026-05-17T22:58:56.105573+00:00"
+      "last_seen": "2026-05-18T00:02:17.907074+00:00"
     },
     {
       "id": "770f36c0308a",
@@ -271,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T10:30:45.916153+00:00",
-      "last_seen": "2026-05-17T23:01:35.578668+00:00"
+      "last_seen": "2026-05-18T00:04:50.066612+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -286,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:54.975859+00:00",
-      "last_seen": "2026-05-17T22:59:29.229503+00:00"
+      "last_seen": "2026-05-18T00:02:51.739000+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -301,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:52.040763+00:00",
-      "last_seen": "2026-05-17T22:58:23.494366+00:00"
+      "last_seen": "2026-05-18T00:01:45.329305+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -316,7 +451,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:20.698678+00:00",
-      "last_seen": "2026-05-17T23:01:39.647557+00:00"
+      "last_seen": "2026-05-18T00:04:54.329137+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -331,7 +466,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-05-17T23:01:34.367595+00:00"
+      "last_seen": "2026-05-18T00:04:49.191144+00:00"
     },
     {
       "id": "7063486102cb",
@@ -346,7 +481,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-17T17:17:14.548187+00:00",
-      "last_seen": "2026-05-17T23:01:15.094444+00:00"
+      "last_seen": "2026-05-18T00:04:33.268003+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -361,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-16T10:22:36.459956+00:00",
-      "last_seen": "2026-05-17T23:01:10.624375+00:00"
+      "last_seen": "2026-05-18T00:04:30.294382+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -376,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-05-17T23:01:23.380222+00:00"
+      "last_seen": "2026-05-18T00:04:41.478459+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -391,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-17T11:13:21.500903+00:00",
-      "last_seen": "2026-05-17T23:01:11.936634+00:00"
+      "last_seen": "2026-05-18T00:04:31.182542+00:00"
     },
     {
       "id": "602afd76335e",
@@ -406,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-05-17T23:01:17.543476+00:00"
+      "last_seen": "2026-05-18T00:04:36.073036+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -421,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-05-17T23:01:37.485250+00:00"
+      "last_seen": "2026-05-18T00:04:52.160236+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -436,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-05-17T23:01:32.923766+00:00"
+      "last_seen": "2026-05-18T00:04:48.028762+00:00"
     }
   ]
 }
