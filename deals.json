@@ -1,8 +1,98 @@
 {
-  "generated_at": "2026-05-24T00:05:11.724900+00:00",
-  "deal_count": 32,
+  "generated_at": "2026-05-24T04:08:01.983167+00:00",
+  "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "4b1a954b21f4",
+      "brand": "Dynastar",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Dynastar \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/dynastar",
+      "source_url": "https://www.evo.com/shop/sale/ski/dynastar",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-24T04:03:17.723000+00:00",
+      "last_seen": "2026-05-24T04:03:17.723000+00:00"
+    },
+    {
+      "id": "39f3beddde93",
+      "brand": "Fischer",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Fischer \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/fischer",
+      "source_url": "https://www.evo.com/shop/sale/ski/fischer",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-24T04:02:45.455945+00:00",
+      "last_seen": "2026-05-24T04:02:45.455945+00:00"
+    },
+    {
+      "id": "c6a2c2aef1af",
+      "brand": "Mountain Hardwear",
+      "category": "outerwear",
+      "deal_type": "clearance",
+      "description": "Mountain Hardwear \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/mountain-hardwear",
+      "source_url": "https://www.evo.com/shop/sale/ski/mountain-hardwear",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-24T04:07:04.159431+00:00",
+      "last_seen": "2026-05-24T04:07:04.159431+00:00"
+    },
+    {
+      "id": "c9b16f900293",
+      "brand": "Salomon",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Salomon \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/salomon",
+      "source_url": "https://www.evo.com/shop/sale/ski/salomon",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-24T04:00:53.108752+00:00",
+      "last_seen": "2026-05-24T04:00:53.108752+00:00"
+    },
+    {
+      "id": "da6203343c51",
+      "brand": "Salomon Boards",
+      "category": "snowboard",
+      "deal_type": "clearance",
+      "description": "Salomon Boards \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/snowboard/salomon",
+      "source_url": "https://www.evo.com/shop/sale/snowboard/salomon",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-24T04:05:26.539680+00:00",
+      "last_seen": "2026-05-24T04:05:26.539680+00:00"
+    },
+    {
+      "id": "f073230a6362",
+      "brand": "Scott Sports",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Scott Sports \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/scott",
+      "source_url": "https://www.evo.com/shop/sale/ski/scott",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-05-24T04:03:34.016042+00:00",
+      "last_seen": "2026-05-24T04:03:34.016042+00:00"
+    },
     {
       "id": "bfd3f418967f",
       "brand": "Armada Skis",
@@ -16,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-21T22:19:26.792907+00:00",
-      "last_seen": "2026-05-23T23:58:08.456782+00:00"
+      "last_seen": "2026-05-24T04:01:09.434798+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -31,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:09.169989+00:00",
-      "last_seen": "2026-05-23T23:57:04.232245+00:00"
+      "last_seen": "2026-05-24T04:00:04.804131+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -46,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T04:13:17.151267+00:00",
-      "last_seen": "2026-05-23T23:58:41.595285+00:00"
+      "last_seen": "2026-05-24T04:01:41.725180+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -61,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-20T00:10:06.753735+00:00",
-      "last_seen": "2026-05-24T00:01:08.810910+00:00"
+      "last_seen": "2026-05-24T04:04:06.689301+00:00"
     },
     {
       "id": "793fa2b81f04",
@@ -76,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-19T16:27:25.927228+00:00",
-      "last_seen": "2026-05-24T00:05:09.494845+00:00"
+      "last_seen": "2026-05-24T04:07:59.558129+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -91,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:20.926180+00:00",
-      "last_seen": "2026-05-24T00:01:25.599572+00:00"
+      "last_seen": "2026-05-24T04:04:22.937172+00:00"
     },
     {
       "id": "99b45387b311",
@@ -106,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:43:29.795406+00:00",
-      "last_seen": "2026-05-23T23:59:31.118771+00:00"
+      "last_seen": "2026-05-24T04:02:28.927185+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -121,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-20T23:15:40.618317+00:00",
-      "last_seen": "2026-05-24T00:00:03.058809+00:00"
+      "last_seen": "2026-05-24T04:03:01.734322+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -136,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-17T11:12:00.800564+00:00",
-      "last_seen": "2026-05-24T00:03:23.488313+00:00"
+      "last_seen": "2026-05-24T04:06:16.360087+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -151,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-23T20:05:52.859219+00:00",
-      "last_seen": "2026-05-23T23:57:36.484630+00:00"
+      "last_seen": "2026-05-24T04:00:37.403632+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -166,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-17T22:58:40.269757+00:00",
-      "last_seen": "2026-05-24T00:02:14.727849+00:00"
+      "last_seen": "2026-05-24T04:05:10.969770+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -181,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:42:27.159456+00:00",
-      "last_seen": "2026-05-23T23:58:25.086982+00:00"
+      "last_seen": "2026-05-24T04:01:25.498884+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -196,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-18T00:03:24.616379+00:00",
-      "last_seen": "2026-05-24T00:03:40.200130+00:00"
+      "last_seen": "2026-05-24T04:06:32.380504+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -211,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-18T00:03:40.870036+00:00",
-      "last_seen": "2026-05-24T00:03:56.298704+00:00"
+      "last_seen": "2026-05-24T04:06:48.544124+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -226,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-20T23:14:35.893217+00:00",
-      "last_seen": "2026-05-23T23:58:58.296983+00:00"
+      "last_seen": "2026-05-24T04:01:57.300846+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -241,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T19:44:54.028309+00:00",
-      "last_seen": "2026-05-24T00:04:29.490044+00:00"
+      "last_seen": "2026-05-24T04:07:19.748391+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -256,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-05-24T00:04:57.165948+00:00"
+      "last_seen": "2026-05-24T04:07:45.859927+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -271,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-21T18:03:47.525110+00:00",
-      "last_seen": "2026-05-24T00:02:49.620836+00:00"
+      "last_seen": "2026-05-24T04:05:42.205500+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -286,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-23T00:13:01.832448+00:00",
-      "last_seen": "2026-05-23T23:57:20.847435+00:00"
+      "last_seen": "2026-05-24T04:00:21.059253+00:00"
     },
     {
       "id": "07f96eabba68",
@@ -301,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-18T00:04:42.774897+00:00",
-      "last_seen": "2026-05-24T00:04:59.176807+00:00"
+      "last_seen": "2026-05-24T04:07:47.854062+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -316,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-23T11:18:25.281119+00:00",
-      "last_seen": "2026-05-24T00:04:46.863074+00:00"
+      "last_seen": "2026-05-24T04:07:36.765508+00:00"
     },
     {
       "id": "770f36c0308a",
@@ -331,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T10:30:45.916153+00:00",
-      "last_seen": "2026-05-24T00:05:05.692120+00:00"
+      "last_seen": "2026-05-24T04:07:56.071159+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -346,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:54.975859+00:00",
-      "last_seen": "2026-05-24T00:03:05.373939+00:00"
+      "last_seen": "2026-05-24T04:05:59.312340+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -361,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:52.040763+00:00",
-      "last_seen": "2026-05-24T00:01:57.865885+00:00"
+      "last_seen": "2026-05-24T04:04:54.707835+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -376,7 +466,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-05-24T00:05:04.801890+00:00"
+      "last_seen": "2026-05-24T04:07:55.247716+00:00"
     },
     {
       "id": "56e0ccca0608",
@@ -391,7 +481,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-23T11:18:28.670223+00:00",
-      "last_seen": "2026-05-24T00:04:50.855200+00:00"
+      "last_seen": "2026-05-24T04:07:40.051167+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -406,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-16T10:22:36.459956+00:00",
-      "last_seen": "2026-05-24T00:04:47.633009+00:00"
+      "last_seen": "2026-05-24T04:07:37.512326+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -421,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-05-24T00:04:57.844594+00:00"
+      "last_seen": "2026-05-24T04:07:46.690138+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -436,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-23T11:18:26.767573+00:00",
-      "last_seen": "2026-05-24T00:04:48.542772+00:00"
+      "last_seen": "2026-05-24T04:07:38.176923+00:00"
     },
     {
       "id": "602afd76335e",
@@ -451,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-05-24T00:04:52.882984+00:00"
+      "last_seen": "2026-05-24T04:07:41.982778+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -466,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-05-24T00:05:07.667535+00:00"
+      "last_seen": "2026-05-24T04:07:57.728360+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -481,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-05-24T00:05:03.771195+00:00"
+      "last_seen": "2026-05-24T04:07:54.301718+00:00"
     }
   ]
 }
