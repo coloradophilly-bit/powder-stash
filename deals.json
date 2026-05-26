@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-26T03:38:48.297433+00:00",
+  "generated_at": "2026-05-26T07:52:16.814419+00:00",
   "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "9411a046d631",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
+      "id": "b71e17be76bb",
+      "brand": "Burton Direct",
+      "category": "snowboard",
+      "deal_type": "clearance",
+      "description": "Save Up to 40% on Select Boards, Boots, Outerwear, & More & Free Shipping Over $100 SHOP SALE",
       "discount": "Sale",
       "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "url": "https://www.burton.com/us/en/c/sale-gear",
+      "source_url": "https://www.burton.com/us/en/c/sale-gear",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-05-26T03:38:26.016367+00:00",
-      "last_seen": "2026-05-26T03:38:26.016367+00:00"
+      "first_seen": "2026-05-26T07:52:14.233443+00:00",
+      "last_seen": "2026-05-26T07:52:14.233443+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-21T22:19:26.792907+00:00",
-      "last_seen": "2026-05-26T03:31:52.696668+00:00"
+      "last_seen": "2026-05-26T07:45:31.375722+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:41:09.169989+00:00",
-      "last_seen": "2026-05-26T03:30:48.096691+00:00"
+      "last_seen": "2026-05-26T07:44:29.018991+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-24T18:08:18.711152+00:00",
-      "last_seen": "2026-05-26T03:32:24.823183+00:00"
+      "last_seen": "2026-05-26T07:46:03.494781+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -76,22 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-24T18:10:43.048762+00:00",
-      "last_seen": "2026-05-26T03:34:50.432971+00:00"
-    },
-    {
-      "id": "793fa2b81f04",
-      "brand": "Burton Direct",
-      "category": "snowboard",
-      "deal_type": "clearance",
-      "description": "Up to 40% off Select Boards, Outerwear, & More & Free Shipping Over $100 SHOP MEMORIAL DAY DEALS",
-      "discount": "40% off",
-      "code": null,
-      "url": "https://www.burton.com/us/en/c/sale-gear",
-      "source_url": "https://www.burton.com/us/en/c/sale-gear",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-05-19T16:27:25.927228+00:00",
-      "last_seen": "2026-05-26T03:38:46.061710+00:00"
+      "last_seen": "2026-05-26T07:48:26.603214+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -106,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:20.926180+00:00",
-      "last_seen": "2026-05-26T03:35:06.617307+00:00"
+      "last_seen": "2026-05-26T07:48:42.657931+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -121,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-24T04:03:17.723000+00:00",
-      "last_seen": "2026-05-26T03:34:00.964973+00:00"
+      "last_seen": "2026-05-26T07:47:38.451405+00:00"
     },
     {
       "id": "99b45387b311",
@@ -136,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:43:29.795406+00:00",
-      "last_seen": "2026-05-26T03:33:12.738116+00:00"
+      "last_seen": "2026-05-26T07:46:50.617002+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -151,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-24T04:02:45.455945+00:00",
-      "last_seen": "2026-05-26T03:33:28.906055+00:00"
+      "last_seen": "2026-05-26T07:47:06.629451+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -166,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-20T23:15:40.618317+00:00",
-      "last_seen": "2026-05-26T03:33:44.990137+00:00"
+      "last_seen": "2026-05-26T07:47:22.589414+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -181,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-17T11:12:00.800564+00:00",
-      "last_seen": "2026-05-26T03:37:01.304363+00:00"
+      "last_seen": "2026-05-26T07:50:32.153641+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -196,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-23T20:05:52.859219+00:00",
-      "last_seen": "2026-05-26T03:31:20.790820+00:00"
+      "last_seen": "2026-05-26T07:45:00.198834+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -211,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-17T22:58:40.269757+00:00",
-      "last_seen": "2026-05-26T03:35:54.475462+00:00"
+      "last_seen": "2026-05-26T07:49:29.296491+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -226,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:42:27.159456+00:00",
-      "last_seen": "2026-05-26T03:32:08.823877+00:00"
+      "last_seen": "2026-05-26T07:45:47.337364+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -241,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-18T00:03:24.616379+00:00",
-      "last_seen": "2026-05-26T03:37:17.280615+00:00"
+      "last_seen": "2026-05-26T07:50:48.017358+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -256,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-18T00:03:40.870036+00:00",
-      "last_seen": "2026-05-26T03:37:33.270904+00:00"
+      "last_seen": "2026-05-26T07:51:03.906114+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -271,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-24T04:07:04.159431+00:00",
-      "last_seen": "2026-05-26T03:37:48.859016+00:00"
+      "last_seen": "2026-05-26T07:51:19.468247+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -286,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-20T23:14:35.893217+00:00",
-      "last_seen": "2026-05-26T03:32:41.047184+00:00"
+      "last_seen": "2026-05-26T07:46:19.108930+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -301,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T19:44:54.028309+00:00",
-      "last_seen": "2026-05-26T03:38:05.613973+00:00"
+      "last_seen": "2026-05-26T07:51:35.006387+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -316,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-05-26T03:38:31.856882+00:00"
+      "last_seen": "2026-05-26T07:52:00.403108+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -331,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-21T18:03:47.525110+00:00",
-      "last_seen": "2026-05-26T03:36:27.959481+00:00"
+      "last_seen": "2026-05-26T07:50:01.020789+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -346,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-23T00:13:01.832448+00:00",
-      "last_seen": "2026-05-26T03:31:04.281342+00:00"
+      "last_seen": "2026-05-26T07:44:44.591725+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -361,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-24T21:57:05.076023+00:00",
-      "last_seen": "2026-05-26T03:31:37.011490+00:00"
+      "last_seen": "2026-05-26T07:45:15.829832+00:00"
     },
     {
       "id": "da6203343c51",
@@ -376,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-24T04:05:26.539680+00:00",
-      "last_seen": "2026-05-26T03:36:10.677467+00:00"
+      "last_seen": "2026-05-26T07:49:45.435601+00:00"
     },
     {
       "id": "f073230a6362",
@@ -391,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-24T04:03:34.016042+00:00",
-      "last_seen": "2026-05-26T03:34:16.923382+00:00"
+      "last_seen": "2026-05-26T07:47:54.252210+00:00"
     },
     {
       "id": "07f96eabba68",
@@ -406,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-18T00:04:42.774897+00:00",
-      "last_seen": "2026-05-26T03:38:33.299870+00:00"
+      "last_seen": "2026-05-26T07:52:02.196189+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -421,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-23T11:18:25.281119+00:00",
-      "last_seen": "2026-05-26T03:38:22.458533+00:00"
+      "last_seen": "2026-05-26T07:51:51.609523+00:00"
     },
     {
       "id": "770f36c0308a",
@@ -436,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-15T10:30:45.916153+00:00",
-      "last_seen": "2026-05-26T03:38:42.475521+00:00"
+      "last_seen": "2026-05-26T07:52:10.595258+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:46:54.975859+00:00",
-      "last_seen": "2026-05-26T03:36:44.580590+00:00"
+      "last_seen": "2026-05-26T07:50:16.568165+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-14T07:45:52.040763+00:00",
-      "last_seen": "2026-05-26T03:35:38.370433+00:00"
+      "last_seen": "2026-05-26T07:49:13.737710+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -481,7 +466,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-05-26T03:38:41.599343+00:00"
+      "last_seen": "2026-05-26T07:52:09.901836+00:00"
+    },
+    {
+      "id": "9411a046d631",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-05-26T03:38:26.016367+00:00",
+      "last_seen": "2026-05-26T07:51:54.940048+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -496,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-16T10:22:36.459956+00:00",
-      "last_seen": "2026-05-26T03:38:23.136441+00:00"
+      "last_seen": "2026-05-26T07:51:52.500339+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -511,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-05-26T03:38:32.579164+00:00"
+      "last_seen": "2026-05-26T07:52:00.999436+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -526,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-23T11:18:26.767573+00:00",
-      "last_seen": "2026-05-26T03:38:23.843449+00:00"
+      "last_seen": "2026-05-26T07:51:53.196702+00:00"
     },
     {
       "id": "602afd76335e",
@@ -541,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-05-26T03:38:28.321357+00:00"
+      "last_seen": "2026-05-26T07:51:56.830731+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-05-26T03:38:44.193941+00:00"
+      "last_seen": "2026-05-26T07:52:12.400526+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-05-26T03:38:40.589757+00:00"
+      "last_seen": "2026-05-26T07:52:08.888210+00:00"
     }
   ]
 }
