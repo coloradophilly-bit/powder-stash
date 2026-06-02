@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-06-02T04:04:12.721198+00:00",
+  "generated_at": "2026-06-02T08:47:17.120269+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "b5fff3b23eb2",
+      "brand": "Smartwool",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Smartwool \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-06-02T08:46:59.936226+00:00",
+      "last_seen": "2026-06-02T08:46:59.936226+00:00"
+    },
     {
       "id": "b43ca11d1309",
       "brand": "Outdoor Research",
@@ -16,22 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-06-02T04:03:53.377207+00:00"
-    },
-    {
-      "id": "07f96eabba68",
-      "brand": "Smartwool",
-      "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Women's Everyday Margarita Crew Socks, Everyday Spruce Street Crew Socks + 92 more",
-      "discount": "Up to 100% off",
-      "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-05-18T00:04:42.774897+00:00",
-      "last_seen": "2026-06-02T04:03:55.591229+00:00"
+      "last_seen": "2026-06-02T08:46:56.879185+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-26T07:52:14.233443+00:00",
-      "last_seen": "2026-06-02T04:04:10.256172+00:00"
+      "last_seen": "2026-06-02T08:47:14.800966+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-02T04:04:04.759575+00:00"
+      "last_seen": "2026-06-02T08:47:09.882654+00:00"
     },
     {
       "id": "9411a046d631",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-29T23:19:23.675543+00:00",
-      "last_seen": "2026-06-02T04:03:46.947889+00:00"
+      "last_seen": "2026-06-02T08:46:50.005610+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-30T11:27:04.028654+00:00",
-      "last_seen": "2026-06-02T04:03:43.853129+00:00"
+      "last_seen": "2026-06-02T08:46:46.165908+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-06-02T04:03:54.257150+00:00"
+      "last_seen": "2026-06-02T08:46:57.856250+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-23T11:18:26.767573+00:00",
-      "last_seen": "2026-06-02T04:03:44.766944+00:00"
+      "last_seen": "2026-06-02T08:46:47.467987+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-04-28T16:58:30.900703+00:00",
-      "last_seen": "2026-06-02T04:03:49.041292+00:00"
+      "last_seen": "2026-06-02T08:46:51.988353+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-02T04:04:07.929718+00:00"
+      "last_seen": "2026-06-02T08:47:12.932225+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-26T15:34:11.910628+00:00",
-      "last_seen": "2026-06-02T04:04:05.840518+00:00"
+      "last_seen": "2026-06-02T08:47:11.252727+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-02T04:04:03.513901+00:00"
+      "last_seen": "2026-06-02T08:47:08.909836+00:00"
     }
   ]
 }
