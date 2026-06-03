@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-06-03T04:11:29.439400+00:00",
+  "generated_at": "2026-06-03T09:32:27.149771+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "cbccf365375b",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-06-03T09:32:01.277786+00:00",
+      "last_seen": "2026-06-03T09:32:01.277786+00:00"
+    },
     {
       "id": "b43ca11d1309",
       "brand": "Outdoor Research",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-06-03T04:11:06.886418+00:00"
+      "last_seen": "2026-06-03T09:32:10.612187+00:00"
     },
     {
       "id": "07f96eabba68",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-02T12:48:56.092403+00:00",
-      "last_seen": "2026-06-03T04:11:12.926090+00:00"
+      "last_seen": "2026-06-03T09:32:12.785237+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-26T07:52:14.233443+00:00",
-      "last_seen": "2026-06-03T04:11:26.747551+00:00"
+      "last_seen": "2026-06-03T09:32:24.894153+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-03T04:11:21.779285+00:00"
+      "last_seen": "2026-06-03T09:32:19.982461+00:00"
     },
     {
       "id": "9411a046d631",
@@ -76,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-29T23:19:23.675543+00:00",
-      "last_seen": "2026-06-03T04:10:59.934032+00:00"
-    },
-    {
-      "id": "8c60ade6c5fc",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Flagship Snowboard, Men's Frontier 2.0 Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-05-30T11:27:04.028654+00:00",
-      "last_seen": "2026-06-03T04:10:56.586136+00:00"
+      "last_seen": "2026-06-03T09:32:04.192838+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-06-03T04:11:11.328810+00:00"
+      "last_seen": "2026-06-03T09:32:11.489074+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-23T11:18:26.767573+00:00",
-      "last_seen": "2026-06-03T04:10:57.482217+00:00"
+      "last_seen": "2026-06-03T09:32:02.172497+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-02T20:55:39.923670+00:00",
-      "last_seen": "2026-06-03T04:11:02.650329+00:00"
+      "last_seen": "2026-06-03T09:32:06.287451+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-03T04:11:24.826378+00:00"
+      "last_seen": "2026-06-03T09:32:23.042926+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-26T15:34:11.910628+00:00",
-      "last_seen": "2026-06-03T04:11:22.931703+00:00"
+      "last_seen": "2026-06-03T09:32:21.202986+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-03T04:11:20.446784+00:00"
+      "last_seen": "2026-06-03T09:32:19.067111+00:00"
     }
   ]
 }
