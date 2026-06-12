@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-12T16:25:54.000940+00:00",
-  "deal_count": 11,
+  "generated_at": "2026-06-12T19:11:51.725731+00:00",
+  "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "b3b69581f3b7",
-      "brand": "Smartwool",
-      "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Second Cut\u2122 Fleece Slipper, Everyday Cozy Slipper Socks + 91 more",
-      "discount": "Up to 100% off",
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
       "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
       "pulse": true,
-      "first_seen": "2026-06-12T16:25:38.293111+00:00",
-      "last_seen": "2026-06-12T16:25:38.293111+00:00"
+      "first_seen": "2026-06-12T19:11:29.220552+00:00",
+      "last_seen": "2026-06-12T19:11:29.220552+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -31,7 +31,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-06-12T16:25:36.316879+00:00"
+      "last_seen": "2026-06-12T19:11:33.472483+00:00"
+    },
+    {
+      "id": "b3b69581f3b7",
+      "brand": "Smartwool",
+      "category": "accessories",
+      "deal_type": "clearance",
+      "description": "Up to 100% off \u2014 Second Cut\u2122 Fleece Slipper, Everyday Cozy Slipper Socks + 91 more",
+      "discount": "Up to 100% off",
+      "code": null,
+      "url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-06-12T16:25:38.293111+00:00",
+      "last_seen": "2026-06-12T19:11:35.931672+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-26T07:52:14.233443+00:00",
-      "last_seen": "2026-06-12T16:25:51.801181+00:00"
+      "last_seen": "2026-06-12T19:11:49.170421+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-12T16:25:46.604419+00:00"
+      "last_seen": "2026-06-12T19:11:44.499688+00:00"
     },
     {
       "id": "d83a655278d7",
@@ -76,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-12T12:26:12.408762+00:00",
-      "last_seen": "2026-06-12T16:24:50.405068+00:00"
+      "last_seen": "2026-06-12T19:11:27.070502+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-09T09:49:14.566309+00:00",
-      "last_seen": "2026-06-12T16:24:47.511911+00:00"
+      "last_seen": "2026-06-12T19:11:24.140928+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-06-12T16:25:37.121623+00:00"
+      "last_seen": "2026-06-12T19:11:34.402252+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-23T11:18:26.767573+00:00",
-      "last_seen": "2026-06-12T16:24:48.424108+00:00"
+      "last_seen": "2026-06-12T19:11:24.903410+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -136,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-12T16:25:49.771701+00:00"
+      "last_seen": "2026-06-12T19:11:47.209100+00:00"
     },
     {
       "id": "e489073f221f",
@@ -151,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-06T21:12:30.132655+00:00",
-      "last_seen": "2026-06-12T16:25:47.830722+00:00"
+      "last_seen": "2026-06-12T19:11:45.485668+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -166,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-12T16:25:45.467401+00:00"
+      "last_seen": "2026-06-12T19:11:43.290463+00:00"
     }
   ]
 }
