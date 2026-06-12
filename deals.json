@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-06-11T23:28:56.177622+00:00",
-  "deal_count": 11,
+  "generated_at": "2026-06-12T04:03:17.558025+00:00",
+  "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-06-12T04:02:56.106782+00:00",
+      "last_seen": "2026-06-12T04:02:56.106782+00:00"
+    },
     {
       "id": "b43ca11d1309",
       "brand": "Outdoor Research",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-05-13T20:13:27.398280+00:00",
-      "last_seen": "2026-06-11T23:28:40.661737+00:00"
+      "last_seen": "2026-06-12T04:03:00.498106+00:00"
     },
     {
       "id": "b0aa34bb678a",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-05T18:01:42.583112+00:00",
-      "last_seen": "2026-06-11T23:28:41.963415+00:00"
+      "last_seen": "2026-06-12T04:03:02.997419+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-26T07:52:14.233443+00:00",
-      "last_seen": "2026-06-11T23:28:53.637313+00:00"
+      "last_seen": "2026-06-12T04:03:15.157133+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-11T23:28:48.798680+00:00"
+      "last_seen": "2026-06-12T04:03:10.569728+00:00"
     },
     {
       "id": "9411a046d631",
@@ -76,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-29T23:19:23.675543+00:00",
-      "last_seen": "2026-06-11T23:27:56.557519+00:00"
+      "last_seen": "2026-06-12T04:02:52.903718+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-09T09:49:14.566309+00:00",
-      "last_seen": "2026-06-11T23:27:53.875397+00:00"
+      "last_seen": "2026-06-12T04:02:50.060207+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-29T17:57:42.693112+00:00",
-      "last_seen": "2026-06-11T23:28:41.310175+00:00"
+      "last_seen": "2026-06-12T04:03:01.354209+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-23T11:18:26.767573+00:00",
-      "last_seen": "2026-06-11T23:27:54.664450+00:00"
+      "last_seen": "2026-06-12T04:02:50.790385+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -136,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-11T23:28:51.741865+00:00"
+      "last_seen": "2026-06-12T04:03:13.332422+00:00"
     },
     {
       "id": "e489073f221f",
@@ -151,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-06T21:12:30.132655+00:00",
-      "last_seen": "2026-06-11T23:28:50.036015+00:00"
+      "last_seen": "2026-06-12T04:03:11.653439+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -166,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-11T23:28:47.834192+00:00"
+      "last_seen": "2026-06-12T04:03:09.479303+00:00"
     }
   ]
 }
