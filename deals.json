@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T20:01:57.345829+00:00",
+  "generated_at": "2026-06-19T21:18:04.058489+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
@@ -14,9 +14,9 @@
       "url": "https://www.outdoorresearch.com/collections/sale",
       "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-06-19T20:01:39.849186+00:00",
-      "last_seen": "2026-06-19T20:01:39.849186+00:00"
+      "last_seen": "2026-06-19T21:17:45.915837+00:00"
     },
     {
       "id": "5e535769012f",
@@ -29,84 +29,9 @@
       "url": "https://www.smartwool.com/collections/sale",
       "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-06-19T20:01:42.792553+00:00",
-      "last_seen": "2026-06-19T20:01:42.792553+00:00"
-    },
-    {
-      "id": "8c60ade6c5fc",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Flagship Snowboard, Men's Frontier 2.0 Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-06-19T20:01:31.062151+00:00",
-      "last_seen": "2026-06-19T20:01:31.062151+00:00"
-    },
-    {
-      "id": "5d233f358c58",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Offgrid Merino Fleece 1/2 Zip Long Sleeve - Toffee | Men's Mid Layer, Cascade Merino Base Layer Long Sleeve - Mtn Pixel ...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-06-19T20:01:40.579029+00:00",
-      "last_seen": "2026-06-19T20:01:40.579029+00:00"
-    },
-    {
-      "id": "960c3f07f2db",
-      "brand": "Nidecker",
-      "category": "bindings",
-      "deal_type": "active",
-      "description": "Sale \u2014 Kita Women, The Gun + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.nidecker.com/en/sale",
-      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-06-19T20:01:31.971352+00:00",
-      "last_seen": "2026-06-19T20:01:31.971352+00:00"
-    },
-    {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
-      "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-06-19T20:01:35.962882+00:00",
-      "last_seen": "2026-06-19T20:01:35.962882+00:00"
-    },
-    {
-      "id": "e489073f221f",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "drops",
-      "description": "Smith Optics Sale",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-06-19T20:01:50.963492+00:00",
-      "last_seen": "2026-06-19T20:01:50.963492+00:00"
+      "last_seen": "2026-06-19T21:17:48.898611+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -121,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-26T07:52:14.233443+00:00",
-      "last_seen": "2026-06-19T20:01:54.997240+00:00"
+      "last_seen": "2026-06-19T21:18:01.793829+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -136,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-19T20:01:50.173127+00:00"
+      "last_seen": "2026-06-19T21:17:56.901701+00:00"
     },
     {
       "id": "9411a046d631",
@@ -151,7 +76,67 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-18T16:38:14.917751+00:00",
-      "last_seen": "2026-06-19T20:01:34.063882+00:00"
+      "last_seen": "2026-06-19T21:17:38.619190+00:00"
+    },
+    {
+      "id": "8c60ade6c5fc",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Sale \u2014 Men's Flagship Snowboard, Men's Frontier 2.0 Snowboard + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-06-19T20:01:31.062151+00:00",
+      "last_seen": "2026-06-19T21:17:35.892472+00:00"
+    },
+    {
+      "id": "5d233f358c58",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Offgrid Merino Fleece 1/2 Zip Long Sleeve - Toffee | Men's Mid Layer, Cascade Merino Base Layer Long Sleeve - Mtn Pixel ...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-06-19T20:01:40.579029+00:00",
+      "last_seen": "2026-06-19T21:17:46.645061+00:00"
+    },
+    {
+      "id": "960c3f07f2db",
+      "brand": "Nidecker",
+      "category": "bindings",
+      "deal_type": "active",
+      "description": "Sale \u2014 Kita Women, The Gun + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.nidecker.com/en/sale",
+      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-06-19T20:01:31.971352+00:00",
+      "last_seen": "2026-06-19T21:17:36.701114+00:00"
+    },
+    {
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-06-19T20:01:35.962882+00:00",
+      "last_seen": "2026-06-19T21:17:41.798744+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +151,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-19T20:01:52.710863+00:00"
+      "last_seen": "2026-06-19T21:17:59.856194+00:00"
+    },
+    {
+      "id": "e489073f221f",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "drops",
+      "description": "Smith Optics Sale",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-06-19T20:01:50.963492+00:00",
+      "last_seen": "2026-06-19T21:17:57.849552+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-19T20:01:49.143724+00:00"
+      "last_seen": "2026-06-19T21:17:55.620209+00:00"
     }
   ]
 }
