@@ -1,38 +1,8 @@
 {
-  "generated_at": "2026-06-20T05:21:01.841741+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-06-20T09:02:36.132994+00:00",
+  "deal_count": 5,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "b43ca11d1309",
-      "brand": "Outdoor Research",
-      "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Shorts + 142 more",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.outdoorresearch.com/collections/sale",
-      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-06-19T20:01:39.849186+00:00",
-      "last_seen": "2026-06-20T05:20:44.621562+00:00"
-    },
-    {
-      "id": "5e535769012f",
-      "brand": "Smartwool",
-      "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Everyday Joviansphere Crew Socks, Women's Everyday Cable Crew Socks + 212 more",
-      "discount": "Up to 100% off",
-      "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-06-19T20:01:42.792553+00:00",
-      "last_seen": "2026-06-20T05:20:47.750072+00:00"
-    },
     {
       "id": "b71e17be76bb",
       "brand": "Burton Direct",
@@ -46,7 +16,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-26T07:52:14.233443+00:00",
-      "last_seen": "2026-06-20T05:20:59.484917+00:00"
+      "last_seen": "2026-06-20T09:02:33.714217+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,67 +31,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-20T05:20:55.250309+00:00"
-    },
-    {
-      "id": "9411a046d631",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-06-18T16:38:14.917751+00:00",
-      "last_seen": "2026-06-20T05:20:38.467262+00:00"
-    },
-    {
-      "id": "8c60ade6c5fc",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Flagship Snowboard, Men's Frontier 2.0 Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-06-19T20:01:31.062151+00:00",
-      "last_seen": "2026-06-20T05:20:35.766363+00:00"
-    },
-    {
-      "id": "5d233f358c58",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Offgrid Merino Fleece 1/2 Zip Long Sleeve - Toffee | Men's Mid Layer, Cascade Merino Base Layer Long Sleeve - Mtn Pixel ...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-06-19T20:01:40.579029+00:00",
-      "last_seen": "2026-06-20T05:20:45.393634+00:00"
-    },
-    {
-      "id": "960c3f07f2db",
-      "brand": "Nidecker",
-      "category": "bindings",
-      "deal_type": "active",
-      "description": "Sale \u2014 Kita Women, The Gun + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.nidecker.com/en/sale",
-      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-06-19T20:01:31.971352+00:00",
-      "last_seen": "2026-06-20T05:20:36.481821+00:00"
+      "last_seen": "2026-06-20T09:02:27.954769+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-19T20:01:35.962882+00:00",
-      "last_seen": "2026-06-20T05:20:40.967860+00:00"
+      "last_seen": "2026-06-20T09:02:16.780618+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,22 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-20T05:20:57.668579+00:00"
-    },
-    {
-      "id": "e489073f221f",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "drops",
-      "description": "Smith Optics Sale",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-06-19T20:01:50.963492+00:00",
-      "last_seen": "2026-06-20T05:20:55.987672+00:00"
+      "last_seen": "2026-06-20T09:02:31.830297+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-20T05:20:53.861379+00:00"
+      "last_seen": "2026-06-20T09:02:26.852031+00:00"
     }
   ]
 }
