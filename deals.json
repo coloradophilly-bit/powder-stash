@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-06-24T10:57:29.453192+00:00",
-  "deal_count": 11,
+  "generated_at": "2026-06-24T13:29:44.190344+00:00",
+  "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "4ef9b8b98600",
+      "brand": "Burton Direct",
+      "category": "snowboard",
+      "deal_type": "clearance",
+      "description": "Burton Outlet, Sale & Clearance Gear",
+      "discount": "40% off",
+      "code": null,
+      "url": "https://www.burton.com/us/en/c/sale-gear",
+      "source_url": "https://www.burton.com/us/en/c/sale-gear",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-06-24T13:29:41.911876+00:00",
+      "last_seen": "2026-06-24T13:29:41.911876+00:00"
+    },
+    {
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-06-24T13:29:21.390959+00:00",
+      "last_seen": "2026-06-24T13:29:21.390959+00:00"
+    },
     {
       "id": "b43ca11d1309",
       "brand": "Outdoor Research",
@@ -16,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:06.413918+00:00",
-      "last_seen": "2026-06-24T10:57:10.874497+00:00"
+      "last_seen": "2026-06-24T13:29:25.643384+00:00"
     },
     {
       "id": "5e535769012f",
@@ -31,22 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:09.382282+00:00",
-      "last_seen": "2026-06-24T10:57:14.287367+00:00"
-    },
-    {
-      "id": "b71e17be76bb",
-      "brand": "Burton Direct",
-      "category": "snowboard",
-      "deal_type": "clearance",
-      "description": "Save Up to 40% on Select Boards, Boots, Outerwear, & More & Free Shipping Over $100 SHOP SALE",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.burton.com/us/en/c/sale-gear",
-      "source_url": "https://www.burton.com/us/en/c/sale-gear",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-05-26T07:52:14.233443+00:00",
-      "last_seen": "2026-06-24T10:57:27.096675+00:00"
+      "last_seen": "2026-06-24T13:29:28.804558+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-24T10:57:22.292806+00:00"
+      "last_seen": "2026-06-24T13:29:35.539319+00:00"
     },
     {
       "id": "9411a046d631",
@@ -76,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:59.551695+00:00",
-      "last_seen": "2026-06-24T10:56:24.352810+00:00"
+      "last_seen": "2026-06-24T13:29:19.266453+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:56.816865+00:00",
-      "last_seen": "2026-06-24T10:56:21.129516+00:00"
+      "last_seen": "2026-06-24T13:29:16.384559+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:07.146578+00:00",
-      "last_seen": "2026-06-24T10:57:11.721654+00:00"
+      "last_seen": "2026-06-24T13:29:26.492925+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-06-24T10:56:21.974479+00:00"
+      "last_seen": "2026-06-24T13:29:17.127903+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -136,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-24T10:57:25.144149+00:00"
+      "last_seen": "2026-06-24T13:29:38.320377+00:00"
     },
     {
       "id": "e489073f221f",
@@ -151,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:18.003083+00:00",
-      "last_seen": "2026-06-24T10:57:23.377540+00:00"
+      "last_seen": "2026-06-24T13:29:36.689861+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -166,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-24T10:57:21.260567+00:00"
+      "last_seen": "2026-06-24T13:29:34.521598+00:00"
     }
   ]
 }
