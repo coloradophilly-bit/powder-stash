@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T03:58:09.934167+00:00",
+  "generated_at": "2026-06-24T07:47:40.863372+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
@@ -8,7 +8,7 @@
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Shorts + 143 more",
+      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Shorts + 141 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -16,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:06.413918+00:00",
-      "last_seen": "2026-06-24T03:57:51.541558+00:00"
+      "last_seen": "2026-06-24T07:47:21.280511+00:00"
     },
     {
       "id": "5e535769012f",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:09.382282+00:00",
-      "last_seen": "2026-06-24T03:57:54.532366+00:00"
+      "last_seen": "2026-06-24T07:47:24.506583+00:00"
     },
     {
       "id": "b71e17be76bb",
@@ -46,7 +46,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-05-26T07:52:14.233443+00:00",
-      "last_seen": "2026-06-24T03:58:06.534035+00:00"
+      "last_seen": "2026-06-24T07:47:38.334396+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-24T03:58:02.169673+00:00"
+      "last_seen": "2026-06-24T07:47:33.264358+00:00"
     },
     {
       "id": "9411a046d631",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:59.551695+00:00",
-      "last_seen": "2026-06-24T03:57:45.778691+00:00"
+      "last_seen": "2026-06-24T07:47:14.279939+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:56.816865+00:00",
-      "last_seen": "2026-06-24T03:57:42.966668+00:00"
+      "last_seen": "2026-06-24T07:47:11.382825+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:07.146578+00:00",
-      "last_seen": "2026-06-24T03:57:52.340837+00:00"
+      "last_seen": "2026-06-24T07:47:22.159437+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-06-24T03:57:43.680306+00:00"
+      "last_seen": "2026-06-24T07:47:12.186667+00:00"
     },
     {
       "id": "602afd76335e",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-22T10:44:16.383299+00:00",
-      "last_seen": "2026-06-24T03:57:47.854543+00:00"
+      "last_seen": "2026-06-24T07:47:17.039373+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-24T03:58:04.688285+00:00"
+      "last_seen": "2026-06-24T07:47:36.444405+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:18.003083+00:00",
-      "last_seen": "2026-06-24T03:58:03.028144+00:00"
+      "last_seen": "2026-06-24T07:47:34.372566+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-24T03:58:01.004289+00:00"
+      "last_seen": "2026-06-24T07:47:32.046589+00:00"
     }
   ]
 }
