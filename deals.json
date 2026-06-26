@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T19:54:35.879283+00:00",
+  "generated_at": "2026-06-26T21:25:42.751525+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
@@ -16,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-06-26T19:54:33.576089+00:00"
+      "last_seen": "2026-06-26T21:25:40.337023+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -31,14 +31,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-25T15:46:46.553837+00:00",
-      "last_seen": "2026-06-26T19:54:13.656259+00:00"
+      "last_seen": "2026-06-26T21:25:17.428990+00:00"
     },
     {
       "id": "5e535769012f",
       "brand": "Smartwool",
       "category": "accessories",
       "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Everyday Joviansphere Crew Socks, Women's Everyday Cable Crew Socks + 211 more",
+      "description": "Up to 100% off \u2014 Everyday Joviansphere Crew Socks, Women's Everyday Cable Crew Socks + 210 more",
       "discount": "Up to 100% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-26T17:54:34.738960+00:00",
-      "last_seen": "2026-06-26T19:54:17.882046+00:00"
+      "last_seen": "2026-06-26T21:25:21.213758+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-26T19:54:27.242602+00:00"
+      "last_seen": "2026-06-26T21:25:31.782361+00:00"
     },
     {
       "id": "9411a046d631",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T21:03:03.916654+00:00",
-      "last_seen": "2026-06-26T19:54:04.724017+00:00"
+      "last_seen": "2026-06-26T21:25:11.375244+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-06-26T19:54:11.204810+00:00"
+      "last_seen": "2026-06-26T21:25:15.417539+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:56.816865+00:00",
-      "last_seen": "2026-06-26T19:54:00.282533+00:00"
+      "last_seen": "2026-06-26T21:25:08.427618+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:07.146578+00:00",
-      "last_seen": "2026-06-26T19:54:14.612122+00:00"
+      "last_seen": "2026-06-26T21:25:18.401802+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-06-26T19:54:01.093873+00:00"
+      "last_seen": "2026-06-26T21:25:09.235474+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-26T17:54:25.931535+00:00",
-      "last_seen": "2026-06-26T19:54:08.672819+00:00"
+      "last_seen": "2026-06-26T21:25:13.735428+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-26T19:54:30.362517+00:00"
+      "last_seen": "2026-06-26T21:25:34.851084+00:00"
     },
     {
       "id": "e489073f221f",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:18.003083+00:00",
-      "last_seen": "2026-06-26T19:54:28.414666+00:00"
+      "last_seen": "2026-06-26T21:25:33.134275+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-26T19:54:26.243513+00:00"
+      "last_seen": "2026-06-26T21:25:30.495332+00:00"
     }
   ]
 }
