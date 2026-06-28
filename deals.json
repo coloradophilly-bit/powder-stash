@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-06-28T18:13:10.803288+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-06-28T20:20:51.942324+00:00",
+  "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "9411a046d631",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-06-28T20:20:26.524631+00:00",
+      "last_seen": "2026-06-28T20:20:26.524631+00:00"
+    },
+    {
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-06-28T20:20:28.400121+00:00",
+      "last_seen": "2026-06-28T20:20:28.400121+00:00"
+    },
     {
       "id": "4ef9b8b98600",
       "brand": "Burton Direct",
@@ -16,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-06-28T18:13:08.315717+00:00"
+      "last_seen": "2026-06-28T20:20:49.577431+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -31,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-25T15:46:46.553837+00:00",
-      "last_seen": "2026-06-28T18:12:51.701327+00:00"
+      "last_seen": "2026-06-28T20:20:31.726777+00:00"
     },
     {
       "id": "5e535769012f",
@@ -46,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-26T17:54:34.738960+00:00",
-      "last_seen": "2026-06-28T18:12:54.493790+00:00"
+      "last_seen": "2026-06-28T20:20:35.194615+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-06-28T18:13:01.748628+00:00"
-    },
-    {
-      "id": "a40b4b033777",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX Curve\u2122 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-06-28T14:55:23.234368+00:00",
-      "last_seen": "2026-06-28T18:12:07.232626+00:00"
+      "last_seen": "2026-06-28T20:20:43.030978+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-06-28T18:12:50.193086+00:00"
+      "last_seen": "2026-06-28T20:20:30.121685+00:00"
     },
     {
       "id": "8c60ade6c5fc",
@@ -106,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:56.816865+00:00",
-      "last_seen": "2026-06-28T18:12:04.455592+00:00"
+      "last_seen": "2026-06-28T20:20:23.639665+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:07.146578+00:00",
-      "last_seen": "2026-06-28T18:12:52.347332+00:00"
+      "last_seen": "2026-06-28T20:20:32.627358+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -136,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-06-28T18:12:05.201409+00:00"
+      "last_seen": "2026-06-28T20:20:24.473241+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-06-28T18:13:04.829374+00:00"
+      "last_seen": "2026-06-28T20:20:46.108645+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:18.003083+00:00",
-      "last_seen": "2026-06-28T18:13:03.205159+00:00"
+      "last_seen": "2026-06-28T20:20:44.294787+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-06-28T18:13:00.736747+00:00"
+      "last_seen": "2026-06-28T20:20:42.078263+00:00"
     }
   ]
 }
