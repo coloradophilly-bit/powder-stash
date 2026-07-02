@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T15:28:11.315941+00:00",
+  "generated_at": "2026-07-02T17:54:21.255328+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
@@ -16,14 +16,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-07-02T15:27:49.034571+00:00"
+      "last_seen": "2026-07-02T17:54:18.852615+00:00"
     },
     {
       "id": "b43ca11d1309",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 140 more",
+      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 139 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-25T15:46:46.553837+00:00",
-      "last_seen": "2026-07-02T15:27:33.720576+00:00"
+      "last_seen": "2026-07-02T17:54:03.535780+00:00"
     },
     {
       "id": "57c352ffd4fe",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-01T12:14:24.814826+00:00",
-      "last_seen": "2026-07-02T15:27:35.687915+00:00"
+      "last_seen": "2026-07-02T17:54:05.152110+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-02T15:27:42.585855+00:00"
+      "last_seen": "2026-07-02T17:54:12.452854+00:00"
     },
     {
       "id": "56e0ccca0608",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-02T03:39:31.973028+00:00",
-      "last_seen": "2026-07-02T15:27:29.531581+00:00"
+      "last_seen": "2026-07-02T17:53:57.160021+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-02T15:27:33.101748+00:00"
+      "last_seen": "2026-07-02T17:54:02.020476+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-02T07:38:49.188031+00:00",
-      "last_seen": "2026-07-02T15:27:26.834679+00:00"
+      "last_seen": "2026-07-02T17:53:54.551687+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:07.146578+00:00",
-      "last_seen": "2026-07-02T15:27:34.930737+00:00"
+      "last_seen": "2026-07-02T17:54:04.377700+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-07-02T15:27:27.503855+00:00"
+      "last_seen": "2026-07-02T17:53:55.219067+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-01T12:14:18.326532+00:00",
-      "last_seen": "2026-07-02T15:27:31.564892+00:00"
+      "last_seen": "2026-07-02T17:54:00.387695+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-07-02T15:27:45.500526+00:00"
+      "last_seen": "2026-07-02T17:54:15.212544+00:00"
     },
     {
       "id": "e489073f221f",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:18.003083+00:00",
-      "last_seen": "2026-07-02T15:27:43.807529+00:00"
+      "last_seen": "2026-07-02T17:54:13.579610+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-07-02T15:27:41.628169+00:00"
+      "last_seen": "2026-07-02T17:54:11.383085+00:00"
     }
   ]
 }
