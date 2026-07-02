@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-02T03:40:03.208413+00:00",
+  "generated_at": "2026-07-02T07:39:13.370984+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "56e0ccca0608",
-      "brand": "Dakine",
-      "category": "accessories",
+      "id": "cbccf365375b",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
       "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Pickup Pad\u2122 + 3 more",
+      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
       "discount": "Sale",
       "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-07-02T03:39:31.973028+00:00",
-      "last_seen": "2026-07-02T03:39:31.973028+00:00"
+      "first_seen": "2026-07-02T07:38:49.188031+00:00",
+      "last_seen": "2026-07-02T07:38:49.188031+00:00"
     },
     {
       "id": "4ef9b8b98600",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-07-02T03:40:00.624406+00:00"
+      "last_seen": "2026-07-02T07:39:11.134970+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-25T15:46:46.553837+00:00",
-      "last_seen": "2026-07-02T03:39:42.035272+00:00"
+      "last_seen": "2026-07-02T07:38:56.227122+00:00"
     },
     {
       "id": "57c352ffd4fe",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-01T12:14:24.814826+00:00",
-      "last_seen": "2026-07-02T03:39:45.315906+00:00"
+      "last_seen": "2026-07-02T07:38:57.786728+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +76,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-02T03:39:53.984538+00:00"
+      "last_seen": "2026-07-02T07:39:04.650636+00:00"
+    },
+    {
+      "id": "56e0ccca0608",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad DLX, Pickup Pad\u2122 + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-02T03:39:31.973028+00:00",
+      "last_seen": "2026-07-02T07:38:51.958745+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,22 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-02T03:39:40.415862+00:00"
-    },
-    {
-      "id": "8c60ade6c5fc",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Flagship Snowboard, Men's Frontier 2.0 Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-06-20T11:25:56.816865+00:00",
-      "last_seen": "2026-07-02T03:39:28.882650+00:00"
+      "last_seen": "2026-07-02T07:38:55.658213+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:07.146578+00:00",
-      "last_seen": "2026-07-02T03:39:43.067782+00:00"
+      "last_seen": "2026-07-02T07:38:56.964632+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-07-02T03:39:29.769989+00:00"
+      "last_seen": "2026-07-02T07:38:49.832856+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-01T12:14:18.326532+00:00",
-      "last_seen": "2026-07-02T03:39:35.210533+00:00"
+      "last_seen": "2026-07-02T07:38:53.999181+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-07-02T03:39:57.294939+00:00"
+      "last_seen": "2026-07-02T07:39:07.514659+00:00"
     },
     {
       "id": "e489073f221f",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:18.003083+00:00",
-      "last_seen": "2026-07-02T03:39:55.384024+00:00"
+      "last_seen": "2026-07-02T07:39:05.741648+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-07-02T03:39:52.793682+00:00"
+      "last_seen": "2026-07-02T07:39:03.731847+00:00"
     }
   ]
 }
