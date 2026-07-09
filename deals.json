@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-07-09T19:53:00.160296+00:00",
-  "deal_count": 13,
+  "generated_at": "2026-07-09T21:30:12.007419+00:00",
+  "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "b5fff3b23eb2",
+      "brand": "Smartwool",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Smartwool \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-07-09T21:29:53.451122+00:00",
+      "last_seen": "2026-07-09T21:29:53.451122+00:00"
+    },
     {
       "id": "4ef9b8b98600",
       "brand": "Burton Direct",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-07-09T19:52:57.736292+00:00"
+      "last_seen": "2026-07-09T21:30:09.488769+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -31,22 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-25T15:46:46.553837+00:00",
-      "last_seen": "2026-07-09T19:52:37.636610+00:00"
-    },
-    {
-      "id": "57c352ffd4fe",
-      "brand": "Smartwool",
-      "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Everyday Joviansphere Crew Socks, Everyday Solid Rib Crew Socks + 206 more",
-      "discount": "Up to 100% off",
-      "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-07-01T12:14:24.814826+00:00",
-      "last_seen": "2026-07-09T19:52:41.251727+00:00"
+      "last_seen": "2026-07-09T21:29:50.487275+00:00"
     },
     {
       "id": "296333f39f37",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-07T07:44:51.908361+00:00",
-      "last_seen": "2026-07-09T19:52:52.217871+00:00"
+      "last_seen": "2026-07-09T21:30:03.885044+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-09T19:52:50.845507+00:00"
+      "last_seen": "2026-07-09T21:30:02.248116+00:00"
     },
     {
       "id": "b46fd0f2049e",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T04:59:07.061386+00:00",
-      "last_seen": "2026-07-09T19:52:30.301522+00:00"
+      "last_seen": "2026-07-09T21:29:42.463830+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-09T19:52:35.852460+00:00"
+      "last_seen": "2026-07-09T21:29:48.608921+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-02T07:38:49.188031+00:00",
-      "last_seen": "2026-07-09T19:52:27.490567+00:00"
+      "last_seen": "2026-07-09T21:29:39.051803+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:07.146578+00:00",
-      "last_seen": "2026-07-09T19:52:38.615588+00:00"
+      "last_seen": "2026-07-09T21:29:51.345849+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-07-09T19:52:28.290986+00:00"
+      "last_seen": "2026-07-09T21:29:40.059429+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-05T12:22:37.406359+00:00",
-      "last_seen": "2026-07-09T19:52:34.052725+00:00"
+      "last_seen": "2026-07-09T21:29:46.255874+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -181,22 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-07-09T19:52:53.925092+00:00"
-    },
-    {
-      "id": "aa4657c80004",
-      "brand": "Tactics Snowboard",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Tactics Snowboard \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.tactics.com/sale/snowboarding",
-      "source_url": "https://www.tactics.com/collections/sale-snowboarding",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-07-09T19:52:49.562589+00:00"
+      "last_seen": "2026-07-09T21:30:06.092312+00:00"
     }
   ]
 }
