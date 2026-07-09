@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-07-09T04:59:36.997140+00:00",
+  "generated_at": "2026-07-09T15:22:08.516356+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "b46fd0f2049e",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Pindo Straw Hat + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-09T04:59:07.061386+00:00",
-      "last_seen": "2026-07-09T04:59:07.061386+00:00"
-    },
     {
       "id": "4ef9b8b98600",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-07-09T04:59:34.218664+00:00"
+      "last_seen": "2026-07-09T15:22:06.057210+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -46,14 +31,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-25T15:46:46.553837+00:00",
-      "last_seen": "2026-07-09T04:59:14.264781+00:00"
+      "last_seen": "2026-07-09T15:21:46.893162+00:00"
     },
     {
       "id": "57c352ffd4fe",
       "brand": "Smartwool",
       "category": "accessories",
       "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Everyday Joviansphere Crew Socks, Everyday Solid Rib Crew Socks + 202 more",
+      "description": "Up to 100% off \u2014 Everyday Joviansphere Crew Socks, Everyday Solid Rib Crew Socks + 201 more",
       "discount": "Up to 100% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-01T12:14:24.814826+00:00",
-      "last_seen": "2026-07-09T04:59:17.576647+00:00"
+      "last_seen": "2026-07-09T15:21:50.250871+00:00"
     },
     {
       "id": "296333f39f37",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-07T07:44:51.908361+00:00",
-      "last_seen": "2026-07-09T04:59:28.156298+00:00"
+      "last_seen": "2026-07-09T15:22:00.324921+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +76,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-09T04:59:26.404891+00:00"
+      "last_seen": "2026-07-09T15:21:58.921288+00:00"
+    },
+    {
+      "id": "b46fd0f2049e",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad DLX, Pindo Straw Hat + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-09T04:59:07.061386+00:00",
+      "last_seen": "2026-07-09T15:21:38.873217+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-09T04:59:12.362753+00:00"
+      "last_seen": "2026-07-09T15:21:45.120213+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-02T07:38:49.188031+00:00",
-      "last_seen": "2026-07-09T04:59:04.014503+00:00"
+      "last_seen": "2026-07-09T15:21:35.998940+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:07.146578+00:00",
-      "last_seen": "2026-07-09T04:59:15.206375+00:00"
+      "last_seen": "2026-07-09T15:21:47.740809+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-07-09T04:59:04.922367+00:00"
+      "last_seen": "2026-07-09T15:21:36.887112+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-05T12:22:37.406359+00:00",
-      "last_seen": "2026-07-09T04:59:10.234344+00:00"
+      "last_seen": "2026-07-09T15:21:42.699127+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-07-09T04:59:30.346830+00:00"
+      "last_seen": "2026-07-09T15:22:02.185545+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:14.411452+00:00",
-      "last_seen": "2026-07-09T04:59:25.164526+00:00"
+      "last_seen": "2026-07-09T15:21:57.717458+00:00"
     }
   ]
 }
