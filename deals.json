@@ -1,38 +1,8 @@
 {
-  "generated_at": "2026-07-09T23:18:09.643914+00:00",
+  "generated_at": "2026-07-10T03:05:40.417533+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "23ad60917dcf",
-      "brand": "Smartwool",
-      "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Everyday Joviansphere Crew Socks + 211 more",
-      "discount": "Up to 100% off",
-      "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-07-09T23:17:50.971433+00:00",
-      "last_seen": "2026-07-09T23:17:50.971433+00:00"
-    },
-    {
-      "id": "aa4657c80004",
-      "brand": "Tactics Snowboard",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Tactics Snowboard \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.tactics.com/sale/snowboarding",
-      "source_url": "https://www.tactics.com/collections/sale-snowboarding",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-09T23:17:59.038363+00:00"
-    },
     {
       "id": "4ef9b8b98600",
       "brand": "Burton Direct",
@@ -46,14 +16,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-07-09T23:18:07.080426+00:00"
+      "last_seen": "2026-07-10T03:05:37.732512+00:00"
     },
     {
       "id": "b43ca11d1309",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 139 more",
+      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 138 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -61,7 +31,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-25T15:46:46.553837+00:00",
-      "last_seen": "2026-07-09T23:17:46.827047+00:00"
+      "last_seen": "2026-07-10T03:05:19.323801+00:00"
+    },
+    {
+      "id": "23ad60917dcf",
+      "brand": "Smartwool",
+      "category": "accessories",
+      "deal_type": "clearance",
+      "description": "Up to 100% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Everyday Joviansphere Crew Socks + 211 more",
+      "discount": "Up to 100% off",
+      "code": null,
+      "url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-07-09T23:17:50.971433+00:00",
+      "last_seen": "2026-07-10T03:05:22.601219+00:00"
     },
     {
       "id": "296333f39f37",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-07T07:44:51.908361+00:00",
-      "last_seen": "2026-07-09T23:18:01.591306+00:00"
+      "last_seen": "2026-07-10T03:05:32.272741+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-09T23:18:00.252819+00:00"
+      "last_seen": "2026-07-10T03:05:30.991662+00:00"
     },
     {
       "id": "b46fd0f2049e",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T04:59:07.061386+00:00",
-      "last_seen": "2026-07-09T23:17:38.546816+00:00"
+      "last_seen": "2026-07-10T03:05:12.996658+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-09T23:17:44.875619+00:00"
+      "last_seen": "2026-07-10T03:05:17.576439+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-02T07:38:49.188031+00:00",
-      "last_seen": "2026-07-09T23:17:35.461727+00:00"
+      "last_seen": "2026-07-10T03:05:10.327129+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -151,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:26:07.146578+00:00",
-      "last_seen": "2026-07-09T23:17:47.937482+00:00"
+      "last_seen": "2026-07-10T03:05:20.055194+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -166,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-07-09T23:17:36.335989+00:00"
+      "last_seen": "2026-07-10T03:05:11.121826+00:00"
     },
     {
       "id": "602afd76335e",
@@ -181,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-05T12:22:37.406359+00:00",
-      "last_seen": "2026-07-09T23:17:42.308582+00:00"
+      "last_seen": "2026-07-10T03:05:15.538710+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -196,7 +181,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-07-09T23:18:03.590596+00:00"
+      "last_seen": "2026-07-10T03:05:34.233559+00:00"
+    },
+    {
+      "id": "aa4657c80004",
+      "brand": "Tactics Snowboard",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Tactics Snowboard \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.tactics.com/sale/snowboarding",
+      "source_url": "https://www.tactics.com/collections/sale-snowboarding",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-09T23:17:59.038363+00:00",
+      "last_seen": "2026-07-10T03:05:29.750586+00:00"
     }
   ]
 }
