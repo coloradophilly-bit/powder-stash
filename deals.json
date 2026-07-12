@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-07-12T16:06:38.746815+00:00",
+  "generated_at": "2026-07-12T17:17:48.738981+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "4a0a27962621",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pindo Straw Hat, Pickup Pad\u2122 + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-07-12T17:17:20.605376+00:00",
+      "last_seen": "2026-07-12T17:17:20.605376+00:00"
+    },
     {
       "id": "4ef9b8b98600",
       "brand": "Burton Direct",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-07-12T16:06:36.490208+00:00"
+      "last_seen": "2026-07-12T17:17:46.346171+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-25T15:46:46.553837+00:00",
-      "last_seen": "2026-07-12T16:06:18.182008+00:00"
+      "last_seen": "2026-07-12T17:17:27.612951+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:37.484478+00:00",
-      "last_seen": "2026-07-12T16:06:21.998791+00:00"
+      "last_seen": "2026-07-12T17:17:30.711526+00:00"
     },
     {
       "id": "296333f39f37",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:45.954260+00:00",
-      "last_seen": "2026-07-12T16:06:31.272928+00:00"
+      "last_seen": "2026-07-12T17:17:40.629607+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-12T16:06:30.094723+00:00"
-    },
-    {
-      "id": "1e267f67c4ce",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pindo Straw Hat, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-12T06:04:49.672543+00:00",
-      "last_seen": "2026-07-12T16:06:12.436508+00:00"
+      "last_seen": "2026-07-12T17:17:39.316480+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-12T16:06:16.211272+00:00"
+      "last_seen": "2026-07-12T17:17:26.169696+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-02T07:38:49.188031+00:00",
-      "last_seen": "2026-07-12T16:06:09.121247+00:00"
+      "last_seen": "2026-07-12T17:17:18.099301+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-12T16:06:19.251715+00:00"
+      "last_seen": "2026-07-12T17:17:28.422853+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-07-12T16:06:10.046084+00:00"
+      "last_seen": "2026-07-12T17:17:18.829287+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T08:32:10.623022+00:00",
-      "last_seen": "2026-07-12T16:06:14.460371+00:00"
+      "last_seen": "2026-07-12T17:17:23.991480+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-07-12T16:06:33.007324+00:00"
+      "last_seen": "2026-07-12T17:17:42.952289+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-12T16:06:29.033052+00:00"
+      "last_seen": "2026-07-12T17:17:38.085171+00:00"
     }
   ]
 }
