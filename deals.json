@@ -1,53 +1,8 @@
 {
-  "generated_at": "2026-07-12T21:56:59.504244+00:00",
+  "generated_at": "2026-07-12T22:54:58.984207+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "b43ca11d1309",
-      "brand": "Outdoor Research",
-      "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 138 more",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.outdoorresearch.com/collections/sale",
-      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-07-12T21:56:41.472616+00:00",
-      "last_seen": "2026-07-12T21:56:41.472616+00:00"
-    },
-    {
-      "id": "cbccf365375b",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-12T21:56:34.013767+00:00",
-      "last_seen": "2026-07-12T21:56:34.013767+00:00"
-    },
-    {
-      "id": "960c3f07f2db",
-      "brand": "Nidecker",
-      "category": "bindings",
-      "deal_type": "active",
-      "description": "Sale \u2014 Kita Women, The Gun + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.nidecker.com/en/sale",
-      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-12T21:56:34.850988+00:00",
-      "last_seen": "2026-07-12T21:56:34.850988+00:00"
-    },
     {
       "id": "4ef9b8b98600",
       "brand": "Burton Direct",
@@ -61,7 +16,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-07-12T21:56:57.107159+00:00"
+      "last_seen": "2026-07-12T22:54:56.296909+00:00"
+    },
+    {
+      "id": "b43ca11d1309",
+      "brand": "Outdoor Research",
+      "category": "outerwear",
+      "deal_type": "clearance",
+      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 138 more",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.outdoorresearch.com/collections/sale",
+      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-07-12T21:56:41.472616+00:00",
+      "last_seen": "2026-07-12T22:54:41.597821+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -76,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:37.484478+00:00",
-      "last_seen": "2026-07-12T21:56:44.929332+00:00"
+      "last_seen": "2026-07-12T22:54:43.318166+00:00"
     },
     {
       "id": "296333f39f37",
@@ -91,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:45.954260+00:00",
-      "last_seen": "2026-07-12T21:56:52.131591+00:00"
+      "last_seen": "2026-07-12T22:54:51.056035+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -106,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-12T21:56:50.995320+00:00"
+      "last_seen": "2026-07-12T22:54:49.701362+00:00"
     },
     {
       "id": "b8076c62cc3e",
@@ -121,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T19:11:50.735956+00:00",
-      "last_seen": "2026-07-12T21:56:36.839622+00:00"
+      "last_seen": "2026-07-12T22:54:35.870243+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -136,7 +106,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-12T21:56:40.840678+00:00"
+      "last_seen": "2026-07-12T22:54:39.932170+00:00"
+    },
+    {
+      "id": "cbccf365375b",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-12T21:56:34.013767+00:00",
+      "last_seen": "2026-07-12T22:54:33.236750+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -151,7 +136,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-12T21:56:42.252214+00:00"
+      "last_seen": "2026-07-12T22:54:42.464636+00:00"
+    },
+    {
+      "id": "960c3f07f2db",
+      "brand": "Nidecker",
+      "category": "bindings",
+      "deal_type": "active",
+      "description": "Sale \u2014 Kita Women, The Gun + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.nidecker.com/en/sale",
+      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-12T21:56:34.850988+00:00",
+      "last_seen": "2026-07-12T22:54:34.011856+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T08:32:10.623022+00:00",
-      "last_seen": "2026-07-12T21:56:38.993986+00:00"
+      "last_seen": "2026-07-12T22:54:38.137558+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-07-12T21:56:53.892198+00:00"
+      "last_seen": "2026-07-12T22:54:52.787557+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-12T21:56:50.057364+00:00"
+      "last_seen": "2026-07-12T22:54:48.752709+00:00"
     }
   ]
 }
