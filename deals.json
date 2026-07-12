@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-12T19:12:14.899821+00:00",
-  "deal_count": 13,
+  "generated_at": "2026-07-12T20:53:32.422998+00:00",
+  "deal_count": 11,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "b8076c62cc3e",
-      "brand": "Dakine",
-      "category": "accessories",
+      "id": "b011b939e140",
+      "brand": "Outdoor Research",
+      "category": "outerwear",
       "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, Pindo Straw Hat + 3 more",
+      "description": "Outdoor Research \u2014 sale items available. Visit site for details.",
       "discount": "Sale",
       "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "url": "https://www.outdoorresearch.com/collections/sale",
+      "source_url": "https://www.outdoorresearch.com/collections/sale",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-07-12T19:11:50.735956+00:00",
-      "last_seen": "2026-07-12T19:11:50.735956+00:00"
+      "first_seen": "2026-07-12T20:53:14.462815+00:00",
+      "last_seen": "2026-07-12T20:53:14.462815+00:00"
     },
     {
       "id": "4ef9b8b98600",
@@ -31,22 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-07-12T19:12:12.570035+00:00"
-    },
-    {
-      "id": "b43ca11d1309",
-      "brand": "Outdoor Research",
-      "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 138 more",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.outdoorresearch.com/collections/sale",
-      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-06-25T15:46:46.553837+00:00",
-      "last_seen": "2026-07-12T19:11:55.938804+00:00"
+      "last_seen": "2026-07-12T20:53:29.856590+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:37.484478+00:00",
-      "last_seen": "2026-07-12T19:11:59.389363+00:00"
+      "last_seen": "2026-07-12T20:53:16.110806+00:00"
     },
     {
       "id": "296333f39f37",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:45.954260+00:00",
-      "last_seen": "2026-07-12T19:12:07.256689+00:00"
+      "last_seen": "2026-07-12T20:53:24.685392+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +76,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-12T19:12:06.038336+00:00"
+      "last_seen": "2026-07-12T20:53:23.443828+00:00"
+    },
+    {
+      "id": "b8076c62cc3e",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad\u2122, Pindo Straw Hat + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-12T19:11:50.735956+00:00",
+      "last_seen": "2026-07-12T20:53:08.436244+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,22 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-12T19:11:54.348955+00:00"
-    },
-    {
-      "id": "cbccf365375b",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard, Men's Flagship Snowboard + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-02T07:38:49.188031+00:00",
-      "last_seen": "2026-07-12T19:11:47.997215+00:00"
+      "last_seen": "2026-07-12T20:53:12.363894+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,22 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-12T19:11:56.714969+00:00"
-    },
-    {
-      "id": "960c3f07f2db",
-      "brand": "Nidecker",
-      "category": "bindings",
-      "deal_type": "active",
-      "description": "Sale \u2014 Kita Women, The Gun + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.nidecker.com/en/sale",
-      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-06-20T11:25:57.560938+00:00",
-      "last_seen": "2026-07-12T19:11:48.752487+00:00"
+      "last_seen": "2026-07-12T20:53:15.315024+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T08:32:10.623022+00:00",
-      "last_seen": "2026-07-12T19:11:52.451042+00:00"
+      "last_seen": "2026-07-12T20:53:10.281881+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -181,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-07-12T19:12:09.101121+00:00"
+      "last_seen": "2026-07-12T20:53:26.383690+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-12T19:12:05.053416+00:00"
+      "last_seen": "2026-07-12T20:53:22.482912+00:00"
     }
   ]
 }
