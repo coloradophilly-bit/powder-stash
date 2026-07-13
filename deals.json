@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-07-13T10:32:50.381892+00:00",
+  "generated_at": "2026-07-13T13:30:26.081174+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "e489073f221f",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "drops",
-      "description": "Smith Optics Sale",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-13T10:32:42.809190+00:00",
-      "last_seen": "2026-07-13T10:32:42.809190+00:00"
-    },
     {
       "id": "4ef9b8b98600",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-06-24T13:29:41.911876+00:00",
-      "last_seen": "2026-07-13T10:32:48.117599+00:00"
+      "last_seen": "2026-07-13T13:30:23.812233+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-12T21:56:41.472616+00:00",
-      "last_seen": "2026-07-13T10:32:33.199669+00:00"
+      "last_seen": "2026-07-13T13:30:08.412914+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:37.484478+00:00",
-      "last_seen": "2026-07-13T10:32:34.665762+00:00"
+      "last_seen": "2026-07-13T13:30:10.021795+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-13T10:32:41.473149+00:00"
+      "last_seen": "2026-07-13T13:30:17.415722+00:00"
     },
     {
       "id": "b8076c62cc3e",
@@ -91,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T19:11:50.735956+00:00",
-      "last_seen": "2026-07-13T10:32:27.632550+00:00"
+      "last_seen": "2026-07-13T13:30:02.739521+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-13T10:32:32.484666+00:00"
+      "last_seen": "2026-07-13T13:30:06.691672+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T21:56:34.013767+00:00",
-      "last_seen": "2026-07-13T10:32:24.337975+00:00"
+      "last_seen": "2026-07-13T13:30:00.080132+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-13T10:32:33.935046+00:00"
+      "last_seen": "2026-07-13T13:30:09.162714+00:00"
     },
     {
       "id": "960c3f07f2db",
@@ -151,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T21:56:34.850988+00:00",
-      "last_seen": "2026-07-13T10:32:25.072677+00:00"
+      "last_seen": "2026-07-13T13:30:00.880258+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T08:32:10.623022+00:00",
-      "last_seen": "2026-07-13T10:32:30.473741+00:00"
+      "last_seen": "2026-07-13T13:30:04.758022+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -181,7 +166,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T16:00:18.154742+00:00",
-      "last_seen": "2026-07-13T10:32:44.535516+00:00"
+      "last_seen": "2026-07-13T13:30:20.530970+00:00"
+    },
+    {
+      "id": "e489073f221f",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "drops",
+      "description": "Smith Optics Sale",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-13T10:32:42.809190+00:00",
+      "last_seen": "2026-07-13T13:30:18.705461+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-13T10:32:40.566614+00:00"
+      "last_seen": "2026-07-13T13:30:16.395381+00:00"
     }
   ]
 }
