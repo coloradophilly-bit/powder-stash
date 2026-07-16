@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-16T15:08:52.034544+00:00",
+  "generated_at": "2026-07-16T17:22:02.886874+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "23ad60917dcf",
-      "brand": "Smartwool",
+      "id": "56e0ccca0608",
+      "brand": "Dakine",
       "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Everyday Joviansphere Crew Socks + 247 more",
-      "discount": "Up to 100% off",
-      "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-07-16T15:08:35.265272+00:00",
-      "last_seen": "2026-07-16T15:08:35.265272+00:00"
-    },
-    {
-      "id": "afe17df9ca9d",
-      "brand": "Nidecker",
-      "category": "bindings",
       "deal_type": "active",
-      "description": "Sale \u2014 Kita Women 2023, The Gun 2023 + 3 more",
+      "description": "Sale \u2014 Pickup Pad DLX, Pickup Pad\u2122 + 3 more",
       "discount": "Sale",
       "code": null,
-      "url": "https://www.nidecker.com/en/sale",
-      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-16T15:08:22.746886+00:00"
+      "first_seen": "2026-07-16T17:21:36.425888+00:00",
+      "last_seen": "2026-07-16T17:21:36.425888+00:00"
+    },
+    {
+      "id": "b5fff3b23eb2",
+      "brand": "Smartwool",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Smartwool \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-07-16T17:21:48.101665+00:00",
+      "last_seen": "2026-07-16T17:21:48.101665+00:00"
     },
     {
       "id": "043246918150",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-15T15:33:03.554031+00:00",
-      "last_seen": "2026-07-16T15:08:49.688258+00:00"
+      "last_seen": "2026-07-16T17:22:00.544344+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-16T05:47:16.404394+00:00",
-      "last_seen": "2026-07-16T15:08:30.976469+00:00"
+      "last_seen": "2026-07-16T17:21:42.270766+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,22 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-16T15:08:44.143925+00:00"
-    },
-    {
-      "id": "9411a046d631",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-13T23:03:08.187832+00:00",
-      "last_seen": "2026-07-16T15:08:24.901173+00:00"
+      "last_seen": "2026-07-16T17:21:55.408660+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-16T15:08:29.110422+00:00"
+      "last_seen": "2026-07-16T17:21:40.528817+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T21:56:34.013767+00:00",
-      "last_seen": "2026-07-16T15:08:21.961314+00:00"
+      "last_seen": "2026-07-16T17:21:33.534097+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +121,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-16T15:08:31.888632+00:00"
+      "last_seen": "2026-07-16T17:21:43.076927+00:00"
+    },
+    {
+      "id": "afe17df9ca9d",
+      "brand": "Nidecker",
+      "category": "bindings",
+      "deal_type": "active",
+      "description": "Sale \u2014 Kita Women 2023, The Gun 2023 + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.nidecker.com/en/sale",
+      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-16T15:08:22.746886+00:00",
+      "last_seen": "2026-07-16T17:21:34.421304+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-15T00:06:40.124996+00:00",
-      "last_seen": "2026-07-16T15:08:27.260185+00:00"
+      "last_seen": "2026-07-16T17:21:38.544780+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-16T15:08:45.310154+00:00"
+      "last_seen": "2026-07-16T17:21:56.662223+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-16T15:08:42.895364+00:00"
+      "last_seen": "2026-07-16T17:21:54.455329+00:00"
     }
   ]
 }
