@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-17T13:33:37.991235+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-07-17T15:20:42.204506+00:00",
+  "deal_count": 11,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "b5fff3b23eb2",
+      "id": "23ad60917dcf",
       "brand": "Smartwool",
       "category": "accessories",
-      "deal_type": "active",
-      "description": "Smartwool \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
+      "deal_type": "clearance",
+      "description": "Up to 100% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Everyday Joviansphere Crew Socks + 247 more",
+      "discount": "Up to 100% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale",
-      "hot": false,
+      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
+      "hot": true,
       "pulse": true,
-      "first_seen": "2026-07-17T13:33:23.595849+00:00",
-      "last_seen": "2026-07-17T13:33:23.595849+00:00"
+      "first_seen": "2026-07-17T15:20:27.900298+00:00",
+      "last_seen": "2026-07-17T15:20:27.900298+00:00"
     },
     {
       "id": "043246918150",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-15T15:33:03.554031+00:00",
-      "last_seen": "2026-07-17T13:33:35.648409+00:00"
+      "last_seen": "2026-07-17T15:20:39.878846+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-16T05:47:16.404394+00:00",
-      "last_seen": "2026-07-17T13:33:14.789089+00:00"
+      "last_seen": "2026-07-17T15:20:24.363791+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-17T13:33:30.114851+00:00"
+      "last_seen": "2026-07-17T15:20:34.557385+00:00"
     },
     {
       "id": "56e0ccca0608",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-17T06:21:37.884795+00:00",
-      "last_seen": "2026-07-17T13:33:09.514560+00:00"
+      "last_seen": "2026-07-17T15:19:39.702114+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-17T13:33:13.117014+00:00"
+      "last_seen": "2026-07-17T15:20:22.865949+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T21:56:34.013767+00:00",
-      "last_seen": "2026-07-17T13:33:06.878713+00:00"
+      "last_seen": "2026-07-17T15:19:37.188466+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-17T13:33:18.973849+00:00"
+      "last_seen": "2026-07-17T15:20:25.217831+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,22 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-17T13:33:07.738693+00:00"
-    },
-    {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
-      "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-16T22:12:01.661569+00:00",
-      "last_seen": "2026-07-17T13:33:11.293804+00:00"
+      "last_seen": "2026-07-17T15:19:37.953125+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-17T13:33:31.314964+00:00"
+      "last_seen": "2026-07-17T15:20:35.713488+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-17T13:33:29.169916+00:00"
+      "last_seen": "2026-07-17T15:20:33.536511+00:00"
     }
   ]
 }
