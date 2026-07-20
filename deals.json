@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T03:24:12.759104+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-07-20T06:52:45.248472+00:00",
+  "deal_count": 11,
   "brands_scanned": 49,
   "deals": [
     {
@@ -16,14 +16,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-15T15:33:03.554031+00:00",
-      "last_seen": "2026-07-20T03:24:10.379583+00:00"
+      "last_seen": "2026-07-20T06:52:42.658514+00:00"
     },
     {
       "id": "b43ca11d1309",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 134 more",
+      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 133 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-16T05:47:16.404394+00:00",
-      "last_seen": "2026-07-20T03:23:51.958450+00:00"
+      "last_seen": "2026-07-20T06:52:24.106904+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-19T20:53:52.734994+00:00",
-      "last_seen": "2026-07-20T03:23:55.879766+00:00"
+      "last_seen": "2026-07-20T06:52:28.796263+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-20T03:24:04.186526+00:00"
+      "last_seen": "2026-07-20T06:52:37.026598+00:00"
     },
     {
       "id": "8cbe2f050109",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-18T16:03:31.995391+00:00",
-      "last_seen": "2026-07-20T03:23:44.782766+00:00"
+      "last_seen": "2026-07-20T06:51:38.815082+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-20T03:23:50.214227+00:00"
+      "last_seen": "2026-07-20T06:52:22.349170+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T21:56:34.013767+00:00",
-      "last_seen": "2026-07-20T03:23:42.120641+00:00"
+      "last_seen": "2026-07-20T06:51:36.157708+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-20T03:23:52.693177+00:00"
+      "last_seen": "2026-07-20T06:52:24.927388+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,22 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-20T03:23:42.946396+00:00"
-    },
-    {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
-      "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-18T22:55:52.154661+00:00",
-      "last_seen": "2026-07-20T03:23:48.091408+00:00"
+      "last_seen": "2026-07-20T06:51:36.921004+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-20T03:24:05.540429+00:00"
+      "last_seen": "2026-07-20T06:52:38.543766+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-20T03:24:03.038251+00:00"
+      "last_seen": "2026-07-20T06:52:35.915620+00:00"
     }
   ]
 }
