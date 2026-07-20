@@ -1,22 +1,37 @@
 {
-  "generated_at": "2026-07-20T18:09:12.421516+00:00",
+  "generated_at": "2026-07-20T20:27:24.112781+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "b5fff3b23eb2",
+      "id": "23ad60917dcf",
       "brand": "Smartwool",
       "category": "accessories",
-      "deal_type": "active",
-      "description": "Smartwool \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
+      "deal_type": "clearance",
+      "description": "Up to 100% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Everyday Joviansphere Crew Socks + 244 more",
+      "discount": "Up to 100% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-07-20T20:27:08.689020+00:00",
+      "last_seen": "2026-07-20T20:27:08.689020+00:00"
+    },
+    {
+      "id": "ab596c4208c9",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad\u2122, Indo Surf Hat + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-07-20T18:08:54.117487+00:00",
-      "last_seen": "2026-07-20T18:08:54.117487+00:00"
+      "first_seen": "2026-07-20T20:26:59.069702+00:00",
+      "last_seen": "2026-07-20T20:26:59.069702+00:00"
     },
     {
       "id": "043246918150",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-15T15:33:03.554031+00:00",
-      "last_seen": "2026-07-20T18:09:09.923815+00:00"
+      "last_seen": "2026-07-20T20:27:21.755683+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-16T05:47:16.404394+00:00",
-      "last_seen": "2026-07-20T18:08:51.434727+00:00"
+      "last_seen": "2026-07-20T20:27:05.073195+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,22 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-20T18:09:03.327448+00:00"
-    },
-    {
-      "id": "8cbe2f050109",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad\u2122, Daylight Surfboard Bag - Thruster + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-18T16:03:31.995391+00:00",
-      "last_seen": "2026-07-20T18:08:43.070803+00:00"
+      "last_seen": "2026-07-20T20:27:16.213631+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-20T18:08:49.684198+00:00"
+      "last_seen": "2026-07-20T20:27:03.335541+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T21:56:34.013767+00:00",
-      "last_seen": "2026-07-20T18:08:39.780185+00:00"
+      "last_seen": "2026-07-20T20:26:56.302068+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-20T18:08:52.371351+00:00"
+      "last_seen": "2026-07-20T20:27:05.872822+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-20T18:08:40.952941+00:00"
+      "last_seen": "2026-07-20T20:26:57.133215+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-20T10:17:02.253552+00:00",
-      "last_seen": "2026-07-20T18:08:46.456662+00:00"
+      "last_seen": "2026-07-20T20:27:01.563887+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-20T18:09:04.909571+00:00"
+      "last_seen": "2026-07-20T20:27:17.532929+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-20T18:09:02.234026+00:00"
+      "last_seen": "2026-07-20T20:27:15.207349+00:00"
     }
   ]
 }
