@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-07-23T21:10:27.536074+00:00",
+  "generated_at": "2026-07-23T23:03:06.445030+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "0b0a9e330dd7",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Indo Surf Hat, Slayer Bike Elbow Pad + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-07-23T23:02:40.704380+00:00",
+      "last_seen": "2026-07-23T23:02:40.704380+00:00"
+    },
     {
       "id": "043246918150",
       "brand": "Burton Direct",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-15T15:33:03.554031+00:00",
-      "last_seen": "2026-07-23T21:10:25.219389+00:00"
+      "last_seen": "2026-07-23T23:03:03.825250+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-23T16:02:56.498912+00:00",
-      "last_seen": "2026-07-23T21:10:07.184303+00:00"
+      "last_seen": "2026-07-23T23:02:47.688331+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-23T06:00:36.770143+00:00",
-      "last_seen": "2026-07-23T21:10:11.241732+00:00"
+      "last_seen": "2026-07-23T23:02:51.489288+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,22 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-23T21:10:19.481211+00:00"
-    },
-    {
-      "id": "e584cf0705f2",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Slayer Bike Elbow Pad + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-23T02:47:00.796743+00:00",
-      "last_seen": "2026-07-23T21:10:00.899108+00:00"
+      "last_seen": "2026-07-23T23:02:58.868530+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-23T21:10:05.301202+00:00"
+      "last_seen": "2026-07-23T23:02:45.895786+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-23T14:03:19.743343+00:00",
-      "last_seen": "2026-07-23T21:09:57.835628+00:00"
+      "last_seen": "2026-07-23T23:02:38.102618+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-23T21:10:07.968163+00:00"
+      "last_seen": "2026-07-23T23:02:48.431928+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-23T21:09:58.693886+00:00"
+      "last_seen": "2026-07-23T23:02:38.827294+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-22T00:03:49.930229+00:00",
-      "last_seen": "2026-07-23T21:10:03.066812+00:00"
+      "last_seen": "2026-07-23T23:02:44.233246+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-23T21:10:20.684871+00:00"
+      "last_seen": "2026-07-23T23:02:59.742456+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-23T21:10:18.451939+00:00"
+      "last_seen": "2026-07-23T23:02:57.856928+00:00"
     }
   ]
 }
