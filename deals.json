@@ -1,37 +1,22 @@
 {
-  "generated_at": "2026-07-23T02:47:27.595393+00:00",
+  "generated_at": "2026-07-23T06:00:54.183572+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "e584cf0705f2",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Slayer Bike Elbow Pad + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-23T02:47:00.796743+00:00",
-      "last_seen": "2026-07-23T02:47:00.796743+00:00"
-    },
-    {
-      "id": "b5fff3b23eb2",
+      "id": "23ad60917dcf",
       "brand": "Smartwool",
       "category": "accessories",
-      "deal_type": "active",
-      "description": "Smartwool \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
+      "deal_type": "clearance",
+      "description": "Up to 100% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Everyday Joviansphere Crew Socks + 243 more",
+      "discount": "Up to 100% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale",
-      "hot": false,
+      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
+      "hot": true,
       "pulse": true,
-      "first_seen": "2026-07-23T02:47:12.656837+00:00",
-      "last_seen": "2026-07-23T02:47:12.656837+00:00"
+      "first_seen": "2026-07-23T06:00:36.770143+00:00",
+      "last_seen": "2026-07-23T06:00:36.770143+00:00"
     },
     {
       "id": "043246918150",
@@ -46,14 +31,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-15T15:33:03.554031+00:00",
-      "last_seen": "2026-07-23T02:47:25.161958+00:00"
+      "last_seen": "2026-07-23T06:00:51.794944+00:00"
     },
     {
       "id": "b43ca11d1309",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 132 more",
+      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 130 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-16T05:47:16.404394+00:00",
-      "last_seen": "2026-07-23T02:47:05.969024+00:00"
+      "last_seen": "2026-07-23T06:00:28.750032+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-23T02:47:19.942424+00:00"
+      "last_seen": "2026-07-23T06:00:45.895234+00:00"
+    },
+    {
+      "id": "e584cf0705f2",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad DLX, Slayer Bike Elbow Pad + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-23T02:47:00.796743+00:00",
+      "last_seen": "2026-07-23T06:00:22.695681+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-23T02:47:04.391162+00:00"
+      "last_seen": "2026-07-23T06:00:28.031371+00:00"
     },
     {
       "id": "cbccf365375b",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-12T21:56:34.013767+00:00",
-      "last_seen": "2026-07-23T02:46:57.696806+00:00"
+      "last_seen": "2026-07-23T06:00:20.255692+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-10T18:29:34.714802+00:00",
-      "last_seen": "2026-07-23T02:47:06.789151+00:00"
+      "last_seen": "2026-07-23T06:00:33.256754+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-23T02:46:58.490391+00:00"
+      "last_seen": "2026-07-23T06:00:21.014653+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-22T00:03:49.930229+00:00",
-      "last_seen": "2026-07-23T02:47:02.501510+00:00"
+      "last_seen": "2026-07-23T06:00:25.925558+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-23T02:47:21.113574+00:00"
+      "last_seen": "2026-07-23T06:00:47.276383+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-23T02:47:18.987624+00:00"
+      "last_seen": "2026-07-23T06:00:44.648910+00:00"
     }
   ]
 }
