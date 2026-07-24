@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T03:41:39.603265+00:00",
+  "generated_at": "2026-07-24T06:32:53.322943+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
@@ -14,24 +14,9 @@
       "url": "https://www.burton.com/us/en/c/sale-gear",
       "source_url": "https://www.burton.com/us/en/c/sale-gear",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-07-24T03:41:37.239160+00:00",
-      "last_seen": "2026-07-24T03:41:37.239160+00:00"
-    },
-    {
-      "id": "5d233f358c58",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Offgrid Merino Fleece 1/2 Zip Long Sleeve - Toffee | Men's Mid Layer, Cascade Merino Base Layer Long Sleeve - Mtn Pixel ...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-24T03:41:20.936522+00:00",
-      "last_seen": "2026-07-24T03:41:20.936522+00:00"
+      "last_seen": "2026-07-24T06:32:50.879737+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-23T16:02:56.498912+00:00",
-      "last_seen": "2026-07-24T03:41:20.081441+00:00"
+      "last_seen": "2026-07-24T06:32:34.452851+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-23T06:00:36.770143+00:00",
-      "last_seen": "2026-07-24T03:41:23.955899+00:00"
+      "last_seen": "2026-07-24T06:32:37.633590+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-24T03:41:31.884601+00:00"
+      "last_seen": "2026-07-24T06:32:45.752978+00:00"
     },
     {
       "id": "0b0a9e330dd7",
@@ -91,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-23T23:02:40.704380+00:00",
-      "last_seen": "2026-07-24T03:41:13.267582+00:00"
+      "last_seen": "2026-07-24T06:32:27.815141+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-24T03:41:18.582728+00:00"
+      "last_seen": "2026-07-24T06:32:33.136556+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -121,7 +106,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-23T14:03:19.743343+00:00",
-      "last_seen": "2026-07-24T03:41:10.786735+00:00"
+      "last_seen": "2026-07-24T06:32:25.291119+00:00"
+    },
+    {
+      "id": "5d233f358c58",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Offgrid Merino Fleece 1/2 Zip Long Sleeve - Toffee | Men's Mid Layer, Cascade Merino Base Layer Long Sleeve - Mtn Pixel ...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-24T03:41:20.936522+00:00",
+      "last_seen": "2026-07-24T06:32:35.182367+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-24T03:41:11.497501+00:00"
+      "last_seen": "2026-07-24T06:32:26.049633+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-22T00:03:49.930229+00:00",
-      "last_seen": "2026-07-24T03:41:16.930027+00:00"
+      "last_seen": "2026-07-24T06:32:31.170063+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-24T03:41:32.997455+00:00"
+      "last_seen": "2026-07-24T06:32:46.933129+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-24T03:41:30.839234+00:00"
+      "last_seen": "2026-07-24T06:32:44.729602+00:00"
     }
   ]
 }
