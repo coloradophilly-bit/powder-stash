@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-07-24T15:32:31.831579+00:00",
+  "generated_at": "2026-07-24T17:44:34.052761+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "b5fff3b23eb2",
+      "brand": "Smartwool",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Smartwool \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-07-24T17:44:16.801827+00:00",
+      "last_seen": "2026-07-24T17:44:16.801827+00:00"
+    },
     {
       "id": "043246918150",
       "brand": "Burton Direct",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-24T03:41:37.239160+00:00",
-      "last_seen": "2026-07-24T15:32:29.506157+00:00"
+      "last_seen": "2026-07-24T17:44:31.611297+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -31,22 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-23T16:02:56.498912+00:00",
-      "last_seen": "2026-07-24T15:32:12.872310+00:00"
-    },
-    {
-      "id": "23ad60917dcf",
-      "brand": "Smartwool",
-      "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Everyday Joviansphere Crew Socks + 243 more",
-      "discount": "Up to 100% off",
-      "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-07-23T06:00:36.770143+00:00",
-      "last_seen": "2026-07-24T15:32:16.846616+00:00"
+      "last_seen": "2026-07-24T17:44:09.667935+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-24T15:32:24.443866+00:00"
+      "last_seen": "2026-07-24T17:44:26.543999+00:00"
     },
     {
       "id": "0b0a9e330dd7",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-23T23:02:40.704380+00:00",
-      "last_seen": "2026-07-24T15:32:07.558970+00:00"
+      "last_seen": "2026-07-24T17:44:02.154756+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-24T15:32:11.416362+00:00"
+      "last_seen": "2026-07-24T17:44:08.141825+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-23T14:03:19.743343+00:00",
-      "last_seen": "2026-07-24T15:32:04.699794+00:00"
+      "last_seen": "2026-07-24T17:43:58.928052+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-24T03:41:20.936522+00:00",
-      "last_seen": "2026-07-24T15:32:13.584923+00:00"
+      "last_seen": "2026-07-24T17:44:10.545008+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-24T15:32:05.586721+00:00"
+      "last_seen": "2026-07-24T17:43:59.743573+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-22T00:03:49.930229+00:00",
-      "last_seen": "2026-07-24T15:32:09.621150+00:00"
+      "last_seen": "2026-07-24T17:44:05.768471+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-24T15:32:25.519349+00:00"
+      "last_seen": "2026-07-24T17:44:27.591463+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-24T15:32:23.521651+00:00"
+      "last_seen": "2026-07-24T17:44:25.397386+00:00"
     }
   ]
 }
