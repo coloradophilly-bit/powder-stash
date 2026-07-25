@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-07-24T23:08:02.744909+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-07-25T00:20:18.374021+00:00",
+  "deal_count": 11,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "331e096438fc",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Indo Surf Hat, Pickup Pad DLX Curve\u2122 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-24T23:07:37.991665+00:00",
-      "last_seen": "2026-07-24T23:07:37.991665+00:00"
-    },
     {
       "id": "043246918150",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-24T03:41:37.239160+00:00",
-      "last_seen": "2026-07-24T23:08:00.285979+00:00"
+      "last_seen": "2026-07-25T00:20:15.934914+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-23T16:02:56.498912+00:00",
-      "last_seen": "2026-07-24T23:07:43.634002+00:00"
+      "last_seen": "2026-07-25T00:19:58.738168+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-24T19:31:07.620622+00:00",
-      "last_seen": "2026-07-24T23:07:47.187446+00:00"
+      "last_seen": "2026-07-25T00:20:02.476531+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-24T23:07:54.968209+00:00"
+      "last_seen": "2026-07-25T00:20:10.745900+00:00"
+    },
+    {
+      "id": "331e096438fc",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Indo Surf Hat, Pickup Pad DLX Curve\u2122 + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-24T23:07:37.991665+00:00",
+      "last_seen": "2026-07-25T00:19:13.444547+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-24T23:07:42.285933+00:00"
+      "last_seen": "2026-07-25T00:19:57.208914+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-23T14:03:19.743343+00:00",
-      "last_seen": "2026-07-24T23:07:35.570712+00:00"
+      "last_seen": "2026-07-25T00:19:10.770473+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-24T03:41:20.936522+00:00",
-      "last_seen": "2026-07-24T23:07:44.321608+00:00"
+      "last_seen": "2026-07-25T00:19:59.606453+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,22 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-24T23:07:36.431280+00:00"
-    },
-    {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
-      "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-22T00:03:49.930229+00:00",
-      "last_seen": "2026-07-24T23:07:40.424936+00:00"
+      "last_seen": "2026-07-25T00:19:11.636702+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-24T23:07:56.080165+00:00"
+      "last_seen": "2026-07-25T00:20:11.952984+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-24T23:07:53.897139+00:00"
+      "last_seen": "2026-07-25T00:20:09.684523+00:00"
     }
   ]
 }
