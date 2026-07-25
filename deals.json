@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-25T04:16:47.590773+00:00",
+  "generated_at": "2026-07-25T07:22:30.091129+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
+      "id": "c43a3160a3ce",
+      "brand": "Dakine",
+      "category": "accessories",
       "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
+      "description": "Sale \u2014 Indo Surf Hat, Tardy Slip Backpack 25L - Black Onyx + 3 more",
       "discount": "Sale",
       "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-07-25T04:16:25.913230+00:00",
-      "last_seen": "2026-07-25T04:16:25.913230+00:00"
+      "first_seen": "2026-07-25T07:22:02.282877+00:00",
+      "last_seen": "2026-07-25T07:22:02.282877+00:00"
     },
     {
       "id": "043246918150",
@@ -31,14 +31,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-24T03:41:37.239160+00:00",
-      "last_seen": "2026-07-25T04:16:45.240136+00:00"
+      "last_seen": "2026-07-25T07:22:27.665323+00:00"
     },
     {
       "id": "b43ca11d1309",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 126 more",
+      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 125 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-23T16:02:56.498912+00:00",
-      "last_seen": "2026-07-25T04:16:29.154160+00:00"
+      "last_seen": "2026-07-25T07:22:09.167125+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-24T19:31:07.620622+00:00",
-      "last_seen": "2026-07-25T04:16:32.728139+00:00"
+      "last_seen": "2026-07-25T07:22:13.933197+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,22 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-25T04:16:40.147786+00:00"
-    },
-    {
-      "id": "331e096438fc",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Indo Surf Hat, Pickup Pad DLX Curve\u2122 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-24T23:07:37.991665+00:00",
-      "last_seen": "2026-07-25T04:16:24.018812+00:00"
+      "last_seen": "2026-07-25T07:22:22.224206+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-25T04:16:27.787054+00:00"
+      "last_seen": "2026-07-25T07:22:07.684014+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-23T14:03:19.743343+00:00",
-      "last_seen": "2026-07-25T04:16:21.445775+00:00"
+      "last_seen": "2026-07-25T07:21:59.410130+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-24T03:41:20.936522+00:00",
-      "last_seen": "2026-07-25T04:16:29.686974+00:00"
+      "last_seen": "2026-07-25T07:22:10.013262+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +136,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-25T04:16:22.332765+00:00"
+      "last_seen": "2026-07-25T07:22:00.198901+00:00"
+    },
+    {
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-25T04:16:25.913230+00:00",
+      "last_seen": "2026-07-25T07:22:05.505959+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-25T04:16:41.249823+00:00"
+      "last_seen": "2026-07-25T07:22:23.367512+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-25T04:16:39.286767+00:00"
+      "last_seen": "2026-07-25T07:22:21.166929+00:00"
     }
   ]
 }
