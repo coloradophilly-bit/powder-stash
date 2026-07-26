@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-07-26T22:06:10.701221+00:00",
+  "generated_at": "2026-07-26T23:11:45.921307+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "8324861643e3",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Berm Tall Sock, Aero Rack Pads 18\" + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-26T22:05:43.053534+00:00",
-      "last_seen": "2026-07-26T22:05:43.053534+00:00"
-    },
     {
       "id": "043246918150",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-26T00:08:16.194472+00:00",
-      "last_seen": "2026-07-26T22:06:08.300092+00:00"
+      "last_seen": "2026-07-26T23:11:43.516672+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-26T06:42:59.687442+00:00",
-      "last_seen": "2026-07-26T22:05:49.889509+00:00"
+      "last_seen": "2026-07-26T23:11:26.447615+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-26T17:06:56.547215+00:00",
-      "last_seen": "2026-07-26T22:05:54.102225+00:00"
+      "last_seen": "2026-07-26T23:11:30.128775+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-26T22:06:02.747036+00:00"
+      "last_seen": "2026-07-26T23:11:37.953245+00:00"
+    },
+    {
+      "id": "8324861643e3",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Berm Tall Sock, Aero Rack Pads 18\" + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-26T22:05:43.053534+00:00",
+      "last_seen": "2026-07-26T23:11:19.827708+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-26T22:05:48.537092+00:00"
+      "last_seen": "2026-07-26T23:11:24.864190+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-23T14:03:19.743343+00:00",
-      "last_seen": "2026-07-26T22:05:40.314950+00:00"
+      "last_seen": "2026-07-26T23:11:17.077623+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-07-26T22:05:50.829665+00:00"
+      "last_seen": "2026-07-26T23:11:27.274065+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-26T22:05:41.076065+00:00"
+      "last_seen": "2026-07-26T23:11:17.802154+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T03:54:24.689721+00:00",
-      "last_seen": "2026-07-26T22:05:46.415397+00:00"
+      "last_seen": "2026-07-26T23:11:23.157674+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-26T22:06:03.913823+00:00"
+      "last_seen": "2026-07-26T23:11:39.000832+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-26T22:06:01.579491+00:00"
+      "last_seen": "2026-07-26T23:11:36.959542+00:00"
     }
   ]
 }
