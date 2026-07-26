@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-07-26T00:08:18.576027+00:00",
-  "deal_count": 11,
+  "generated_at": "2026-07-26T03:54:46.057156+00:00",
+  "deal_count": 9,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "5ea45d4f7e3d",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Indo Surf Hat, Prodigy Bike Glove - Youth + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-07-26T03:54:20.897160+00:00",
+      "last_seen": "2026-07-26T03:54:20.897160+00:00"
+    },
+    {
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-07-26T03:54:24.689721+00:00",
+      "last_seen": "2026-07-26T03:54:24.689721+00:00"
+    },
     {
       "id": "043246918150",
       "brand": "Burton Direct",
@@ -14,39 +44,9 @@
       "url": "https://www.burton.com/us/en/c/sale-gear",
       "source_url": "https://www.burton.com/us/en/c/sale-gear",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-07-26T00:08:16.194472+00:00",
-      "last_seen": "2026-07-26T00:08:16.194472+00:00"
-    },
-    {
-      "id": "b43ca11d1309",
-      "brand": "Outdoor Research",
-      "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Freewheel MTB Long Sleeve Jersey, Women's Freewheel MTB Lite Ride Short + 124 more",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.outdoorresearch.com/collections/sale",
-      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-07-23T16:02:56.498912+00:00",
-      "last_seen": "2026-07-26T00:07:59.604900+00:00"
-    },
-    {
-      "id": "23ad60917dcf",
-      "brand": "Smartwool",
-      "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 100% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Everyday Joviansphere Crew Socks + 241 more",
-      "discount": "Up to 100% off",
-      "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-07-24T19:31:07.620622+00:00",
-      "last_seen": "2026-07-26T00:08:03.677211+00:00"
+      "last_seen": "2026-07-26T03:54:43.492936+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,22 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-26T00:08:11.302476+00:00"
-    },
-    {
-      "id": "c43a3160a3ce",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Indo Surf Hat, Tardy Slip Backpack 25L - Black Onyx + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-25T07:22:02.282877+00:00",
-      "last_seen": "2026-07-26T00:07:13.478668+00:00"
+      "last_seen": "2026-07-26T03:54:37.946368+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-26T00:07:57.760961+00:00"
+      "last_seen": "2026-07-26T03:54:27.056580+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -106,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-23T14:03:19.743343+00:00",
-      "last_seen": "2026-07-26T00:07:11.093961+00:00"
-    },
-    {
-      "id": "5d233f358c58",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Offgrid Merino Fleece 1/2 Zip Long Sleeve - Toffee | Men's Mid Layer, Cascade Merino Base Layer Long Sleeve - Mtn Pixel ...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-24T03:41:20.936522+00:00",
-      "last_seen": "2026-07-26T00:08:00.404442+00:00"
+      "last_seen": "2026-07-26T03:54:17.265012+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-26T00:07:11.900567+00:00"
+      "last_seen": "2026-07-26T03:54:18.050545+00:00"
     },
     {
       "id": "e489073f221f",
@@ -151,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-26T00:08:12.474758+00:00"
+      "last_seen": "2026-07-26T03:54:39.251153+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -166,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-26T00:08:10.420135+00:00"
+      "last_seen": "2026-07-26T03:54:36.746779+00:00"
     }
   ]
 }
