@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T13:00:10.326130+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-07-28T15:28:25.103265+00:00",
+  "deal_count": 11,
   "brands_scanned": 49,
   "deals": [
     {
@@ -14,9 +14,9 @@
       "url": "https://www.burton.com/us/en/c/sale-gear",
       "source_url": "https://www.burton.com/us/en/c/sale-gear",
       "hot": true,
-      "pulse": true,
+      "pulse": false,
       "first_seen": "2026-07-28T13:00:07.956219+00:00",
-      "last_seen": "2026-07-28T13:00:07.956219+00:00"
+      "last_seen": "2026-07-28T15:28:22.512044+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-26T06:42:59.687442+00:00",
-      "last_seen": "2026-07-28T12:59:48.533796+00:00"
+      "last_seen": "2026-07-28T15:28:06.172974+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-26T17:06:56.547215+00:00",
-      "last_seen": "2026-07-28T12:59:52.776423+00:00"
+      "last_seen": "2026-07-28T15:28:09.850179+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-28T13:00:02.321145+00:00"
+      "last_seen": "2026-07-28T15:28:16.942225+00:00"
     },
     {
       "id": "3ac0dafa6d9b",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-28T04:15:32.945716+00:00",
-      "last_seen": "2026-07-28T12:59:41.962972+00:00"
+      "last_seen": "2026-07-28T15:27:20.850891+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-28T12:59:46.859668+00:00"
+      "last_seen": "2026-07-28T15:28:04.706123+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-07-28T12:59:38.908121+00:00"
+      "last_seen": "2026-07-28T15:27:18.503369+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-07-28T12:59:49.365228+00:00"
+      "last_seen": "2026-07-28T15:28:06.774070+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,22 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-28T12:59:39.787258+00:00"
-    },
-    {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
-      "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-07-27T10:49:20.082995+00:00",
-      "last_seen": "2026-07-28T12:59:45.012303+00:00"
+      "last_seen": "2026-07-28T15:27:19.289884+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-28T13:00:03.587791+00:00"
+      "last_seen": "2026-07-28T15:28:18.160032+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-28T13:00:01.202998+00:00"
+      "last_seen": "2026-07-28T15:28:16.084315+00:00"
     }
   ]
 }
