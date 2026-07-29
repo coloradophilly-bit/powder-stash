@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-07-28T23:05:07.240278+00:00",
+  "generated_at": "2026-07-29T00:08:06.348582+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "1c5b5af3d4d0",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Indo Surf Hat, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-28T23:04:31.030522+00:00",
-      "last_seen": "2026-07-28T23:04:31.030522+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-28T13:00:07.956219+00:00",
-      "last_seen": "2026-07-28T23:05:04.790998+00:00"
+      "last_seen": "2026-07-29T00:08:03.867717+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-26T06:42:59.687442+00:00",
-      "last_seen": "2026-07-28T23:04:39.555606+00:00"
+      "last_seen": "2026-07-29T00:07:45.345775+00:00"
     },
     {
       "id": "23ad60917dcf",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-26T17:06:56.547215+00:00",
-      "last_seen": "2026-07-28T23:04:44.848359+00:00"
+      "last_seen": "2026-07-29T00:07:49.994790+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-28T23:04:58.850110+00:00"
+      "last_seen": "2026-07-29T00:07:57.771797+00:00"
+    },
+    {
+      "id": "1c5b5af3d4d0",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Indo Surf Hat, Pickup Pad DLX + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-28T23:04:31.030522+00:00",
+      "last_seen": "2026-07-29T00:07:38.864794+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-28T23:04:37.653050+00:00"
+      "last_seen": "2026-07-29T00:07:44.048787+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-07-28T23:04:27.849067+00:00"
+      "last_seen": "2026-07-29T00:07:36.374441+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-07-28T23:04:40.673292+00:00"
+      "last_seen": "2026-07-29T00:07:46.567888+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-28T23:04:28.840684+00:00"
+      "last_seen": "2026-07-29T00:07:37.122552+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-28T17:32:59.666895+00:00",
-      "last_seen": "2026-07-28T23:04:34.584799+00:00"
+      "last_seen": "2026-07-29T00:07:41.997112+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-28T23:05:00.236135+00:00"
+      "last_seen": "2026-07-29T00:07:58.953988+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-28T23:04:56.968168+00:00"
+      "last_seen": "2026-07-29T00:07:56.618063+00:00"
     }
   ]
 }
