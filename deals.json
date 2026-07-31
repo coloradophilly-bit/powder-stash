@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-07-31T09:51:43.575246+00:00",
+  "generated_at": "2026-07-31T12:06:40.842172+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
-      "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-07-31T09:51:21.224625+00:00",
-      "last_seen": "2026-07-31T09:51:21.224625+00:00"
-    },
     {
       "id": "545c54bff42f",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-29T15:20:39.367818+00:00",
-      "last_seen": "2026-07-31T09:51:41.186515+00:00"
+      "last_seen": "2026-07-31T12:06:38.444764+00:00"
     },
     {
       "id": "28dc4252f78e",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:08.406460+00:00",
-      "last_seen": "2026-07-31T09:51:18.833706+00:00"
+      "last_seen": "2026-07-31T12:06:14.318629+00:00"
     },
     {
       "id": "b43ca11d1309",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-26T06:42:59.687442+00:00",
-      "last_seen": "2026-07-31T09:51:24.350197+00:00"
+      "last_seen": "2026-07-31T12:06:20.033993+00:00"
     },
     {
       "id": "fee1ba480bb5",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:20.500318+00:00",
-      "last_seen": "2026-07-31T09:51:27.558542+00:00"
+      "last_seen": "2026-07-31T12:06:23.389201+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-07-31T09:51:35.849806+00:00"
+      "last_seen": "2026-07-31T12:06:33.044082+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-07-31T09:51:23.059607+00:00"
+      "last_seen": "2026-07-31T12:06:18.657837+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-07-31T09:51:16.548107+00:00"
+      "last_seen": "2026-07-31T12:06:11.773265+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-07-31T09:51:25.044326+00:00"
+      "last_seen": "2026-07-31T12:06:20.763785+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +136,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-07-31T09:51:17.141869+00:00"
+      "last_seen": "2026-07-31T12:06:12.474297+00:00"
+    },
+    {
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-07-31T09:51:21.224625+00:00",
+      "last_seen": "2026-07-31T12:06:16.903475+00:00"
     },
     {
       "id": "e489073f221f",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-14T05:36:59.965622+00:00",
-      "last_seen": "2026-07-31T09:51:37.043094+00:00"
+      "last_seen": "2026-07-31T12:06:34.161397+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-07-31T09:51:34.548799+00:00"
+      "last_seen": "2026-07-31T12:06:31.747616+00:00"
     }
   ]
 }
