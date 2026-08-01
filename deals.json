@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-08-01T07:34:01.671825+00:00",
+  "generated_at": "2026-08-01T10:05:25.699536+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "d69440457a93",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "drops",
-      "description": "Unlock 50% Off Prescription and Blue Light New Replacement Lenses Have Landed Find Your Perfect Pair",
-      "discount": "50% off",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-08-01T07:33:54.722562+00:00",
-      "last_seen": "2026-08-01T07:33:54.722562+00:00"
-    },
     {
       "id": "545c54bff42f",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-29T15:20:39.367818+00:00",
-      "last_seen": "2026-08-01T07:33:59.199251+00:00"
+      "last_seen": "2026-08-01T10:05:23.332727+00:00"
     },
     {
       "id": "28dc4252f78e",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:08.406460+00:00",
-      "last_seen": "2026-08-01T07:33:36.412522+00:00"
+      "last_seen": "2026-08-01T10:04:59.131128+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-01T07:33:43.169935+00:00"
+      "last_seen": "2026-08-01T10:05:05.992154+00:00"
     },
     {
       "id": "fee1ba480bb5",
@@ -76,7 +61,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:20.500318+00:00",
-      "last_seen": "2026-08-01T07:33:46.168956+00:00"
+      "last_seen": "2026-08-01T10:05:09.180671+00:00"
+    },
+    {
+      "id": "d69440457a93",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "drops",
+      "description": "Unlock 50% Off Prescription and Blue Light New Replacement Lenses Have Landed Find Your Perfect Pair",
+      "discount": "50% off",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-08-01T07:33:54.722562+00:00",
+      "last_seen": "2026-08-01T10:05:18.952415+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-01T07:33:53.384684+00:00"
+      "last_seen": "2026-08-01T10:05:17.785317+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-01T07:33:40.865437+00:00"
+      "last_seen": "2026-08-01T10:05:03.974247+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-01T07:33:33.922337+00:00"
+      "last_seen": "2026-08-01T10:04:56.820398+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-01T07:33:43.776369+00:00"
+      "last_seen": "2026-08-01T10:05:06.654510+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-01T07:33:34.671875+00:00"
+      "last_seen": "2026-08-01T10:04:57.524698+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-31T20:27:09.986271+00:00",
-      "last_seen": "2026-08-01T07:33:39.184744+00:00"
+      "last_seen": "2026-08-01T10:05:02.273440+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-01T07:33:52.496280+00:00"
+      "last_seen": "2026-08-01T10:05:16.558979+00:00"
     }
   ]
 }
