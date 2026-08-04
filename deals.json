@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-04T13:09:27.641999+00:00",
+  "generated_at": "2026-08-04T16:18:20.255617+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "545c54bff42f",
+      "id": "2468ae91d15a",
       "brand": "Burton Direct",
       "category": "snowboard",
       "deal_type": "clearance",
-      "description": "Summer Sale is On! Score up to 50% off snowboarding gear, outerwear, & more. Now through 8/4. SHOP NOW",
+      "description": "Summer Sale Final Hours! Last chance to score up to 50% off snowboarding gear, outerwear, & more. Now through 8/5 10AM ET. SHOP NO",
       "discount": "60% off",
       "code": null,
       "url": "https://www.burton.com/us/en/c/sale-gear",
       "source_url": "https://www.burton.com/us/en/c/sale-gear",
       "hot": true,
-      "pulse": false,
-      "first_seen": "2026-07-29T15:20:39.367818+00:00",
-      "last_seen": "2026-08-04T13:09:25.198285+00:00"
+      "pulse": true,
+      "first_seen": "2026-08-04T16:18:18.013283+00:00",
+      "last_seen": "2026-08-04T16:18:18.013283+00:00"
     },
     {
       "id": "28dc4252f78e",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:08.406460+00:00",
-      "last_seen": "2026-08-04T13:08:58.541214+00:00"
+      "last_seen": "2026-08-04T16:17:55.028575+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-04T13:09:07.290685+00:00"
+      "last_seen": "2026-08-04T16:18:01.681351+00:00"
     },
     {
       "id": "fee1ba480bb5",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:20.500318+00:00",
-      "last_seen": "2026-08-04T13:09:11.270984+00:00"
+      "last_seen": "2026-08-04T16:18:04.823424+00:00"
     },
     {
       "id": "d69440457a93",
@@ -76,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T07:33:54.722562+00:00",
-      "last_seen": "2026-08-04T13:09:20.391836+00:00"
+      "last_seen": "2026-08-04T16:18:13.584503+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-04T13:09:19.086758+00:00"
+      "last_seen": "2026-08-04T16:18:12.364321+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-04T13:09:05.010058+00:00"
+      "last_seen": "2026-08-04T16:17:59.590452+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-04T13:08:55.843677+00:00"
+      "last_seen": "2026-08-04T16:17:52.515930+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-04T13:09:08.305984+00:00"
+      "last_seen": "2026-08-04T16:18:02.491985+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-04T13:08:56.676515+00:00"
+      "last_seen": "2026-08-04T16:17:53.303969+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-03T17:15:26.929650+00:00",
-      "last_seen": "2026-08-04T13:09:03.011634+00:00"
+      "last_seen": "2026-08-04T16:17:57.689868+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-04T13:09:18.043162+00:00"
+      "last_seen": "2026-08-04T16:18:11.363144+00:00"
     }
   ]
 }
