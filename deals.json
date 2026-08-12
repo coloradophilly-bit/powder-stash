@@ -1,38 +1,8 @@
 {
-  "generated_at": "2026-08-12T06:20:43.016950+00:00",
+  "generated_at": "2026-08-12T08:23:31.881830+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "7063486102cb",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Pickup Pad DLX Curve\u2122 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-08-12T06:20:13.616862+00:00",
-      "last_seen": "2026-08-12T06:20:13.616862+00:00"
-    },
-    {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
-      "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-08-12T06:20:17.084416+00:00",
-      "last_seen": "2026-08-12T06:20:17.084416+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -46,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-05T15:20:02.840765+00:00",
-      "last_seen": "2026-08-12T06:20:40.508925+00:00"
+      "last_seen": "2026-08-12T08:23:29.444450+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-12T06:20:21.812050+00:00"
+      "last_seen": "2026-08-12T08:23:13.945006+00:00"
     },
     {
       "id": "fee1ba480bb5",
@@ -76,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:20.500318+00:00",
-      "last_seen": "2026-08-12T06:20:25.426045+00:00"
+      "last_seen": "2026-08-12T08:23:17.306068+00:00"
     },
     {
       "id": "d69440457a93",
@@ -91,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T07:33:54.722562+00:00",
-      "last_seen": "2026-08-12T06:20:35.370609+00:00"
+      "last_seen": "2026-08-12T08:23:24.743599+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -106,7 +76,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-12T06:20:33.953367+00:00"
+      "last_seen": "2026-08-12T08:23:23.519083+00:00"
+    },
+    {
+      "id": "7063486102cb",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad DLX, Pickup Pad DLX Curve\u2122 + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-08-12T06:20:13.616862+00:00",
+      "last_seen": "2026-08-12T08:23:07.191192+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-12T06:20:19.195047+00:00"
+      "last_seen": "2026-08-12T08:23:11.674759+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-12T06:20:10.644229+00:00"
+      "last_seen": "2026-08-12T08:23:04.526031+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -151,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-12T06:20:22.625020+00:00"
+      "last_seen": "2026-08-12T08:23:14.779932+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -166,7 +151,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-12T06:20:11.698185+00:00"
+      "last_seen": "2026-08-12T08:23:05.244858+00:00"
+    },
+    {
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-08-12T06:20:17.084416+00:00",
+      "last_seen": "2026-08-12T08:23:09.928510+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-12T06:20:32.844679+00:00"
+      "last_seen": "2026-08-12T08:23:22.405131+00:00"
     }
   ]
 }
