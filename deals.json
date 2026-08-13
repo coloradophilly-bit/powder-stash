@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-08-13T04:18:55.837756+00:00",
+  "generated_at": "2026-08-13T06:23:20.414542+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "28dc4252f78e",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Up to 25% off \u2014 Journey Mini Crossbody - Watercolor",
+      "discount": "Up to 25% off",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-08-13T06:22:53.460701+00:00",
+      "last_seen": "2026-08-13T06:22:53.460701+00:00"
+    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -16,14 +31,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-05T15:20:02.840765+00:00",
-      "last_seen": "2026-08-13T04:18:53.447498+00:00"
+      "last_seen": "2026-08-13T06:23:17.957442+00:00"
     },
     {
       "id": "799b05be060a",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 186 more",
+      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 189 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-13T04:18:34.995959+00:00"
+      "last_seen": "2026-08-13T06:23:00.813715+00:00"
     },
     {
       "id": "fee1ba480bb5",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:20.500318+00:00",
-      "last_seen": "2026-08-13T04:18:38.747664+00:00"
+      "last_seen": "2026-08-13T06:23:03.843547+00:00"
     },
     {
       "id": "d69440457a93",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T07:33:54.722562+00:00",
-      "last_seen": "2026-08-13T04:18:48.843643+00:00"
+      "last_seen": "2026-08-13T06:23:13.557534+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-13T04:18:47.596066+00:00"
-    },
-    {
-      "id": "a418bfe0335c",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Rack Pads 18\" + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-08-12T22:46:32.150326+00:00",
-      "last_seen": "2026-08-13T04:18:27.480333+00:00"
+      "last_seen": "2026-08-13T06:23:12.402030+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-13T04:18:32.693413+00:00"
+      "last_seen": "2026-08-13T06:22:58.609557+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-13T04:18:24.797058+00:00"
+      "last_seen": "2026-08-13T06:22:50.934944+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-13T04:18:35.956443+00:00"
+      "last_seen": "2026-08-13T06:23:01.559906+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-13T04:18:25.654145+00:00"
+      "last_seen": "2026-08-13T06:22:51.730757+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-12T06:20:17.084416+00:00",
-      "last_seen": "2026-08-13T04:18:30.657253+00:00"
+      "last_seen": "2026-08-13T06:22:56.702364+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-13T04:18:46.432364+00:00"
+      "last_seen": "2026-08-13T06:23:11.222720+00:00"
     }
   ]
 }
