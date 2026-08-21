@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T08:46:19.874810+00:00",
+  "generated_at": "2026-08-21T09:42:29.779105+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
@@ -16,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-08-21T08:46:17.462539+00:00"
+      "last_seen": "2026-08-21T09:42:27.236855+00:00"
     },
     {
       "id": "28dc4252f78e",
@@ -31,14 +31,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-13T06:22:53.460701+00:00",
-      "last_seen": "2026-08-21T08:45:54.437195+00:00"
+      "last_seen": "2026-08-21T09:42:03.851064+00:00"
     },
     {
       "id": "799b05be060a",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 171 more",
+      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 172 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-21T08:46:01.752422+00:00"
+      "last_seen": "2026-08-21T09:42:10.250848+00:00"
     },
     {
       "id": "fee1ba480bb5",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:20.500318+00:00",
-      "last_seen": "2026-08-21T08:46:04.988919+00:00"
+      "last_seen": "2026-08-21T09:42:13.624837+00:00"
     },
     {
       "id": "d69440457a93",
@@ -76,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T07:33:54.722562+00:00",
-      "last_seen": "2026-08-21T08:46:13.178325+00:00"
+      "last_seen": "2026-08-21T09:42:22.747544+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-21T08:46:12.283579+00:00"
+      "last_seen": "2026-08-21T09:42:21.486302+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-21T08:45:59.618499+00:00"
+      "last_seen": "2026-08-21T09:42:07.873956+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-21T08:45:51.980834+00:00"
+      "last_seen": "2026-08-21T09:42:00.607872+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-21T08:46:02.601954+00:00"
+      "last_seen": "2026-08-21T09:42:11.049650+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-21T08:45:52.695119+00:00"
+      "last_seen": "2026-08-21T09:42:01.457672+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-08-21T08:45:57.734183+00:00"
+      "last_seen": "2026-08-21T09:42:05.882249+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-21T08:46:11.219698+00:00"
+      "last_seen": "2026-08-21T09:42:20.552155+00:00"
     }
   ]
 }
