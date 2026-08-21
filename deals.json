@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-08-21T19:32:30.405278+00:00",
+  "generated_at": "2026-08-21T20:31:46.581787+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "5a3502a8163a",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Educated Backpack 30L - Black Onyx, Snacktime Lunch Box 5L - Black Onyx + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-08-21T20:31:16.047802+00:00",
+      "last_seen": "2026-08-21T20:31:16.047802+00:00"
+    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-08-21T19:32:27.839506+00:00"
+      "last_seen": "2026-08-21T20:31:44.136155+00:00"
     },
     {
       "id": "799b05be060a",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-21T19:32:10.376112+00:00"
+      "last_seen": "2026-08-21T20:31:24.500955+00:00"
     },
     {
       "id": "fee1ba480bb5",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:20.500318+00:00",
-      "last_seen": "2026-08-21T19:32:14.139811+00:00"
+      "last_seen": "2026-08-21T20:31:28.194371+00:00"
     },
     {
       "id": "d69440457a93",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T07:33:54.722562+00:00",
-      "last_seen": "2026-08-21T19:32:23.192223+00:00"
+      "last_seen": "2026-08-21T20:31:39.336912+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-21T19:32:21.982508+00:00"
-    },
-    {
-      "id": "5b9ed10782cf",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Educated Backpack 30L - Black Onyx, Fresh Catch Unstructured + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-08-21T18:41:56.486832+00:00",
-      "last_seen": "2026-08-21T19:32:03.413931+00:00"
+      "last_seen": "2026-08-21T20:31:37.741587+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-21T19:32:08.003262+00:00"
+      "last_seen": "2026-08-21T20:31:21.455486+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-21T19:32:00.749840+00:00"
+      "last_seen": "2026-08-21T20:31:12.956874+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-21T19:32:11.204225+00:00"
+      "last_seen": "2026-08-21T20:31:25.384046+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-21T19:32:01.399358+00:00"
+      "last_seen": "2026-08-21T20:31:13.926524+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-08-21T19:32:06.292303+00:00"
+      "last_seen": "2026-08-21T20:31:19.227172+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-21T19:32:20.878225+00:00"
+      "last_seen": "2026-08-21T20:31:36.499052+00:00"
     }
   ]
 }
