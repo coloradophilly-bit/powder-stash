@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-08-22T03:00:14.925407+00:00",
+  "generated_at": "2026-08-22T03:47:48.896025+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "94ec926b23f1",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Snacktime Lunch Box 5L - Black Onyx, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-08-22T02:59:48.200587+00:00",
-      "last_seen": "2026-08-22T02:59:48.200587+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-08-22T03:00:12.531122+00:00"
+      "last_seen": "2026-08-22T03:47:46.428739+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-22T02:59:55.114875+00:00"
+      "last_seen": "2026-08-22T03:47:30.837414+00:00"
     },
     {
       "id": "fee1ba480bb5",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:20.500318+00:00",
-      "last_seen": "2026-08-22T02:59:58.346393+00:00"
+      "last_seen": "2026-08-22T03:47:33.994157+00:00"
     },
     {
       "id": "d69440457a93",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T07:33:54.722562+00:00",
-      "last_seen": "2026-08-22T03:00:08.416205+00:00"
+      "last_seen": "2026-08-22T03:47:41.904478+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +76,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-22T03:00:07.090471+00:00"
+      "last_seen": "2026-08-22T03:47:40.630139+00:00"
+    },
+    {
+      "id": "94ec926b23f1",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Snacktime Lunch Box 5L - Black Onyx, Pickup Pad DLX + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-08-22T02:59:48.200587+00:00",
+      "last_seen": "2026-08-22T03:47:23.512289+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-22T02:59:52.849127+00:00"
+      "last_seen": "2026-08-22T03:47:28.524879+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-22T02:59:45.910333+00:00"
+      "last_seen": "2026-08-22T03:47:21.106765+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-22T02:59:55.882981+00:00"
+      "last_seen": "2026-08-22T03:47:31.653348+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-22T02:59:46.601885+00:00"
+      "last_seen": "2026-08-22T03:47:21.793501+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-08-22T02:59:50.998058+00:00"
+      "last_seen": "2026-08-22T03:47:26.597414+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-22T03:00:05.632179+00:00"
+      "last_seen": "2026-08-22T03:47:39.315637+00:00"
     }
   ]
 }
