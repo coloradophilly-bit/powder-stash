@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-08-21T23:30:00.974117+00:00",
+  "generated_at": "2026-08-22T01:16:50.769156+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "99c3d902a1e7",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Educated Backpack 30L - Black Onyx, Syncline Gel Bike Glove + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-08-21T23:29:33.675119+00:00",
-      "last_seen": "2026-08-21T23:29:33.675119+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-08-21T23:29:58.431471+00:00"
+      "last_seen": "2026-08-22T01:16:47.991806+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-21T23:29:40.760103+00:00"
+      "last_seen": "2026-08-22T01:16:30.085861+00:00"
     },
     {
       "id": "fee1ba480bb5",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-07-30T23:13:20.500318+00:00",
-      "last_seen": "2026-08-21T23:29:44.047730+00:00"
+      "last_seen": "2026-08-22T01:16:33.651784+00:00"
     },
     {
       "id": "d69440457a93",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T07:33:54.722562+00:00",
-      "last_seen": "2026-08-21T23:29:53.758428+00:00"
+      "last_seen": "2026-08-22T01:16:42.793792+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +76,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-21T23:29:52.278600+00:00"
+      "last_seen": "2026-08-22T01:16:41.441881+00:00"
+    },
+    {
+      "id": "99c3d902a1e7",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Educated Backpack 30L - Black Onyx, Syncline Gel Bike Glove + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-08-21T23:29:33.675119+00:00",
+      "last_seen": "2026-08-22T01:16:23.082498+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-21T23:29:38.469391+00:00"
+      "last_seen": "2026-08-22T01:16:27.877952+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-21T23:29:31.261300+00:00"
+      "last_seen": "2026-08-22T01:16:20.361137+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-21T23:29:41.615496+00:00"
+      "last_seen": "2026-08-22T01:16:30.876459+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-21T23:29:32.011048+00:00"
+      "last_seen": "2026-08-22T01:16:21.049486+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-08-21T23:29:36.457996+00:00"
+      "last_seen": "2026-08-22T01:16:26.008131+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-21T23:29:51.084543+00:00"
+      "last_seen": "2026-08-22T01:16:40.278110+00:00"
     }
   ]
 }
