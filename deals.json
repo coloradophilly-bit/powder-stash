@@ -1,22 +1,37 @@
 {
-  "generated_at": "2026-08-27T16:13:57.295024+00:00",
+  "generated_at": "2026-08-28T01:23:55.847861+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "7063486102cb",
+      "id": "c1dce62bf379",
       "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Pickup Pad DLX Curve\u2122 + 3 more",
+      "description": "Sale \u2014 Aero Rack Pads 28\", Low Roller Snowboard Bag X B4BC - B4BC Kingdom + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-08-27T16:13:31.863133+00:00",
-      "last_seen": "2026-08-27T16:13:31.863133+00:00"
+      "first_seen": "2026-08-28T01:23:29.436677+00:00",
+      "last_seen": "2026-08-28T01:23:29.436677+00:00"
+    },
+    {
+      "id": "3c6f8b85611d",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "clearance",
+      "description": "On sale now \u2014 lower than your ExpertVoice discount.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-08-28T01:23:48.902368+00:00",
+      "last_seen": "2026-08-28T01:23:48.902368+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-08-27T16:13:54.813639+00:00"
+      "last_seen": "2026-08-28T01:23:53.377107+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-27T16:13:39.104295+00:00"
+      "last_seen": "2026-08-28T01:23:36.625524+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,22 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-08-27T16:13:42.280585+00:00"
-    },
-    {
-      "id": "d69440457a93",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "drops",
-      "description": "Unlock 50% Off Prescription and Blue Light New Replacement Lenses Have Landed Find Your Perfect Pair",
-      "discount": "50% off",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-08-01T07:33:54.722562+00:00",
-      "last_seen": "2026-08-27T16:13:50.850652+00:00"
+      "last_seen": "2026-08-28T01:23:40.141118+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-27T16:13:49.616155+00:00"
+      "last_seen": "2026-08-28T01:23:47.469590+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-27T16:13:36.972908+00:00"
+      "last_seen": "2026-08-28T01:23:34.619089+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-27T16:13:29.081109+00:00"
+      "last_seen": "2026-08-28T01:23:26.390107+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-27T16:13:39.870284+00:00"
+      "last_seen": "2026-08-28T01:23:37.496111+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-27T16:13:29.747651+00:00"
+      "last_seen": "2026-08-28T01:23:27.142806+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-08-27T16:13:35.054913+00:00"
+      "last_seen": "2026-08-28T01:23:32.637175+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-27T16:13:48.292042+00:00"
+      "last_seen": "2026-08-28T01:23:45.695116+00:00"
     }
   ]
 }
