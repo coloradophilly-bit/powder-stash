@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-30T23:20:01.282859+00:00",
+  "generated_at": "2026-08-31T04:00:33.026256+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "ad3f3159ec30",
+      "id": "801a616ffb63",
       "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Mission Surf Wet/Dry Backpack 30L X Mayhem, Syncline Gel Bike Glove + 3 more",
+      "description": "Sale \u2014 Mission Surf Wet/Dry Backpack 30L X Mayhem, Pickup Pad DLX + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-08-30T23:19:37.045631+00:00",
-      "last_seen": "2026-08-30T23:19:37.045631+00:00"
+      "first_seen": "2026-08-31T04:00:07.466004+00:00",
+      "last_seen": "2026-08-31T04:00:07.466004+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-08-30T23:19:58.913430+00:00"
+      "last_seen": "2026-08-31T04:00:30.505024+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-30T23:19:43.545272+00:00"
+      "last_seen": "2026-08-31T04:00:15.067904+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-08-30T23:19:47.007047+00:00"
+      "last_seen": "2026-08-31T04:00:18.317572+00:00"
     },
     {
       "id": "fbae7fbc18f2",
@@ -76,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-28T23:31:49.891239+00:00",
-      "last_seen": "2026-08-30T23:19:54.569640+00:00"
+      "last_seen": "2026-08-31T04:00:26.381537+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-30T23:19:53.257286+00:00"
+      "last_seen": "2026-08-31T04:00:25.182623+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-30T23:19:41.522767+00:00"
+      "last_seen": "2026-08-31T04:00:12.990938+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-30T23:19:34.278625+00:00"
+      "last_seen": "2026-08-31T04:00:04.785520+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-30T23:19:44.324946+00:00"
+      "last_seen": "2026-08-31T04:00:15.946020+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-30T23:19:35.106376+00:00"
+      "last_seen": "2026-08-31T04:00:05.544840+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-08-30T23:19:39.644068+00:00"
+      "last_seen": "2026-08-31T04:00:11.003736+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-30T23:19:52.270712+00:00"
+      "last_seen": "2026-08-31T04:00:23.914271+00:00"
     }
   ]
 }
