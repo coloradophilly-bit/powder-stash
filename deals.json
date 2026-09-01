@@ -1,38 +1,8 @@
 {
-  "generated_at": "2026-09-01T07:26:27.652274+00:00",
+  "generated_at": "2026-09-01T13:15:27.686737+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "a3d8169d5086",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "clearance",
-      "description": "Ride More Sale New Replacement Lenses Have Landed Find Your Perfect Pair",
-      "discount": "40% off",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-01T07:26:20.411568+00:00"
-    },
-    {
-      "id": "ce6c4cf78d19",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Slayer Pro Knee Pad, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-01T07:25:54.936808+00:00",
-      "last_seen": "2026-09-01T07:25:54.936808+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -46,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-01T07:26:25.145869+00:00"
+      "last_seen": "2026-09-01T13:15:25.283075+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-01T07:26:03.974977+00:00"
+      "last_seen": "2026-09-01T13:15:08.050258+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,7 +46,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-01T07:26:09.696142+00:00"
+      "last_seen": "2026-09-01T13:15:11.755500+00:00"
+    },
+    {
+      "id": "a3d8169d5086",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "clearance",
+      "description": "Ride More Sale New Replacement Lenses Have Landed Find Your Perfect Pair",
+      "discount": "40% off",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-09-01T07:26:20.411568+00:00",
+      "last_seen": "2026-09-01T13:15:20.701270+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +76,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-01T07:26:19.014829+00:00"
+      "last_seen": "2026-09-01T13:15:19.394549+00:00"
+    },
+    {
+      "id": "ce6c4cf78d19",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Slayer Pro Knee Pad, Pickup Pad DLX + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-01T07:25:54.936808+00:00",
+      "last_seen": "2026-09-01T13:15:00.221527+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-01T07:26:00.922711+00:00"
+      "last_seen": "2026-09-01T13:15:05.722779+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-01T07:25:51.020362+00:00"
+      "last_seen": "2026-09-01T13:14:57.543605+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-09-01T07:26:04.914826+00:00"
+      "last_seen": "2026-09-01T13:15:08.998617+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-09-01T07:25:52.809741+00:00"
+      "last_seen": "2026-09-01T13:14:58.328191+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-09-01T07:25:58.231468+00:00"
+      "last_seen": "2026-09-01T13:15:03.454260+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-01T07:26:17.386516+00:00"
+      "last_seen": "2026-09-01T13:15:17.910259+00:00"
     }
   ]
 }
