@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-09-01T13:15:27.686737+00:00",
+  "generated_at": "2026-09-01T17:45:00.584304+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "6c11991e0767",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad DLX, Slayer Pro Knee Pad + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-01T17:44:35.565827+00:00",
+      "last_seen": "2026-09-01T17:44:35.565827+00:00"
+    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -16,14 +31,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-01T13:15:25.283075+00:00"
+      "last_seen": "2026-09-01T17:44:58.234719+00:00"
     },
     {
       "id": "799b05be060a",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 169 more",
+      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 168 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -31,14 +46,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-01T13:15:08.050258+00:00"
+      "last_seen": "2026-09-01T17:44:42.601649+00:00"
     },
     {
       "id": "c7a1f4561553",
       "brand": "Smartwool",
       "category": "accessories",
       "deal_type": "clearance",
-      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Men's Classic Thermal Merino Base Layer Crew + 189 more",
+      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Men's Classic Thermal Merino Base Layer Crew + 188 more",
       "discount": "Up to 54% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-01T13:15:11.755500+00:00"
+      "last_seen": "2026-09-01T17:44:46.244248+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-01T13:15:20.701270+00:00"
+      "last_seen": "2026-09-01T17:44:53.745996+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-01T13:15:19.394549+00:00"
-    },
-    {
-      "id": "ce6c4cf78d19",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Slayer Pro Knee Pad, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-01T07:25:54.936808+00:00",
-      "last_seen": "2026-09-01T13:15:00.221527+00:00"
+      "last_seen": "2026-09-01T17:44:52.455199+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-01T13:15:05.722779+00:00"
+      "last_seen": "2026-09-01T17:44:40.157442+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-01T13:14:57.543605+00:00"
+      "last_seen": "2026-09-01T17:44:33.153428+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-09-01T13:15:08.998617+00:00"
+      "last_seen": "2026-09-01T17:44:43.448677+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-09-01T13:14:58.328191+00:00"
+      "last_seen": "2026-09-01T17:44:33.847468+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-09-01T13:15:03.454260+00:00"
+      "last_seen": "2026-09-01T17:44:38.247327+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-01T13:15:17.910259+00:00"
+      "last_seen": "2026-09-01T17:44:51.512966+00:00"
     }
   ]
 }
