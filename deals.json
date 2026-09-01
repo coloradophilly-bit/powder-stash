@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-09-01T20:43:58.311667+00:00",
+  "generated_at": "2026-09-01T23:10:03.450617+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "3c63d4be3455",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Jive Crossbody Bag + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-01T20:43:32.936855+00:00",
-      "last_seen": "2026-09-01T20:43:32.936855+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -31,14 +16,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-01T20:43:55.677703+00:00"
+      "last_seen": "2026-09-01T23:10:01.019689+00:00"
     },
     {
       "id": "799b05be060a",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 168 more",
+      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 177 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-01T20:43:39.890788+00:00"
+      "last_seen": "2026-09-01T23:09:46.633356+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-01T20:43:43.019791+00:00"
+      "last_seen": "2026-09-01T23:09:49.696369+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-01T20:43:51.144269+00:00"
+      "last_seen": "2026-09-01T23:09:56.893738+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +76,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-01T20:43:49.875847+00:00"
+      "last_seen": "2026-09-01T23:09:55.547193+00:00"
+    },
+    {
+      "id": "3c63d4be3455",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pickup Pad DLX, Jive Crossbody Bag + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-01T20:43:32.936855+00:00",
+      "last_seen": "2026-09-01T23:09:39.797042+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-01T20:43:37.793554+00:00"
+      "last_seen": "2026-09-01T23:09:44.413500+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-01T20:43:30.062721+00:00"
+      "last_seen": "2026-09-01T23:09:37.141673+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-09-01T20:43:40.700897+00:00"
+      "last_seen": "2026-09-01T23:09:47.291766+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-09-01T20:43:30.804025+00:00"
+      "last_seen": "2026-09-01T23:09:38.050727+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-09-01T20:43:35.980383+00:00"
+      "last_seen": "2026-09-01T23:09:42.630046+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-01T20:43:48.666524+00:00"
+      "last_seen": "2026-09-01T23:09:54.648960+00:00"
     }
   ]
 }
