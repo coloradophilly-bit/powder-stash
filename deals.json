@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-31T22:38:07.683484+00:00",
+  "generated_at": "2026-09-01T01:47:32.784479+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "d952685e3eff",
+      "id": "7680d1acd526",
       "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Slayer Pro Knee Pad, Mission Surf Wet/Dry Backpack 30L X Mayhem + 3 more",
+      "description": "Sale \u2014 Slayer Pro Knee Pad, Pickup Pad DLX Curve\u2122 + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-08-31T22:37:40.778681+00:00",
-      "last_seen": "2026-08-31T22:37:40.778681+00:00"
+      "first_seen": "2026-09-01T01:47:08.500393+00:00",
+      "last_seen": "2026-09-01T01:47:08.500393+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-08-31T22:38:05.166942+00:00"
+      "last_seen": "2026-09-01T01:47:30.330384+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-08-31T22:37:48.682792+00:00"
+      "last_seen": "2026-09-01T01:47:15.012109+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-08-31T22:37:52.283376+00:00"
+      "last_seen": "2026-09-01T01:47:19.622557+00:00"
     },
     {
       "id": "fbae7fbc18f2",
@@ -76,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-28T23:31:49.891239+00:00",
-      "last_seen": "2026-08-31T22:38:00.900417+00:00"
+      "last_seen": "2026-09-01T01:47:26.424226+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-08-31T22:37:59.471644+00:00"
+      "last_seen": "2026-09-01T01:47:25.327476+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-08-31T22:37:46.317433+00:00"
+      "last_seen": "2026-09-01T01:47:12.925422+00:00"
     },
     {
       "id": "ddc62d3f8f2d",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-31T18:01:35.016910+00:00",
-      "last_seen": "2026-08-31T22:37:53.434726+00:00"
+      "last_seen": "2026-09-01T01:47:20.582145+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-08-31T22:37:37.797753+00:00"
+      "last_seen": "2026-09-01T01:47:05.860749+00:00"
     },
     {
       "id": "5d233f358c58",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-26T06:43:00.518865+00:00",
-      "last_seen": "2026-08-31T22:37:49.605114+00:00"
+      "last_seen": "2026-09-01T01:47:17.249271+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-16T15:08:22.746886+00:00",
-      "last_seen": "2026-08-31T22:37:38.713764+00:00"
+      "last_seen": "2026-09-01T01:47:06.652226+00:00"
     },
     {
       "id": "602afd76335e",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-08-31T22:37:44.017200+00:00"
+      "last_seen": "2026-09-01T01:47:11.070949+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-08-31T22:37:58.269097+00:00"
+      "last_seen": "2026-09-01T01:47:24.380276+00:00"
     }
   ]
 }
