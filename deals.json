@@ -1,37 +1,22 @@
 {
-  "generated_at": "2026-09-02T20:40:38.823043+00:00",
+  "generated_at": "2026-09-02T23:07:04.119700+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "8c9da9e7782c",
-      "brand": "Mons Royale",
+      "id": "62beed97eefd",
+      "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Diversion Merino Wind Jacket - Thyme / Cypress | Women's Jacket, Pivot Merino Long Sleeve Hood - Caramel | Men's Long Sl...",
-      "discount": "Sale",
+      "description": "Up to 25% off \u2014 Aero Rack Pads 28\", Pickup Pad DLX + 162 more",
+      "discount": "Up to 25% off",
       "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": true,
       "pulse": true,
-      "first_seen": "2026-09-02T20:40:22.265649+00:00",
-      "last_seen": "2026-09-02T20:40:22.265649+00:00"
-    },
-    {
-      "id": "934909783cdc",
-      "brand": "Nidecker",
-      "category": "bindings",
-      "deal_type": "active",
-      "description": "Sale \u2014 Kita Women 2026, The Gun 2026 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.nidecker.com/en/sale",
-      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-02T20:40:12.335289+00:00",
-      "last_seen": "2026-09-02T20:40:12.335289+00:00"
+      "first_seen": "2026-09-02T23:06:40.341866+00:00",
+      "last_seen": "2026-09-02T23:06:40.341866+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-02T20:40:36.427146+00:00"
+      "last_seen": "2026-09-02T23:07:01.743302+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-02T20:40:21.385189+00:00"
+      "last_seen": "2026-09-02T23:06:47.152910+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-02T20:40:24.671554+00:00"
+      "last_seen": "2026-09-02T23:06:50.395464+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -91,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-02T20:40:32.087351+00:00"
+      "last_seen": "2026-09-02T23:06:57.714409+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -106,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-02T20:40:30.847244+00:00"
-    },
-    {
-      "id": "fb877f8ceebe",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Aero Rack Pads 28\" + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-02T13:22:34.953296+00:00",
-      "last_seen": "2026-09-02T20:40:14.695741+00:00"
+      "last_seen": "2026-09-02T23:06:56.448827+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -136,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-02T20:40:19.086276+00:00"
+      "last_seen": "2026-09-02T23:06:44.857024+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -151,7 +121,37 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-02T20:40:11.538773+00:00"
+      "last_seen": "2026-09-02T23:06:37.634624+00:00"
+    },
+    {
+      "id": "8c9da9e7782c",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Diversion Merino Wind Jacket - Thyme / Cypress | Women's Jacket, Pivot Merino Long Sleeve Hood - Caramel | Men's Long Sl...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-02T20:40:22.265649+00:00",
+      "last_seen": "2026-09-02T23:06:48.059186+00:00"
+    },
+    {
+      "id": "934909783cdc",
+      "brand": "Nidecker",
+      "category": "bindings",
+      "deal_type": "active",
+      "description": "Sale \u2014 Kita Women 2026, The Gun 2026 + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.nidecker.com/en/sale",
+      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-02T20:40:12.335289+00:00",
+      "last_seen": "2026-09-02T23:06:38.441004+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-09-02T20:40:17.367116+00:00"
+      "last_seen": "2026-09-02T23:06:42.876660+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-02T20:40:29.864495+00:00"
+      "last_seen": "2026-09-02T23:06:55.484109+00:00"
     }
   ]
 }
