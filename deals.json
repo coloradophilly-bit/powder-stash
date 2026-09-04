@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-09-04T18:14:57.766029+00:00",
+  "generated_at": "2026-09-04T21:22:41.186010+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "01b9466c389e",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Up to 25% off \u2014 Aero Rack Pads 28\", Pickup Pad\u2122 + 165 more",
+      "discount": "Up to 25% off",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-09-04T21:22:15.890080+00:00",
+      "last_seen": "2026-09-04T21:22:15.890080+00:00"
+    },
+    {
+      "id": "15f6f6ac6038",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Mtn Pixel Merino Pom Pom Beanie - Purple Bolt / Black | Unisex Beanie, Arcadia Merino Fleece Hoody - Black | Women's Mid...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-04T21:22:23.263751+00:00",
+      "last_seen": "2026-09-04T21:22:23.263751+00:00"
+    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -16,22 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-04T18:14:55.303850+00:00"
-    },
-    {
-      "id": "7f65dfeb3990",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Up to 25% off \u2014 Aero Rack Pads 28\", Pickup Pad\u2122 + 166 more",
-      "discount": "Up to 25% off",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-09-04T05:39:42.635050+00:00",
-      "last_seen": "2026-09-04T18:14:30.747774+00:00"
+      "last_seen": "2026-09-04T21:22:38.748003+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-04T18:14:38.388928+00:00"
+      "last_seen": "2026-09-04T21:22:22.454523+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-04T18:14:42.496148+00:00"
+      "last_seen": "2026-09-04T21:22:26.012472+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -76,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-04T18:14:50.846109+00:00"
+      "last_seen": "2026-09-04T21:22:34.259200+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-04T18:14:49.559483+00:00"
+      "last_seen": "2026-09-04T21:22:33.005344+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-04T18:14:35.947857+00:00"
+      "last_seen": "2026-09-04T21:22:20.304051+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,22 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-04T18:14:27.829413+00:00"
-    },
-    {
-      "id": "8c9da9e7782c",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Diversion Merino Wind Jacket - Thyme / Cypress | Women's Jacket, Pivot Merino Long Sleeve Hood - Caramel | Men's Long Sl...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-02T20:40:22.265649+00:00",
-      "last_seen": "2026-09-04T18:14:39.556490+00:00"
+      "last_seen": "2026-09-04T21:22:13.471387+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-03T12:03:33.590337+00:00",
-      "last_seen": "2026-09-04T18:14:28.702465+00:00"
+      "last_seen": "2026-09-04T21:22:14.226257+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-08-14T08:21:46.343713+00:00",
-      "last_seen": "2026-09-04T18:14:33.704425+00:00"
+      "last_seen": "2026-09-04T21:22:18.502279+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-04T18:14:48.385985+00:00"
+      "last_seen": "2026-09-04T21:22:31.451482+00:00"
     }
   ]
 }
