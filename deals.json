@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-09-05T20:07:59.573012+00:00",
+  "generated_at": "2026-09-05T22:09:24.473134+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "62cbb8ae9b50",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Yonder Merino Organic Cotton Long Sleeve - Mocha | Women's Long Sleeve Top, Mtn Pixel Merino Pom Pom Beanie - Black / Wh...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-05T20:07:40.247408+00:00",
-      "last_seen": "2026-09-05T20:07:40.247408+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-05T20:07:56.950572+00:00"
+      "last_seen": "2026-09-05T22:09:22.069528+00:00"
     },
     {
       "id": "351f075a361f",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-05T18:03:05.661550+00:00",
-      "last_seen": "2026-09-05T20:07:31.477726+00:00"
+      "last_seen": "2026-09-05T22:08:57.942662+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-05T20:07:39.183336+00:00"
+      "last_seen": "2026-09-05T22:09:06.223613+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-05T20:07:43.283252+00:00"
+      "last_seen": "2026-09-05T22:09:10.030803+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -91,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-05T20:07:52.769867+00:00"
+      "last_seen": "2026-09-05T22:09:17.975315+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-05T20:07:51.219728+00:00"
+      "last_seen": "2026-09-05T22:09:16.678914+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-05T20:07:36.771867+00:00"
+      "last_seen": "2026-09-05T22:09:03.663707+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -136,7 +121,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-05T20:07:28.873940+00:00"
+      "last_seen": "2026-09-05T22:08:55.133433+00:00"
+    },
+    {
+      "id": "62cbb8ae9b50",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Yonder Merino Organic Cotton Long Sleeve - Mocha | Women's Long Sleeve Top, Mtn Pixel Merino Pom Pom Beanie - Black / Wh...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-05T20:07:40.247408+00:00",
+      "last_seen": "2026-09-05T22:09:07.069800+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-03T12:03:33.590337+00:00",
-      "last_seen": "2026-09-05T20:07:29.684059+00:00"
+      "last_seen": "2026-09-05T22:08:55.885145+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-05T20:07:34.583855+00:00"
+      "last_seen": "2026-09-05T22:09:01.678036+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-05T20:07:49.805654+00:00"
+      "last_seen": "2026-09-05T22:09:15.484090+00:00"
     }
   ]
 }
