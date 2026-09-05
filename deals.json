@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-05T12:31:18.154622+00:00",
+  "generated_at": "2026-09-05T15:55:31.110111+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "602afd76335e",
-      "brand": "POC",
-      "category": "helmets",
+      "id": "700815c2b7d0",
+      "brand": "Mons Royale",
+      "category": "accessories",
       "deal_type": "active",
-      "description": "POC \u2014 sale items available. Visit site for details.",
+      "description": "Sale \u2014 Inversion Merino Hoodie - Light Grey Heather | Men's Hoodie, Diversion Merino Bike Jersey Long Sleeve - Grunge / Black |...",
       "discount": "Sale",
       "code": null,
-      "url": "https://www.pocsports.com/collections/ski-sale",
-      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-05T12:30:54.182111+00:00"
+      "first_seen": "2026-09-05T15:55:12.540944+00:00",
+      "last_seen": "2026-09-05T15:55:12.540944+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-05T12:31:15.536590+00:00"
+      "last_seen": "2026-09-05T15:55:28.617529+00:00"
     },
     {
       "id": "9e18b39acc52",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-05T08:11:36.285153+00:00",
-      "last_seen": "2026-09-05T12:30:50.609630+00:00"
+      "last_seen": "2026-09-05T15:55:03.749647+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-05T12:30:58.752078+00:00"
+      "last_seen": "2026-09-05T15:55:11.447744+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-05T12:31:02.752618+00:00"
+      "last_seen": "2026-09-05T15:55:15.386009+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -91,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-05T12:31:10.961785+00:00"
+      "last_seen": "2026-09-05T15:55:24.345141+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-05T12:31:09.823912+00:00"
+      "last_seen": "2026-09-05T15:55:22.933003+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-05T12:30:56.481134+00:00"
+      "last_seen": "2026-09-05T15:55:09.293919+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -136,22 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-05T12:30:47.726782+00:00"
-    },
-    {
-      "id": "c9d32e0abf74",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Bella Merino Long Sleeve - Purple Bolt / Grey Heather | Women's Long Sleeve Top, Yonder Merino Organic Cotton T-Shirt - ...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-05T08:12:24.202986+00:00",
-      "last_seen": "2026-09-05T12:30:59.827122+00:00"
+      "last_seen": "2026-09-05T15:55:01.288411+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -166,7 +151,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-03T12:03:33.590337+00:00",
-      "last_seen": "2026-09-05T12:30:48.715987+00:00"
+      "last_seen": "2026-09-05T15:55:02.185300+00:00"
+    },
+    {
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
+      "deal_type": "active",
+      "description": "POC \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-05T12:30:54.182111+00:00",
+      "last_seen": "2026-09-05T15:55:06.932203+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-05T12:31:08.568840+00:00"
+      "last_seen": "2026-09-05T15:55:21.679625+00:00"
     }
   ]
 }
