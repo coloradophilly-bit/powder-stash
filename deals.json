@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-07T09:04:48.553464+00:00",
+  "generated_at": "2026-09-07T15:02:27.476041+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "7139ef7dff8b",
-      "brand": "Dakine",
+      "id": "7a3cdf560831",
+      "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Up to 25% off \u2014 Pickup Pad DLX, Low Roller Snowboard Bag X B4BC - B4BC Kingdom + 164 more",
-      "discount": "Up to 25% off",
+      "description": "Sale \u2014 AT Merino Short Sleeve Shirt - Horizon Blue | Men's Shirt, Sierra Merino Sports Bra - Grey Heather / Black | Women's Und...",
+      "discount": "Sale",
       "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": true,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-07T09:04:20.616950+00:00",
-      "last_seen": "2026-09-07T09:04:20.616950+00:00"
+      "first_seen": "2026-09-07T15:02:10.530699+00:00",
+      "last_seen": "2026-09-07T15:02:10.530699+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +31,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-07T09:04:46.140839+00:00"
+      "last_seen": "2026-09-07T15:02:25.050498+00:00"
+    },
+    {
+      "id": "7139ef7dff8b",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Up to 25% off \u2014 Pickup Pad DLX, Low Roller Snowboard Bag X B4BC - B4BC Kingdom + 164 more",
+      "discount": "Up to 25% off",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-09-07T09:04:20.616950+00:00",
+      "last_seen": "2026-09-07T15:02:03.157286+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-07T09:04:28.520455+00:00"
+      "last_seen": "2026-09-07T15:02:09.759180+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-07T09:04:32.600103+00:00"
+      "last_seen": "2026-09-07T15:02:13.280839+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -76,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-07T09:04:41.948672+00:00"
+      "last_seen": "2026-09-07T15:02:21.167983+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-07T09:04:40.580924+00:00"
+      "last_seen": "2026-09-07T15:02:19.982422+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-07T09:04:26.113088+00:00"
+      "last_seen": "2026-09-07T15:02:07.757769+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,22 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-07T09:04:17.843387+00:00"
-    },
-    {
-      "id": "12315de2e505",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Zephyr Merino Tencel\u2122 Boxy T-Shirt - Watermelon | Women's T-Shirt, Icon Merino Long Sleeve - Black | Men's Long Sleeve T...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-07T03:12:11.403250+00:00",
-      "last_seen": "2026-09-07T09:04:29.602113+00:00"
+      "last_seen": "2026-09-07T15:02:00.781437+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-03T12:03:33.590337+00:00",
-      "last_seen": "2026-09-07T09:04:18.625809+00:00"
+      "last_seen": "2026-09-07T15:02:01.423327+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-07T09:04:24.118730+00:00"
+      "last_seen": "2026-09-07T15:02:06.097085+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-07T09:04:39.269008+00:00"
+      "last_seen": "2026-09-07T15:02:18.910427+00:00"
     }
   ]
 }
