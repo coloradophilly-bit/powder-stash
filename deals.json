@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-09-08T10:46:50.963692+00:00",
+  "generated_at": "2026-09-08T15:02:16.947546+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "e5fcd0693b4b",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Quad Merino Fleece Jacket - Horizon Blue / Black | Men's Jacket, Double Up Merino Neckwarmer - Canyon Rose | Unisex Neck...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-08T10:46:32.490764+00:00",
-      "last_seen": "2026-09-08T10:46:32.490764+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -25,13 +10,13 @@
       "deal_type": "clearance",
       "description": "Sale price from $489.95",
       "discount": "50% off",
-      "code": "OUTOFOFFICE",
+      "code": null,
       "url": "https://www.burton.com/us/en/c/sale-gear",
       "source_url": "https://www.burton.com/us/en/c/sale-gear",
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-08T10:46:48.450104+00:00"
+      "last_seen": "2026-09-08T15:02:14.663035+00:00"
     },
     {
       "id": "7139ef7dff8b",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-07T09:04:20.616950+00:00",
-      "last_seen": "2026-09-08T10:46:24.114021+00:00"
+      "last_seen": "2026-09-08T15:01:27.702840+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-08T10:46:31.518055+00:00"
+      "last_seen": "2026-09-08T15:01:34.221342+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-08T10:46:35.393086+00:00"
+      "last_seen": "2026-09-08T15:01:37.354057+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -91,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-08T10:46:43.757494+00:00"
+      "last_seen": "2026-09-08T15:02:10.144541+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-08T10:46:42.445710+00:00"
+      "last_seen": "2026-09-08T15:02:08.869266+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-08T10:46:29.245676+00:00"
+      "last_seen": "2026-09-08T15:01:31.920930+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -136,7 +121,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-08T10:46:21.621907+00:00"
+      "last_seen": "2026-09-08T15:01:25.299386+00:00"
+    },
+    {
+      "id": "e5fcd0693b4b",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Quad Merino Fleece Jacket - Horizon Blue / Black | Men's Jacket, Double Up Merino Neckwarmer - Canyon Rose | Unisex Neck...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-08T10:46:32.490764+00:00",
+      "last_seen": "2026-09-08T15:01:34.888998+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-03T12:03:33.590337+00:00",
-      "last_seen": "2026-09-08T10:46:22.374414+00:00"
+      "last_seen": "2026-09-08T15:01:26.026904+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-08T10:46:27.253952+00:00"
+      "last_seen": "2026-09-08T15:01:29.789906+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-08T10:46:40.743655+00:00"
+      "last_seen": "2026-09-08T15:02:07.472483+00:00"
     }
   ]
 }
