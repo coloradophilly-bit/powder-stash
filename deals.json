@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-09-08T01:02:25.860143+00:00",
+  "generated_at": "2026-09-08T05:45:17.484905+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "a246663e7af1",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Zephyr Merino Tencel\u2122 Boxy T-Shirt - Smoke | Women's T-Shirt, Yonder Merino Organic Cotton T-Shirt - Mocha | Women's T-S...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-08T05:45:00.039306+00:00",
+      "last_seen": "2026-09-08T05:45:00.039306+00:00"
+    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-08T01:02:23.214417+00:00"
+      "last_seen": "2026-09-08T05:45:14.987563+00:00"
     },
     {
       "id": "7139ef7dff8b",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-07T09:04:20.616950+00:00",
-      "last_seen": "2026-09-08T01:02:00.970923+00:00"
+      "last_seen": "2026-09-08T05:44:51.793519+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-08T01:02:07.712595+00:00"
+      "last_seen": "2026-09-08T05:44:59.019786+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-08T01:02:11.299953+00:00"
+      "last_seen": "2026-09-08T05:45:02.927842+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -76,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-08T01:02:19.100548+00:00"
+      "last_seen": "2026-09-08T05:45:10.735917+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-08T01:02:17.798403+00:00"
+      "last_seen": "2026-09-08T05:45:09.546017+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-08T01:02:05.292503+00:00"
+      "last_seen": "2026-09-08T05:44:56.654764+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,22 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-08T01:01:58.345305+00:00"
-    },
-    {
-      "id": "2cd3d2ff12d9",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Tarn Merino T-Shirt - Cinnamon / Black | Men's Bike Jersey, Chunky Logger Merino Beanie - Bark | Unisex Beanie + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-07T22:38:33.981565+00:00",
-      "last_seen": "2026-09-08T01:02:08.744161+00:00"
+      "last_seen": "2026-09-08T05:44:49.465914+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-03T12:03:33.590337+00:00",
-      "last_seen": "2026-09-08T01:01:59.086681+00:00"
+      "last_seen": "2026-09-08T05:44:50.164447+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-08T01:02:03.538518+00:00"
+      "last_seen": "2026-09-08T05:44:54.704175+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-08T01:02:16.607273+00:00"
+      "last_seen": "2026-09-08T05:45:08.234809+00:00"
     }
   ]
 }
