@@ -1,37 +1,22 @@
 {
-  "generated_at": "2026-09-10T23:52:17.231278+00:00",
+  "generated_at": "2026-09-11T03:18:48.153887+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "92b7326e1360",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Sylvia Merino Boyleg - Grey Heather / Black | Women's Underwear, Tarn Merino T-Shirt - Cinnamon / Black | Men's Bike Jer...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-10T23:51:56.954815+00:00",
-      "last_seen": "2026-09-10T23:51:56.954815+00:00"
-    },
-    {
-      "id": "1e964d15f1ee",
+      "id": "afe17df9ca9d",
       "brand": "Nidecker",
       "category": "bindings",
       "deal_type": "active",
-      "description": "Nidecker \u2014 sale items available. Visit site for details.",
+      "description": "Sale \u2014 Kita Women 2023, The Gun 2023 + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.nidecker.com/en/sale",
-      "source_url": "https://www.nidecker.com/collections/sale",
+      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-10T23:51:46.390011+00:00",
-      "last_seen": "2026-09-10T23:51:46.390011+00:00"
+      "first_seen": "2026-09-11T03:18:21.573500+00:00",
+      "last_seen": "2026-09-11T03:18:21.573500+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-10T23:52:14.751690+00:00"
+      "last_seen": "2026-09-11T03:18:45.427474+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-10T23:51:55.817337+00:00"
+      "last_seen": "2026-09-11T03:18:30.743726+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-10T23:51:59.761650+00:00"
+      "last_seen": "2026-09-11T03:18:33.999933+00:00"
     },
     {
       "id": "a3d8169d5086",
@@ -91,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-01T07:26:20.411568+00:00",
-      "last_seen": "2026-09-10T23:52:10.021437+00:00"
+      "last_seen": "2026-09-11T03:18:41.806575+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-10T23:52:08.566013+00:00"
+      "last_seen": "2026-09-11T03:18:40.641305+00:00"
     },
     {
       "id": "56e0ccca0608",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-10T18:14:34.022920+00:00",
-      "last_seen": "2026-09-10T23:51:48.075888+00:00"
+      "last_seen": "2026-09-11T03:18:23.701052+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -136,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-10T23:51:53.255786+00:00"
+      "last_seen": "2026-09-11T03:18:28.741004+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -151,7 +136,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-10T23:51:45.238440+00:00"
+      "last_seen": "2026-09-11T03:18:20.843405+00:00"
+    },
+    {
+      "id": "92b7326e1360",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Sylvia Merino Boyleg - Grey Heather / Black | Women's Underwear, Tarn Merino T-Shirt - Cinnamon / Black | Men's Bike Jer...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-10T23:51:56.954815+00:00",
+      "last_seen": "2026-09-11T03:18:31.712670+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-10T23:51:51.494093+00:00"
+      "last_seen": "2026-09-11T03:18:26.731456+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-10T23:52:07.245009+00:00"
+      "last_seen": "2026-09-11T03:18:39.391484+00:00"
     }
   ]
 }
