@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-09-12T15:10:35.639121+00:00",
+  "generated_at": "2026-09-12T18:14:46.796890+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "1d2076bc9f04",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Olympus Merino Base Layer Legging - Black | Women's Leggings, Ridgeline 5 Panel Cap - Steel Blue | Unisex Cap + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-12T15:10:18.847925+00:00",
-      "last_seen": "2026-09-12T15:10:18.847925+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-12T15:10:33.222377+00:00"
+      "last_seen": "2026-09-12T18:14:44.355151+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-12T15:10:17.843768+00:00"
+      "last_seen": "2026-09-12T18:14:29.227960+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-12T15:10:21.603731+00:00"
+      "last_seen": "2026-09-12T18:14:32.867873+00:00"
     },
     {
       "id": "0a4443cde821",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-11T23:06:54.514164+00:00",
-      "last_seen": "2026-09-12T15:10:29.193418+00:00"
+      "last_seen": "2026-09-12T18:14:40.211267+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-12T15:10:27.947304+00:00"
+      "last_seen": "2026-09-12T18:14:39.071097+00:00"
     },
     {
       "id": "b46fd0f2049e",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T08:43:29.353080+00:00",
-      "last_seen": "2026-09-12T15:10:10.747478+00:00"
+      "last_seen": "2026-09-12T18:14:21.890276+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -121,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-12T15:10:15.277404+00:00"
+      "last_seen": "2026-09-12T18:14:26.759356+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -136,7 +121,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-12T15:10:08.035129+00:00"
+      "last_seen": "2026-09-12T18:14:19.082880+00:00"
+    },
+    {
+      "id": "1d2076bc9f04",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Olympus Merino Base Layer Legging - Black | Women's Leggings, Ridgeline 5 Panel Cap - Steel Blue | Unisex Cap + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-12T15:10:18.847925+00:00",
+      "last_seen": "2026-09-12T18:14:30.229532+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-12T15:10:08.844930+00:00"
+      "last_seen": "2026-09-12T18:14:19.885265+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-12T15:10:13.519034+00:00"
+      "last_seen": "2026-09-12T18:14:24.792668+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-12T15:10:26.725399+00:00"
+      "last_seen": "2026-09-12T18:14:37.874146+00:00"
     }
   ]
 }
