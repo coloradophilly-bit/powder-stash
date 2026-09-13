@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-09-13T17:24:53.152809+00:00",
+  "generated_at": "2026-09-13T20:30:27.062037+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "f2029575d49a",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Icon Merino T-Shirt - Dark Olive | Men's T-Shirt, Triple Treat Merino Beanie - Dark Olive | Unisex Beanie + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-13T20:30:08.020434+00:00",
+      "last_seen": "2026-09-13T20:30:08.020434+00:00"
+    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-13T17:24:50.744018+00:00"
+      "last_seen": "2026-09-13T20:30:24.189688+00:00"
     },
     {
       "id": "799b05be060a",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-13T17:24:35.706033+00:00"
+      "last_seen": "2026-09-13T20:30:06.949147+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-13T17:24:38.875399+00:00"
+      "last_seen": "2026-09-13T20:30:10.886879+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-13T17:24:45.325456+00:00"
+      "last_seen": "2026-09-13T20:30:18.445211+00:00"
     },
     {
       "id": "6c33cdfbe2bc",
@@ -76,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T03:29:06.188365+00:00",
-      "last_seen": "2026-09-13T17:24:28.344134+00:00"
+      "last_seen": "2026-09-13T20:29:58.542264+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-13T17:24:33.342726+00:00"
+      "last_seen": "2026-09-13T20:30:04.482781+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -106,22 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-13T17:24:25.459332+00:00"
-    },
-    {
-      "id": "e24758bb7fa8",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Horizon Merino Crew - Dark Olive | Women's Mid Layer, Icon Merino Classic T-Shirt - Canyon Rose | Women's T-Shirt + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-13T13:53:29.799230+00:00",
-      "last_seen": "2026-09-13T17:24:36.572442+00:00"
+      "last_seen": "2026-09-13T20:29:55.365249+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-13T17:24:26.260398+00:00"
+      "last_seen": "2026-09-13T20:29:56.298286+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-13T17:24:31.389788+00:00"
+      "last_seen": "2026-09-13T20:30:02.072818+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-13T17:24:46.505522+00:00"
+      "last_seen": "2026-09-13T20:30:19.900335+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-13T17:24:44.120431+00:00"
+      "last_seen": "2026-09-13T20:30:17.171567+00:00"
     }
   ]
 }
