@@ -1,22 +1,37 @@
 {
-  "generated_at": "2026-09-12T23:53:17.059178+00:00",
+  "generated_at": "2026-09-13T03:29:30.250991+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "66d2dc823bdd",
+      "id": "6c33cdfbe2bc",
       "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Pindo Straw Hat, Front Foot Surf Traction Pad + 3 more",
+      "description": "Sale \u2014 Slayer Bike Elbow Pad, Front Foot Surf Traction Pad + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-12T23:52:53.068609+00:00",
-      "last_seen": "2026-09-12T23:52:53.068609+00:00"
+      "first_seen": "2026-09-13T03:29:06.188365+00:00",
+      "last_seen": "2026-09-13T03:29:06.188365+00:00"
+    },
+    {
+      "id": "cacd26a036d8",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Ridgeline 5 Panel Cap - Steel Blue | Unisex Cap, Icon Merino T-Shirt - Dried Sage | Men's T-Shirt + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-13T03:29:13.412645+00:00",
+      "last_seen": "2026-09-13T03:29:13.412645+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-12T23:53:14.647903+00:00"
+      "last_seen": "2026-09-13T03:29:27.918687+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-12T23:52:59.538813+00:00"
+      "last_seen": "2026-09-13T03:29:12.596228+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-12T23:53:03.230037+00:00"
+      "last_seen": "2026-09-13T03:29:16.028106+00:00"
     },
     {
       "id": "42b7d26934c4",
@@ -76,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-12T21:22:28.832861+00:00",
-      "last_seen": "2026-09-12T23:53:10.314929+00:00"
+      "last_seen": "2026-09-13T03:29:23.801749+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-12T23:53:09.074996+00:00"
+      "last_seen": "2026-09-13T03:29:22.157457+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-12T23:52:57.408660+00:00"
+      "last_seen": "2026-09-13T03:29:10.633424+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,22 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-12T23:52:50.168274+00:00"
-    },
-    {
-      "id": "f0c9ce1bd598",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Canyon Merino Insulated Hooded Jacket - Goblin Blue | Men's Jacket, Zephyr Merino Tencel\u2122 T-Shirt - Steel Blue | Men's T...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-12T21:22:19.273833+00:00",
-      "last_seen": "2026-09-12T23:53:00.468174+00:00"
+      "last_seen": "2026-09-13T03:29:03.686051+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-12T23:52:50.951802+00:00"
+      "last_seen": "2026-09-13T03:29:04.292179+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-12T23:52:55.510017+00:00"
+      "last_seen": "2026-09-13T03:29:09.054507+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-12T23:53:08.019508+00:00"
+      "last_seen": "2026-09-13T03:29:20.793901+00:00"
     }
   ]
 }
