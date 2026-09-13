@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-13T03:29:30.250991+00:00",
+  "generated_at": "2026-09-13T13:53:47.268392+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "6c33cdfbe2bc",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Slayer Bike Elbow Pad, Front Foot Surf Traction Pad + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-13T03:29:06.188365+00:00",
-      "last_seen": "2026-09-13T03:29:06.188365+00:00"
-    },
-    {
-      "id": "cacd26a036d8",
+      "id": "e24758bb7fa8",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Ridgeline 5 Panel Cap - Steel Blue | Unisex Cap, Icon Merino T-Shirt - Dried Sage | Men's T-Shirt + 3 more",
+      "description": "Sale \u2014 Horizon Merino Crew - Dark Olive | Women's Mid Layer, Icon Merino Classic T-Shirt - Canyon Rose | Women's T-Shirt + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-13T03:29:13.412645+00:00",
-      "last_seen": "2026-09-13T03:29:13.412645+00:00"
+      "first_seen": "2026-09-13T13:53:29.799230+00:00",
+      "last_seen": "2026-09-13T13:53:29.799230+00:00"
+    },
+    {
+      "id": "3c6f8b85611d",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "clearance",
+      "description": "On sale now \u2014 lower than your ExpertVoice discount.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-13T13:53:40.462508+00:00",
+      "last_seen": "2026-09-13T13:53:40.462508+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-13T03:29:27.918687+00:00"
+      "last_seen": "2026-09-13T13:53:44.831004+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-13T03:29:12.596228+00:00"
+      "last_seen": "2026-09-13T13:53:28.911298+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,22 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-13T03:29:16.028106+00:00"
-    },
-    {
-      "id": "42b7d26934c4",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "clearance",
-      "description": "Ride More Sale Ends Tonight! New Replacement Lenses Have Landed Find Your Perfect Pair",
-      "discount": "40% off",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-09-12T21:22:28.832861+00:00",
-      "last_seen": "2026-09-13T03:29:23.801749+00:00"
+      "last_seen": "2026-09-13T13:53:32.562435+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -106,7 +91,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-13T03:29:22.157457+00:00"
+      "last_seen": "2026-09-13T13:53:39.293614+00:00"
+    },
+    {
+      "id": "6c33cdfbe2bc",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Slayer Bike Elbow Pad, Front Foot Surf Traction Pad + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-13T03:29:06.188365+00:00",
+      "last_seen": "2026-09-13T13:53:22.061056+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-13T03:29:10.633424+00:00"
+      "last_seen": "2026-09-13T13:53:26.844197+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-13T03:29:03.686051+00:00"
+      "last_seen": "2026-09-13T13:53:19.168953+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-13T03:29:04.292179+00:00"
+      "last_seen": "2026-09-13T13:53:20.133943+00:00"
     },
     {
       "id": "602afd76335e",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-13T03:29:09.054507+00:00"
+      "last_seen": "2026-09-13T13:53:24.913014+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-13T03:29:20.793901+00:00"
+      "last_seen": "2026-09-13T13:53:37.753390+00:00"
     }
   ]
 }
