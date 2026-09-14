@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-14T00:53:18.957393+00:00",
+  "generated_at": "2026-09-14T05:57:07.195157+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "387e55b507ee",
-      "brand": "Dakine",
+      "id": "5875d95f8c1d",
+      "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Front Foot Surf Traction Pad, Pickup Pad Halfside + 3 more",
+      "description": "Sale \u2014 Decade Merino Fleece Hood - Sienna | Unisex, Quad Merino Fleece Jacket - Skyline / Black | Women's Jacket + 3 more",
       "discount": "Sale",
       "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-14T00:52:54.409156+00:00",
-      "last_seen": "2026-09-14T00:52:54.409156+00:00"
+      "first_seen": "2026-09-14T05:56:46.970682+00:00",
+      "last_seen": "2026-09-14T05:56:46.970682+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-14T00:53:16.670898+00:00"
+      "last_seen": "2026-09-14T05:57:04.534866+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-14T00:53:00.949548+00:00"
+      "last_seen": "2026-09-14T05:56:45.828772+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-14T00:53:04.897813+00:00"
+      "last_seen": "2026-09-14T05:56:49.668466+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +76,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-14T00:53:11.030034+00:00"
+      "last_seen": "2026-09-14T05:56:57.897097+00:00"
+    },
+    {
+      "id": "387e55b507ee",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Front Foot Surf Traction Pad, Pickup Pad Halfside + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-14T00:52:54.409156+00:00",
+      "last_seen": "2026-09-14T05:56:38.280774+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-14T00:52:58.951853+00:00"
+      "last_seen": "2026-09-14T05:56:43.349961+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -106,22 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-14T00:52:51.418557+00:00"
-    },
-    {
-      "id": "f2029575d49a",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Icon Merino T-Shirt - Dark Olive | Men's T-Shirt, Triple Treat Merino Beanie - Dark Olive | Unisex Beanie + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-13T20:30:08.020434+00:00",
-      "last_seen": "2026-09-14T00:53:01.933954+00:00"
+      "last_seen": "2026-09-14T05:56:34.853649+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-14T00:52:52.282285+00:00"
+      "last_seen": "2026-09-14T05:56:35.716322+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-14T00:52:56.945676+00:00"
+      "last_seen": "2026-09-14T05:56:41.126323+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-14T00:53:12.216011+00:00"
+      "last_seen": "2026-09-14T05:56:59.140984+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-14T00:53:10.027089+00:00"
+      "last_seen": "2026-09-14T05:56:56.622007+00:00"
     }
   ]
 }
