@@ -1,38 +1,8 @@
 {
-  "generated_at": "2026-09-14T21:39:41.477892+00:00",
+  "generated_at": "2026-09-15T00:26:54.264709+00:00",
   "deal_count": 12,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "0377bf5b50d3",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Jo Jo Crossbody Bag, Front Foot Surf Traction Pad + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-14T21:39:13.431346+00:00",
-      "last_seen": "2026-09-14T21:39:13.431346+00:00"
-    },
-    {
-      "id": "4c71433e6fa8",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Velocity Trail Cap - Skyline | Unisex Cap, Zephyr Merino Tencel\u2122 T-Shirt - Steel Blue | Men's T-Shirt + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-14T21:39:22.082045+00:00",
-      "last_seen": "2026-09-14T21:39:22.082045+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -46,14 +16,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-14T21:39:38.929096+00:00"
+      "last_seen": "2026-09-15T00:26:51.732193+00:00"
     },
     {
       "id": "799b05be060a",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 160 more",
+      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 159 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -61,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-14T21:39:21.044897+00:00"
+      "last_seen": "2026-09-15T00:26:36.300715+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-14T21:39:25.253547+00:00"
+      "last_seen": "2026-09-15T00:26:39.646844+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-14T21:39:33.319272+00:00"
+      "last_seen": "2026-09-15T00:26:46.088959+00:00"
+    },
+    {
+      "id": "0377bf5b50d3",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Jo Jo Crossbody Bag, Front Foot Surf Traction Pad + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-14T21:39:13.431346+00:00",
+      "last_seen": "2026-09-15T00:26:29.047132+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-14T21:39:19.002316+00:00"
+      "last_seen": "2026-09-15T00:26:34.158062+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +106,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-14T21:39:09.644997+00:00"
+      "last_seen": "2026-09-15T00:26:26.149016+00:00"
+    },
+    {
+      "id": "4c71433e6fa8",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Velocity Trail Cap - Skyline | Unisex Cap, Zephyr Merino Tencel\u2122 T-Shirt - Steel Blue | Men's T-Shirt + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-14T21:39:22.082045+00:00",
+      "last_seen": "2026-09-15T00:26:37.102145+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-14T21:39:10.609937+00:00"
+      "last_seen": "2026-09-15T00:26:26.912517+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-14T21:39:16.724626+00:00"
+      "last_seen": "2026-09-15T00:26:32.116573+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-14T21:39:34.625630+00:00"
+      "last_seen": "2026-09-15T00:26:47.336242+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-14T21:39:31.964236+00:00"
+      "last_seen": "2026-09-15T00:26:44.897261+00:00"
     }
   ]
 }
