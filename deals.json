@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-15T11:17:16.957982+00:00",
+  "generated_at": "2026-09-15T16:28:18.973424+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "597adfeea75f",
+      "id": "7715e501541f",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Zephyr Merino Tencel\u2122 T-Shirt - Chestnut | Men's T-Shirt, AT Merino Long Sleeve Shirt - Sierra Pink | Women's Shirt + 3 ...",
+      "description": "Sale \u2014 Yonder Merino Organic Cotton Long Sleeve - Vintage White | Men's Long Sleeve Top, Diversion Merino Wind Jacket - Thyme /...",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-15T11:16:59.736874+00:00",
-      "last_seen": "2026-09-15T11:16:59.736874+00:00"
+      "first_seen": "2026-09-15T16:28:00.259543+00:00",
+      "last_seen": "2026-09-15T16:28:00.259543+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-15T11:17:14.667788+00:00"
+      "last_seen": "2026-09-15T16:28:16.599080+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-15T11:16:58.777540+00:00"
+      "last_seen": "2026-09-15T16:27:59.395911+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-15T11:17:02.368769+00:00"
+      "last_seen": "2026-09-15T16:28:03.180483+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-15T11:17:08.414302+00:00"
+      "last_seen": "2026-09-15T16:28:09.880549+00:00"
     },
     {
       "id": "6b742b309d42",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:01.399007+00:00",
-      "last_seen": "2026-09-15T11:16:53.085055+00:00"
+      "last_seen": "2026-09-15T16:27:52.856810+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-15T11:16:56.732107+00:00"
+      "last_seen": "2026-09-15T16:27:57.564889+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-15T11:16:50.142021+00:00"
+      "last_seen": "2026-09-15T16:27:49.317023+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-15T11:16:50.872006+00:00"
+      "last_seen": "2026-09-15T16:27:50.240552+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-15T11:16:55.068169+00:00"
+      "last_seen": "2026-09-15T16:27:55.693254+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-15T11:17:11.388430+00:00"
+      "last_seen": "2026-09-15T16:28:13.068923+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-15T11:17:09.715160+00:00"
+      "last_seen": "2026-09-15T16:28:11.047535+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-15T11:17:07.355978+00:00"
+      "last_seen": "2026-09-15T16:28:08.599911+00:00"
     }
   ]
 }
