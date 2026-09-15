@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-09-15T20:08:51.034844+00:00",
+  "generated_at": "2026-09-15T23:32:21.877973+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "0dd9b267cf41",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Jo Jo Crossbody Bag, Aero Rack Pads 18\" + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-15T23:31:53.453830+00:00",
+      "last_seen": "2026-09-15T23:31:53.453830+00:00"
+    },
+    {
+      "id": "cad35cee0dca",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Tarn Merino T-Shirt - Caramel / Black | Women's Bike Jersey, Zephyr Merino Tencel\u2122 Boxy T-Shirt - Smoke | Women's T-Shir...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-15T23:32:02.237896+00:00",
+      "last_seen": "2026-09-15T23:32:02.237896+00:00"
+    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -16,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-15T20:08:48.544549+00:00"
+      "last_seen": "2026-09-15T23:32:19.437476+00:00"
     },
     {
       "id": "799b05be060a",
@@ -31,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-15T20:08:31.378503+00:00"
+      "last_seen": "2026-09-15T23:32:01.310069+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -46,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-15T20:08:35.328700+00:00"
+      "last_seen": "2026-09-15T23:32:05.400427+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-15T20:08:41.697329+00:00"
-    },
-    {
-      "id": "6b742b309d42",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Jo Jo Crossbody Bag, Pickup Pad DLX Curve\u2122 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-15T05:59:01.399007+00:00",
-      "last_seen": "2026-09-15T20:08:24.640514+00:00"
+      "last_seen": "2026-09-15T23:32:12.887631+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-15T20:08:29.455347+00:00"
+      "last_seen": "2026-09-15T23:31:59.144765+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -106,22 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-15T20:08:21.816720+00:00"
-    },
-    {
-      "id": "7715e501541f",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Yonder Merino Organic Cotton Long Sleeve - Vintage White | Men's Long Sleeve Top, Diversion Merino Wind Jacket - Thyme /...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-15T16:28:00.259543+00:00",
-      "last_seen": "2026-09-15T20:08:32.306594+00:00"
+      "last_seen": "2026-09-15T23:31:50.709385+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-15T20:08:22.608303+00:00"
+      "last_seen": "2026-09-15T23:31:51.587190+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-15T20:08:27.522761+00:00"
+      "last_seen": "2026-09-15T23:31:56.730725+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-15T20:08:45.078197+00:00"
+      "last_seen": "2026-09-15T23:32:16.077153+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-15T20:08:42.964052+00:00"
+      "last_seen": "2026-09-15T23:32:14.093411+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-15T20:08:40.225526+00:00"
+      "last_seen": "2026-09-15T23:32:11.578528+00:00"
     }
   ]
 }
