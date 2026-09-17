@@ -1,22 +1,37 @@
 {
-  "generated_at": "2026-09-17T11:09:58.316982+00:00",
+  "generated_at": "2026-09-17T16:26:31.225360+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "bcf725cdd77a",
+      "id": "1e267f67c4ce",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Pindo Straw Hat, Pickup Pad DLX + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-17T16:25:59.230831+00:00",
+      "last_seen": "2026-09-17T16:25:59.230831+00:00"
+    },
+    {
+      "id": "62cbb8ae9b50",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Diversion Merino Wind Jacket - Thyme / Cypress | Women's Jacket, Shifty Cap - Oatmeal / Black | Unisex Cap + 3 more",
+      "description": "Sale \u2014 Yonder Merino Organic Cotton Long Sleeve - Mocha | Women's Long Sleeve Top, Icon Merino T-Shirt - Dark Olive | Men's T-S...",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-17T11:09:40.675858+00:00",
-      "last_seen": "2026-09-17T11:09:40.675858+00:00"
+      "first_seen": "2026-09-17T16:26:09.062804+00:00",
+      "last_seen": "2026-09-17T16:26:09.062804+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-17T11:09:55.855727+00:00"
+      "last_seen": "2026-09-17T16:26:28.722126+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-17T11:09:39.804946+00:00"
+      "last_seen": "2026-09-17T16:26:08.144637+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-17T11:09:43.483019+00:00"
+      "last_seen": "2026-09-17T16:26:12.082694+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-17T11:09:49.472679+00:00"
-    },
-    {
-      "id": "3e59fc3b81d6",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Jo Jo Crossbody Bag, Pindo Straw Hat + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-17T05:53:47.707709+00:00",
-      "last_seen": "2026-09-17T11:09:32.580656+00:00"
+      "last_seen": "2026-09-17T16:26:21.687863+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-17T11:09:38.083844+00:00"
+      "last_seen": "2026-09-17T16:26:05.418281+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-17T11:09:30.129729+00:00"
+      "last_seen": "2026-09-17T16:25:56.361130+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-17T11:09:30.879557+00:00"
+      "last_seen": "2026-09-17T16:25:57.242459+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-17T11:09:36.264081+00:00"
+      "last_seen": "2026-09-17T16:26:03.046904+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-17T11:09:52.539494+00:00"
+      "last_seen": "2026-09-17T16:26:25.281127+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-17T11:09:50.753730+00:00"
+      "last_seen": "2026-09-17T16:26:23.310903+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-17T11:09:48.297747+00:00"
+      "last_seen": "2026-09-17T16:26:20.487936+00:00"
     }
   ]
 }
