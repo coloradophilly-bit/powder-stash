@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-16T22:01:25.125952+00:00",
+  "generated_at": "2026-09-17T00:14:50.427977+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "9077f467ef2b",
-      "brand": "Mons Royale",
+      "id": "cc3663723f6f",
+      "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Inversion Merino Hoodie - Black | Women's Hoodie, Yonder Merino Organic Cotton Long Sleeve - Vintage White | Women's Lon...",
+      "description": "Sale \u2014 Pickup Pad DLX, Jo Jo Crossbody Bag + 3 more",
       "discount": "Sale",
       "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-16T22:01:05.320181+00:00",
-      "last_seen": "2026-09-16T22:01:05.320181+00:00"
+      "first_seen": "2026-09-17T00:14:21.750558+00:00",
+      "last_seen": "2026-09-17T00:14:21.750558+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,14 +31,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-16T22:01:22.381287+00:00"
+      "last_seen": "2026-09-17T00:14:47.683416+00:00"
     },
     {
       "id": "799b05be060a",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 143 more",
+      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 51 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-16T22:01:02.006946+00:00"
+      "last_seen": "2026-09-17T00:14:29.207838+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-16T22:01:08.126604+00:00"
+      "last_seen": "2026-09-17T00:14:33.059949+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,22 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-16T22:01:15.716042+00:00"
-    },
-    {
-      "id": "0dd9b267cf41",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Jo Jo Crossbody Bag, Aero Rack Pads 18\" + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-16T09:12:57.922318+00:00",
-      "last_seen": "2026-09-16T22:00:51.407887+00:00"
+      "last_seen": "2026-09-17T00:14:40.723530+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-16T22:00:57.291320+00:00"
+      "last_seen": "2026-09-17T00:14:27.222633+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +106,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-16T22:00:48.597176+00:00"
+      "last_seen": "2026-09-17T00:14:18.715218+00:00"
+    },
+    {
+      "id": "9077f467ef2b",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Inversion Merino Hoodie - Black | Women's Hoodie, Yonder Merino Organic Cotton Long Sleeve - Vintage White | Women's Lon...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-16T22:01:05.320181+00:00",
+      "last_seen": "2026-09-17T00:14:30.202279+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-16T22:00:49.450602+00:00"
+      "last_seen": "2026-09-17T00:14:19.735403+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-05T12:30:54.182111+00:00",
-      "last_seen": "2026-09-16T22:00:54.973619+00:00"
+      "last_seen": "2026-09-17T00:14:24.964123+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-16T22:01:19.163984+00:00"
+      "last_seen": "2026-09-17T00:14:44.203618+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-16T22:01:17.179073+00:00"
+      "last_seen": "2026-09-17T00:14:42.122946+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-16T22:01:14.609610+00:00"
+      "last_seen": "2026-09-17T00:14:39.133291+00:00"
     }
   ]
 }
