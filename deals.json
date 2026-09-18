@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-09-18T20:34:38.478948+00:00",
+  "generated_at": "2026-09-18T23:09:17.066625+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "9a516d1ecf58",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Zephyr Merino Tencel\u2122 Long Sleeve - Steel Blue | Men's Long Sleeve Top, Escapade Shorts - Birch | Women's Shorts + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-18T23:08:58.955763+00:00",
+      "last_seen": "2026-09-18T23:08:58.955763+00:00"
+    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -16,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-18T20:34:35.760940+00:00"
+      "last_seen": "2026-09-18T23:09:14.566152+00:00"
     },
     {
       "id": "799b05be060a",
@@ -31,14 +46,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-18T20:34:19.129788+00:00"
+      "last_seen": "2026-09-18T23:08:57.893014+00:00"
     },
     {
       "id": "c7a1f4561553",
       "brand": "Smartwool",
       "category": "accessories",
       "deal_type": "clearance",
-      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Men's Classic Thermal Merino Base Layer Crew + 193 more",
+      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Men's Classic Thermal Merino Base Layer Crew + 194 more",
       "discount": "Up to 54% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-18T20:34:22.683790+00:00"
+      "last_seen": "2026-09-18T23:09:02.064591+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-18T20:34:28.988339+00:00"
+      "last_seen": "2026-09-18T23:09:08.284739+00:00"
     },
     {
       "id": "fb877f8ceebe",
@@ -76,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T08:54:04.447738+00:00",
-      "last_seen": "2026-09-18T20:34:12.733934+00:00"
+      "last_seen": "2026-09-18T23:08:52.600577+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-18T20:34:18.111245+00:00"
+      "last_seen": "2026-09-18T23:08:56.838420+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -106,22 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-18T20:34:10.331140+00:00"
-    },
-    {
-      "id": "dcb341217449",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Ridgeline 5 Panel Cap - Steel Blue | Unisex Cap, Escapade Shorts - Birch | Men's Shorts + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-18T17:37:42.307063+00:00",
-      "last_seen": "2026-09-18T20:34:19.983397+00:00"
+      "last_seen": "2026-09-18T23:08:49.751004+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-18T20:34:11.000131+00:00"
+      "last_seen": "2026-09-18T23:08:50.436315+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T03:29:10.491219+00:00",
-      "last_seen": "2026-09-18T20:34:15.570039+00:00"
+      "last_seen": "2026-09-18T23:08:55.278708+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-18T20:34:32.332337+00:00"
+      "last_seen": "2026-09-18T23:09:11.199410+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-18T20:34:30.424134+00:00"
+      "last_seen": "2026-09-18T23:09:09.557137+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-18T20:34:27.649062+00:00"
+      "last_seen": "2026-09-18T23:09:07.260562+00:00"
     }
   ]
 }
