@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-17T23:30:51.899210+00:00",
-  "deal_count": 12,
+  "generated_at": "2026-09-18T03:29:34.708833+00:00",
+  "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "e411a7624c3d",
-      "brand": "Mons Royale",
-      "category": "accessories",
+      "id": "602afd76335e",
+      "brand": "POC",
+      "category": "helmets",
       "deal_type": "active",
-      "description": "Sale \u2014 Tarn Merino Bike Wind Jersey - Cypress / Caramel / Black | Men's Bike Jersey, AT Merino Long Sleeve Shirt - Sierra Pink ...",
+      "description": "POC \u2014 sale items available. Visit site for details.",
       "discount": "Sale",
       "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "url": "https://www.pocsports.com/collections/ski-sale",
+      "source_url": "https://www.pocsports.com/collections/ski-sale",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-17T23:30:31.200941+00:00",
-      "last_seen": "2026-09-17T23:30:31.200941+00:00"
+      "first_seen": "2026-09-18T03:29:10.491219+00:00",
+      "last_seen": "2026-09-18T03:29:10.491219+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-17T23:30:49.578291+00:00"
+      "last_seen": "2026-09-18T03:29:31.916267+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-17T23:30:30.237801+00:00"
+      "last_seen": "2026-09-18T03:29:13.726517+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-25T14:50:39.958985+00:00",
-      "last_seen": "2026-09-17T23:30:33.956848+00:00"
+      "last_seen": "2026-09-18T03:29:17.587620+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-17T23:30:40.710724+00:00"
+      "last_seen": "2026-09-18T03:29:25.501154+00:00"
     },
     {
       "id": "b46fd0f2049e",
@@ -91,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-17T20:08:03.461060+00:00",
-      "last_seen": "2026-09-17T23:29:44.506888+00:00"
+      "last_seen": "2026-09-18T03:29:07.341680+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-17T23:30:28.295744+00:00"
+      "last_seen": "2026-09-18T03:29:12.721484+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-17T23:29:41.995486+00:00"
+      "last_seen": "2026-09-18T03:29:04.486325+00:00"
+    },
+    {
+      "id": "e411a7624c3d",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Tarn Merino Bike Wind Jersey - Cypress / Caramel / Black | Men's Bike Jersey, AT Merino Long Sleeve Shirt - Sierra Pink ...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-17T23:30:31.200941+00:00",
+      "last_seen": "2026-09-18T03:29:14.713719+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-11T03:18:21.573500+00:00",
-      "last_seen": "2026-09-17T23:29:42.741921+00:00"
+      "last_seen": "2026-09-18T03:29:05.298050+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -151,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-17T23:30:43.787703+00:00"
+      "last_seen": "2026-09-18T03:29:28.645376+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -166,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-17T23:30:41.939652+00:00"
+      "last_seen": "2026-09-18T03:29:26.745274+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -181,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-17T23:30:39.426852+00:00"
+      "last_seen": "2026-09-18T03:29:24.291249+00:00"
     }
   ]
 }
