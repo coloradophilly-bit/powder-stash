@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-09-19T13:00:46.654671+00:00",
+  "generated_at": "2026-09-19T16:21:50.866987+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "b4bc18b27a38",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Icon Merino T-Shirt - Cinnamon | Men's T-Shirt, McCloud Merino Beanie - Canyon Rose | Unisex Beanie + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-19T13:00:27.580679+00:00",
-      "last_seen": "2026-09-19T13:00:27.580679+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-19T13:00:44.061602+00:00"
+      "last_seen": "2026-09-19T16:21:48.538871+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-19T13:00:26.752973+00:00"
+      "last_seen": "2026-09-19T16:21:32.732942+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-19T13:00:30.517662+00:00"
+      "last_seen": "2026-09-19T16:21:36.232718+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-19T13:00:37.455249+00:00"
+      "last_seen": "2026-09-19T16:21:42.364714+00:00"
     },
     {
       "id": "fb877f8ceebe",
@@ -91,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T08:54:04.447738+00:00",
-      "last_seen": "2026-09-19T13:00:20.625392+00:00"
+      "last_seen": "2026-09-19T16:21:27.709338+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-19T13:00:25.587988+00:00"
+      "last_seen": "2026-09-19T16:21:32.014533+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +106,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-19T13:00:17.926195+00:00"
+      "last_seen": "2026-09-19T16:21:25.355607+00:00"
+    },
+    {
+      "id": "b4bc18b27a38",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Icon Merino T-Shirt - Cinnamon | Men's T-Shirt, McCloud Merino Beanie - Canyon Rose | Unisex Beanie + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-19T13:00:27.580679+00:00",
+      "last_seen": "2026-09-19T16:21:33.608597+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-19T13:00:18.708582+00:00"
+      "last_seen": "2026-09-19T16:21:26.048501+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T03:29:10.491219+00:00",
-      "last_seen": "2026-09-19T13:00:23.676755+00:00"
+      "last_seen": "2026-09-19T16:21:30.378977+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-19T13:00:40.554663+00:00"
+      "last_seen": "2026-09-19T16:21:45.308173+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-19T13:00:38.639540+00:00"
+      "last_seen": "2026-09-19T16:21:43.605135+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-19T13:00:36.303712+00:00"
+      "last_seen": "2026-09-19T16:21:41.364094+00:00"
     }
   ]
 }
