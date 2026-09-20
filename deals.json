@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-09-19T22:15:22.152749+00:00",
+  "generated_at": "2026-09-20T00:48:22.487128+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "f02ab7c50a7c",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Aero Rack Pads 28\", Pickup Pad DLX + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-20T00:47:55.333394+00:00",
+      "last_seen": "2026-09-20T00:47:55.333394+00:00"
+    },
+    {
+      "id": "e99e7838b88f",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Signature Merino Crew Sock - Black / Lime / Pastel Purple | Unisex Socks, Zephyr Merino Tencel\u2122 T-Shirt - Steel Blue | M...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-20T00:48:05.123655+00:00",
+      "last_seen": "2026-09-20T00:48:05.123655+00:00"
+    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -16,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-19T22:15:19.533299+00:00"
+      "last_seen": "2026-09-20T00:48:20.126686+00:00"
     },
     {
       "id": "799b05be060a",
@@ -31,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-19T22:15:03.061933+00:00"
+      "last_seen": "2026-09-20T00:48:04.247875+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -46,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-19T22:15:06.668285+00:00"
+      "last_seen": "2026-09-20T00:48:07.758608+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -61,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-19T22:15:12.668640+00:00"
-    },
-    {
-      "id": "fb877f8ceebe",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Pickup Pad DLX, Aero Rack Pads 28\" + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-18T08:54:04.447738+00:00",
-      "last_seen": "2026-09-19T22:14:57.977977+00:00"
+      "last_seen": "2026-09-20T00:48:13.869226+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-19T22:15:02.252224+00:00"
+      "last_seen": "2026-09-20T00:48:03.239397+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -106,22 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-19T22:14:55.379897+00:00"
-    },
-    {
-      "id": "16bcad6f500b",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Inversion Merino Hoodie - Light Grey Heather | Women's Hoodie, Escapade Shorts - Dark Olive | Men's Shorts + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-19T19:18:02.916175+00:00",
-      "last_seen": "2026-09-19T22:15:03.931073+00:00"
+      "last_seen": "2026-09-20T00:47:52.754256+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-19T22:14:56.230048+00:00"
+      "last_seen": "2026-09-20T00:47:53.494156+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T03:29:10.491219+00:00",
-      "last_seen": "2026-09-19T22:15:00.488378+00:00"
+      "last_seen": "2026-09-20T00:48:01.386837+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-19T22:15:15.928790+00:00"
+      "last_seen": "2026-09-20T00:48:16.738656+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-19T22:15:14.036690+00:00"
+      "last_seen": "2026-09-20T00:48:15.081213+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-19T22:15:11.496210+00:00"
+      "last_seen": "2026-09-20T00:48:12.496045+00:00"
     }
   ]
 }
