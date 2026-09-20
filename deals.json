@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-09-20T18:06:26.722321+00:00",
+  "generated_at": "2026-09-20T20:49:25.808750+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "736a4d6255a8",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Icon Merino T-Shirt - Black | Men's T-Shirt, Mtn Pixel Merino Pom Pom Beanie - Black / White | Unisex Beanie + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-20T18:06:07.438892+00:00",
-      "last_seen": "2026-09-20T18:06:07.438892+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-20T18:06:24.291111+00:00"
+      "last_seen": "2026-09-20T20:49:23.255308+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-20T18:06:06.317675+00:00"
+      "last_seen": "2026-09-20T20:49:04.674276+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-20T18:06:10.645587+00:00"
+      "last_seen": "2026-09-20T20:49:09.074262+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +61,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-20T18:06:17.720318+00:00"
+      "last_seen": "2026-09-20T20:49:16.273723+00:00"
     },
     {
       "id": "fb877f8ceebe",
@@ -91,7 +76,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-20T05:51:54.189327+00:00",
-      "last_seen": "2026-09-20T18:05:59.974654+00:00"
+      "last_seen": "2026-09-20T20:48:58.620499+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-20T18:06:05.270320+00:00"
+      "last_seen": "2026-09-20T20:49:03.641695+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +106,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-20T18:05:56.772956+00:00"
+      "last_seen": "2026-09-20T20:48:55.599802+00:00"
+    },
+    {
+      "id": "736a4d6255a8",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Icon Merino T-Shirt - Black | Men's T-Shirt, Mtn Pixel Merino Pom Pom Beanie - Black / White | Unisex Beanie + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-20T18:06:07.438892+00:00",
+      "last_seen": "2026-09-20T20:49:05.817253+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-20T18:05:57.677652+00:00"
+      "last_seen": "2026-09-20T20:48:56.478298+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T03:29:10.491219+00:00",
-      "last_seen": "2026-09-20T18:06:02.934412+00:00"
+      "last_seen": "2026-09-20T20:49:01.489152+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-20T18:06:20.944327+00:00"
+      "last_seen": "2026-09-20T20:49:19.599024+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-20T18:06:19.120951+00:00"
+      "last_seen": "2026-09-20T20:49:17.701450+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-20T18:06:16.492123+00:00"
+      "last_seen": "2026-09-20T20:49:15.053163+00:00"
     }
   ]
 }
