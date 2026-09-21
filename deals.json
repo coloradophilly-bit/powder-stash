@@ -1,38 +1,8 @@
 {
-  "generated_at": "2026-09-21T19:12:15.833138+00:00",
+  "generated_at": "2026-09-21T23:09:06.421798+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "5057584bb797",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Slayer Bike Elbow Pad, Pickup Pad DLX + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-21T19:11:46.552981+00:00",
-      "last_seen": "2026-09-21T19:11:46.552981+00:00"
-    },
-    {
-      "id": "242f7876da5e",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Tarn Merino Long Sleeve - Cypress / Black / Thyme | Men's Bike Jersey, Diversion Merino Wind Jacket - Grunge / Black | M...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-21T19:11:54.084538+00:00",
-      "last_seen": "2026-09-21T19:11:54.084538+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -46,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-21T19:12:13.621821+00:00"
+      "last_seen": "2026-09-21T23:09:04.135001+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-21T19:11:52.997963+00:00"
+      "last_seen": "2026-09-21T23:08:47.930150+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-21T19:11:56.808691+00:00"
+      "last_seen": "2026-09-21T23:08:51.939655+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-21T19:12:02.711059+00:00"
+      "last_seen": "2026-09-21T23:08:57.843997+00:00"
+    },
+    {
+      "id": "5057584bb797",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Slayer Bike Elbow Pad, Pickup Pad DLX + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-21T19:11:46.552981+00:00",
+      "last_seen": "2026-09-21T23:08:42.249481+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-21T19:11:52.091933+00:00"
+      "last_seen": "2026-09-21T23:08:46.528202+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +106,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-21T19:11:43.918981+00:00"
+      "last_seen": "2026-09-21T23:08:39.648731+00:00"
+    },
+    {
+      "id": "242f7876da5e",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Tarn Merino Long Sleeve - Cypress / Black / Thyme | Men's Bike Jersey, Diversion Merino Wind Jacket - Grunge / Black | M...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-21T19:11:54.084538+00:00",
+      "last_seen": "2026-09-21T23:08:48.873764+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-21T19:11:44.753526+00:00"
+      "last_seen": "2026-09-21T23:08:40.392301+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T03:29:10.491219+00:00",
-      "last_seen": "2026-09-21T19:11:49.238620+00:00"
+      "last_seen": "2026-09-21T23:08:44.638010+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-21T19:12:05.766898+00:00"
+      "last_seen": "2026-09-21T23:09:00.903648+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-21T19:12:04.068665+00:00"
+      "last_seen": "2026-09-21T23:08:59.192744+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-21T19:12:01.602673+00:00"
+      "last_seen": "2026-09-21T23:08:56.861360+00:00"
     }
   ]
 }
