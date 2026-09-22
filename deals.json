@@ -1,22 +1,37 @@
 {
-  "generated_at": "2026-09-22T18:38:52.209972+00:00",
+  "generated_at": "2026-09-22T21:54:49.305660+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "d3b9f39e497f",
+      "id": "584958f6e5e6",
       "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Aero Rack Pads 28\", Aero Rack Pads 34\" + 3 more",
+      "description": "Sale \u2014 Aero Rack Pads 34\", Aero Rack Pads 28\" + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-22T18:38:24.108284+00:00",
-      "last_seen": "2026-09-22T18:38:24.108284+00:00"
+      "first_seen": "2026-09-22T21:54:18.946681+00:00",
+      "last_seen": "2026-09-22T21:54:18.946681+00:00"
+    },
+    {
+      "id": "a96fc3f90e86",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Quad Merino Fleece Jacket - Horizon Blue / Black | Men's Jacket, Escapade Pants - Birch | Men's Pants + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-22T21:54:27.305607+00:00",
+      "last_seen": "2026-09-22T21:54:27.305607+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-22T18:38:49.633391+00:00"
+      "last_seen": "2026-09-22T21:54:46.393530+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-22T18:38:30.908047+00:00"
+      "last_seen": "2026-09-22T21:54:26.115228+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-22T18:38:34.998904+00:00"
+      "last_seen": "2026-09-22T21:54:30.766095+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-22T18:38:42.681440+00:00"
+      "last_seen": "2026-09-22T21:54:38.500388+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-22T18:38:29.935831+00:00"
+      "last_seen": "2026-09-22T21:54:24.989437+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -106,22 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-22T18:38:16.980169+00:00"
-    },
-    {
-      "id": "ef4a4245176c",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Yonder Merino Organic Cotton Long Sleeve - Vintage White | Women's Long Sleeve Top, McCloud Merino Beanie - Canyon Rose ...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-22T14:29:04.376764+00:00",
-      "last_seen": "2026-09-22T18:38:32.081258+00:00"
+      "last_seen": "2026-09-22T21:54:16.008198+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-22T18:38:17.874629+00:00"
+      "last_seen": "2026-09-22T21:54:16.830143+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T03:29:10.491219+00:00",
-      "last_seen": "2026-09-22T18:38:27.829037+00:00"
+      "last_seen": "2026-09-22T21:54:22.501238+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-22T18:38:46.258067+00:00"
+      "last_seen": "2026-09-22T21:54:42.652887+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-22T18:38:44.102296+00:00"
+      "last_seen": "2026-09-22T21:54:40.191702+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-22T18:38:41.434712+00:00"
+      "last_seen": "2026-09-22T21:54:37.063751+00:00"
     }
   ]
 }
