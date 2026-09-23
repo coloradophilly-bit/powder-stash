@@ -1,38 +1,8 @@
 {
-  "generated_at": "2026-09-23T19:34:56.919674+00:00",
+  "generated_at": "2026-09-23T22:49:33.519898+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "bb4a402748a3",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Rack Pads 18\", Aero Rack Pads 28\" + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-23T19:34:31.460594+00:00",
-      "last_seen": "2026-09-23T19:34:31.460594+00:00"
-    },
-    {
-      "id": "5c4a63446c59",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Quad Merino Fleece Pullover - Sable / Black | Women's Sweater, Olympus Merino Base Layer Legging - Black | Women's Leggi...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-23T19:34:38.903817+00:00",
-      "last_seen": "2026-09-23T19:34:38.903817+00:00"
-    },
     {
       "id": "90f56fd131f6",
       "brand": "Burton Direct",
@@ -46,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-23T19:34:54.527794+00:00"
+      "last_seen": "2026-09-23T22:49:31.229117+00:00"
     },
     {
       "id": "799b05be060a",
@@ -61,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-23T19:34:37.786660+00:00"
+      "last_seen": "2026-09-23T22:49:15.275861+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -76,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-23T19:34:41.370129+00:00"
+      "last_seen": "2026-09-23T22:49:18.858530+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -91,7 +61,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-23T19:34:47.983515+00:00"
+      "last_seen": "2026-09-23T22:49:24.751916+00:00"
+    },
+    {
+      "id": "bb4a402748a3",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Rack Pads 18\", Aero Rack Pads 28\" + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-23T19:34:31.460594+00:00",
+      "last_seen": "2026-09-23T22:49:09.682620+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-23T19:34:36.766888+00:00"
+      "last_seen": "2026-09-23T22:49:14.287293+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +106,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-23T19:34:28.711332+00:00"
+      "last_seen": "2026-09-23T22:49:07.009679+00:00"
+    },
+    {
+      "id": "5c4a63446c59",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Quad Merino Fleece Pullover - Sable / Black | Women's Sweater, Olympus Merino Base Layer Legging - Black | Women's Leggi...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-23T19:34:38.903817+00:00",
+      "last_seen": "2026-09-23T22:49:16.077978+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-23T19:34:29.352897+00:00"
+      "last_seen": "2026-09-23T22:49:07.789023+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T03:29:10.491219+00:00",
-      "last_seen": "2026-09-23T19:34:34.900848+00:00"
+      "last_seen": "2026-09-23T22:49:12.466797+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-23T19:34:51.106390+00:00"
+      "last_seen": "2026-09-23T22:49:27.741648+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-23T19:34:49.302956+00:00"
+      "last_seen": "2026-09-23T22:49:26.042761+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-23T19:34:46.646306+00:00"
+      "last_seen": "2026-09-23T22:49:23.748980+00:00"
     }
   ]
 }
