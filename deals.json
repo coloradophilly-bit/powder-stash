@@ -1,22 +1,37 @@
 {
-  "generated_at": "2026-09-24T13:22:38.040287+00:00",
+  "generated_at": "2026-09-24T18:20:53.049244+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "ee016fc21716",
+      "id": "bb4a402748a3",
       "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Rack Pads 18\", Aero Rack Pads XL + 3 more",
+      "description": "Sale \u2014 Rack Pads 18\", Aero Rack Pads 28\" + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-24T13:22:13.939286+00:00",
-      "last_seen": "2026-09-24T13:22:13.939286+00:00"
+      "first_seen": "2026-09-24T18:20:22.581754+00:00",
+      "last_seen": "2026-09-24T18:20:22.581754+00:00"
+    },
+    {
+      "id": "ad024626b52a",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Triple Treat Merino Beanie - Dark Olive | Unisex Beanie, Double Up Merino Neckwarmer - Midnight | Unisex Neckwarmer + 3 ...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-24T18:20:29.357020+00:00",
+      "last_seen": "2026-09-24T18:20:29.357020+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-24T13:22:35.688460+00:00"
+      "last_seen": "2026-09-24T18:20:48.593740+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-24T13:22:19.285255+00:00"
+      "last_seen": "2026-09-24T18:20:28.390850+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-24T13:22:23.094805+00:00"
+      "last_seen": "2026-09-24T18:20:33.469487+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,7 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-24T13:22:28.996921+00:00"
+      "last_seen": "2026-09-24T18:20:42.035813+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -91,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-24T13:22:18.345454+00:00"
+      "last_seen": "2026-09-24T18:20:27.496257+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -106,22 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-24T13:22:07.390261+00:00"
-    },
-    {
-      "id": "a4a7f6576333",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Quad Merino Fleece Jacket - Horizon Blue / Black | Men's Jacket, Mtn Pixel Merino Pom Pom Beanie - Purple Bolt / Black |...",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-24T07:21:52.868497+00:00",
-      "last_seen": "2026-09-24T13:22:20.021467+00:00"
+      "last_seen": "2026-09-24T18:20:19.568459+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-24T13:22:08.234633+00:00"
+      "last_seen": "2026-09-24T18:20:20.508552+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T03:29:10.491219+00:00",
-      "last_seen": "2026-09-24T13:22:16.455424+00:00"
+      "last_seen": "2026-09-24T18:20:25.192298+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-24T13:22:31.997089+00:00"
+      "last_seen": "2026-09-24T18:20:45.299322+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-24T13:22:30.361775+00:00"
+      "last_seen": "2026-09-24T18:20:43.483504+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-24T13:22:28.094586+00:00"
+      "last_seen": "2026-09-24T18:20:40.749474+00:00"
     }
   ]
 }
