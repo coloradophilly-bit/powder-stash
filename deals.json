@@ -1,22 +1,37 @@
 {
-  "generated_at": "2026-09-24T01:14:16.172598+00:00",
+  "generated_at": "2026-09-24T07:22:09.333905+00:00",
   "deal_count": 13,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "288ca447bef2",
+      "id": "cb6e1bdf2e50",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Aero Rack Pads 28\", Rack Pads 18\" + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-09-24T07:21:47.081416+00:00",
+      "last_seen": "2026-09-24T07:21:47.081416+00:00"
+    },
+    {
+      "id": "a4a7f6576333",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Diversion Merino Bike Jersey Long Sleeve - Sienna | Women's Bike Jersey, Tarn Merino T-Shirt - Caramel / Black | Women's...",
+      "description": "Sale \u2014 Quad Merino Fleece Jacket - Horizon Blue / Black | Men's Jacket, Mtn Pixel Merino Pom Pom Beanie - Purple Bolt / Black |...",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-24T01:13:58.573422+00:00",
-      "last_seen": "2026-09-24T01:13:58.573422+00:00"
+      "first_seen": "2026-09-24T07:21:52.868497+00:00",
+      "last_seen": "2026-09-24T07:21:52.868497+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-24T01:14:13.607138+00:00"
+      "last_seen": "2026-09-24T07:22:06.965608+00:00"
     },
     {
       "id": "799b05be060a",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-24T01:13:57.287408+00:00"
+      "last_seen": "2026-09-24T07:21:52.053607+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-24T01:14:01.338962+00:00"
+      "last_seen": "2026-09-24T07:21:55.348273+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -76,22 +91,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-24T01:14:07.300633+00:00"
-    },
-    {
-      "id": "bb4a402748a3",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Rack Pads 18\", Aero Rack Pads 28\" + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-23T19:34:31.460594+00:00",
-      "last_seen": "2026-09-24T01:13:51.978279+00:00"
+      "last_seen": "2026-09-24T07:22:00.896293+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -106,7 +106,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-24T01:13:56.330860+00:00"
+      "last_seen": "2026-09-24T07:21:51.170295+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -121,7 +121,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-24T01:13:49.489767+00:00"
+      "last_seen": "2026-09-24T07:21:44.752863+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -136,7 +136,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-24T01:13:50.236074+00:00"
+      "last_seen": "2026-09-24T07:21:45.415288+00:00"
     },
     {
       "id": "602afd76335e",
@@ -151,7 +151,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T03:29:10.491219+00:00",
-      "last_seen": "2026-09-24T01:13:54.673735+00:00"
+      "last_seen": "2026-09-24T07:21:49.443624+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -166,7 +166,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-24T01:14:10.314098+00:00"
+      "last_seen": "2026-09-24T07:22:03.761647+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -181,7 +181,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-24T01:14:08.630405+00:00"
+      "last_seen": "2026-09-24T07:22:02.065823+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -196,7 +196,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-24T01:14:06.317161+00:00"
+      "last_seen": "2026-09-24T07:21:59.967605+00:00"
     }
   ]
 }
