@@ -1,22 +1,37 @@
 {
-  "generated_at": "2026-09-26T14:16:34.781909+00:00",
-  "deal_count": 39,
+  "generated_at": "2026-09-26T18:29:22.138973+00:00",
+  "deal_count": 40,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "1393255ac777",
-      "brand": "Mons Royale",
+      "id": "d4423f09a76c",
+      "brand": "Smartwool",
       "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 MP Heavyweight Merino T-Shirt - Black | Men's T-Shirt, Diversion Merino Bike Jersey Short Sleeve - Grunge / Black | Men'...",
-      "discount": "Sale",
+      "deal_type": "clearance",
+      "description": "Up to 50% off \u2014 Run Ankle Socks, Women's Everyday Cable Crew Socks + 183 more",
+      "discount": "Up to 50% off",
       "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
+      "url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
+      "hot": true,
       "pulse": true,
-      "first_seen": "2026-09-26T14:16:16.304768+00:00",
-      "last_seen": "2026-09-26T14:16:16.304768+00:00"
+      "first_seen": "2026-09-26T18:29:05.912609+00:00",
+      "last_seen": "2026-09-26T18:29:05.912609+00:00"
+    },
+    {
+      "id": "f7b1e198cbf8",
+      "brand": "Volkl",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Volkl \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/volkl",
+      "source_url": "https://www.evo.com/shop/sale/ski/volkl",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-09-26T18:23:17.256545+00:00",
+      "last_seen": "2026-09-26T18:23:17.256545+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-09-26T14:09:33.910118+00:00"
+      "last_seen": "2026-09-26T18:22:10.823569+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-09-26T14:08:29.670358+00:00"
+      "last_seen": "2026-09-26T18:21:04.091723+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-09-26T14:10:05.892664+00:00"
+      "last_seen": "2026-09-26T18:22:44.297684+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -76,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-09-26T14:12:30.956078+00:00"
+      "last_seen": "2026-09-26T18:25:12.727246+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -91,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-26T14:16:31.964928+00:00"
+      "last_seen": "2026-09-26T18:29:19.601183+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -106,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-09-26T14:12:46.812798+00:00"
+      "last_seen": "2026-09-26T18:25:29.214330+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -121,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:02:23.754785+00:00",
-      "last_seen": "2026-09-26T14:11:42.067820+00:00"
+      "last_seen": "2026-09-26T18:24:22.787586+00:00"
     },
     {
       "id": "99b45387b311",
@@ -136,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:01:34.740149+00:00",
-      "last_seen": "2026-09-26T14:10:53.820078+00:00"
+      "last_seen": "2026-09-26T18:23:33.534849+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -151,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:01:51.097632+00:00",
-      "last_seen": "2026-09-26T14:11:09.975980+00:00"
+      "last_seen": "2026-09-26T18:23:50.026741+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -166,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:02:07.506805+00:00",
-      "last_seen": "2026-09-26T14:11:26.059673+00:00"
+      "last_seen": "2026-09-26T18:24:06.477293+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -181,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-09-26T14:14:43.094238+00:00"
+      "last_seen": "2026-09-26T18:27:29.023239+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -196,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-09-26T14:09:01.882992+00:00"
+      "last_seen": "2026-09-26T18:21:37.469041+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -211,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-09-26T14:13:35.130422+00:00"
+      "last_seen": "2026-09-26T18:26:19.233174+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -226,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-09-26T14:09:49.834968+00:00"
+      "last_seen": "2026-09-26T18:22:27.774370+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -241,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-09-26T14:14:59.183283+00:00"
+      "last_seen": "2026-09-26T18:27:45.282252+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -256,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:58.154336+00:00",
-      "last_seen": "2026-09-26T14:15:15.482234+00:00"
+      "last_seen": "2026-09-26T18:28:01.605640+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -271,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-09-26T14:15:31.949533+00:00"
+      "last_seen": "2026-09-26T18:28:18.449581+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -286,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:01:03.075954+00:00",
-      "last_seen": "2026-09-26T14:10:22.029585+00:00"
+      "last_seen": "2026-09-26T18:23:01.010554+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -301,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-09-26T14:15:48.735074+00:00"
+      "last_seen": "2026-09-26T18:28:35.375369+00:00"
     },
     {
       "id": "799b05be060a",
@@ -316,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-26T14:16:15.386425+00:00"
+      "last_seen": "2026-09-26T18:29:02.209469+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -331,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-09-26T14:14:08.764362+00:00"
+      "last_seen": "2026-09-26T18:26:54.773040+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -346,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-09-26T14:08:45.709252+00:00"
+      "last_seen": "2026-09-26T18:21:20.819855+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -361,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-09-26T14:09:17.852918+00:00"
+      "last_seen": "2026-09-26T18:21:54.212412+00:00"
     },
     {
       "id": "da6203343c51",
@@ -376,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-09-26T14:13:51.528528+00:00"
+      "last_seen": "2026-09-26T18:26:35.564384+00:00"
     },
     {
       "id": "f073230a6362",
@@ -391,22 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:02:40.484810+00:00",
-      "last_seen": "2026-09-26T14:11:58.186665+00:00"
-    },
-    {
-      "id": "c7a1f4561553",
-      "brand": "Smartwool",
-      "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Men's Classic Thermal Merino Base Layer Crew + 191 more",
-      "discount": "Up to 54% off",
-      "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-09-18T17:37:45.143786+00:00",
-      "last_seen": "2026-09-26T14:16:18.662938+00:00"
+      "last_seen": "2026-09-26T18:24:38.938529+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -421,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-09-26T14:16:05.704771+00:00"
+      "last_seen": "2026-09-26T18:28:53.058055+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -436,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:07.745310+00:00",
-      "last_seen": "2026-09-26T14:14:25.364081+00:00"
+      "last_seen": "2026-09-26T18:27:11.007801+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -451,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-09-26T14:13:18.810919+00:00"
+      "last_seen": "2026-09-26T18:26:02.631963+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -466,7 +466,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-26T14:16:25.164357+00:00"
+      "last_seen": "2026-09-26T18:29:12.808906+00:00"
     },
     {
       "id": "bb4a402748a3",
@@ -481,7 +481,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-26T03:50:29.531466+00:00",
-      "last_seen": "2026-09-26T14:16:09.375800+00:00"
+      "last_seen": "2026-09-26T18:28:56.362582+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -496,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-26T14:16:14.520009+00:00"
+      "last_seen": "2026-09-26T18:29:01.261362+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -511,7 +511,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-26T14:16:06.402585+00:00"
+      "last_seen": "2026-09-26T18:28:53.817219+00:00"
+    },
+    {
+      "id": "1393255ac777",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 MP Heavyweight Merino T-Shirt - Black | Men's T-Shirt, Diversion Merino Bike Jersey Short Sleeve - Grunge / Black | Men'...",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-26T14:16:16.304768+00:00",
+      "last_seen": "2026-09-26T18:29:03.321834+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -526,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-26T14:16:07.104807+00:00"
+      "last_seen": "2026-09-26T18:28:54.584780+00:00"
     },
     {
       "id": "602afd76335e",
@@ -541,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-25T05:59:23.591420+00:00",
-      "last_seen": "2026-09-26T14:16:12.177974+00:00"
+      "last_seen": "2026-09-26T18:28:59.118976+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -556,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-26T14:16:28.506916+00:00"
+      "last_seen": "2026-09-26T18:29:16.111773+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -571,7 +586,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-26T14:16:26.773400+00:00"
+      "last_seen": "2026-09-26T18:29:14.273929+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -586,7 +601,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-26T14:16:23.655774+00:00"
+      "last_seen": "2026-09-26T18:29:11.599225+00:00"
     }
   ]
 }
