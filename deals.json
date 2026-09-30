@@ -1,37 +1,22 @@
 {
-  "generated_at": "2026-09-29T22:03:10.630458+00:00",
+  "generated_at": "2026-09-30T01:14:06.099693+00:00",
   "deal_count": 39,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "7de6c395e39f",
+      "id": "4a4b2a716e36",
       "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Jo Jo Crossbody Bag, Aero Rack Pads 28\" + 3 more",
+      "description": "Sale \u2014 Aero Rack Pads 28\", Jo Jo Crossbody Bag + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-09-29T22:02:42.122063+00:00",
-      "last_seen": "2026-09-29T22:02:42.122063+00:00"
-    },
-    {
-      "id": "bbd080b8f26a",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Ridgeline 5 Panel Cap - Olive | Unisex Cap, McCloud Merino Beanie - Canyon Rose | Unisex Beanie + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-09-29T22:02:49.902459+00:00",
-      "last_seen": "2026-09-29T22:02:49.902459+00:00"
+      "first_seen": "2026-09-30T01:13:42.151112+00:00",
+      "last_seen": "2026-09-30T01:13:42.151112+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-09-29T21:56:05.120302+00:00"
+      "last_seen": "2026-09-30T01:07:06.335216+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-09-29T21:55:00.182022+00:00"
+      "last_seen": "2026-09-30T01:06:01.892559+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-09-29T21:56:37.527437+00:00"
+      "last_seen": "2026-09-30T01:07:38.342762+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -91,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-09-29T21:59:04.035954+00:00"
+      "last_seen": "2026-09-30T01:10:04.200855+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -106,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-09-29T22:03:07.995749+00:00"
+      "last_seen": "2026-09-30T01:14:03.741154+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -121,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-09-29T21:59:20.090368+00:00"
+      "last_seen": "2026-09-30T01:10:20.316140+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -136,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:02:23.754785+00:00",
-      "last_seen": "2026-09-29T21:58:14.742477+00:00"
+      "last_seen": "2026-09-30T01:09:14.443596+00:00"
     },
     {
       "id": "99b45387b311",
@@ -151,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:01:34.740149+00:00",
-      "last_seen": "2026-09-29T21:57:26.005240+00:00"
+      "last_seen": "2026-09-30T01:08:25.985680+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -166,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:01:51.097632+00:00",
-      "last_seen": "2026-09-29T21:57:42.271089+00:00"
+      "last_seen": "2026-09-30T01:08:42.352297+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -181,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:02:07.506805+00:00",
-      "last_seen": "2026-09-29T21:57:58.423442+00:00"
+      "last_seen": "2026-09-30T01:08:58.373974+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -196,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-09-29T22:01:14.966900+00:00"
+      "last_seen": "2026-09-30T01:12:15.014813+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -211,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-09-29T21:55:32.549763+00:00"
+      "last_seen": "2026-09-30T01:06:33.970820+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -226,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-09-29T22:00:08.284743+00:00"
+      "last_seen": "2026-09-30T01:11:08.015480+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -241,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-09-29T21:56:21.317208+00:00"
+      "last_seen": "2026-09-30T01:07:22.308406+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -256,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-09-29T22:01:31.670035+00:00"
+      "last_seen": "2026-09-30T01:12:31.154663+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -271,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:58.154336+00:00",
-      "last_seen": "2026-09-29T22:01:48.187794+00:00"
+      "last_seen": "2026-09-30T01:12:47.757368+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -286,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-09-29T22:02:04.799376+00:00"
+      "last_seen": "2026-09-30T01:13:04.213182+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -301,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:01:03.075954+00:00",
-      "last_seen": "2026-09-29T21:56:53.709812+00:00"
+      "last_seen": "2026-09-30T01:07:54.276136+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -316,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-09-29T22:02:21.362617+00:00"
+      "last_seen": "2026-09-30T01:13:21.050891+00:00"
     },
     {
       "id": "799b05be060a",
@@ -331,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-09-29T22:02:48.869344+00:00"
+      "last_seen": "2026-09-30T01:13:47.810642+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -346,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-09-29T22:00:41.481324+00:00"
+      "last_seen": "2026-09-30T01:11:41.419223+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -361,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-09-29T21:55:16.276730+00:00"
+      "last_seen": "2026-09-30T01:06:17.842967+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -376,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-09-29T21:55:48.655275+00:00"
+      "last_seen": "2026-09-30T01:06:50.136075+00:00"
     },
     {
       "id": "da6203343c51",
@@ -391,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-09-29T22:00:24.383105+00:00"
+      "last_seen": "2026-09-30T01:11:24.063509+00:00"
     },
     {
       "id": "f073230a6362",
@@ -406,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:02:40.484810+00:00",
-      "last_seen": "2026-09-29T21:58:31.282220+00:00"
+      "last_seen": "2026-09-30T01:09:30.859035+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -421,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-27T21:03:46.125689+00:00",
-      "last_seen": "2026-09-29T22:02:53.138050+00:00"
+      "last_seen": "2026-09-30T01:13:51.308426+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -436,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-09-29T22:02:38.363867+00:00"
+      "last_seen": "2026-09-30T01:13:38.039600+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:07.745310+00:00",
-      "last_seen": "2026-09-29T22:00:58.190281+00:00"
+      "last_seen": "2026-09-30T01:11:58.074098+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-09-29T21:59:52.037487+00:00"
+      "last_seen": "2026-09-30T01:10:52.008625+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -481,7 +466,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-09-29T22:03:00.820017+00:00"
+      "last_seen": "2026-09-30T01:13:57.595696+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -496,7 +481,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-09-29T22:02:47.757087+00:00"
+      "last_seen": "2026-09-30T01:13:46.722741+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -511,7 +496,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-09-29T22:02:39.228531+00:00"
+      "last_seen": "2026-09-30T01:13:38.966297+00:00"
+    },
+    {
+      "id": "bbd080b8f26a",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Ridgeline 5 Panel Cap - Olive | Unisex Cap, McCloud Merino Beanie - Canyon Rose | Unisex Beanie + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-09-29T22:02:49.902459+00:00",
+      "last_seen": "2026-09-30T01:13:48.569878+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -526,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-09-29T22:02:40.088747+00:00"
+      "last_seen": "2026-09-30T01:13:39.779036+00:00"
     },
     {
       "id": "602afd76335e",
@@ -541,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-25T05:59:23.591420+00:00",
-      "last_seen": "2026-09-29T22:02:45.739716+00:00"
+      "last_seen": "2026-09-30T01:13:44.904552+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-09-29T22:03:04.389468+00:00"
+      "last_seen": "2026-09-30T01:14:00.491408+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-09-29T22:03:02.330561+00:00"
+      "last_seen": "2026-09-30T01:13:58.845461+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -586,7 +586,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-09-29T22:02:59.608617+00:00"
+      "last_seen": "2026-09-30T01:13:56.693968+00:00"
     }
   ]
 }
