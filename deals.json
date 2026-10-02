@@ -1,112 +1,37 @@
 {
-  "generated_at": "2026-10-02T06:51:08.046895+00:00",
+  "generated_at": "2026-10-02T13:43:26.490661+00:00",
   "deal_count": 39,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "4b1a954b21f4",
-      "brand": "Dynastar",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Dynastar \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/dynastar",
-      "source_url": "https://www.evo.com/shop/sale/ski/dynastar",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-10-02T06:46:18.302024+00:00"
-    },
-    {
-      "id": "99b45387b311",
-      "brand": "Elan",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Elan \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/elan",
-      "source_url": "https://www.evo.com/shop/sale/ski/elan",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-10-02T06:45:30.143770+00:00"
-    },
-    {
-      "id": "39f3beddde93",
-      "brand": "Fischer",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Fischer \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/fischer",
-      "source_url": "https://www.evo.com/shop/sale/ski/fischer",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-10-02T06:45:46.236647+00:00"
-    },
-    {
-      "id": "3d7acab28a86",
-      "brand": "Head Skis",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Head Skis \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/head",
-      "source_url": "https://www.evo.com/shop/sale/ski/head",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-10-02T06:46:02.292592+00:00"
-    },
-    {
-      "id": "e9895f4d7976",
-      "brand": "Nordica",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Nordica \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/nordica",
-      "source_url": "https://www.evo.com/shop/sale/ski/nordica",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-10-02T06:44:58.116829+00:00"
-    },
-    {
-      "id": "5e04a95761de",
+      "id": "b0ffe97cbeb6",
       "brand": "Dakine",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Aero Rack Pads 34\", Low Roller Snowboard Bag X Mayhem - Mayhem Griffin + 3 more",
+      "description": "Sale \u2014 Low Roller Snowboard Bag X Mayhem - Mayhem Griffin, Aero Rack Pads 28\" + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.dakine.com/collections/sale",
       "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-10-02T06:50:43.997757+00:00",
-      "last_seen": "2026-10-02T06:50:43.997757+00:00"
+      "first_seen": "2026-10-02T13:43:01.929945+00:00",
+      "last_seen": "2026-10-02T13:43:01.929945+00:00"
     },
     {
-      "id": "23fec6db2cb3",
+      "id": "f0aae2fe37c8",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Sylvia Merino Boyleg - Grey Heather / Black | Women's Underwear, Diversion Merino Bike Jersey Long Sleeve - Grunge / Bla...",
+      "description": "Sale \u2014 Double Up Merino Neckwarmer - Toffee | Unisex Neckwarmer, Olympus Merino Base Layer 1/2 Zip Long Sleeve - Black / 9 Iron...",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-10-02T06:50:50.007122+00:00",
-      "last_seen": "2026-10-02T06:50:50.007122+00:00"
+      "first_seen": "2026-10-02T13:43:08.503087+00:00",
+      "last_seen": "2026-10-02T13:43:08.503087+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -121,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-10-02T06:44:09.976579+00:00"
+      "last_seen": "2026-10-02T13:36:26.340382+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -136,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-10-02T06:43:05.539224+00:00"
+      "last_seen": "2026-10-02T13:35:22.084748+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -151,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-10-02T06:44:42.049876+00:00"
+      "last_seen": "2026-10-02T13:36:58.419235+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -166,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-10-02T06:47:07.290800+00:00"
+      "last_seen": "2026-10-02T13:39:24.302765+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -181,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-10-02T06:51:05.620907+00:00"
+      "last_seen": "2026-10-02T13:43:23.953500+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -196,7 +121,67 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-10-02T06:47:23.813133+00:00"
+      "last_seen": "2026-10-02T13:39:40.461348+00:00"
+    },
+    {
+      "id": "4b1a954b21f4",
+      "brand": "Dynastar",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Dynastar \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/dynastar",
+      "source_url": "https://www.evo.com/shop/sale/ski/dynastar",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-10-02T06:46:18.302024+00:00",
+      "last_seen": "2026-10-02T13:38:35.004504+00:00"
+    },
+    {
+      "id": "99b45387b311",
+      "brand": "Elan",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Elan \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/elan",
+      "source_url": "https://www.evo.com/shop/sale/ski/elan",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-10-02T06:45:30.143770+00:00",
+      "last_seen": "2026-10-02T13:37:46.641283+00:00"
+    },
+    {
+      "id": "39f3beddde93",
+      "brand": "Fischer",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Fischer \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/fischer",
+      "source_url": "https://www.evo.com/shop/sale/ski/fischer",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-10-02T06:45:46.236647+00:00",
+      "last_seen": "2026-10-02T13:38:02.827667+00:00"
+    },
+    {
+      "id": "3d7acab28a86",
+      "brand": "Head Skis",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Head Skis \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/head",
+      "source_url": "https://www.evo.com/shop/sale/ski/head",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-10-02T06:46:02.292592+00:00",
+      "last_seen": "2026-10-02T13:38:18.881975+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -211,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-10-02T06:49:18.128194+00:00"
+      "last_seen": "2026-10-02T13:41:36.180014+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -226,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-10-02T06:43:37.720001+00:00"
+      "last_seen": "2026-10-02T13:35:54.079315+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -241,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-10-02T06:48:11.538342+00:00"
+      "last_seen": "2026-10-02T13:40:28.508331+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -256,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-10-02T06:44:26.013826+00:00"
+      "last_seen": "2026-10-02T13:36:42.378653+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -271,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-10-02T06:49:34.226311+00:00"
+      "last_seen": "2026-10-02T13:41:52.222698+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -286,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:58.154336+00:00",
-      "last_seen": "2026-10-02T06:49:50.628507+00:00"
+      "last_seen": "2026-10-02T13:42:08.706782+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -301,7 +286,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-10-02T06:50:07.272463+00:00"
+      "last_seen": "2026-10-02T13:42:25.194833+00:00"
+    },
+    {
+      "id": "e9895f4d7976",
+      "brand": "Nordica",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Nordica \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/nordica",
+      "source_url": "https://www.evo.com/shop/sale/ski/nordica",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-10-02T06:44:58.116829+00:00",
+      "last_seen": "2026-10-02T13:37:14.624757+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -316,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-10-02T06:50:23.823141+00:00"
+      "last_seen": "2026-10-02T13:42:41.795396+00:00"
     },
     {
       "id": "799b05be060a",
@@ -331,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-10-02T06:50:49.196338+00:00"
+      "last_seen": "2026-10-02T13:43:07.399240+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -346,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-10-02T06:48:44.780374+00:00"
+      "last_seen": "2026-10-02T13:41:02.117995+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -361,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-10-02T06:43:21.663041+00:00"
+      "last_seen": "2026-10-02T13:35:38.042755+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -376,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-10-02T06:43:53.882682+00:00"
+      "last_seen": "2026-10-02T13:36:10.143689+00:00"
     },
     {
       "id": "da6203343c51",
@@ -391,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-10-02T06:48:27.691254+00:00"
+      "last_seen": "2026-10-02T13:40:44.591545+00:00"
     },
     {
       "id": "f073230a6362",
@@ -406,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:02:40.484810+00:00",
-      "last_seen": "2026-10-02T06:46:34.549688+00:00"
+      "last_seen": "2026-10-02T13:38:51.243031+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -421,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-27T21:03:46.125689+00:00",
-      "last_seen": "2026-10-02T06:50:53.296201+00:00"
+      "last_seen": "2026-10-02T13:43:11.223650+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -436,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-10-02T06:50:40.666136+00:00"
+      "last_seen": "2026-10-02T13:42:58.620586+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:07.745310+00:00",
-      "last_seen": "2026-10-02T06:49:01.472129+00:00"
+      "last_seen": "2026-10-02T13:41:18.811860+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-10-02T06:47:55.505207+00:00"
+      "last_seen": "2026-10-02T13:40:12.501339+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -481,7 +481,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-10-02T06:50:59.657085+00:00"
+      "last_seen": "2026-10-02T13:43:17.651356+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -496,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-10-02T06:50:48.646444+00:00"
+      "last_seen": "2026-10-02T13:43:06.470566+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -511,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-10-02T06:50:41.433815+00:00"
+      "last_seen": "2026-10-02T13:42:59.343329+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -526,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-10-02T06:50:42.169019+00:00"
+      "last_seen": "2026-10-02T13:43:00.009609+00:00"
     },
     {
       "id": "602afd76335e",
@@ -541,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-25T05:59:23.591420+00:00",
-      "last_seen": "2026-10-02T06:50:46.681927+00:00"
+      "last_seen": "2026-10-02T13:43:04.571792+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-10-02T06:51:02.641490+00:00"
+      "last_seen": "2026-10-02T13:43:20.704313+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-10-02T06:51:00.819290+00:00"
+      "last_seen": "2026-10-02T13:43:18.910356+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -586,7 +586,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-10-02T06:50:58.425218+00:00"
+      "last_seen": "2026-10-02T13:43:16.171608+00:00"
     }
   ]
 }
