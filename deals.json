@@ -1,37 +1,22 @@
 {
-  "generated_at": "2026-10-09T10:14:05.192462+00:00",
+  "generated_at": "2026-10-09T17:28:23.026762+00:00",
   "deal_count": 40,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "f7b1e198cbf8",
-      "brand": "Volkl",
-      "category": "ski",
-      "deal_type": "clearance",
-      "description": "Volkl \u2014 Last Chair Sale items at Evo. Up to 60% off.",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.evo.com/shop/sale/ski/volkl",
-      "source_url": "https://www.evo.com/shop/sale/ski/volkl",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-10-09T10:08:13.311855+00:00"
-    },
-    {
-      "id": "1c977f8b2c44",
+      "id": "3df3246db581",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Zephyr Merino Tencel\u2122 T-Shirt - Steel Blue | Men's T-Shirt, AT Merino Short Sleeve Shirt - Bone Stripe | Men's Shirt + 3...",
+      "description": "Sale \u2014 Icon Merino T-Shirt - Black | Men's T-Shirt, Yonder Merino Organic Cotton Long Sleeve - Mocha | Women's Long Sleeve Top ...",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-10-09T10:13:48.144958+00:00",
-      "last_seen": "2026-10-09T10:13:48.144958+00:00"
+      "first_seen": "2026-10-09T17:28:04.284966+00:00",
+      "last_seen": "2026-10-09T17:28:04.284966+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-10-09T10:07:09.209637+00:00"
+      "last_seen": "2026-10-09T17:21:22.264848+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-10-09T10:06:04.766165+00:00"
+      "last_seen": "2026-10-09T17:20:17.792122+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-10-09T10:07:41.310326+00:00"
+      "last_seen": "2026-10-09T17:21:54.241964+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -91,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-10-09T10:10:06.594186+00:00"
+      "last_seen": "2026-10-09T17:24:19.991824+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -106,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-10-09T10:14:02.697734+00:00"
+      "last_seen": "2026-10-09T17:28:20.602419+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -121,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-10-09T10:10:22.602373+00:00"
+      "last_seen": "2026-10-09T17:24:36.025179+00:00"
     },
     {
       "id": "1e6392e97c45",
@@ -136,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-08T23:05:01.524776+00:00",
-      "last_seen": "2026-10-09T10:13:41.707049+00:00"
+      "last_seen": "2026-10-09T17:27:56.388823+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -151,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-10-09T10:09:17.687627+00:00"
+      "last_seen": "2026-10-09T17:23:30.848830+00:00"
     },
     {
       "id": "99b45387b311",
@@ -166,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-10-09T10:08:29.381173+00:00"
+      "last_seen": "2026-10-09T17:22:42.356467+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -181,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-10-09T10:08:45.464893+00:00"
+      "last_seen": "2026-10-09T17:22:58.676174+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -196,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-10-09T10:09:01.586494+00:00"
+      "last_seen": "2026-10-09T17:23:14.793377+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -211,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-10-09T10:12:17.606274+00:00"
+      "last_seen": "2026-10-09T17:26:31.126324+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -226,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-10-09T10:06:36.844944+00:00"
+      "last_seen": "2026-10-09T17:20:49.966645+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -241,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-10-09T10:11:10.526309+00:00"
+      "last_seen": "2026-10-09T17:25:24.199154+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -256,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-10-09T10:07:25.215356+00:00"
+      "last_seen": "2026-10-09T17:21:38.252302+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -271,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-10-09T10:12:33.652221+00:00"
+      "last_seen": "2026-10-09T17:26:47.209023+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -286,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-10-09T10:12:49.844225+00:00"
+      "last_seen": "2026-10-09T17:27:03.740645+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -301,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-10-09T10:13:06.234300+00:00"
+      "last_seen": "2026-10-09T17:27:20.159284+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -316,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-10-09T10:07:57.278714+00:00"
+      "last_seen": "2026-10-09T17:22:10.266282+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -331,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-10-09T10:13:22.775728+00:00"
+      "last_seen": "2026-10-09T17:27:37.063222+00:00"
     },
     {
       "id": "799b05be060a",
@@ -346,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-10-09T10:13:47.210076+00:00"
+      "last_seen": "2026-10-09T17:28:03.203521+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -361,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-10-09T10:11:43.615990+00:00"
+      "last_seen": "2026-10-09T17:25:57.279504+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -376,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-10-09T10:06:20.861667+00:00"
+      "last_seen": "2026-10-09T17:20:33.713867+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -391,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-10-09T10:06:52.950387+00:00"
+      "last_seen": "2026-10-09T17:21:06.081521+00:00"
     },
     {
       "id": "da6203343c51",
@@ -406,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-10-09T10:11:26.562604+00:00"
+      "last_seen": "2026-10-09T17:25:40.330460+00:00"
     },
     {
       "id": "f073230a6362",
@@ -421,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:50:33.474231+00:00",
-      "last_seen": "2026-10-09T10:09:33.810251+00:00"
+      "last_seen": "2026-10-09T17:23:47.087524+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -436,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:54:52.178246+00:00",
-      "last_seen": "2026-10-09T10:13:50.658990+00:00"
+      "last_seen": "2026-10-09T17:28:06.857521+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -451,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-10-09T10:13:39.538237+00:00"
+      "last_seen": "2026-10-09T17:27:53.761945+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -466,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:07.745310+00:00",
-      "last_seen": "2026-10-09T10:12:00.507037+00:00"
+      "last_seen": "2026-10-09T17:26:13.839453+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -481,7 +466,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-10-09T10:10:54.384916+00:00"
+      "last_seen": "2026-10-09T17:25:08.013736+00:00"
+    },
+    {
+      "id": "f7b1e198cbf8",
+      "brand": "Volkl",
+      "category": "ski",
+      "deal_type": "clearance",
+      "description": "Volkl \u2014 Last Chair Sale items at Evo. Up to 60% off.",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.evo.com/shop/sale/ski/volkl",
+      "source_url": "https://www.evo.com/shop/sale/ski/volkl",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-10-09T10:08:13.311855+00:00",
+      "last_seen": "2026-10-09T17:22:26.282715+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -496,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-10-09T10:13:57.082675+00:00"
+      "last_seen": "2026-10-09T17:28:14.278769+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -511,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-10-09T10:13:46.350120+00:00"
+      "last_seen": "2026-10-09T17:28:02.317554+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -526,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-10-09T10:13:40.187109+00:00"
+      "last_seen": "2026-10-09T17:27:54.714449+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -541,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-10-09T10:13:40.827819+00:00"
+      "last_seen": "2026-10-09T17:27:55.360118+00:00"
     },
     {
       "id": "602afd76335e",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-25T05:59:23.591420+00:00",
-      "last_seen": "2026-10-09T10:13:44.612443+00:00"
+      "last_seen": "2026-10-09T17:27:59.994429+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-10-09T10:13:59.904835+00:00"
+      "last_seen": "2026-10-09T17:28:17.533396+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -586,7 +586,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-10-09T10:13:58.189098+00:00"
+      "last_seen": "2026-10-09T17:28:15.510416+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -601,7 +601,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-10-09T10:13:55.439600+00:00"
+      "last_seen": "2026-10-09T17:28:13.115322+00:00"
     }
   ]
 }
