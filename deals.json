@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-09T17:28:23.026762+00:00",
+  "generated_at": "2026-10-09T22:26:31.816704+00:00",
   "deal_count": 40,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "3df3246db581",
+      "id": "2e43162077ee",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Icon Merino T-Shirt - Black | Men's T-Shirt, Yonder Merino Organic Cotton Long Sleeve - Mocha | Women's Long Sleeve Top ...",
+      "description": "Sale \u2014 Diversion Merino Bike Jersey Short Sleeve - Grunge / Black | Men's Bike Jersey, Escapade Pants - Birch | Men's Pants + 3...",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-10-09T17:28:04.284966+00:00",
-      "last_seen": "2026-10-09T17:28:04.284966+00:00"
+      "first_seen": "2026-10-09T22:26:14.323488+00:00",
+      "last_seen": "2026-10-09T22:26:14.323488+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-10-09T17:21:22.264848+00:00"
+      "last_seen": "2026-10-09T22:19:35.268880+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-10-09T17:20:17.792122+00:00"
+      "last_seen": "2026-10-09T22:18:30.973006+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-10-09T17:21:54.241964+00:00"
+      "last_seen": "2026-10-09T22:20:07.434188+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -76,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-10-09T17:24:19.991824+00:00"
+      "last_seen": "2026-10-09T22:22:32.426101+00:00"
     },
     {
       "id": "90f56fd131f6",
@@ -91,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-10-09T17:28:20.602419+00:00"
+      "last_seen": "2026-10-09T22:26:29.340205+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -106,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-10-09T17:24:36.025179+00:00"
+      "last_seen": "2026-10-09T22:22:48.441891+00:00"
     },
     {
       "id": "1e6392e97c45",
@@ -121,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-08T23:05:01.524776+00:00",
-      "last_seen": "2026-10-09T17:27:56.388823+00:00"
+      "last_seen": "2026-10-09T22:26:08.043414+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -136,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-10-09T17:23:30.848830+00:00"
+      "last_seen": "2026-10-09T22:21:43.854772+00:00"
     },
     {
       "id": "99b45387b311",
@@ -151,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-10-09T17:22:42.356467+00:00"
+      "last_seen": "2026-10-09T22:20:55.799495+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -166,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-10-09T17:22:58.676174+00:00"
+      "last_seen": "2026-10-09T22:21:11.887644+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -181,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-10-09T17:23:14.793377+00:00"
+      "last_seen": "2026-10-09T22:21:27.841447+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -196,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-10-09T17:26:31.126324+00:00"
+      "last_seen": "2026-10-09T22:24:43.597185+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -211,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-10-09T17:20:49.966645+00:00"
+      "last_seen": "2026-10-09T22:19:03.153153+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -226,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-10-09T17:25:24.199154+00:00"
+      "last_seen": "2026-10-09T22:23:36.350913+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -241,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-10-09T17:21:38.252302+00:00"
+      "last_seen": "2026-10-09T22:19:51.440013+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -256,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-10-09T17:26:47.209023+00:00"
+      "last_seen": "2026-10-09T22:24:59.669995+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -271,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-10-09T17:27:03.740645+00:00"
+      "last_seen": "2026-10-09T22:25:15.999213+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -286,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-10-09T17:27:20.159284+00:00"
+      "last_seen": "2026-10-09T22:25:32.394604+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -301,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-10-09T17:22:10.266282+00:00"
+      "last_seen": "2026-10-09T22:20:23.609617+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -316,14 +316,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-10-09T17:27:37.063222+00:00"
+      "last_seen": "2026-10-09T22:25:49.042149+00:00"
     },
     {
       "id": "799b05be060a",
       "brand": "Outdoor Research",
       "category": "outerwear",
       "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 48 more",
+      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 49 more",
       "discount": "Up to 60% off",
       "code": null,
       "url": "https://www.outdoorresearch.com/collections/sale",
@@ -331,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-10-09T17:28:03.203521+00:00"
+      "last_seen": "2026-10-09T22:26:13.411951+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -346,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-10-09T17:25:57.279504+00:00"
+      "last_seen": "2026-10-09T22:24:09.512086+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -361,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-10-09T17:20:33.713867+00:00"
+      "last_seen": "2026-10-09T22:18:47.009509+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -376,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-10-09T17:21:06.081521+00:00"
+      "last_seen": "2026-10-09T22:19:19.206173+00:00"
     },
     {
       "id": "da6203343c51",
@@ -391,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-10-09T17:25:40.330460+00:00"
+      "last_seen": "2026-10-09T22:23:52.483635+00:00"
     },
     {
       "id": "f073230a6362",
@@ -406,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:50:33.474231+00:00",
-      "last_seen": "2026-10-09T17:23:47.087524+00:00"
+      "last_seen": "2026-10-09T22:22:00.020265+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -421,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:54:52.178246+00:00",
-      "last_seen": "2026-10-09T17:28:06.857521+00:00"
+      "last_seen": "2026-10-09T22:26:16.821062+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -436,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-10-09T17:27:53.761945+00:00"
+      "last_seen": "2026-10-09T22:26:05.531981+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:07.745310+00:00",
-      "last_seen": "2026-10-09T17:26:13.839453+00:00"
+      "last_seen": "2026-10-09T22:24:26.418064+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-10-09T17:25:08.013736+00:00"
+      "last_seen": "2026-10-09T22:23:20.254503+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -481,7 +481,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-10-09T17:22:26.282715+00:00"
+      "last_seen": "2026-10-09T22:20:39.701309+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -496,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-10-09T17:28:14.278769+00:00"
+      "last_seen": "2026-10-09T22:26:22.996538+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -511,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-10-09T17:28:02.317554+00:00"
+      "last_seen": "2026-10-09T22:26:12.407289+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -526,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-10-09T17:27:54.714449+00:00"
+      "last_seen": "2026-10-09T22:26:06.374180+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -541,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-10-09T17:27:55.360118+00:00"
+      "last_seen": "2026-10-09T22:26:07.041092+00:00"
     },
     {
       "id": "602afd76335e",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-25T05:59:23.591420+00:00",
-      "last_seen": "2026-10-09T17:27:59.994429+00:00"
+      "last_seen": "2026-10-09T22:26:10.633110+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-10-09T17:28:17.533396+00:00"
+      "last_seen": "2026-10-09T22:26:25.971246+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -586,7 +586,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-10-09T17:28:15.510416+00:00"
+      "last_seen": "2026-10-09T22:26:24.192109+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -601,7 +601,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-10-09T17:28:13.115322+00:00"
+      "last_seen": "2026-10-09T22:26:21.795486+00:00"
     }
   ]
 }
