@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-15T14:06:32.932767+00:00",
+  "generated_at": "2026-10-15T18:18:41.415467+00:00",
   "deal_count": 39,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "bc57bbb11dd8",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Atlas Merino Crew Sock - Skyline | Unisex Socks, Icon Merino T-Shirt - Toffee | Women's T-Shirt + 3 more",
-      "discount": "Sale",
+      "id": "bc6664d43237",
+      "brand": "Burton Direct",
+      "category": "snowboard",
+      "deal_type": "clearance",
+      "description": "Sale price from $459.95",
+      "discount": "50% off",
       "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
+      "url": "https://www.burton.com/us/en/c/sale-gear",
+      "source_url": "https://www.burton.com/us/en/c/sale-gear",
+      "hot": true,
       "pulse": true,
-      "first_seen": "2026-10-15T14:06:14.675599+00:00",
-      "last_seen": "2026-10-15T14:06:14.675599+00:00"
+      "first_seen": "2026-10-15T18:18:38.797036+00:00",
+      "last_seen": "2026-10-15T18:18:38.797036+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-10-15T13:59:32.282385+00:00"
+      "last_seen": "2026-10-15T18:11:30.555901+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-10-15T13:58:27.264317+00:00"
+      "last_seen": "2026-10-15T18:10:25.316417+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-10-15T14:00:04.607618+00:00"
+      "last_seen": "2026-10-15T18:12:03.933758+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -76,22 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-10-15T14:02:31.188314+00:00"
-    },
-    {
-      "id": "90f56fd131f6",
-      "brand": "Burton Direct",
-      "category": "snowboard",
-      "deal_type": "clearance",
-      "description": "Sale price from $489.95",
-      "discount": "50% off",
-      "code": null,
-      "url": "https://www.burton.com/us/en/c/sale-gear",
-      "source_url": "https://www.burton.com/us/en/c/sale-gear",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-08-16T19:27:39.815291+00:00",
-      "last_seen": "2026-10-15T14:06:30.407250+00:00"
+      "last_seen": "2026-10-15T18:14:36.288615+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -106,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-10-15T14:02:47.291991+00:00"
+      "last_seen": "2026-10-15T18:14:52.497745+00:00"
     },
     {
       "id": "a512a2f9dd43",
@@ -121,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-15T09:00:53.358633+00:00",
-      "last_seen": "2026-10-15T14:06:08.516902+00:00"
+      "last_seen": "2026-10-15T18:18:14.226404+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -136,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-10-15T14:01:41.724918+00:00"
+      "last_seen": "2026-10-15T18:13:46.607430+00:00"
     },
     {
       "id": "99b45387b311",
@@ -151,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-10-15T14:00:53.182378+00:00"
+      "last_seen": "2026-10-15T18:12:52.719824+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -166,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-10-15T14:01:09.473459+00:00"
+      "last_seen": "2026-10-15T18:13:09.141974+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -181,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-10-15T14:01:25.657904+00:00"
+      "last_seen": "2026-10-15T18:13:25.415308+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -196,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-10-15T14:04:42.635542+00:00"
+      "last_seen": "2026-10-15T18:16:48.719721+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -211,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-10-15T13:58:59.818049+00:00"
+      "last_seen": "2026-10-15T18:10:57.976575+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -226,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-10-15T14:03:35.604348+00:00"
+      "last_seen": "2026-10-15T18:15:41.053040+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -241,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-10-15T13:59:48.337290+00:00"
+      "last_seen": "2026-10-15T18:11:47.696704+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -256,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-10-15T14:04:58.791281+00:00"
+      "last_seen": "2026-10-15T18:17:04.950602+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -271,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-10-15T14:05:15.036155+00:00"
+      "last_seen": "2026-10-15T18:17:21.429268+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -286,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-10-15T14:05:31.761199+00:00"
+      "last_seen": "2026-10-15T18:17:37.849178+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -301,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-10-15T14:00:20.812200+00:00"
+      "last_seen": "2026-10-15T18:12:20.117827+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -316,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-10-15T14:05:48.526677+00:00"
+      "last_seen": "2026-10-15T18:17:54.771261+00:00"
     },
     {
       "id": "799b05be060a",
@@ -331,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-10-15T14:06:13.785267+00:00"
+      "last_seen": "2026-10-15T18:18:19.696134+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -346,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-10-15T14:04:08.891234+00:00"
+      "last_seen": "2026-10-15T18:16:14.549717+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -361,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-10-15T13:58:43.608172+00:00"
+      "last_seen": "2026-10-15T18:10:41.538181+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -376,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-10-15T13:59:16.081392+00:00"
+      "last_seen": "2026-10-15T18:11:14.087654+00:00"
     },
     {
       "id": "da6203343c51",
@@ -391,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-10-15T14:03:51.537499+00:00"
+      "last_seen": "2026-10-15T18:15:57.328844+00:00"
     },
     {
       "id": "f073230a6362",
@@ -406,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:50:33.474231+00:00",
-      "last_seen": "2026-10-15T14:01:57.958097+00:00"
+      "last_seen": "2026-10-15T18:14:03.169496+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -421,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:54:52.178246+00:00",
-      "last_seen": "2026-10-15T14:06:17.560479+00:00"
+      "last_seen": "2026-10-15T18:18:23.544198+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -436,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-10-15T14:06:05.601361+00:00"
+      "last_seen": "2026-10-15T18:18:11.499285+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-12T18:43:29.890489+00:00",
-      "last_seen": "2026-10-15T14:04:25.474149+00:00"
+      "last_seen": "2026-10-15T18:16:31.491436+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-10-15T14:03:19.274550+00:00"
+      "last_seen": "2026-10-15T18:15:24.660657+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -481,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-10-15T14:00:36.905271+00:00"
+      "last_seen": "2026-10-15T18:12:36.421802+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -496,7 +481,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-10-15T14:06:24.006905+00:00"
+      "last_seen": "2026-10-15T18:18:31.532404+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -511,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-10-15T14:06:12.842080+00:00"
+      "last_seen": "2026-10-15T18:18:18.656276+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -526,7 +511,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-10-15T14:06:06.331352+00:00"
+      "last_seen": "2026-10-15T18:18:12.381527+00:00"
+    },
+    {
+      "id": "bc57bbb11dd8",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Atlas Merino Crew Sock - Skyline | Unisex Socks, Icon Merino T-Shirt - Toffee | Women's T-Shirt + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-10-15T14:06:14.675599+00:00",
+      "last_seen": "2026-10-15T18:18:20.689933+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -541,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-10-15T14:06:07.140862+00:00"
+      "last_seen": "2026-10-15T18:18:13.245701+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-10-15T14:06:26.926312+00:00"
+      "last_seen": "2026-10-15T18:18:35.223078+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-10-15T14:06:25.220190+00:00"
+      "last_seen": "2026-10-15T18:18:33.204366+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -586,7 +586,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-10-15T14:06:22.808871+00:00"
+      "last_seen": "2026-10-15T18:18:30.155977+00:00"
     }
   ]
 }
