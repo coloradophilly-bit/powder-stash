@@ -1,22 +1,37 @@
 {
-  "generated_at": "2026-10-21T07:14:03.531778+00:00",
+  "generated_at": "2026-10-21T13:35:31.075112+00:00",
   "deal_count": 39,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "03140acfba1a",
+      "id": "9847d2a52b4f",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Diversion Merino Bike Jersey Long Sleeve - Grunge / Black | Women's Bike Jersey, Diversion Merino Wind Vest - Black | Wo...",
+      "description": "Sale \u2014 Inversion Merino Hoodie - Black | Women's Hoodie, Quad Merino Fleece Pullover - Skyline | Women's Sweater + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-10-21T07:13:46.931799+00:00",
-      "last_seen": "2026-10-21T07:13:46.931799+00:00"
+      "first_seen": "2026-10-21T13:35:14.175292+00:00",
+      "last_seen": "2026-10-21T13:35:14.175292+00:00"
+    },
+    {
+      "id": "e489073f221f",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "clearance",
+      "description": "Smith Optics Sale",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-10-21T13:35:23.776412+00:00",
+      "last_seen": "2026-10-21T13:35:23.776412+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -31,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-10-21T07:07:11.169730+00:00"
+      "last_seen": "2026-10-21T13:28:37.385553+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-10-21T07:06:06.896619+00:00"
+      "last_seen": "2026-10-21T13:27:33.555670+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -61,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-10-21T07:07:43.165035+00:00"
+      "last_seen": "2026-10-21T13:29:09.244139+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -76,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-10-21T07:10:08.239874+00:00"
+      "last_seen": "2026-10-21T13:31:33.644254+00:00"
     },
     {
       "id": "bc6664d43237",
@@ -91,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-15T18:18:38.797036+00:00",
-      "last_seen": "2026-10-21T07:14:01.163844+00:00"
+      "last_seen": "2026-10-21T13:35:28.699652+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -106,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-10-21T07:10:24.286946+00:00"
+      "last_seen": "2026-10-21T13:31:49.584268+00:00"
     },
     {
       "id": "98cbe6aa70a7",
@@ -121,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-19T05:53:02.773167+00:00",
-      "last_seen": "2026-10-21T07:13:41.219515+00:00"
+      "last_seen": "2026-10-21T13:35:07.066754+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -136,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-10-21T07:09:19.442438+00:00"
+      "last_seen": "2026-10-21T13:30:45.161493+00:00"
     },
     {
       "id": "99b45387b311",
@@ -151,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-10-21T07:08:31.412743+00:00"
+      "last_seen": "2026-10-21T13:29:57.134742+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -166,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-10-21T07:08:47.529279+00:00"
+      "last_seen": "2026-10-21T13:30:13.211321+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -181,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-10-21T07:09:03.601832+00:00"
+      "last_seen": "2026-10-21T13:30:29.203065+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -196,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-10-21T07:12:17.700296+00:00"
+      "last_seen": "2026-10-21T13:33:43.179882+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -211,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-10-21T07:06:39.115176+00:00"
+      "last_seen": "2026-10-21T13:28:05.238622+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -226,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-10-21T07:11:11.709267+00:00"
+      "last_seen": "2026-10-21T13:32:37.199208+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -241,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-10-21T07:07:27.146731+00:00"
+      "last_seen": "2026-10-21T13:28:53.274008+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -256,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-10-21T07:12:33.765589+00:00"
+      "last_seen": "2026-10-21T13:33:59.053189+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -271,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-10-21T07:12:49.877017+00:00"
+      "last_seen": "2026-10-21T13:34:15.376617+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -286,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-10-21T07:13:06.168653+00:00"
+      "last_seen": "2026-10-21T13:34:31.765302+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -301,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-10-21T07:07:59.153634+00:00"
+      "last_seen": "2026-10-21T13:29:25.155034+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -316,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-10-21T07:13:22.684452+00:00"
+      "last_seen": "2026-10-21T13:34:48.241563+00:00"
     },
     {
       "id": "799b05be060a",
@@ -331,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-10-21T07:13:46.238368+00:00"
+      "last_seen": "2026-10-21T13:35:13.329477+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -346,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-10-21T07:11:44.618320+00:00"
+      "last_seen": "2026-10-21T13:33:10.224440+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -361,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-10-21T07:06:22.962629+00:00"
+      "last_seen": "2026-10-21T13:27:49.303088+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -376,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-10-21T07:06:55.022862+00:00"
+      "last_seen": "2026-10-21T13:28:21.290863+00:00"
     },
     {
       "id": "da6203343c51",
@@ -391,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-10-21T07:11:27.678896+00:00"
+      "last_seen": "2026-10-21T13:32:53.267240+00:00"
     },
     {
       "id": "f073230a6362",
@@ -406,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:50:33.474231+00:00",
-      "last_seen": "2026-10-21T07:09:35.510598+00:00"
+      "last_seen": "2026-10-21T13:31:01.357785+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -421,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:54:52.178246+00:00",
-      "last_seen": "2026-10-21T07:13:49.234838+00:00"
+      "last_seen": "2026-10-21T13:35:16.425045+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -436,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-10-21T07:13:39.059871+00:00"
+      "last_seen": "2026-10-21T13:35:04.863047+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-12T18:43:29.890489+00:00",
-      "last_seen": "2026-10-21T07:12:01.115132+00:00"
+      "last_seen": "2026-10-21T13:33:26.637265+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +481,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-10-21T07:10:55.747170+00:00"
+      "last_seen": "2026-10-21T13:32:21.280962+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -481,7 +496,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-10-21T07:08:15.263918+00:00"
+      "last_seen": "2026-10-21T13:29:41.133965+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -496,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-10-21T07:13:55.121546+00:00"
+      "last_seen": "2026-10-21T13:35:22.339476+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -511,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-10-21T07:13:45.443411+00:00"
+      "last_seen": "2026-10-21T13:35:12.521117+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -526,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-27T06:36:45.567195+00:00",
-      "last_seen": "2026-10-21T07:13:39.799072+00:00"
+      "last_seen": "2026-10-21T13:35:05.496365+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -541,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-10-21T07:13:40.452661+00:00"
+      "last_seen": "2026-10-21T13:35:06.237228+00:00"
     },
     {
       "id": "7721c52eaa12",
@@ -556,22 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-15T05:59:21.904405+00:00",
-      "last_seen": "2026-10-21T07:13:58.055804+00:00"
-    },
-    {
-      "id": "3c6f8b85611d",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "clearance",
-      "description": "On sale now \u2014 lower than your ExpertVoice discount.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-13T13:53:40.462508+00:00",
-      "last_seen": "2026-10-21T07:13:56.311300+00:00"
+      "last_seen": "2026-10-21T13:35:25.450820+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -586,7 +586,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-10-21T07:13:53.890516+00:00"
+      "last_seen": "2026-10-21T13:35:21.375533+00:00"
     }
   ]
 }
