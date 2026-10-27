@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-10-26T21:30:31.371670+00:00",
+  "generated_at": "2026-10-27T01:18:13.970954+00:00",
   "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
+    {
+      "id": "71d09a5f1a29",
+      "brand": "Outdoor Research",
+      "category": "outerwear",
+      "deal_type": "clearance",
+      "description": "Up to 60% off \u2014 Men's Foray 3L Rain Jacket, Women's Aspire 3L Rain Jacket + 47 more",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.outdoorresearch.com/collections/sale",
+      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-10-27T01:17:54.404428+00:00",
+      "last_seen": "2026-10-27T01:17:54.404428+00:00"
+    },
+    {
+      "id": "50d5c090d4ea",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Escapade Shorts - Birch | Women's Shorts, Icon Merino T-Shirt - Toffee | Women's T-Shirt + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-10-27T01:17:55.380836+00:00",
+      "last_seen": "2026-10-27T01:17:55.380836+00:00"
+    },
     {
       "id": "bfd3f418967f",
       "brand": "Armada Skis",
@@ -16,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-10-26T21:23:31.693831+00:00"
+      "last_seen": "2026-10-27T01:11:13.848242+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -31,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-10-26T21:22:27.297091+00:00"
+      "last_seen": "2026-10-27T01:10:09.319880+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -46,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-10-26T21:24:04.004718+00:00"
+      "last_seen": "2026-10-27T01:11:46.068663+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -61,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-10-26T21:26:30.133139+00:00"
+      "last_seen": "2026-10-27T01:14:12.376543+00:00"
     },
     {
       "id": "bc6664d43237",
@@ -76,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-15T18:18:38.797036+00:00",
-      "last_seen": "2026-10-26T21:30:27.719319+00:00"
+      "last_seen": "2026-10-27T01:18:10.819739+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -91,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-10-26T21:26:46.231502+00:00"
+      "last_seen": "2026-10-27T01:14:28.456090+00:00"
     },
     {
       "id": "98cbe6aa70a7",
@@ -106,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-19T05:53:02.773167+00:00",
-      "last_seen": "2026-10-26T21:30:07.344821+00:00"
+      "last_seen": "2026-10-27T01:17:48.830035+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -121,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-10-26T21:25:40.930890+00:00"
+      "last_seen": "2026-10-27T01:13:23.000326+00:00"
     },
     {
       "id": "99b45387b311",
@@ -136,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-10-26T21:24:52.685982+00:00"
+      "last_seen": "2026-10-27T01:12:34.688329+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -151,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-10-26T21:25:08.711354+00:00"
+      "last_seen": "2026-10-27T01:12:50.756823+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -166,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-10-26T21:25:24.897844+00:00"
+      "last_seen": "2026-10-27T01:13:06.898930+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -181,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-10-26T21:28:41.877022+00:00"
+      "last_seen": "2026-10-27T01:16:23.988203+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -196,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-10-26T21:22:59.433434+00:00"
+      "last_seen": "2026-10-27T01:10:41.538778+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -211,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-10-26T21:27:34.934594+00:00"
+      "last_seen": "2026-10-27T01:15:16.563968+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -226,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-10-26T21:23:47.809860+00:00"
+      "last_seen": "2026-10-27T01:11:29.826766+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -241,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-10-26T21:28:58.194093+00:00"
+      "last_seen": "2026-10-27T01:16:40.184927+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -256,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-10-26T21:29:14.721626+00:00"
+      "last_seen": "2026-10-27T01:16:56.475901+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -271,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-10-26T21:29:31.503370+00:00"
+      "last_seen": "2026-10-27T01:17:12.946036+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -286,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-10-26T21:24:20.043205+00:00"
+      "last_seen": "2026-10-27T01:12:02.084705+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -301,22 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-10-26T21:29:48.021053+00:00"
-    },
-    {
-      "id": "799b05be060a",
-      "brand": "Outdoor Research",
-      "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Women's Astroman Full Zip Sun Hoodie, Men's Rooftop Short Sleeve Shirt + 47 more",
-      "discount": "Up to 60% off",
-      "code": null,
-      "url": "https://www.outdoorresearch.com/collections/sale",
-      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-08-01T00:09:46.708291+00:00",
-      "last_seen": "2026-10-26T21:30:12.618432+00:00"
+      "last_seen": "2026-10-27T01:17:29.630659+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -331,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-10-26T21:28:08.538673+00:00"
+      "last_seen": "2026-10-27T01:15:50.704293+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -346,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-10-26T21:22:43.354828+00:00"
+      "last_seen": "2026-10-27T01:10:25.307178+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -361,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-10-26T21:23:15.553055+00:00"
+      "last_seen": "2026-10-27T01:10:57.549967+00:00"
     },
     {
       "id": "da6203343c51",
@@ -376,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-10-26T21:27:51.046709+00:00"
+      "last_seen": "2026-10-27T01:15:32.664119+00:00"
     },
     {
       "id": "f073230a6362",
@@ -391,14 +406,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:50:33.474231+00:00",
-      "last_seen": "2026-10-26T21:25:57.264205+00:00"
+      "last_seen": "2026-10-27T01:13:39.200488+00:00"
     },
     {
       "id": "c7a1f4561553",
       "brand": "Smartwool",
       "category": "accessories",
       "deal_type": "clearance",
-      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Men's Classic Thermal Merino Base Layer Crew + 156 more",
+      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Men's Classic Thermal Merino Base Layer Crew + 155 more",
       "discount": "Up to 54% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
@@ -406,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:54:52.178246+00:00",
-      "last_seen": "2026-10-26T21:30:15.735638+00:00"
+      "last_seen": "2026-10-27T01:17:58.135075+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -421,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-10-26T21:30:04.966793+00:00"
+      "last_seen": "2026-10-27T01:17:46.423853+00:00"
     },
     {
       "id": "941df410d56d",
@@ -436,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-22T18:26:30.155701+00:00",
-      "last_seen": "2026-10-26T21:30:23.719478+00:00"
+      "last_seen": "2026-10-27T01:18:06.589680+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-12T18:43:29.890489+00:00",
-      "last_seen": "2026-10-26T21:28:25.157708+00:00"
+      "last_seen": "2026-10-27T01:16:07.353827+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +481,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-10-26T21:27:18.651871+00:00"
+      "last_seen": "2026-10-27T01:15:00.339604+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -481,7 +496,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-10-26T21:24:36.320618+00:00"
+      "last_seen": "2026-10-27T01:12:18.416497+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -496,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-10-26T21:30:22.213062+00:00"
+      "last_seen": "2026-10-27T01:18:04.709158+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -511,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-10-26T21:30:11.695682+00:00"
+      "last_seen": "2026-10-27T01:17:53.432179+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -526,22 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-10-23T07:07:33.926866+00:00",
-      "last_seen": "2026-10-26T21:30:05.856573+00:00"
-    },
-    {
-      "id": "1e83e3660750",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Inversion Merino Crew - Light Grey Heather | Men's Sweater, Decade Merino Fleece Hood - Sienna | Unisex + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-10-26T16:38:43.167948+00:00",
-      "last_seen": "2026-10-26T21:30:13.459785+00:00"
+      "last_seen": "2026-10-27T01:17:47.298955+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-10-26T21:30:06.476877+00:00"
+      "last_seen": "2026-10-27T01:17:47.962884+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-10-26T21:30:21.160509+00:00"
+      "last_seen": "2026-10-27T01:18:03.367498+00:00"
     }
   ]
 }
