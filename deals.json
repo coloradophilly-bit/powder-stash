@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-10-29T16:45:01.825868+00:00",
+  "generated_at": "2026-10-29T21:40:38.483995+00:00",
   "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
-    {
-      "id": "b23e2d823902",
-      "brand": "Mons Royale",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Sale \u2014 Velocity Trail Cap - Skyline | Unisex Cap, Zephyr Merino Tencel\u2122 Boxy T-Shirt - Smoke | Women's T-Shirt + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.monsroyale.com/collections/sale",
-      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-10-29T16:44:43.394787+00:00",
-      "last_seen": "2026-10-29T16:44:43.394787+00:00"
-    },
     {
       "id": "bfd3f418967f",
       "brand": "Armada Skis",
@@ -31,7 +16,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-10-29T16:38:00.322272+00:00"
+      "last_seen": "2026-10-29T21:33:37.870101+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-10-29T16:36:55.450375+00:00"
+      "last_seen": "2026-10-29T21:32:33.080933+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -61,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-10-29T16:38:32.575419+00:00"
+      "last_seen": "2026-10-29T21:34:10.017514+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -76,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-10-29T16:40:58.822863+00:00"
+      "last_seen": "2026-10-29T21:36:37.134080+00:00"
     },
     {
       "id": "bc6664d43237",
@@ -91,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-15T18:18:38.797036+00:00",
-      "last_seen": "2026-10-29T16:44:59.216700+00:00"
+      "last_seen": "2026-10-29T21:40:36.055486+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -106,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-10-29T16:41:15.079162+00:00"
+      "last_seen": "2026-10-29T21:36:53.322815+00:00"
     },
     {
       "id": "519715c2831e",
@@ -121,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-27T07:28:19.203610+00:00",
-      "last_seen": "2026-10-29T16:44:36.032252+00:00"
+      "last_seen": "2026-10-29T21:40:14.302691+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -136,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-10-29T16:40:09.772762+00:00"
+      "last_seen": "2026-10-29T21:35:46.652235+00:00"
     },
     {
       "id": "99b45387b311",
@@ -151,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-10-29T16:39:21.088083+00:00"
+      "last_seen": "2026-10-29T21:34:58.153311+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -166,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-10-29T16:39:37.293915+00:00"
+      "last_seen": "2026-10-29T21:35:14.371220+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -181,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-10-29T16:39:53.557429+00:00"
+      "last_seen": "2026-10-29T21:35:30.491417+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -196,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-10-29T16:43:10.681641+00:00"
+      "last_seen": "2026-10-29T21:38:48.898364+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -211,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-10-29T16:37:27.973011+00:00"
+      "last_seen": "2026-10-29T21:33:05.420786+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -226,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-10-29T16:42:03.794703+00:00"
+      "last_seen": "2026-10-29T21:37:41.253455+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -241,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-10-29T16:38:16.515890+00:00"
+      "last_seen": "2026-10-29T21:33:53.908533+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -256,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-10-29T16:43:26.922734+00:00"
+      "last_seen": "2026-10-29T21:39:05.073661+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -271,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-10-29T16:43:43.355241+00:00"
+      "last_seen": "2026-10-29T21:39:21.623206+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -286,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-10-29T16:43:59.671305+00:00"
+      "last_seen": "2026-10-29T21:39:38.110750+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -301,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-10-29T16:38:48.797567+00:00"
+      "last_seen": "2026-10-29T21:34:26.113327+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -316,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-10-29T16:44:16.226341+00:00"
+      "last_seen": "2026-10-29T21:39:54.814745+00:00"
     },
     {
       "id": "71d09a5f1a29",
@@ -331,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-27T01:17:54.404428+00:00",
-      "last_seen": "2026-10-29T16:44:42.361562+00:00"
+      "last_seen": "2026-10-29T21:40:19.993952+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -346,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-10-29T16:42:37.108598+00:00"
+      "last_seen": "2026-10-29T21:38:14.771605+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -361,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-10-29T16:37:11.740762+00:00"
+      "last_seen": "2026-10-29T21:32:49.282900+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -376,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-10-29T16:37:44.111425+00:00"
+      "last_seen": "2026-10-29T21:33:21.539227+00:00"
     },
     {
       "id": "da6203343c51",
@@ -391,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-10-29T16:42:19.966094+00:00"
+      "last_seen": "2026-10-29T21:37:57.407731+00:00"
     },
     {
       "id": "f073230a6362",
@@ -406,14 +391,14 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:50:33.474231+00:00",
-      "last_seen": "2026-10-29T16:40:26.015237+00:00"
+      "last_seen": "2026-10-29T21:36:02.925802+00:00"
     },
     {
       "id": "c7a1f4561553",
       "brand": "Smartwool",
       "category": "accessories",
       "deal_type": "clearance",
-      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Men's Classic Thermal Merino Base Layer Crew + 142 more",
+      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Men's Classic Thermal Merino Base Layer Crew + 141 more",
       "discount": "Up to 54% off",
       "code": null,
       "url": "https://www.smartwool.com/collections/sale",
@@ -421,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T18:54:52.178246+00:00",
-      "last_seen": "2026-10-29T16:44:45.657173+00:00"
+      "last_seen": "2026-10-29T21:40:22.858841+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -436,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-10-29T16:44:33.280977+00:00"
+      "last_seen": "2026-10-29T21:40:11.626863+00:00"
     },
     {
       "id": "941df410d56d",
@@ -451,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-22T18:26:30.155701+00:00",
-      "last_seen": "2026-10-29T16:44:54.802633+00:00"
+      "last_seen": "2026-10-29T21:40:32.168965+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -466,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-12T18:43:29.890489+00:00",
-      "last_seen": "2026-10-29T16:42:53.766468+00:00"
+      "last_seen": "2026-10-29T21:38:31.982658+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -481,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-10-29T16:41:47.206804+00:00"
+      "last_seen": "2026-10-29T21:37:25.130679+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -496,7 +481,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-10-29T16:39:04.897538+00:00"
+      "last_seen": "2026-10-29T21:34:42.146698+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -511,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-10-29T16:44:53.226000+00:00"
+      "last_seen": "2026-10-29T21:40:30.627304+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -526,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-10-29T16:44:41.310639+00:00"
+      "last_seen": "2026-10-29T21:40:19.043386+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -541,7 +526,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-10-23T07:07:33.926866+00:00",
-      "last_seen": "2026-10-29T16:44:34.116457+00:00"
+      "last_seen": "2026-10-29T21:40:12.560874+00:00"
+    },
+    {
+      "id": "b23e2d823902",
+      "brand": "Mons Royale",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Sale \u2014 Velocity Trail Cap - Skyline | Unisex Cap, Zephyr Merino Tencel\u2122 Boxy T-Shirt - Smoke | Women's T-Shirt + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.monsroyale.com/collections/sale",
+      "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-10-29T16:44:43.394787+00:00",
+      "last_seen": "2026-10-29T21:40:20.786216+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-10-29T16:44:34.936975+00:00"
+      "last_seen": "2026-10-29T21:40:13.462478+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-10-29T16:44:51.779197+00:00"
+      "last_seen": "2026-10-29T21:40:29.395641+00:00"
     }
   ]
 }
