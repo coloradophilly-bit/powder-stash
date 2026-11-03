@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-03T00:41:48.125686+00:00",
+  "generated_at": "2026-11-03T07:43:33.993391+00:00",
   "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "71d09a5f1a29",
-      "brand": "Outdoor Research",
-      "category": "outerwear",
-      "deal_type": "clearance",
-      "description": "Up to 60% off \u2014 Men's Foray 3L Rain Jacket, Women's Aspire 3L Rain Jacket + 47 more",
-      "discount": "Up to 60% off",
+      "id": "42c40c4f9ec1",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Sale \u2014 Men's Flagship Snowboard 2025, Men's Frontier 2.0 Snowboard 2026 + 3 more",
+      "discount": "Sale",
       "code": null,
-      "url": "https://www.outdoorresearch.com/collections/sale",
-      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
-      "hot": true,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "hot": false,
       "pulse": true,
-      "first_seen": "2026-11-03T00:41:29.678228+00:00",
-      "last_seen": "2026-11-03T00:41:29.678228+00:00"
+      "first_seen": "2026-11-03T07:43:09.287374+00:00",
+      "last_seen": "2026-11-03T07:43:09.287374+00:00"
     },
     {
-      "id": "261d8631da6e",
+      "id": "9972a56103ee",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Velocity Trail Cap - Skyline | Unisex Cap, Larker Merino Bucket Hat - Natures Odyssey | Unisex Hat + 3 more",
+      "description": "Sale \u2014 Quad Merino Fleece Pullover - Skyline | Women's Sweater, Inversion Merino Crew - Light Grey Heather | Women's Sweater + ...",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-11-03T00:41:30.659920+00:00",
-      "last_seen": "2026-11-03T00:41:30.659920+00:00"
+      "first_seen": "2026-11-03T07:43:17.538796+00:00",
+      "last_seen": "2026-11-03T07:43:17.538796+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-11-03T00:34:53.635530+00:00"
+      "last_seen": "2026-11-03T07:36:39.937140+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-11-03T00:33:49.891224+00:00"
+      "last_seen": "2026-11-03T07:35:35.665760+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -76,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-11-03T00:35:25.756073+00:00"
+      "last_seen": "2026-11-03T07:37:12.340465+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -91,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-11-03T00:37:50.582008+00:00"
+      "last_seen": "2026-11-03T07:39:36.995541+00:00"
     },
     {
       "id": "bc6664d43237",
@@ -106,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-15T18:18:38.797036+00:00",
-      "last_seen": "2026-11-03T00:41:45.744654+00:00"
+      "last_seen": "2026-11-03T07:43:31.459868+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -121,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-11-03T00:38:06.729476+00:00"
+      "last_seen": "2026-11-03T07:39:52.985022+00:00"
     },
     {
       "id": "519715c2831e",
@@ -136,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-27T07:28:19.203610+00:00",
-      "last_seen": "2026-11-03T00:41:24.537151+00:00"
+      "last_seen": "2026-11-03T07:43:10.838619+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -151,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-11-03T00:37:02.289575+00:00"
+      "last_seen": "2026-11-03T07:38:48.371870+00:00"
     },
     {
       "id": "99b45387b311",
@@ -166,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-11-03T00:36:14.049632+00:00"
+      "last_seen": "2026-11-03T07:38:00.346558+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -181,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-11-03T00:36:30.053564+00:00"
+      "last_seen": "2026-11-03T07:38:16.417474+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -196,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-11-03T00:36:46.156089+00:00"
+      "last_seen": "2026-11-03T07:38:32.468082+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -211,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-11-03T00:40:00.912283+00:00"
+      "last_seen": "2026-11-03T07:41:46.948056+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -226,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-11-03T00:34:21.784122+00:00"
+      "last_seen": "2026-11-03T07:36:07.707544+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -241,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-11-03T00:38:54.375707+00:00"
+      "last_seen": "2026-11-03T07:40:40.935096+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -256,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-11-03T00:35:09.585172+00:00"
+      "last_seen": "2026-11-03T07:36:55.982820+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -271,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-11-03T00:40:16.898539+00:00"
+      "last_seen": "2026-11-03T07:42:03.051130+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -286,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-11-03T00:40:33.229623+00:00"
+      "last_seen": "2026-11-03T07:42:19.361057+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -301,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-11-03T00:40:49.480297+00:00"
+      "last_seen": "2026-11-03T07:42:35.558322+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -316,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-11-03T00:35:41.746186+00:00"
+      "last_seen": "2026-11-03T07:37:28.333494+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -331,7 +331,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-11-03T00:41:05.917458+00:00"
+      "last_seen": "2026-11-03T07:42:51.978273+00:00"
+    },
+    {
+      "id": "71d09a5f1a29",
+      "brand": "Outdoor Research",
+      "category": "outerwear",
+      "deal_type": "clearance",
+      "description": "Up to 60% off \u2014 Men's Foray 3L Rain Jacket, Women's Aspire 3L Rain Jacket + 47 more",
+      "discount": "Up to 60% off",
+      "code": null,
+      "url": "https://www.outdoorresearch.com/collections/sale",
+      "source_url": "https://www.outdoorresearch.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-11-03T00:41:29.678228+00:00",
+      "last_seen": "2026-11-03T07:43:16.672017+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -346,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-11-03T00:39:27.505160+00:00"
+      "last_seen": "2026-11-03T07:41:13.978897+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -361,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-11-03T00:34:05.856887+00:00"
+      "last_seen": "2026-11-03T07:35:51.687260+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -376,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-11-03T00:34:37.693021+00:00"
+      "last_seen": "2026-11-03T07:36:23.808118+00:00"
     },
     {
       "id": "da6203343c51",
@@ -391,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-11-03T00:39:10.508788+00:00"
+      "last_seen": "2026-11-03T07:40:56.967393+00:00"
     },
     {
       "id": "f073230a6362",
@@ -406,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-31T13:23:04.695823+00:00",
-      "last_seen": "2026-11-03T00:37:18.338188+00:00"
+      "last_seen": "2026-11-03T07:39:04.530625+00:00"
     },
     {
       "id": "c7a1f4561553",
@@ -421,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-31T13:27:21.886433+00:00",
-      "last_seen": "2026-11-03T00:41:32.797305+00:00"
+      "last_seen": "2026-11-03T07:43:19.552971+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -436,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-11-03T00:41:22.236958+00:00"
+      "last_seen": "2026-11-03T07:43:08.497698+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-12T18:43:29.890489+00:00",
-      "last_seen": "2026-11-03T00:39:44.120234+00:00"
+      "last_seen": "2026-11-03T07:41:30.455546+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +481,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-11-03T00:38:38.283403+00:00"
+      "last_seen": "2026-11-03T07:40:24.803710+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -481,7 +496,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-11-03T00:35:57.708191+00:00"
+      "last_seen": "2026-11-03T07:37:44.265525+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -496,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-11-03T00:41:39.995256+00:00"
+      "last_seen": "2026-11-03T07:43:26.022513+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -511,22 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-11-03T00:41:28.846532+00:00"
-    },
-    {
-      "id": "ef681868d08a",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard 2026, Men's Flagship Snowboard 2025 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-10-23T07:07:33.926866+00:00",
-      "last_seen": "2026-11-03T00:41:22.988999+00:00"
+      "last_seen": "2026-11-03T07:43:15.709221+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -541,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-11-03T00:41:23.571430+00:00"
+      "last_seen": "2026-11-03T07:43:10.064550+00:00"
     },
     {
       "id": "e489073f221f",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-11-01T08:52:59.717614+00:00",
-      "last_seen": "2026-11-03T00:41:41.480639+00:00"
+      "last_seen": "2026-11-03T07:43:27.742427+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-11-03T00:41:37.971336+00:00"
+      "last_seen": "2026-11-03T07:43:24.570145+00:00"
     }
   ]
 }
