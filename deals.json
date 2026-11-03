@@ -1,52 +1,22 @@
 {
-  "generated_at": "2026-11-03T15:58:38.778203+00:00",
+  "generated_at": "2026-11-03T21:38:24.782155+00:00",
   "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "b507c1a7ab49",
-      "brand": "Smartwool",
-      "category": "accessories",
-      "deal_type": "clearance",
-      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Women's Classic Thermal Merino Base Layer Bottom + 137 more",
-      "discount": "Up to 54% off",
-      "code": null,
-      "url": "https://www.smartwool.com/collections/sale",
-      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-11-03T15:58:22.352320+00:00",
-      "last_seen": "2026-11-03T15:58:22.352320+00:00"
-    },
-    {
-      "id": "08dfffa138e6",
+      "id": "08f98da03341",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Zephyr Merino Tencel\u2122 T-Shirt - Smoke | Men's T-Shirt, Mtn Pixel Merino Pom Pom Beanie - Black / White | Unisex Beanie +...",
+      "description": "Sale \u2014 Quad Merino Fleece Pullover - Sable | Men's Sweater, Icon Merino T-Shirt - Skyline | Women's T-Shirt + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-11-03T15:58:20.266503+00:00",
-      "last_seen": "2026-11-03T15:58:20.266503+00:00"
-    },
-    {
-      "id": "3c6f8b85611d",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "clearance",
-      "description": "On sale now \u2014 lower than your ExpertVoice discount.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-11-03T15:58:31.416895+00:00",
-      "last_seen": "2026-11-03T15:58:31.416895+00:00"
+      "first_seen": "2026-11-03T21:38:06.562430+00:00",
+      "last_seen": "2026-11-03T21:38:06.562430+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -61,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-11-03T15:51:37.877178+00:00"
+      "last_seen": "2026-11-03T21:31:22.847100+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -76,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-11-03T15:50:32.899913+00:00"
+      "last_seen": "2026-11-03T21:30:18.049727+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -91,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-11-03T15:52:10.081719+00:00"
+      "last_seen": "2026-11-03T21:31:55.026758+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -106,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-11-03T15:54:36.150763+00:00"
+      "last_seen": "2026-11-03T21:34:21.615267+00:00"
     },
     {
       "id": "bc6664d43237",
@@ -121,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-15T18:18:38.797036+00:00",
-      "last_seen": "2026-11-03T15:58:36.145089+00:00"
+      "last_seen": "2026-11-03T21:38:22.001552+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -136,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-11-03T15:54:52.337731+00:00"
+      "last_seen": "2026-11-03T21:34:37.719963+00:00"
     },
     {
       "id": "519715c2831e",
@@ -151,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-27T07:28:19.203610+00:00",
-      "last_seen": "2026-11-03T15:58:12.185904+00:00"
+      "last_seen": "2026-11-03T21:37:59.128741+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -166,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-11-03T15:53:47.388307+00:00"
+      "last_seen": "2026-11-03T21:33:32.392344+00:00"
     },
     {
       "id": "99b45387b311",
@@ -181,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-11-03T15:52:58.997364+00:00"
+      "last_seen": "2026-11-03T21:32:43.725257+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -196,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-11-03T15:53:15.148661+00:00"
+      "last_seen": "2026-11-03T21:33:00.106848+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -211,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-11-03T15:53:31.341877+00:00"
+      "last_seen": "2026-11-03T21:33:16.218364+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -226,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-11-03T15:56:47.282924+00:00"
+      "last_seen": "2026-11-03T21:36:33.330152+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -241,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-11-03T15:51:05.333377+00:00"
+      "last_seen": "2026-11-03T21:30:50.360672+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -256,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-11-03T15:55:40.593378+00:00"
+      "last_seen": "2026-11-03T21:35:25.827807+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -271,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-11-03T15:51:54.005576+00:00"
+      "last_seen": "2026-11-03T21:31:38.939523+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -286,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-11-03T15:57:03.409000+00:00"
+      "last_seen": "2026-11-03T21:36:49.617022+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -301,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-11-03T15:57:20.057677+00:00"
+      "last_seen": "2026-11-03T21:37:06.256254+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -316,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-11-03T15:57:36.259071+00:00"
+      "last_seen": "2026-11-03T21:37:22.869864+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -331,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-11-03T15:52:26.305428+00:00"
+      "last_seen": "2026-11-03T21:32:11.281229+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -346,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-11-03T15:57:52.780762+00:00"
+      "last_seen": "2026-11-03T21:37:39.722622+00:00"
     },
     {
       "id": "71d09a5f1a29",
@@ -361,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-03T00:41:29.678228+00:00",
-      "last_seen": "2026-11-03T15:58:19.208427+00:00"
+      "last_seen": "2026-11-03T21:38:05.650479+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -376,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-11-03T15:56:13.983486+00:00"
+      "last_seen": "2026-11-03T21:35:59.275589+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -391,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-11-03T15:50:49.195999+00:00"
+      "last_seen": "2026-11-03T21:30:34.201298+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -406,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-11-03T15:51:21.570711+00:00"
+      "last_seen": "2026-11-03T21:31:06.514584+00:00"
     },
     {
       "id": "da6203343c51",
@@ -421,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-11-03T15:55:56.938003+00:00"
+      "last_seen": "2026-11-03T21:35:41.964268+00:00"
     },
     {
       "id": "f073230a6362",
@@ -436,7 +406,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-31T13:23:04.695823+00:00",
-      "last_seen": "2026-11-03T15:54:03.721093+00:00"
+      "last_seen": "2026-11-03T21:33:48.635907+00:00"
+    },
+    {
+      "id": "b507c1a7ab49",
+      "brand": "Smartwool",
+      "category": "accessories",
+      "deal_type": "clearance",
+      "description": "Up to 54% off \u2014 Women's Classic Thermal Merino Base Layer Crew, Women's Classic Thermal Merino Base Layer Bottom + 137 more",
+      "discount": "Up to 54% off",
+      "code": null,
+      "url": "https://www.smartwool.com/collections/sale",
+      "source_url": "https://www.smartwool.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-11-03T15:58:22.352320+00:00",
+      "last_seen": "2026-11-03T21:38:08.520723+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -451,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-11-03T15:58:09.456212+00:00"
+      "last_seen": "2026-11-03T21:37:56.268625+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -466,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-12T18:43:29.890489+00:00",
-      "last_seen": "2026-11-03T15:56:30.597668+00:00"
+      "last_seen": "2026-11-03T21:36:16.510933+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -481,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-11-03T15:55:24.477393+00:00"
+      "last_seen": "2026-11-03T21:35:09.544396+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -496,7 +481,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-11-03T15:52:42.685336+00:00"
+      "last_seen": "2026-11-03T21:32:27.468582+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -511,7 +496,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-11-03T15:58:29.795713+00:00"
+      "last_seen": "2026-11-03T21:38:16.305879+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -526,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-11-03T15:58:18.116660+00:00"
+      "last_seen": "2026-11-03T21:38:04.626355+00:00"
     },
     {
       "id": "42c40c4f9ec1",
@@ -541,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-11-03T07:43:09.287374+00:00",
-      "last_seen": "2026-11-03T15:58:10.458188+00:00"
+      "last_seen": "2026-11-03T21:37:57.338942+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -556,7 +541,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-11-03T15:58:11.250517+00:00"
+      "last_seen": "2026-11-03T21:37:58.216316+00:00"
+    },
+    {
+      "id": "3c6f8b85611d",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "clearance",
+      "description": "On sale now \u2014 lower than your ExpertVoice discount.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-11-03T15:58:31.416895+00:00",
+      "last_seen": "2026-11-03T21:38:17.919809+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-11-03T15:58:28.607305+00:00"
+      "last_seen": "2026-11-03T21:38:14.942322+00:00"
     }
   ]
 }
