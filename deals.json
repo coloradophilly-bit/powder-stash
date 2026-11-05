@@ -1,22 +1,52 @@
 {
-  "generated_at": "2026-11-05T03:19:33.836889+00:00",
+  "generated_at": "2026-11-05T12:01:16.662053+00:00",
   "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "f4960c028a9e",
+      "id": "98cbe6aa70a7",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Up to 30% off \u2014 Low Roller Snowboard Bag - High Sierra, Low Roller Snowboard Bag X Mayhem - Mayhem Griffin + 147 more",
+      "discount": "Up to 30% off",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": true,
+      "first_seen": "2026-11-05T12:00:51.514745+00:00",
+      "last_seen": "2026-11-05T12:00:51.514745+00:00"
+    },
+    {
+      "id": "af9f77d77471",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Velocity Trail Cap - Watermelon | Unisex Cap, Canyon Merino Insulated Hooded Jacket - Goblin Blue | Men's Jacket + 3 more",
+      "description": "Sale \u2014 Zephyr Merino Tencel\u2122 Long Sleeve - Steel Blue | Men's Long Sleeve Top, Double Up Merino Neckwarmer - Canyon Rose | Unis...",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-11-05T03:19:17.370567+00:00",
-      "last_seen": "2026-11-05T03:19:17.370567+00:00"
+      "first_seen": "2026-11-05T12:00:59.680091+00:00",
+      "last_seen": "2026-11-05T12:00:59.680091+00:00"
+    },
+    {
+      "id": "1e964d15f1ee",
+      "brand": "Nidecker",
+      "category": "bindings",
+      "deal_type": "active",
+      "description": "Nidecker \u2014 sale items available. Visit site for details.",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.nidecker.com/en/sale",
+      "source_url": "https://www.nidecker.com/collections/sale",
+      "hot": false,
+      "pulse": true,
+      "first_seen": "2026-11-05T12:00:50.694865+00:00",
+      "last_seen": "2026-11-05T12:00:50.694865+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -31,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-11-05T03:12:42.524335+00:00"
+      "last_seen": "2026-11-05T11:54:20.041007+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-11-05T03:11:38.426678+00:00"
+      "last_seen": "2026-11-05T11:53:15.290202+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -61,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-11-05T03:13:14.431817+00:00"
+      "last_seen": "2026-11-05T11:54:52.060325+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -76,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-11-05T03:15:39.121847+00:00"
+      "last_seen": "2026-11-05T11:57:16.796311+00:00"
     },
     {
       "id": "bc6664d43237",
@@ -91,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-15T18:18:38.797036+00:00",
-      "last_seen": "2026-11-05T03:19:31.200996+00:00"
+      "last_seen": "2026-11-05T12:01:13.270709+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -106,22 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-11-05T03:15:55.266298+00:00"
-    },
-    {
-      "id": "519715c2831e",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Up to 30% off \u2014 Low Roller Snowboard Bag - High Sierra, Class Backpack 25L - Black + 147 more",
-      "discount": "Up to 30% off",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": false,
-      "first_seen": "2026-10-27T07:28:19.203610+00:00",
-      "last_seen": "2026-11-05T03:19:12.005329+00:00"
+      "last_seen": "2026-11-05T11:57:32.920236+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -136,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-11-05T03:14:50.435438+00:00"
+      "last_seen": "2026-11-05T11:56:28.138402+00:00"
     },
     {
       "id": "99b45387b311",
@@ -151,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-11-05T03:14:02.395452+00:00"
+      "last_seen": "2026-11-05T11:55:40.081685+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -166,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-11-05T03:14:18.480533+00:00"
+      "last_seen": "2026-11-05T11:55:56.219368+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -181,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-11-05T03:14:34.445126+00:00"
+      "last_seen": "2026-11-05T11:56:12.060588+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -196,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-11-05T03:17:48.753943+00:00"
+      "last_seen": "2026-11-05T11:59:27.718629+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -211,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-11-05T03:12:10.396978+00:00"
+      "last_seen": "2026-11-05T11:53:47.536506+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -226,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-11-05T03:16:42.866570+00:00"
+      "last_seen": "2026-11-05T11:58:20.747574+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -241,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-11-05T03:12:58.528085+00:00"
+      "last_seen": "2026-11-05T11:54:36.101117+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -256,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-11-05T03:18:04.773100+00:00"
+      "last_seen": "2026-11-05T11:59:43.683966+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -271,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-11-05T03:18:21.014240+00:00"
+      "last_seen": "2026-11-05T12:00:00.030788+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -286,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-11-05T03:18:37.356344+00:00"
+      "last_seen": "2026-11-05T12:00:15.994442+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -301,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-11-05T03:13:30.373760+00:00"
+      "last_seen": "2026-11-05T11:55:08.063911+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -316,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-11-05T03:18:53.712807+00:00"
+      "last_seen": "2026-11-05T12:00:32.641053+00:00"
     },
     {
       "id": "71d09a5f1a29",
@@ -331,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-03T00:41:29.678228+00:00",
-      "last_seen": "2026-11-05T03:19:16.555491+00:00"
+      "last_seen": "2026-11-05T12:00:56.166504+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -346,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-11-05T03:17:15.758907+00:00"
+      "last_seen": "2026-11-05T11:58:53.611878+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -361,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-11-05T03:11:54.311926+00:00"
+      "last_seen": "2026-11-05T11:53:31.321109+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -376,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-11-05T03:12:26.382582+00:00"
+      "last_seen": "2026-11-05T11:54:03.634266+00:00"
     },
     {
       "id": "da6203343c51",
@@ -391,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-11-05T03:16:58.871250+00:00"
+      "last_seen": "2026-11-05T11:58:36.701503+00:00"
     },
     {
       "id": "f073230a6362",
@@ -406,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-31T13:23:04.695823+00:00",
-      "last_seen": "2026-11-05T03:15:06.532818+00:00"
+      "last_seen": "2026-11-05T11:56:44.186798+00:00"
     },
     {
       "id": "b507c1a7ab49",
@@ -421,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-03T15:58:22.352320+00:00",
-      "last_seen": "2026-11-05T03:19:19.218973+00:00"
+      "last_seen": "2026-11-05T12:01:01.945189+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -436,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-11-05T03:19:10.016262+00:00"
+      "last_seen": "2026-11-05T12:00:49.282933+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-12T18:43:29.890489+00:00",
-      "last_seen": "2026-11-05T03:17:32.141371+00:00"
+      "last_seen": "2026-11-05T11:59:10.642614+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +481,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-11-05T03:16:26.905048+00:00"
+      "last_seen": "2026-11-05T11:58:04.868682+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -481,7 +496,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-11-05T03:13:46.343001+00:00"
+      "last_seen": "2026-11-05T11:55:24.101911+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -496,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-11-05T03:19:25.529377+00:00"
+      "last_seen": "2026-11-05T12:01:08.174391+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -511,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-11-05T03:19:15.843586+00:00"
+      "last_seen": "2026-11-05T12:00:55.323327+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -526,22 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-11-04T08:47:11.179032+00:00",
-      "last_seen": "2026-11-05T03:19:10.716726+00:00"
-    },
-    {
-      "id": "afe17df9ca9d",
-      "brand": "Nidecker",
-      "category": "bindings",
-      "deal_type": "active",
-      "description": "Sale \u2014 Kita Women 2023, The Gun 2023 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.nidecker.com/en/sale",
-      "source_url": "https://www.nidecker.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-09-18T17:37:32.503637+00:00",
-      "last_seen": "2026-11-05T03:19:11.336532+00:00"
+      "last_seen": "2026-11-05T12:00:49.972158+00:00"
     },
     {
       "id": "3c6f8b85611d",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-11-03T15:58:31.416895+00:00",
-      "last_seen": "2026-11-05T03:19:27.382777+00:00"
+      "last_seen": "2026-11-05T12:01:09.554747+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-11-05T03:19:24.067026+00:00"
+      "last_seen": "2026-11-05T12:01:06.895457+00:00"
     }
   ]
 }
