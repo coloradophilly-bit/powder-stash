@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-08T04:46:43.878291+00:00",
+  "generated_at": "2026-11-08T11:50:32.000798+00:00",
   "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "d2cf3c0223a1",
+      "id": "be925143c4f0",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 MP Heavyweight Merino T-Shirt - Purple Bolt | Women's T-Shirt, Zephyr Merino Tencel\u2122 Boxy T-Shirt - Watermelon | Women's...",
+      "description": "Sale \u2014 Inversion Merino Crew - Black | Men's Sweater, Zephyr Merino Tencel\u2122 T-Shirt - Steel Blue | Men's T-Shirt + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-11-08T04:46:28.226392+00:00",
-      "last_seen": "2026-11-08T04:46:28.226392+00:00"
+      "first_seen": "2026-11-08T11:50:16.652132+00:00",
+      "last_seen": "2026-11-08T11:50:16.652132+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -31,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-11-08T04:39:53.410851+00:00"
+      "last_seen": "2026-11-08T11:43:38.305268+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -46,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-11-08T04:38:49.351666+00:00"
+      "last_seen": "2026-11-08T11:42:33.855122+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -61,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-11-08T04:40:25.379850+00:00"
+      "last_seen": "2026-11-08T11:44:10.347136+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -76,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-11-08T04:42:50.115964+00:00"
+      "last_seen": "2026-11-08T11:46:35.802757+00:00"
     },
     {
       "id": "bc6664d43237",
@@ -91,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-15T18:18:38.797036+00:00",
-      "last_seen": "2026-11-08T04:46:41.371665+00:00"
+      "last_seen": "2026-11-08T11:50:29.414529+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -106,7 +106,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-11-08T04:43:06.090301+00:00"
+      "last_seen": "2026-11-08T11:46:51.743728+00:00"
     },
     {
       "id": "98cbe6aa70a7",
@@ -121,7 +121,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-06T00:53:09.699142+00:00",
-      "last_seen": "2026-11-08T04:46:23.079880+00:00"
+      "last_seen": "2026-11-08T11:50:09.880615+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -136,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-11-08T04:42:01.849237+00:00"
+      "last_seen": "2026-11-08T11:45:46.118056+00:00"
     },
     {
       "id": "99b45387b311",
@@ -151,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-11-08T04:41:13.751054+00:00"
+      "last_seen": "2026-11-08T11:44:58.202216+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -166,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-11-08T04:41:29.790219+00:00"
+      "last_seen": "2026-11-08T11:45:14.216393+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -181,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-11-08T04:41:45.785070+00:00"
+      "last_seen": "2026-11-08T11:45:30.194632+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -196,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-11-08T04:45:00.040311+00:00"
+      "last_seen": "2026-11-08T11:48:45.871472+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -211,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-11-08T04:39:21.326694+00:00"
+      "last_seen": "2026-11-08T11:43:06.083160+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -226,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-11-08T04:43:53.900534+00:00"
+      "last_seen": "2026-11-08T11:47:39.558236+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -241,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-11-08T04:40:09.417176+00:00"
+      "last_seen": "2026-11-08T11:43:54.358311+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -256,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-11-08T04:45:15.987487+00:00"
+      "last_seen": "2026-11-08T11:49:01.874155+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -271,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-11-08T04:45:32.314853+00:00"
+      "last_seen": "2026-11-08T11:49:18.123733+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -286,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-11-08T04:45:48.407723+00:00"
+      "last_seen": "2026-11-08T11:49:34.504297+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -301,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-11-08T04:40:41.681481+00:00"
+      "last_seen": "2026-11-08T11:44:26.324442+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -316,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-11-08T04:46:04.872194+00:00"
+      "last_seen": "2026-11-08T11:49:50.986578+00:00"
     },
     {
       "id": "3f8214e9ecfb",
@@ -331,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-06T21:24:37.692141+00:00",
-      "last_seen": "2026-11-08T04:46:27.436676+00:00"
+      "last_seen": "2026-11-08T11:50:15.791991+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -346,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-11-08T04:44:26.969108+00:00"
+      "last_seen": "2026-11-08T11:48:12.303998+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -361,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-11-08T04:39:05.247989+00:00"
+      "last_seen": "2026-11-08T11:42:49.832691+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -376,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-11-08T04:39:37.381859+00:00"
+      "last_seen": "2026-11-08T11:43:22.241145+00:00"
     },
     {
       "id": "da6203343c51",
@@ -391,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-11-08T04:44:10.109809+00:00"
+      "last_seen": "2026-11-08T11:47:55.451187+00:00"
     },
     {
       "id": "f073230a6362",
@@ -406,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-31T13:23:04.695823+00:00",
-      "last_seen": "2026-11-08T04:42:17.900293+00:00"
+      "last_seen": "2026-11-08T11:46:03.196718+00:00"
     },
     {
       "id": "b507c1a7ab49",
@@ -421,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-03T15:58:22.352320+00:00",
-      "last_seen": "2026-11-08T04:46:29.636276+00:00"
+      "last_seen": "2026-11-08T11:50:17.884982+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -436,7 +436,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-11-08T04:46:21.091719+00:00"
+      "last_seen": "2026-11-08T11:50:07.610192+00:00"
+    },
+    {
+      "id": "3c6f8b85611d",
+      "brand": "Smith Optics",
+      "category": "goggles",
+      "deal_type": "clearance",
+      "description": "On sale now \u2014 lower than your ExpertVoice discount.",
+      "discount": "40% off",
+      "code": null,
+      "url": "https://www.smithoptics.com/en-us/sale/",
+      "source_url": "https://www.smithoptics.com/en-us/sale/",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-11-03T15:58:31.416895+00:00",
+      "last_seen": "2026-11-08T11:50:25.894225+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -451,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-12T18:43:29.890489+00:00",
-      "last_seen": "2026-11-08T04:44:43.433624+00:00"
+      "last_seen": "2026-11-08T11:48:28.637679+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -466,7 +481,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-11-08T04:43:37.884205+00:00"
+      "last_seen": "2026-11-08T11:47:23.423579+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -481,7 +496,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-11-08T04:40:57.757544+00:00"
+      "last_seen": "2026-11-08T11:44:42.206517+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -496,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-11-08T04:46:35.892470+00:00"
+      "last_seen": "2026-11-08T11:50:24.457774+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -511,7 +526,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-11-08T04:46:26.735985+00:00"
+      "last_seen": "2026-11-08T11:50:14.819707+00:00"
     },
     {
       "id": "ef681868d08a",
@@ -526,7 +541,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-11-04T08:47:11.179032+00:00",
-      "last_seen": "2026-11-08T04:46:21.766903+00:00"
+      "last_seen": "2026-11-08T11:50:08.292140+00:00"
     },
     {
       "id": "afe17df9ca9d",
@@ -541,22 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-11-05T19:39:26.089295+00:00",
-      "last_seen": "2026-11-08T04:46:22.390377+00:00"
-    },
-    {
-      "id": "3c6f8b85611d",
-      "brand": "Smith Optics",
-      "category": "goggles",
-      "deal_type": "clearance",
-      "description": "On sale now \u2014 lower than your ExpertVoice discount.",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.smithoptics.com/en-us/sale/",
-      "source_url": "https://www.smithoptics.com/en-us/sale/",
-      "hot": false,
-      "pulse": false,
-      "first_seen": "2026-11-03T15:58:31.416895+00:00",
-      "last_seen": "2026-11-08T04:46:37.445346+00:00"
+      "last_seen": "2026-11-08T11:50:09.087096+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-11-08T04:46:34.783120+00:00"
+      "last_seen": "2026-11-08T11:50:22.689252+00:00"
     }
   ]
 }
