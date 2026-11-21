@@ -1,52 +1,22 @@
 {
-  "generated_at": "2026-11-21T12:15:40.558425+00:00",
+  "generated_at": "2026-11-21T20:04:04.991371+00:00",
   "deal_count": 38,
   "brands_scanned": 49,
   "deals": [
     {
-      "id": "566a218d9ae7",
-      "brand": "Dakine",
-      "category": "accessories",
-      "deal_type": "active",
-      "description": "Up to 30% off \u2014 Vert Rail Wallet - Whimsical Forest, Heli Pro Backpack 24L - Spice + 160 more",
-      "discount": "Up to 30% off",
-      "code": null,
-      "url": "https://www.dakine.com/collections/sale",
-      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
-      "hot": true,
-      "pulse": true,
-      "first_seen": "2026-11-21T12:15:21.756675+00:00",
-      "last_seen": "2026-11-21T12:15:21.756675+00:00"
-    },
-    {
-      "id": "ef681868d08a",
-      "brand": "Jones Snowboards",
-      "category": "snowboard",
-      "deal_type": "active",
-      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard 2026, Men's Flagship Snowboard 2025 + 3 more",
-      "discount": "Sale",
-      "code": null,
-      "url": "https://www.jonessnowboards.com/collections/sale",
-      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
-      "hot": false,
-      "pulse": true,
-      "first_seen": "2026-11-21T12:15:20.600673+00:00",
-      "last_seen": "2026-11-21T12:15:20.600673+00:00"
-    },
-    {
-      "id": "9077f467ef2b",
+      "id": "f77e5c9ad3e5",
       "brand": "Mons Royale",
       "category": "accessories",
       "deal_type": "active",
-      "description": "Sale \u2014 Inversion Merino Hoodie - Black | Women's Hoodie, Yonder Merino Organic Cotton Long Sleeve - Vintage White | Men's Long ...",
+      "description": "Sale \u2014 Escapade Shorts - Birch | Men's Shorts, Offgrid Merino Fleece Wind Jacket - Black | Women's Mid Layer + 3 more",
       "discount": "Sale",
       "code": null,
       "url": "https://www.monsroyale.com/collections/sale",
       "source_url": "https://www.monsroyale.com/collections/sale/products.json?limit=250",
       "hot": false,
       "pulse": true,
-      "first_seen": "2026-11-21T12:15:26.505548+00:00",
-      "last_seen": "2026-11-21T12:15:26.505548+00:00"
+      "first_seen": "2026-11-21T20:03:49.603579+00:00",
+      "last_seen": "2026-11-21T20:03:49.603579+00:00"
     },
     {
       "id": "bfd3f418967f",
@@ -61,7 +31,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:14.027228+00:00",
-      "last_seen": "2026-11-21T12:08:59.448572+00:00"
+      "last_seen": "2026-11-21T19:57:18.950752+00:00"
     },
     {
       "id": "dcaa956866c1",
@@ -76,7 +46,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:08.597028+00:00",
-      "last_seen": "2026-11-21T12:07:56.250159+00:00"
+      "last_seen": "2026-11-21T19:56:15.532534+00:00"
     },
     {
       "id": "1ffb7e64f171",
@@ -91,7 +61,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:46.738483+00:00",
-      "last_seen": "2026-11-21T12:09:31.016431+00:00"
+      "last_seen": "2026-11-21T19:57:50.591267+00:00"
     },
     {
       "id": "fec0c19b045a",
@@ -106,7 +76,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:12.944299+00:00",
-      "last_seen": "2026-11-21T12:11:53.001838+00:00"
+      "last_seen": "2026-11-21T20:00:12.998841+00:00"
     },
     {
       "id": "069cd8a56e5f",
@@ -121,7 +91,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-18T06:09:16.859148+00:00",
-      "last_seen": "2026-11-21T12:15:37.964246+00:00"
+      "last_seen": "2026-11-21T20:04:02.580745+00:00"
     },
     {
       "id": "cb5a2235cc0d",
@@ -136,7 +106,22 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:03:29.148883+00:00",
-      "last_seen": "2026-11-21T12:12:08.724923+00:00"
+      "last_seen": "2026-11-21T20:00:28.758407+00:00"
+    },
+    {
+      "id": "566a218d9ae7",
+      "brand": "Dakine",
+      "category": "accessories",
+      "deal_type": "active",
+      "description": "Up to 30% off \u2014 Vert Rail Wallet - Whimsical Forest, Heli Pro Backpack 24L - Spice + 160 more",
+      "discount": "Up to 30% off",
+      "code": null,
+      "url": "https://www.dakine.com/collections/sale",
+      "source_url": "https://www.dakine.com/collections/sale/products.json?limit=250",
+      "hot": true,
+      "pulse": false,
+      "first_seen": "2026-11-21T12:15:21.756675+00:00",
+      "last_seen": "2026-11-21T20:03:42.648615+00:00"
     },
     {
       "id": "4b1a954b21f4",
@@ -151,7 +136,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:18.302024+00:00",
-      "last_seen": "2026-11-21T12:11:05.541789+00:00"
+      "last_seen": "2026-11-21T19:59:25.419396+00:00"
     },
     {
       "id": "99b45387b311",
@@ -166,7 +151,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:30.143770+00:00",
-      "last_seen": "2026-11-21T12:10:18.257367+00:00"
+      "last_seen": "2026-11-21T19:58:38.014005+00:00"
     },
     {
       "id": "39f3beddde93",
@@ -181,7 +166,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:45:46.236647+00:00",
-      "last_seen": "2026-11-21T12:10:33.988403+00:00"
+      "last_seen": "2026-11-21T19:58:53.813729+00:00"
     },
     {
       "id": "3d7acab28a86",
@@ -196,7 +181,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:46:02.292592+00:00",
-      "last_seen": "2026-11-21T12:10:49.819532+00:00"
+      "last_seen": "2026-11-21T19:59:09.659489+00:00"
     },
     {
       "id": "e1c37fd7688c",
@@ -211,7 +196,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:25.288835+00:00",
-      "last_seen": "2026-11-21T12:14:00.376749+00:00"
+      "last_seen": "2026-11-21T20:02:20.898881+00:00"
     },
     {
       "id": "a3e321490a7d",
@@ -226,7 +211,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:41.123886+00:00",
-      "last_seen": "2026-11-21T12:08:27.804342+00:00"
+      "last_seen": "2026-11-21T19:56:47.245805+00:00"
     },
     {
       "id": "32c0577ba7b0",
@@ -241,7 +226,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:17.434647+00:00",
-      "last_seen": "2026-11-21T12:12:55.888679+00:00"
+      "last_seen": "2026-11-21T20:01:16.142456+00:00"
     },
     {
       "id": "fe56f525dbf7",
@@ -256,7 +241,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:00:30.261442+00:00",
-      "last_seen": "2026-11-21T12:09:15.197154+00:00"
+      "last_seen": "2026-11-21T19:57:34.769073+00:00"
     },
     {
       "id": "3a28943eac43",
@@ -271,7 +256,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:05:41.583440+00:00",
-      "last_seen": "2026-11-21T12:14:16.105986+00:00"
+      "last_seen": "2026-11-21T20:02:36.708314+00:00"
     },
     {
       "id": "3f593271fb4b",
@@ -286,7 +271,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-06T05:10:11.780080+00:00",
-      "last_seen": "2026-11-21T12:14:32.009496+00:00"
+      "last_seen": "2026-11-21T20:02:52.573630+00:00"
     },
     {
       "id": "c6a2c2aef1af",
@@ -301,7 +286,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:14.744843+00:00",
-      "last_seen": "2026-11-21T12:14:47.991343+00:00"
+      "last_seen": "2026-11-21T20:03:08.610890+00:00"
     },
     {
       "id": "e9895f4d7976",
@@ -316,7 +301,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-02T06:44:58.116829+00:00",
-      "last_seen": "2026-11-21T12:09:46.791700+00:00"
+      "last_seen": "2026-11-21T19:58:06.371562+00:00"
     },
     {
       "id": "518fdda94d62",
@@ -331,7 +316,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:31.615528+00:00",
-      "last_seen": "2026-11-21T12:15:03.982801+00:00"
+      "last_seen": "2026-11-21T20:03:24.619898+00:00"
     },
     {
       "id": "937f450a0301",
@@ -346,7 +331,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-21T03:53:17.536822+00:00",
-      "last_seen": "2026-11-21T12:15:25.762225+00:00"
+      "last_seen": "2026-11-21T20:03:47.336165+00:00"
     },
     {
       "id": "b0151e4540ba",
@@ -361,7 +346,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:51.115151+00:00",
-      "last_seen": "2026-11-21T12:13:28.166316+00:00"
+      "last_seen": "2026-11-21T20:01:48.431683+00:00"
     },
     {
       "id": "810cc31ce1ec",
@@ -376,7 +361,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:24.950717+00:00",
-      "last_seen": "2026-11-21T12:08:12.017758+00:00"
+      "last_seen": "2026-11-21T19:56:31.375075+00:00"
     },
     {
       "id": "c9b16f900293",
@@ -391,7 +376,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T21:59:57.708213+00:00",
-      "last_seen": "2026-11-21T12:08:43.607431+00:00"
+      "last_seen": "2026-11-21T19:57:03.083654+00:00"
     },
     {
       "id": "da6203343c51",
@@ -406,7 +391,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:33.712547+00:00",
-      "last_seen": "2026-11-21T12:13:11.774383+00:00"
+      "last_seen": "2026-11-21T20:01:31.972479+00:00"
     },
     {
       "id": "f073230a6362",
@@ -421,7 +406,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-31T13:23:04.695823+00:00",
-      "last_seen": "2026-11-21T12:11:21.272320+00:00"
+      "last_seen": "2026-11-21T19:59:41.237336+00:00"
     },
     {
       "id": "b507c1a7ab49",
@@ -436,7 +421,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-03T15:58:22.352320+00:00",
-      "last_seen": "2026-11-21T12:15:27.596670+00:00"
+      "last_seen": "2026-11-21T20:03:50.846914+00:00"
     },
     {
       "id": "2618feb52e08",
@@ -451,7 +436,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:06:48.391357+00:00",
-      "last_seen": "2026-11-21T12:15:20.000274+00:00"
+      "last_seen": "2026-11-21T20:03:40.726668+00:00"
     },
     {
       "id": "8b956494b267",
@@ -466,7 +451,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-11-08T17:46:35.616844+00:00",
-      "last_seen": "2026-11-21T12:15:34.375508+00:00"
+      "last_seen": "2026-11-21T20:03:58.136464+00:00"
     },
     {
       "id": "aaeae822d5a7",
@@ -481,7 +466,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-12T18:43:29.890489+00:00",
-      "last_seen": "2026-11-21T12:13:44.217139+00:00"
+      "last_seen": "2026-11-21T20:02:04.618648+00:00"
     },
     {
       "id": "3a36eecc06f3",
@@ -496,7 +481,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-09-24T22:04:01.101139+00:00",
-      "last_seen": "2026-11-21T12:12:40.153073+00:00"
+      "last_seen": "2026-11-21T20:01:00.242970+00:00"
     },
     {
       "id": "f7b1e198cbf8",
@@ -511,7 +496,7 @@
       "hot": true,
       "pulse": false,
       "first_seen": "2026-10-09T10:08:13.311855+00:00",
-      "last_seen": "2026-11-21T12:10:02.540343+00:00"
+      "last_seen": "2026-11-21T19:58:22.197911+00:00"
     },
     {
       "id": "5f2c2bd0863c",
@@ -526,7 +511,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-03-26T14:44:37.132967+00:00",
-      "last_seen": "2026-11-21T12:15:32.903549+00:00"
+      "last_seen": "2026-11-21T20:03:56.655530+00:00"
     },
     {
       "id": "618c64b215e6",
@@ -541,7 +526,22 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-06-25T09:27:46.420200+00:00",
-      "last_seen": "2026-11-21T12:15:25.003653+00:00"
+      "last_seen": "2026-11-21T20:03:46.486749+00:00"
+    },
+    {
+      "id": "ef681868d08a",
+      "brand": "Jones Snowboards",
+      "category": "snowboard",
+      "deal_type": "active",
+      "description": "Sale \u2014 Men's Frontier 2.0 Snowboard 2026, Men's Flagship Snowboard 2025 + 3 more",
+      "discount": "Sale",
+      "code": null,
+      "url": "https://www.jonessnowboards.com/collections/sale",
+      "source_url": "https://www.jonessnowboards.com/collections/sale/products.json?limit=250",
+      "hot": false,
+      "pulse": false,
+      "first_seen": "2026-11-21T12:15:20.600673+00:00",
+      "last_seen": "2026-11-21T20:03:41.333158+00:00"
     },
     {
       "id": "934909783cdc",
@@ -556,7 +556,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-11-19T23:31:41.069440+00:00",
-      "last_seen": "2026-11-21T12:15:21.149381+00:00"
+      "last_seen": "2026-11-21T20:03:41.993446+00:00"
     },
     {
       "id": "aa4657c80004",
@@ -571,7 +571,7 @@
       "hot": false,
       "pulse": false,
       "first_seen": "2026-07-09T23:17:59.038363+00:00",
-      "last_seen": "2026-11-21T12:15:31.716056+00:00"
+      "last_seen": "2026-11-21T20:03:55.169297+00:00"
     }
   ]
 }
